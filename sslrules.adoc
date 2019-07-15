@@ -1,6 +1,6 @@
 :imagesdir: images/
 
-= Rules of the RoboCup Small Size League 2019
+= RoboCup小型機リーグ2019年度ルール
 {docdate}
 :toc:
 

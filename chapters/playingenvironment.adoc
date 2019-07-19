@@ -1,17 +1,23 @@
-== Playing Environment
+== 試合環境/Playing Environment
 
-=== Field Setup
-==== Dimensions
+=== フィールドセットアップ/Field Setup
+==== フィールドの大きさ/Dimensions
+競技フィールドは長方形であり、以下2つのフィールドサイズが公証される: +
 The field of play must be rectangular and of the following size:
 
-* Division A: 13.4 meters times 10.4 meters with a playing area of 12 meters times 9 meters
-* Division B: 10.4 meters times 7.4 meters with a playing area of 9 meters times 6 meters
+* Division A: Division Aは13.4m×10.4mでそのうちプレイエリアは12m×9mである。 +
+13.4 meters times 10.4 meters with a playing area of 12 meters times 9 meters
+* Division B: Division Bは10.4m×7.4mでそのうちプレイエリアは9m×6mである。 +
+10.4 meters times 7.4 meters with a playing area of 9 meters times 6 meters
 
+実際のフィールドサイズとフィールドのマーキングは±10％の誤差の範囲内にある。 +
 The exact field dimensions and the field markings at the venue may vary by up to ±10% in each linear dimension.
 
+フィールド、ゴールおよび特別なフィールドエリアの詳細についてはFigure 1、Figure 2を見ること。 +
 The two figures below show the dimensions of the field, the goals and special field areas, measured in millimeters.  <<field-dimensions-a, Figure 1>> shows the dimensions for division A and  <<field-dimensions-b, figure 2>> for division B.
 
-NOTE: The numbers in the figures below show the distances in millimeters.
+NOTE: 図中の数値はミリメートル表示の距離である +
+The numbers in the figures below show the distances in millimeters.
 
 [[field-dimensions-a]]
 .Field dimensions and markings for division A
@@ -21,41 +27,54 @@ image::quad-size-field.png[]
 .Field dimensions and markings for division B
 image::double-size-field.png[]
 
-==== Field Surface
+==== フィールドの表面/Field Surface
+競技フィールドの表面は緑色のフェルトマットかカーペットである。カーペット下の床は固く平坦で水平である。 +
 The playing surface is green felt mat or carpet. The floor under the carpet is level, flat, and hard.
 
+フィールドはすべてのフィールドライン/field linesから0.7mまで続いている。フィールドのさらに0.4m外側は主審/refereeと副審/assistant refereeが通行するためエリアである。フィールドの外周には高さ0.1mのフェンスがあり、ロボットやボールがフィールド外に出ることを防ぐ。 +
 The field surface will continue for 0.7 meters beyond the <<Field Lines, field lines>> on all sides. The outer 0.4 meters of this runoff area, separated from the robot area by a 0.1 meters tall wall, is used as a designated walking area for the <<Referee, referee>> and the <<Assistant Referee, assistant referee>>.
 
 
-==== Field Markings
+==== フィールドのマーキング/Field Markings
+競技フィールドにはラインが引いてある。すべてのラインは太さ0.01mで白色(塗装、スプレー、白色カーペット、強力テープ)である。エリアの境界を示すラインはエリアの一部である。 +
 The field of play is marked with lines. All lines are 0.01 meters wide and white (paint, spray, white carpet or strong tape). Lines belong to the areas of which they are boundaries.
 
-===== Field Lines
+===== フィールドライン/Field Lines
+プレイエリアは4本のラインで定義される。2本の長辺はタッチラインと呼ばれ、2本の短辺はゴールラインと呼ばれる。 +
 The playing area is defined by four field lines. The two longer field lines are called touch lines. The two shorter field lines are called goal lines.
 
 ===== Additional Lines
+競技フィールドは、フィールド中心からフィールドの両端に引かれているハーフウェーラインによって半分に分割される。ハーフウェーラインはゴールラインと平行である。 +
 The field of play is divided into two halves by a halfway line that runs along the width of the field and through the center of the field. The halfway line is parallel to the goal lines.
 
+ミッドラインはフィールド中心からフィールドの長さ方向に沿って引かれている。ミッドラインはタッチラインと平行である。このラインはvision softwareのジオメトリのキャリブレーションを適切に行うために必要な機能を提供するために使用される。 +
 A mid-line runs along the length of the field, passing through the center of the field. The mid-line is parallel to the touch lines. This line is used to provide adequate features for the geometry calibration of the <<Vision, vision software>>.
 
 ===== Center Circle
+ハーフウェーラインの中央にセンターマークが印されている。サークルの直径はどちらのDivisionでも1mである。 +
 The center mark is indicated at the midpoint of the halfway line. A circle with a diameter of 1 meter is marked around it for both divisions.
 
 ===== Defense Area
+ディフェンスエリアは中心から見て両端にあるゴール/goalsと接するゴールラインと接する長方形で定義される。ディフェンスエリアの大きさは1と2に示される通り、Division Aであれば2.4×1.2m、Division Bであれば2m×1mである。 +
 A defense area is defined as a rectangle touching the goal lines centrally in front of both <<Goals, goals>>. The size of the defense area is 2.4 meters times 1.2 meters for division A and 2 meters times 1 meter for division B, as shown in figures <<field-dimensions-a, 1>> and <<field-dimensions-b, 2>> respectively.
 
 
-===== Penalty Mark
+===== ペナルティーマーク/Penalty Mark
+それぞれのディフェンスエリアにあるペナルティマークはゴールポストの中間点からDivision Aなら1.2m、Division Bなら1m離れた地点にある。したがってディフェンスエリアの外側の角と一致する位置である。
 For each field half the penalty mark is 1.2 meters for division A and 1 meter for division B, from the midpoint between the goalposts and equidistant to them, thus coinciding with the outer edge of the defense area.
 
-NOTE: The penaly mark does not need to be painted since it coincides with the intersection of the defense area and the mid-line.
+NOTE: ペナルティーマークはミッドラインとディフェンスエリアの交点と一致するので塗装されている必要はない。 +
+The penaly mark does not need to be painted since it coincides with the intersection of the defense area and the mid-line.
 
-==== Goals
+==== ゴール/Goals
+ゴールはそれぞれのゴールラインの中央に配置し、しっかりと固定されなければいけない。ゴールは高さ0.16mの2枚の垂直なサイドウォールと1枚の垂直なリヤウォールがつながって構成されている。ゴールの内側はボールの衝撃を吸収し、発泡材などで覆い、速度を低下させる。ゴールの壁と角と上面は白色で塗装される。 +
 Goals must be placed on the center of each goal line and anchored securely to the field surface. They consist of two 0.16 meters high vertical side walls joined at the back by a 0.16 meters high vertical rear wall. The inner face of the goal has to be covered with an energy absorbing material such as foam to help absorb ball impacts and lessen the speed of deflections. The goal walls, edges, and tops are white in color.
 
+サイドウォールの間の距離はDivision Aであれば1.2mでDivision Bであれば1mで、奥行は0.18mである。ゴールウォールの厚さは0.02mでゴールラインと接している。ただし、フィールドラインやフィールドに対して侵入したり重ならないようにしている。Figure 3とfigure 4にDivision AとDivision Bの詳細をそれぞれ示す。 +
 The distance between the side walls is 1.2 meters for division A and 1 meter for division B, and the goal is 0.18 meters deep. The goal walls are 0.02 meters thick and touch the goal line, but do not overlap or encroach on the field lines or the field. <<goal-detail-a, Figure 3>> and <<goal-detail-b, figure 4>> show these details for division A and division B respectively.
 
-NOTE: The numbers in the figures below show the distances in millimeters.
+NOTE: 図中の数値はミリメートル表示の距離である +
+The numbers in the figures below show the distances in millimeters.
 
 [[goal-detail-a]]
 .The goal in detail for division A
@@ -65,31 +84,46 @@ image::goal_detail_divisionA.png[width=400]
 .The goal in detail for division B
 image::goal_detail_divisionB.png[width=400]
 
-=== Ball
+=== ボール/Ball
+ボールは普通のオレンジ色のゴルフボールである。重さは約0.046kgで直径は0.043mである。 +
 The ball is a standard orange golf ball. It weights approximately 0.046 kilograms and its diameter measures 0.043 meters.
 
+NOTE: (訳者注記)このルールの重さと直径は一般的なゴルフボールの規格を記載している。 
+
+公式な試合では、組織委員会/organizing committeeがボールを提供する。 +
 For official matches, the <<Organizing Committee, organizing committee>> provides the ball.
 
-=== Shared Software
+=== 共有ソフトウェア/Shared Software
+小型機リーグで使用される共有ソフトウェアは、技術委員会/technical committeeによって管理されているが、誰しもが貢献することを推奨する。技術委員会/technical committeeのメンバはしかしながら、次のRoboCupの3か月前までに行われた、いかなる変更も互換性が損なわれていないことを保証する。 +
 The shared software used in the Small Size League is maintained by the <<Technical Committee, technical committee>>, though everyone is encouraged to contribute. The <<Technical Committee, technical committee>> members however guarantee that any changes made less than three months before the next RoboCup do not break compatibility.
 
 ==== Vision
+それぞれのフィールドには共有のビジョンサーバーと共有のカメラが設置されている。この共有ビジョン機器はコミュニティにメンテナンスされているSSL-Vision ソフトウェア(https://github.com/RoboCup-SSL/ssl-vision) が使用される。SSL-Visionはイーサーネット経由で競技会の前に共有ビジョンシステム開発者によって通達されたパケット形式で位置情報を各チームに提供する。各チームはシステムが共有ビジョンシステムと互換性があり、システムが共有ビジョンシステムによって提供される実際のセンサーのデータの(ノイズ、レイテンシ、誤検出、欠落を含んでいる)典型的な特性を処理できることを確認する必要がある。ロボット最上部にあるビジョンパターンはSSL-Visionの仕様に準拠している必要があり、SSL-Visionのマニュアルで指定されている標準のカラーペーパーでなければならない。 +
 Each field is provided with a shared central vision server and a set of shared cameras. This shared vision equipment uses the community-maintained SSL-Vision software (https://github.com/RoboCup-SSL/ssl-vision) to provide localization data to teams via Ethernet in a packet format that is to be announced by the shared vision system developers before the competition. Teams need to ensure that their systems are compatible with the shared vision system output and that their systems are able to handle the typical properties of real-world sensory data as provided by the shared vision system (including noise, latency, or occasional failed detections and misclassifications). The vision patterns on the top of the robots must adhere to the specifications of SSL-Vision, and must be of the standard color paper as specified in the SSL-Vision documentation.
 
+競技会の主催者からの発表や特別が許可されている場合を除いて、共有ビジョン機器のそばに、チーム独自のカメラや外部のセンサを取り付けることは許されない。 +
 Besides the shared vision equipment, teams are not allowed to mount their own cameras or other external sensors, unless specifically announced or permitted by the respective competition organizers.
 
 ==== Game Controller
+試合はコミュニティにメンテナンスされているssl-game-controller (https://github.com/RoboCup-SSL/ssl-game-controller) によってコントロールされている。このソフトウェアはgame controller operatorによって操作されている。ソフトウェアは主審/refereeとautomatic refereeの決定をネットワークにブロードキャストされるイーサーネット通信の信号に変換する。これは、すべての参加者の代理人として、試合の状態、すべてのイベントと行動のトラッキングを保持する。 +
 A game is controlled by the community-maintained ssl-game-controller (https://github.com/RoboCup-SSL/ssl-game-controller).
 It is operated by the <<Game Controller Operator, game controller operator>>. The software translates decisions of the <<Referee, referee>> and the <<Automatic Referee, automatic referee>> into Ethernet communication signals that are broadcast to the network. It maintains the state of the game, tracks all events and acts as a proxy between all participating parties in the game.
 
+game-controllerは試合を行うチームのためにネットワークインターフェースを持っている。各チームはボールがout of playの時に、自動的にキーパーのIDを切り替える事ができる。各チームは次の機会に向けてロボットの移動を指示する信号を送信することや、advantage ruleの要求に応答することができる。 +
 The game-controller has a network interface for the playing teams. They can automatically change their keeper id when the ball is <<Ball In And Out Of Play, out of play>>, they can signal a robot substitution intent for the next opportunity and they can reply to requests of the <<Advantage Rule, advantage rule>>.
 
 ==== Automatic Referee
+ひとつないし複数のAutomatic Refereeアプリケーションはgame controllerに対して試合の取り締まりと反則/offensesの報告をすることができる。少なくとも1つのAutomatic refereeが試合ごとに必要である。もし1つ以上のAutomatic refereeがgame controllerに接続される場合、多数決を適用することができる。 +
 One or more automatic referee applications can supervise a game and report <<Offenses, offenses>> to the <<Game Controller, game controller>>.
 At least one automatic referee is required per game. If more than one automatic referee is connected to the game controller, a majority vote can be applied.
 
+ソースコードがオープンソースであることを前提として、新たなautomatic refereeの実装を提供することができる。新しい実装は少なくとも競技会の3か月前までにアナウンスされなければならない。技術委員会/technical committeeはその実装を使用するかしないかを決定する。 +
 New automatic referee implementations can be provided, given that the source code is open-sourced. New implementations must be announced at least three months before the competition. The <<Technical Committee, technical committee>> decides if an implementation will be used or not.
 
+NOTE: (訳者注記)元の英文の解釈があっているのか練習会かチーム内のミーティングで確認したいです。
+
+Game Event TableはAutomatic Refereeの実装がどのゲームイベントを検出できなけらばならないかを示す。 +
 The <<Game Event Table>> shows which game events an automatic referee implementation must be able to detect.
 
+存在する実装はGithubで確認することができる。: https://github.com/RoboCup-SSL/ssl-autorefs +
 Existing implementations can be found on Github: https://github.com/RoboCup-SSL/ssl-autorefs.

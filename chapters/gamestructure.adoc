@@ -1,151 +1,204 @@
-== Game Structure
-=== Impartial Roles
+== 試合の方法/Game Structure
+=== 公正な役割/Impartial Roles
+小型機リーグの公式な試合を行うためには、4人の公平な役割を揃えなければいけない。 +
 To play an official match in the Small Size League, four impartial roles must be filled:
 
-* the <<Referee, referee>>
-* the <<Assistant Referee, assistant referee>>
-* the <<Game Controller Operator, game controller operator>>
-* the <<Vision Expert, vision expert>>
+* 主審(the <<Referee, referee>>)
+* 副審)(the <<Assistant Referee, assistant referee>>)
+* game controller operator(the <<Game Controller Operator, game controller operator>>)
+* vision expert)(the <<Vision Expert, vision expert>>)
 
+通常、これらの役割には、試合に出場していない2チームによって行われる。1チーム目から主審とgame controller operatorを、2チーム目からは副審とvision expertを担当する。これらの役割は組織委員会によって割り当てられる。 +
 Usually, these roles are filled by two non-playing teams, with one team providing the <<Referee, referee>> and the <<Game Controller Operator, game controller operator>> and the other team providing the <<Assistant Referee, assistant referee>> and the <<Vision Expert, vision expert>>. The assignment of the roles is up to the <<Organizing Committee, organizing committee>>.
 
+すべての参加するチームはこれらの役割に精通した十分な人材を提供できることが求められる
 Every participating team is required to be able to provide enough people who are familiar with these roles.
 
-==== Referee
+==== 主審/Referee
+各試合は主審によってコントロールされる。主審は任命された試合に関して競技規則を施行する一切の権限を持つ。主審はフィールド横にある歩行エリアを使うことが推奨される(フィールドセットアップを参照)。 +
 Each match is controlled by the referee. He has full authority to enforce the rules of the Small Size League in connection with the match to which he has been appointed. The referee is encouraged to use the designated walking area next to the field (see <<Field Setup>>).
 
+主審はautomatic refereeソフトウェアによって支援される。人間の審判はautomatic refereeによって生成されたいかなる決定も上書きすることが許可されている。 +
 The referee is assisted by the <<Automatic Referee, automatic referee>> software. The human referee is allowed to override any decision made by the automatic referee software.
 
+プレーに関する事実についての主審の決定は、得点となったかどうか、また試合結果を含め最終である。プレーを再開する前、または試合を終結する前であれば、主審は、その直前の決定が正しくないことに気づいたとき、または主審の裁量によって副審の助言を採用したときのみ、決定を変えることができる。 +
 The decisions of the referee regarding facts connected with play are final. The referee may only change a decision on realizing that it is incorrect or, at his discretion, on the
 advice of an assistant referee, provided that he has not restarted play.
 
+主審は、次に示すことに法的な責任を負わない。役員または観客のあらゆる怪我、あらゆる種類の財産への損害、個人、クラブ、会社、協会、またはその他の団体に対するその他の損失 +
 The referee is not held liable for any kind of injury suffered by an official or spectator, any damage to property of any kind nor any other loss suffered by an individual, club, company, association, or other body.
 
+ハンドラは主審と話すことができる唯一のチームメンバーである。 +
 The <<Robot Handler, robot handler>> is the only team member that may talk to the referee.
 
-.Duties
+.職務/Duties
 
-* The referee ensures a safe match for all humans and robots
-* The referee ensures a fair match according to the rules of the Small Size League
-* The referee ensures that there is no interference by unauthorized persons or team members
-* The referee or assistant referee places the ball for <<Kick-Off, kick-offs>> and <<Penalty Kick, penalties>> (division A) or after every <<Stopping The Game, stoppage>> (division B). Subsequently, the referee resumes the match
-* The referee ensures that the game is started and resumed in time
+* 主審はすべての人間とロボットが安全に試合をできることを保証する +
+The referee ensures a safe match for all humans and robots
+* 主審は小型機リーグのルールに則った公平な試合を保証しなければならない +
+The referee ensures a fair match according to the rules of the Small Size League
+* 主審は許可されていない人間やチームメンバーによる干渉が発生していないことを確かめる +
+The referee ensures that there is no interference by unauthorized persons or team members
+* 主審か副審はキックオフやペナルティキック(division A)もしくは試合の停止(division B)の時にボールを配置する。その後、主審は試合を再開する。 +
+The referee or assistant referee places the ball for <<Kick-Off, kick-offs>> and <<Penalty Kick, penalties>> (division A) or after every <<Stopping The Game, stoppage>> (division B). Subsequently, the referee resumes the match
+* 主審は時間内に試合が開始もしくは再開されることを確かめる +
+The referee ensures that the game is started and resumed in time
 
-==== Assistant Referee
+==== 副審/Assistant Referee
+副審はどこでも可能な限り主審の補助をする。副審は主審と反対側のフィールド横にある歩行エリアを使うことが推奨される。 +
 The assistant referee supports the referee wherever he can. He is encouraged to use the designated walking area next to the <<Field Setup, field>>, opposite the referee.
 
+いかなるチームメンバーも副審と会話することは許可されない。 +
 No team members are allowed to talk to the assistant referee.
 
-.Duties
+.職務/Duties
 
-* The assistant referee indicates when misconduct or any other incident has occurred out of the view of the referee
-* The assistant referee discusses unclear situations with the referee
-* The referee or assistant referee places the ball for <<Kick-Off, kick-offs>> and <<Penalty Kick, penalties>> (division A) or after every <<Stopping The Game, stoppage>> (division B)
+* 副審は主審に見えなかった不正行為やその他の出来事が起きたとき合図をする +
+The assistant referee indicates when misconduct or any other incident has occurred out of the view of the referee
+* 副審は主審と不明確な状況について議論をする +
+The assistant referee discusses unclear situations with the referee
+* 主審か副審はキックオフやペナルティキック(division A)もしくは試合の停止(division B)の時にボールを配置する。その後、主審は試合を再開する +
+The referee or assistant referee places the ball for <<Kick-Off, kick-offs>> and <<Penalty Kick, penalties>> (division A) or after every <<Stopping The Game, stoppage>> (division B)
 
 
 ==== Game Controller Operator
+競技中、game controller operatorは主審、automatic refereeと各チームのソフトウェアの間のインターフェースとなるgame controller softwareを使用する。 +
 During a match, the game controller operator uses the <<Game Controller, game controller software>> as an interface between the <<Referee, referee>>, the <<Automatic Referee, automatic referee>> and the team software.
 
+ハンドラがロボットの交代をする時を除いて、いかなるチームメンバーもgame controller operatorと会話することは許可されない。 +
 No team members are allowed to talk to the game controller operator, except the <<Robot Handler, robot handler>> for <<Robot Substitution, robot substitution>> intents.
 
-.Duties
-* The game controller operator configures the <<Game Controller, game controller>> before the game begins
-* The game controller operator enters the signals of the <<Referee, referee>> into the <<Game Controller, game controller>>
-* The game controller operator watches the game event log for any events that need attention, like detections of an <<Automatic Referee, automatic referee>> or elapsed timers and notifies the <<Referee, referee>>
+.職務/Duties
+* game controller operatorはgame controllerを試合前に設定する +
+The game controller operator configures the <<Game Controller, game controller>> before the game begins
+* game controller operatorは主審からの合図をgame controllerに入力する +
+The game controller operator enters the signals of the <<Referee, referee>> into the <<Game Controller, game controller>>
+* game controller operatorは注意を必要とするあらゆるゲームイベントログ(automatic refereeや試合の経過時間など)を監視し、主審に通知する +
+The game controller operator watches the game event log for any events that need attention, like detections of an <<Automatic Referee, automatic referee>> or elapsed timers and notifies the <<Referee, referee>>
 
 ==== Vision Expert
+競技中、Vision Expertはフィールドのshared vision systemを担当する。 +
 During a match, the vision expert is in charge of the <<Vision, shared vision system>> on the field.
 
+Visionに大きな問題が発生した場合を除いて、チームメンバは一般的にVision Expertに対して話しかけない事を推奨する。 +
 Team members are generally advised not to talk to the vision expert, unless they experience major vision problems.
 
-.Duties
+.職務/Duties
 
-* The vision expert checks the vision hardware and reports any kind of hardware problems to the <<Technical Committee, technical committee>>
-* The vision expert monitors the shared vision system during the match and reports any kind of problems to the referee instantly
-* The vision expert recalibrates the vision system if the referee deems it necessary
+* Vision expartはVisionのハードウェアをチェックし、あらゆる種類のハードウェアの問題を技術委員会に報告する。 +
+The vision expert checks the vision hardware and reports any kind of hardware problems to the <<Technical Committee, technical committee>>
+* Vision expartは試合中に共有Visionシステムを監視し、あらゆる種類の問題を主審に即座に報告する。 +
+The vision expert monitors the shared vision system during the match and reports any kind of problems to the referee instantly
+* 主審が必要であると考えた場合には、Vision expartはVision systemを再キャリブレーションする。 +
+The vision expert recalibrates the vision system if the referee deems it necessary
 
-=== Team-Specific Roles
+=== チーム固有の役割/Team-Specific Roles
 
-==== Robot Handler
+==== ハンドラ/Robot Handler
+試合開始前に、すべてのチームは一人のハンドラーを指定しなければいけない。ハンドラーは試合中にチームを代表する。 +
 Before the start of the match, every team has to designate one robot handler. The robot handler represents the team during the match.
 
-.Duties
-* The robot handler helps <<Match Preparation, preparing the match>>.
-* The robot handler asks the referee for <<Timeouts, timeouts>> if necessary.
-* The robot handler asks the referee for the permission to substitute a robot in the next stoppage and, if the referee agrees, <<Robot Substitution, substitutes the robot>>.
-* The robot handler voices concerns of the team (for example network issues or vision problems).
+.職務/Duties
+* ハンドラーは競技の準備の補助を行う。 +
+The robot handler helps <<Match Preparation, preparing the match>>.
+* 必要であれば、ハンドラーは主審にタイムアウトを要求する。 +
+The robot handler asks the referee for <<Timeouts, timeouts>> if necessary.
+* ハンドラーは次のStop Game時にロボットを交代する許可を主審に要求し、主審が許可した場合はロボットを交代する。 +
+The robot handler asks the referee for the permission to substitute a robot in the next stoppage and, if the referee agrees, <<Robot Substitution, substitutes the robot>>.
+* ハンドラはチームの懸念事項を発生する(例えばネットワークやビジョンの問題)。 +
+The robot handler voices concerns of the team (for example network issues or vision problems).
 
-=== Match Preparation
+=== 競技の準備/Match Preparation
+競技で役割のあるすべての人間(公平な役割とチーム固有の役割)は、主審が次の準備を可能にするために、少なくとも試合開始の10分前には準備できていなければならない: +
 All people that fill a role in the match (<<Impartial Roles, impartial>> or <<Team-Specific Roles, team-specific>>) have to be ready at least 10 minutes before the start of the match to allow the referee to make the following preparations:
 
 ==== Game Result Sheet
+主審は組織委員会からGame Result Sheetを受け取る。試合後に、主審は最終結果を記入し、必要な署名を集めてSheetを組織委員会に提出する。 +
 The <<Referee, referee>> obtains a game result sheet from the <<Organizing Committee, organizing committee>>. After the game, the referee fills in the final score, collects the required signatures and submits the sheet to the <<Organizing Committee, organizing committee>>.
 
-NOTE: While obtaining the game result sheet, the referee can also take an official <<Ball, ball>> and referee equipment such as a whistle or red and yellow cards (if provided).
+NOTE: Game Result Sheetを受け取っている間、主審は公式球と(もし提供されるのであれば)ホイッスルやレッドカードイエローカードなどの審判向けの機器も使用できる。 +
+While obtaining the game result sheet, the referee can also take an official <<Ball, ball>> and referee equipment such as a whistle or red and yellow cards (if provided).
 
-==== Testing The Network
+==== ネットワークのテスト/Testing The Network
+主審は両方のチームがVisionデータとレフェリーコマンドを受信できるか確認する。 +
 The <<Referee, referee>> ensures that both teams receive vision data and referee commands.
 
-==== Choosing Team Colors
+==== チームカラーの選択/Choosing Team Colors
+主審は両チームのハンドラに希望するチームカラー(青か黄色のどちらか)を確認する。両チームが色の割り当てに同意するのであれば、競技全体でその色が使用される。 +
 The <<Referee, referee>> asks the <<Robot Handler, robot handlers>> of the teams about their preferred team color (either blue or yellow). If the teams agree on a color assignment, the colors will be used for the entire match.
 
+しかし、両チームが同じ色を希望するのであれば、主審は色を入れ替えるよう割り当てる。この場合、両チームは前半戦と可能であればオーバータイムの前半戦の後に色を入れ替える。 +
 However, if both teams prefer the same color, the referee assigns the colors by chance. In this case, the teams switch the colors after the first half of the match as well as after the first half of the overtime if applicable.
 
-==== Choosing Side And Kick-Off
+==== 陣地とキックオフの選択/Choosing Side And Kick-Off
+主審は両チームのハンドラと一緒にコイントスを行う。コイントスの勝者が前半戦で攻めるゴールを選ぶ。もう一方のチームが前半戦開始時のキックオフを行う。 +
 The <<Referee, referee>> tosses a coin with both <<Robot Handler, robot handlers>>. The winning team chooses the goal it will attack in the first half of the match. The other team takes the <<Kick-Off, kick-off>> to start the match.
 
-==== Choosing Keeper Id
+==== ゴールキーパーのIDの選択/Choosing Keeper Id
+主審は両チームのハンドラにどのロボットをキーパーとフォワードとして使用するつもりなのか確認し、game controller operatorに情報を連絡する。 +
 The <<Referee, referee>> asks both <<Robot Handler, robot handlers>> which robot they will use as the keeper and forwards this information to the <<Game Controller Operator, game controller operator>>.
 
-NOTE: If a team does not want to use a keeper, it may select the id of a robot that is not on the field.
+NOTE: もしチームがキーパーを使用したくない場合、フィールド上に存在しないロボットのIDを選択すること。 +
+If a team does not want to use a keeper, it may select the id of a robot that is not on the field.
 
-=== Game Stages
-==== Overview
+=== ゲームステージ/Game Stages
+==== 概要/Overview
+小型機リーグの公式戦は以下に示すステージによって構成される。 +
 An official match of the Small Size League consists of the following stages:
 
 |===
-| Game Stage | Duration
+| Game Stage | 期間/Duration
 
-| First Half | 300 seconds of playing time
-| Half-Time Break | 300 seconds pause
-| Second Half | 300 seconds of playing time
+| 前半戦(First Half) | 競技時間は300秒(300 seconds of playing time)
+| ハーフタイム(Half-Time Break) | 300秒の休憩(300 seconds pause)
+| 後半戦(Second Half) | 競技時間は300秒(300 seconds of playing time)
 |===
 
+試合が予選(同点が可能な結果ではない)かつ規定の試合時間経過後に同点の場合、競技は延長戦に進み次のゲームステージが追加される：
 If the match is an elimination match (draw is not a possible outcome) and the score is even after the regular game time, the match goes into overtime and the following game stages are added:
 
 |===
-| Game Stage | Duration
+| Game Stage | 期間(Duration)
 
-| Pre-Overtime Break | 300 seconds of pause
-| Overtime First Half | 150 seconds of playing time
-| Overtime Half-Time Break | 120 seconds of pause
-| Overtime Second Half | 150 seconds of playing time
+| 延長戦前の休憩(Pre-Overtime Break) | 300秒の休憩(300 seconds of pause)
+| 延長前半戦(Overtime First Half) | 競技時間は150秒(150 seconds of playing time)
+| 延長戦ハーフタイム(Overtime Half-Time Break) | 120秒の休憩(120 seconds of pause)
+| 延長後半戦(Overtime Second Half) | 競技時間は150秒(150 seconds of playing time)
 |===
 
+延長戦終了時点で同点の場合、以下のステージを追加する: +
 If the score is even after overtime has been played, the following stages are added:
 
 |===
-| Game Stage | Duration
+| Game Stage | 期間(Duration)
 
-| Pre-Shoot-Out Break | 120 seconds of pause
-| <<Shoot-Out>> | unlimited
+| シュートアウトの準備(Pre-Shoot-Out Break) | 120秒の休憩(120 seconds of pause)
+| シュートアウト<<Shoot-Out>> | 無制限(unlimited)
 |===
 
+競技のタイマーは両チームともボールを操作することが許されない場合に一時停止される。これにはstop、halt、kick-offとpenalty kickの準備時間が含まれる。さらにball placement中もタイマーは一時停止される。 +
 The match timer is paused whenever no team is allowed to <<Ball Manipulation, manipulate the ball>>. This includes <<Stop, stop>>, <<Halt, halt>> and the preparation states of <<Kick-Off, kick-off>> and <<Penalty Kick, penalty kick>>. Additionally, it is paused during <<Ball Placement, ball placement>>.
 
-NOTE: As a result, the time needed for a match is much greater than the playing time.
+NOTE: この結果、試合に必要な時間は競技時間よりもはるかに長くなる。 +
+As a result, the time needed for a match is much greater than the playing time.
 
-==== Timeouts
+==== タイムアウト/Timeouts
+タイムアウトを取りたい時、ハンドラは主審に確認をとらなければならない。タイムアウトは休憩のように扱われ、両チームとも自らのソフトウェアとハードウェアの修正を行うことが許可されている(自律性を参照)。 +
 The <<Robot Handler, robot handler>> has to ask the referee for a timeout. Timeouts are handled like <<Overview, breaks>>, meaning that both teams are allowed to make modifications to their software and hardware (see <<Autonomy>>).
 
+どちらのチームも競技開始から4回までのタイムアウトが割り当てられている。すべてのタイムアウトの合計は300秒まで許されている。タイムアウトはstop game中のみ取得することができる。時間はgame controller operatorによて監視と記録がされている。 +
 Each team is allocated 4 timeouts at the beginning of the match. A total of 300 seconds is allowed for all timeouts. Timeouts may only be taken during a game
 stoppage. The time is monitored and recorded by the <<Game Controller Operator, game controller operator>>.
 
-NOTE: For example, a team may take 3 timeouts of 60 seconds duration and thereafter have only one timeout of up to 120 seconds duration.
+NOTE: 例えば、1チームが60秒間のタイムアウトを3回取得していたら、残りはあと120秒間で1回のタイムアウトしか取得できない。 +
+For example, a team may take 3 timeouts of 60 seconds duration and thereafter have only one timeout of up to 120 seconds duration.
 
+延長戦の間は、両チームとも合計150秒間で2回のタイムアウトを取得できる。レギュラーゲームで使われなかったタイムアウトの回数と時間は加算されない。 +
 During overtime, both teams can use 2 timeouts with a total time of 150 seconds. The number of timeouts and the time not used in regular game are not added.
 
+シュートアウトの間はタイムアウトを取得できない。
 No timeouts are possible in the <<Shoot-Out, shoot-out>> stage.
 
-==== Early Termination At A Score Of 10
+==== 10点先取による早期終了/Early Termination At A Score Of 10
+片方のチームが10ゴール以上シュートを決めた場合、試合は自動的に終了し、現在のゲームステージに関係なく、より多くゴールをしたチームが勝者と宣言される。 +
 When a team manages to shoot 10 goals, the match is automatically terminated and the team with more goals is declared the winner, regardless of the current game stage.

@@ -27,6 +27,10 @@ image::quad-size-field.png[]
 .Field dimensions and markings for division B
 image::double-size-field.png[]
 
+[[参考-hogehoge]]
+.参考 人間のサッカーの競技エリア
+image::lawsofthegame_201819_p35_field.png[]
+
 ==== フィールドの表面/Field Surface
 競技フィールドの表面は緑色のフェルトマットかカーペットである。カーペット下の床は固く平坦で水平である。 +
 The playing surface is green felt mat or carpet. The floor under the carpet is level, flat, and hard.

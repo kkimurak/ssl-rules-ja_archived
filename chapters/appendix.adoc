@@ -1,14 +1,18 @@
 [appendix]
-== Terminology
-=== Ball In And Out Of Play
+== 専門用語/Terminology
+=== インプレイとアウトオブプレイ/Ball In And Out Of Play
+試合が停止されると、ボールは次のプレイに移行するまではアウトオブプレイとみなされる。 +
 When the match is <<Stopping The Game, stopped>>, the ball is considered *out of play* until it has been brought into play.
 
+試合が再開されると、ボールは次の停止が発生するまではインプレイとみなされる。フォーススタートが発行される、もしくはキックオフ、直接フリーキック、間接フリーキック、ペナルティキックによってボールが0.05m以上移動した時に試合が再開される。 +
 When the match is <<Resuming The Game, resumed>>, the ball is considered *in play* until the next stoppage occurs. The match is resumed when <<Force Start, force start>> has been issued or the ball moved at least 0.05 meters following a <<Kick-Off, kick-off>>, <<Direct Free Kick, direct free kick>>, <<Indirect Free Kick, indirect free kick>> or <<Penalty Kick, penalty kick>>.
 
-NOTE: see <<Double Touch, double touch>> for the rationale of the 0.05 meter distance
+NOTE: 0.05メートルの距離の理論的根拠についてはダブルタッチを参照すること +
+see <<Double Touch, double touch>> for the rationale of the 0.05 meter distance
 
 
-=== Ball Manipulation
+=== ボールの操作/Ball Manipulation
+シュートとドリブルはボールの操作とみなされ、ボールが機体で跳ね返った場合は操作とはみなさない。 +
 Shooting and <<Dribbling Device, dribbling>> is considered as manipulating the ball, the ball accidentally bouncing off the hull is not.
 
 
@@ -18,99 +22,100 @@ The game event table is a compilation of the different game events and their con
 
 NOTE: Note that the information shown in this table here is incomplete. Please read the sections of the respective events for the full definitions.
 
-Chapter <<Robots>>:
+Chapter <<ロボット/Robots>>:
 |===
 | Event | Applicability | Command | AutoRef
 
-| <<Number Of Robots>> exceeded | always | <<Stop>> | icon:check[role="green"]
+| <<ロボットの台数/Number Of Robots>> exceeded | always | <<停止/Stop>> | icon:check[role="green"]
 |===
 
-Chapter <<Referee Commands>>:
+Chapter <<レフェリーコマンド/Referee Commands>>:
 |===
 | Event | Applicability | Command | AutoRef
 
-| <<Kick-Off>> prepared | during <<Kick-Off>> | <<Normal Start>> | icon:check[role="green"]
-| No Progress | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Force Start>> | icon:check[role="green"]
-| <<Penalty Kick>> prepared | during <<Penalty Kick>> | <<Normal Start>> | icon:check[role="green"]
-| Multiple <<Yellow Card, Yellow Cards>> | <<Ball In And Out Of Play, ball out of play>> | <<Penalty Kick>> | icon:times[role="red"] (handled by the game controller)
-| <<Ball Placement>> failed by team in favor | during <<Ball Placement>> | <<Stop>>, then <<Indirect Free Kick>> (div A) / previous command (div B) | icon:check[role="green"]
-| <<Ball Placement>> failed by opponent | during <<Ball Placement>> | <<Stop>> | icon:check[role="green"]
-| <<Ball Placement>> successful | during <<Ball Placement>> | continue | icon:check[role="green"]
+| <<キックオフ/Kick-Off>> prepared | during <<キックオフ/Kick-Off>> | <<Normal Start>> | icon:check[role="green"]
+| No Progress | <<Ball In And Out Of Play, ball in play>> | <<停止/Stop>>, then <<フォーススタート/Force Start>> | icon:check[role="green"]
+| <<ペナルティーキック/Penalty Kick>> prepared | during <<ペナルティーキック/Penalty Kick>> | <<Normal Start>> | icon:check[role="green"]
+| Multiple <<Yellow Card, Yellow Cards>> | <<Ball In And Out Of Play, ball out of play>> | <<ペナルティーキック/Penalty Kick>> | icon:times[role="red"] (handled by the game controller)
+| <<ボール配置/Ball Placement>> failed by team in favor | during <<ボール配置/Ball Placement>> | <<ストップ/Stop>>, then <<間接フリーキック/Direct Free Kick>> (div A) / previous command (div B) | icon:check[role="green"]
+| <<ボール配置/Ball Placement>> failed by opponent | during <<ボール配置/Ball Placement>> | <<Stop>> | icon:check[role="green"]
+| <<ボール配置/Ball Placement>> successful | during <<ボール配置/Ball Placement>> | continue | icon:check[role="green"]
 |===
 
 Chapter <<Ball Leaves The Field>>:
 |===
 | Event | Applicability | Command | AutoRef
 
-| <<Throw-In>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Indirect Free Kick>> | icon:check[role="green"]
-| <<Goal Kick>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Direct Free Kick>> | icon:check[role="green"]
-| <<Corner Kick>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Direct Free Kick>> | icon:check[role="green"]
+| <<スローイン/Throw-In>> | <<Ball In And Out Of Play, ball in play>> | <<ストップ/Stop>>, then <<間接フリーキック/Direct Free Kick>> | icon:check[role="green"]
+| <<ゴールキック/Goal Kick>> | <<Ball In And Out Of Play, ball in play>> | <<ストップ/Stop>>, then <<直接フリーキック/Direct Free Kick>> | icon:check[role="green"]
+| <<コーナーキック/Corner Kick>> | <<Ball In And Out Of Play, ball in play>> | <<ストップ/Stop>>, then <<直接フリーキック/Direct Free Kick>> | icon:check[role="green"]
 |===
 
-Chapter <<Scoring Goals>>:
-|===
-| Event | Applicability | Command | AutoRef
-
-| Goal | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Kick-Off>> | (icon:check[role="green"]) footnote:[the game controller operator has to continue the game]
-| Invalid Goal | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Direct Free Kick>> | icon:check[role="green"]
-|===
-
-Chapter <<Offenses>>, section <<Minor Offenses>>:
+Chapter <<ゴールの得点方法/Scoring Goals>>:
 |===
 | Event | Applicability | Command | AutoRef
 
-| <<Aimless Kick [small]#(_division B only_)#, Aimless Kick>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Indirect Free Kick>> | icon:check[role="green"]
-| <<Lack Of Progress>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Indirect Free Kick>> | icon:check[role="green"]
-| <<Double Touch>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Indirect Free Kick>> | icon:check[role="green"]
-| <<Attacker In Defense Area>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Indirect Free Kick>> | icon:check[role="green"]
+| Goal | <<Ball In And Out Of Play, ball in play>> | <<停止/Stop>>, then <<キックオフ/Kick-Off>> | (icon:check[role="green"]) footnote:[the game controller operator has to continue the game]
+| Invalid Goal | <<Ball In And Out Of Play, ball in play>> | <<ストップ/Stop>>, then <<直接フリーキック/Direct Free Kick>> | icon:check[role="green"]
+|===
+
+Chapter <<反則/Offenses>>, section <<軽微な反則/Minor Offenses>>:
+|===
+| Event | Applicability | Command | AutoRef
+
+| <<Aimless Kick [small]#(_division B only_)#, Aimless Kick>> | <<Ball In And Out Of Play, ball in play>> | <<ストップ/Stop>>, then <<間接フリーキック/Direct Free Kick>> | icon:check[role="green"]
+| <<進行の欠落/Lack Of Progress>> | <<Ball In And Out Of Play, ball in play>> | <<ストップ/Stop>>, then <<間接フリーキック/Direct Free Kick>> | icon:check[role="green"]
+| <<ダブルタッチ/Double Touch>> | <<Ball In And Out Of Play, ball in play>> | <<ストップ/Stop>>, then <<間接フリーキック/Direct Free Kick>> | icon:check[role="green"]
+| <<Attacker In Defense Area>> | <<Ball In And Out Of Play, ball in play>> | <<ストップ/Stop>>, then <<間接フリーキック/Direct Free Kick>> | icon:check[role="green"]
 | <<Attacker Touches Robot In Opponent Defense Area>> skipped | <<Ball In And Out Of Play, ball in play>> | no command | icon:check[role="green"] (<<Advantage Rule>>)
-| <<Excessive Dribbling>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Indirect Free Kick>> | icon:check[role="green"]
-| <<Ball Speed>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Indirect Free Kick>> | icon:check[role="green"]
+| <<ドリブルの超過/Excessive Dribbling>> | <<Ball In And Out Of Play, ball in play>> | <<ストップ/Stop>>, then <<間接フリーキック/Direct Free Kick>> | icon:check[role="green"]
+| <<Ball Speed>> | <<Ball In And Out Of Play, ball in play>> | <<ストップ/Stop>>, then <<間接フリーキック/Direct Free Kick>> | icon:check[role="green"]
 |===
 
 
-Chapter <<Offenses>>, section <<Fouls>>:
-|===
-| Event | Applicability | Command | AutoRef
-
-| Multiple <<Fouls>> | <<Ball In And Out Of Play, ball out of play>> | <<Yellow Card>> | icon:times[role="red"] (handled by the game controller)
-| <<Attacker Touches Robot In Opponent Defense Area>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Indirect Free Kick>> | icon:check[role="green"]
-| <<Robot Too Close To Opponent Defense Area>> | <<Ball In And Out Of Play, ball out of play>> | <<Stop>>, then <<Direct Free Kick>> | icon:check[role="green"]
-| <<Ball Placement Interference>> | during <<Ball Placement>> | <<Stop>>, then <<Direct Free Kick>> | icon:check[role="green"]
-| <<Crashing>> | always | <<Stop>>, then <<Direct Free Kick>> | icon:check[role="green"]
-| <<Crashing>> skipped | always | no command | icon:check[role="green"] (<<Advantage Rule>>)
-| <<Crashing>> draw | always | no command | icon:check[role="green"]
-| <<Pushing>> | always | <<Stop>>, then <<Direct Free Kick>> | icon:times[role="red"]
-| <<Ball Holding>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Direct Free Kick>> | icon:check[role="green"]
-| <<Tipping Over Or Dropping Parts>> | always | <<Stop>>, then <<Direct Free Kick>> | icon:times[role="red"]
-| <<Robot Stop Speed>> | during <<Stop>> | <<Stop>>, then <<Direct Free Kick>> | icon:check[role="green"]
-| <<Defender Too Close To Ball>> | <<Ball In And Out Of Play, ball out of play>> | <<Stop>>, then <<Direct Free Kick>> | icon:check[role="green"]
-| <<Multiple Defenders>> partially | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Direct Free Kick>>, <<Yellow Card>> | icon:check[role="green"]
-| <<Multiple Defenders>> entirely | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Penalty Kick>> | icon:check[role="green"]
-|===
-
-Chapter <<Offenses>>, section <<Unsporting Behavior>>:
-
+Chapter <<反則/Offenses>>, section <<ファウル/Fouls>>:
 |===
 | Event | Applicability | Command | AutoRef
 
-| Unsporting Behavior | always | <<Stop>>, then <<Yellow Card>>, <<Red Card>>, <<Penalty Kick>>, <<Forced Forfeit>> or <<Disqualification>> | icon:times[role="red"]
+| Multiple <<ファウル/Fouls>> | <<Ball In And Out Of Play, ball out of play>> | <<イエローカード/Yellow Card>> | icon:times[role="red"] (handled by the game controller)
+| <<Attacker Touches Robot In Opponent Defense Area>> | <<Ball In And Out Of Play, ball in play>> | <<停止/Stop>>, then <<関節フリーキック/Indirect Free Kick>> | icon:check[role="green"]
+| <<Robot Too Close To Opponent Defense Area>> | <<Ball In And Out Of Play, ball out of play>> | <<ストップ/Stop>>, then <<直接フリーキック/Direct Free Kick>> | icon:check[role="green"]
+| <<ボール配置に干渉する/Ball Placement Interference>> | during <<ボール配置/Ball Placement>> | <<ストップ/Stop>>, then <<直接フリーキック/Direct Free Kick>> | icon:check[role="green"]
+| <<衝突/Crashing>> | always | <<ストップ/Stop>>, then <<直接フリーキック/Direct Free Kick>> | icon:check[role="green"]
+| <<衝突/Crashing>> skipped | always | no command | icon:check[role="green"] (<<Advantage Rule>>)
+| <<衝突/Crashing>> draw | always | no command | icon:check[role="green"]
+| <<Pushing>> | always | <<ストップ/Stop>>, then <<直接フリーキック/Direct Free Kick>> | icon:times[role="red"]
+| <<ボールの保持/Ball Holding>> | <<Ball In And Out Of Play, ball in play>> | <<ストップ/Stop>>, then <<直接フリーキック/Direct Free Kick>> | icon:check[role="green"]
+| <<転倒や部品の脱落/Tipping Over Or Dropping Parts>> | always | <<ストップ/Stop>>, then <<直接フリーキック/Direct Free Kick>> | icon:times[role="red"]
+| <<Robot Stop Speed>> | during <<Stop>> | <<ストップ/Stop>>, then <<直接フリーキック/Direct Free Kick>> | icon:check[role="green"]
+| <<Defender Too Close To Ball>> | <<Ball In And Out Of Play, ball out of play>> | <<ストップ/Stop>>, then <<直接フリーキック/Direct Free Kick>> | icon:check[role="green"]
+| <<マルチプルディフェンス/Multiple Defenders>> partially | <<Ball In And Out Of Play, ball in play>> | <<ストップ/Stop>>, then <<直接フリーキック/Direct Free Kick>>, <<Yellow Card>> | icon:check[role="green"]
+| <<マルチプルディフェンス/Multiple Defenders>> entirely | <<Ball In And Out Of Play, ball in play>> | <<ストップ/Stop>>, then <<ペナルティーキック/Penalty Kick>> | icon:check[role="green"]
 |===
 
-Chapter <<Robot Substitution>>:
+Chapter <<反則/Offenses>>, section <<非スポーツマン行為/Unsporting Behavior>>:
+
 |===
 | Event | Applicability | Command | AutoRef
 
-| <<Robot Substitution>> Intent | always | <<Halt>> (after next stoppage), then <<Stop>> | icon:times[role="red"]
+| Unsporting Behavior | always | <<停止/Stop>>, then <<イエローカード/Yellow Card>>, <<Red Card>>, <<ペナルティーキック/Penalty Kick>>, <<強制的な試合放棄/Forced Forfeit>> or <<失格/Disqualification>> | icon:times[role="red"]
+|===
+
+Chapter <<ロボットの交代/Robot Substitution>>:
+|===
+| Event | Applicability | Command | AutoRef
+
+| <<ロボットの交代/Robot Substitution>> Intent | always | <<ハルト/Halt>> (after next stoppage), then <<停止/Stop>> | icon:times[role="red"]
 |===
 
 [appendix]
-== Differences Between Divisions
+== Divisionごとの違い/Differences Between Divisions
 
+これは、divisionAとdivisionBの違いの完全なリストである。 +
 This is a complete list of differences between <<Divisions, division>> A and <<Divisions, division>> B.
 
-* Division A plays on a <<Dimensions, larger field>> with <<Goals, larger goals>> than division B. As a result, the <<Shoot-Out, shoot-out>> is taken from a greater distance as well.
-* Division A plays with <<Number Of Robots, more robots>> than division B.
-* The automatic <<Ball Placement, ball placement>> procedure is mandatory for division A and optional for division B.
-* The <<Aimless Kick [small]#(_division B only_)#, aimless kick>> rule only applies to division B.
-* There is a smaller time window in division A for taking a free kick before <<Lack Of Progress, lack of progress>> is called.
+* Division A はDivision Bよりも大きなフィールドとlarger ゴールで試合を行う。その結果、シュートアウトもより遠くから行われる。(Division A plays on a <<Dimensions, larger field>> with <<Goals, larger goals>> than division B. As a result, the <<Shoot-Out, shoot-out>> is taken from a greater distance as well.)
+* Division AはDivision Bよりも多いロボットで試合を行う。(Division A plays with <<Number Of Robots, more robots>> than division B.)
+* ボール配置の手順はDivision Aでは必須であり、Division Bでは任意である。(The automatic <<Ball Placement, ball placement>> procedure is mandatory for division A and optional for division B.)
+* 無意味なキックのルールはDivision Bにのみ適用される。(The <<Aimless Kick [small]#(_division B only_)#, aimless kick>> rule only applies to division B.)
+* Division Aには進行の欠如が呼び出されるより前にフリーキックをするための小さな時間枠がある。(There is a smaller time window in division A for taking a free kick before <<Lack Of Progress, lack of progress>> is called.)

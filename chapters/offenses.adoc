@@ -12,7 +12,7 @@ Minor offenses are violations of the rules that result in a stoppage and a subse
 軽微な違反を以下に示す +
 All minor offenses are listed below.
 
-==== 無意味なキック/Aimless Kick [small]#(_division B only_)#
+==== エイムレスキック/Aimless Kick [small]#(_division B only_)#
 ロボットがボールに触れた後、ミッドラインを通過してさらに別のロボットに触れずにゴール以外のゴールラインを通過した時、そのキックは無意味である。キックオフをするためのキックはボールはミッドラインに位置しているのでミッドラインを交差していない扱いとなり、そのため無意味なキックではない。 +
 A kick is aimless when after the ball touched a robot, it subsequently crossed the midline and then its opponent's goal line outside the goal without touching another robot. A kick-off kick cannot be aimless, as the ball is located at the midline and does therefore not cross it.
 
@@ -46,7 +46,7 @@ A robot must not touch the ball while being partially or fully inside the oppone
 NOTE: ボールが試合の停止中の場合、より厳密なルールであるロボットがディフェンスエリアに近すぎるが適用される。+
 When the ball is <<Ball In And Out Of Play, out of play>>, the more strict rule <<Robot Too Close To Opponent Defense Area>> applies instead.
 
-==== ドリブルの超過/Excessive Dribbling
+==== オーバードリブル/Excessive Dribbling
 
 ロボットはドリブルが開始されたボールの位置から直線距離で測定して1m以上ドリブルしてはいけない。(ドリブルをした距離の測定方法としては)ロボットはボールと接触したときにドリブルを開始し、ボールとロボットの間に視認できるだけの間隔がある場合にドリブルを停止する。
 A robot must not <<Dribbling Device, dribble>> the ball further than 1 meter, measured linearly from the ball location where the dribbling started. A robot begins dribbling when it makes contact with the ball and stops dribbling when there is an observable separation between the ball and the robot.
@@ -100,8 +100,8 @@ This rule does not cover all cases of ball placement interference. The <<Referee
 異なるチームの2つのロボットの衝突の瞬間に、両方のロボットの速度ベクトルの差が取られ、両方のロボットの位置によって定義される線上に投影される。この投影の長さが1.5m/sを超えると、より速いロボットにファウルを与える。ロボットの絶対速度の差が0.3m./s未満であれば、どちらもファウルを与えるが、ゲームは停止しない。 +
 At the moment of collision of two robots of different teams, the difference of the speed vectors of both robots is taken and projected onto the line that is defined by the position of both robots. If the length of this projection is greater than 1.5 meters per second, the faster robot committed a foul. If the absolute robot speed difference is less than 0.3 meters per second, both conduct a foul but the game will not be stopped.
 
-==== Pushing
-ロボットが敵ロボットに外力を加えて押している時に両方のロボットがボールか互いのロボットと接触し続ける場合、互いのロボットが相手のロボットの報告に移動をしている。 +
+==== プッシング/Pushing
+あるロボットが相手のロボットに外力を加えて押していて、両方のロボットがボールもしくは互いに接触している(たとえば互いのロボットが相手のロボットの方向に移動している)時、これはPushingの反則となる。 +
 A robot pushes an opponent robot if both robots keep contact to the ball or to each other while the robot exerts force onto the opponent robot, such that both robots travel towards the opponent robot.
 
 NOTE: 両方のロボットが同じような力で互いに押し合っている場合は、どちらに対してもファウルはとられない。 +
@@ -121,8 +121,8 @@ A robot violating this rule has to be <<Robot Substitution, substituted>>.
 NOTE: (例えばねじなどの)金属パーツと大きな部品は一般的に潜在的に脅威をもたらし、非常に小さい(例えば小車輪のゴムなどの)非金属のパーツはそうではない。 +
 Metal parts (screws for example) as well as larger parts generally pose a potential threat, very small non-metal parts (for example rubber subwheel rings) don't.
 
-==== Stop中のロボットの速度/Robot Stop Speed
-ロボットはstop中は1.5m/s以上で動いてはいけない。このルールの反則はロボットと停止1回ずつに対してカウントされる。 +
+==== ストップ中のロボットの速度/Robot Stop Speed
+ロボットはstop中は1.5m/s以上で動いてはいけない。このルールの反則はストップゲーム1回につき1台のロボットに対してカウントされる。 +
 A robot must not move faster than 1.5 meters per second during <<Stop, stop>>. A violation of this rule is only counted once per robot and stoppage.
 
 ロボットが減速する猶予時間は2秒である。 +
@@ -134,7 +134,7 @@ This rule does not apply to <<Ball Placement, ball placement>>.
 NOTE: ロボットの速度制限の意図は、Stopコマンドが手動のボール配置とロボットの交代に使用されるため、ロボットがフィールド内にいる人間の怪我を防ぐためである。 +
 Since the stop command is used for manual ball placement and <<Robot Substitution, robot substitution>>, the intention of the robot speed limit is to avoid robots harming the people on the field.
 
-==== ディフェンダーがボールに近すぎる/Defender Too Close To Ball
+==== ボールに近すぎるディフェンダー/Defender Too Close To Ball
 相手チームのキックオフ、直接フリーキック、間接フリーキックの間、ロボットはボールから少なくとも0.5m以上離れなければならない。ファウルの前に発行されたコマンドと同じコマンドで試合が再開される。 +
 A robot's distance to the ball must be at least 0.5 meters during an opponent <<Kick-Off, kick-off>>, <<Direct Free Kick, direct free kick>> or <<Indirect Free Kick, indirect free kick>>.
 The game is resumed with the same command that was issued before the foul.
@@ -157,7 +157,7 @@ If a robot other than the keeper touches the ball while being entirely inside it
 非スポーツマン行為はイエローカード、レッドカード、ペナルティーキック、強制的な試合放棄、失格につながる可能性がある。人間の主審は反則の重要性に応じて適切な処罰を選択する。 +
 Unsporting behavior can lead to <<Yellow Card, yellow cards>>, <<Red Card, red cards>>, <<Penalty Kick, penalty kicks>>, a <<Forced Forfeit, forced forfeit>> or a <<Disqualification, disqualification>>. The human <<Referee, referee>> chooses an appropriate sanction, depending on the severity of the offense.
 
-NOTE: 審判がどの処罰を選択するか分からない場合は、技術委員会または組織委員会のメンバーと協議することができる。 +
+NOTE: 審判は、どの処罰を選択すべきか判断できない場合は、技術委員会または組織委員会のメンバーと協議することができる。 +
 If the referee is not sure which sanction to choose, he may confer with members of the <<Technical Committee, technical committee>> or the <<Organizing Committee, organizing committee>>.
 
 非スポーツマン行為のいくつかの例は以下の通りである。 +
@@ -179,7 +179,7 @@ A team member must show appropriate respect to everyone involved in the game. In
 * 主審またはその他公平な役割の人に迷惑をかける(annoying the <<Referee, referee>> or other persons holding an <<Impartial Roles, impartial role>>)
 * 主審の指示に従わない(not obeying the orders of the <<Referee, referee>>)
 
-=== 同時に違反が発生する/Simultaneous Offenses
+=== 同時多発的な反則/Simultaneous Offenses
 試合がstop中かつチームが試合を再開する事を許可されている場合に、相手チームの軽微な違反とファウルは試合の再開方法及び位置には影響しない。ただし再開の方法がペナルティーキックの場合は除く。 +
 If the game is <<Stop, stopped>> and a team is allowed to <<Resuming The Game, resume the game>>, <<Minor Offenses, minor offenses>> and <<Fouls, fouls>> of this team's opponent don't affect the method and position of the resumption of the game, except if the resulting method is a <<Penalty Kick, penalty kick>>.
 
@@ -201,5 +201,5 @@ The foul counter is still incremented and any resulting cards are given when the
 * 衝突、両方のチームがファウルを犯していない場合(<<Crashing>>, if not both teams committed the foul)
 * アタッカーが敵ディフェンスエリアの中でロボットに触れる(<<Attacker Touches Robot In Opponent Defense Area>>)
 
-NOTE: チームがgame controloserに接続していない場合や0.2秒以内に応答しない場合、チームの決定は試合の停止を放棄したとする。 +
+NOTE: チームがgame controloserに接続していない場合や0.2秒以内に応答しない場合、デフォルトでStop Gameを選択したものとみなされる。 +
 If the team is not connected to the game controller or does not reply within 0.2 seconds, the decision of the team defaults to stopping the game.

@@ -1,5 +1,5 @@
-== ボールがフィールド外に出た/Ball Leaves The Field
-ボールがフィールドラインを完全に交差してフィールド外に出た場合、試合は停止され、ボールはフィールドラインの交差点と配置され最後に触れたチームに応じて試合が再開する。 +
+== フィールド外に出るボール/Ball Leaves The Field
+ボールがフィールドラインを完全に横切ってフィールド外に出た場合、試合は停止され、ボールが配置されてから、ボールがフィールドラインを横切った位置と最後にボールに触れたチームに応じて試合が再開する。 +
 When the ball leaves the field by fully crossing the <<Field Lines, field line>>, the game will be stopped, the ball will be placed and the game will be restarted depending on the position of the field line crossing as well as on the team that last touched the ball.
 
 === タッチラインとの交差/Touch Line Crossing

@@ -46,7 +46,7 @@ A ball is considered placed successfully by the robots if
 * ボールは静止している(the ball is stationary)
 * ボールは要求された位置から半径0.15m以内の場所に配置されている(the ball is at a position within 0.15 meters radius from the requested position)
 
-automatic ball placementが完了するまで、game controllerによってそれ以外のコマンドは発行されない。ボール配置コマンドが発行されてから2秒以内に、ボールがうまく配置されると試合はgame controllerによってすぐに継続されます。配置が失敗した場合、相手に間接フリーキックが与えられる。このチームがボールをうまく配置することに失敗した場合、ボールは元のコマンドと共に主審によって配置される。 +
+automatic ball placementが完了するまで、game controllerによってそれ以外のコマンドは発行されない。ボールが上手く配置された場合、試合はgame controllerによって可能な限り早く再開される(ただし、ボール配置コマンドが発行されてから2秒より早くはならない)。配置が失敗した場合、相手に間接フリーキックが与えられる。このチームがボールをうまく配置することに失敗した場合、ボールは審判により配置され、試合は元のコマンドによって続行される。 +
 No further commands will be issued by the <<Game Controller, game controller>> until the automatic placement is complete.
 The game will be continued by the <<Game Controller, game controller>> as soon as the ball is successfully placed, but not earlier than 2 seconds after the ball placement command has been issued.
 A failed placement will result in an indirect free kick for the opposing team.
@@ -71,7 +71,7 @@ When the ball goes <<Ball In And Out Of Play, out of play>>, the following rules
 NOTE: ボールがすでに配置位置にある場合（たとえば、他のチームによるフリーキックの失敗後）、ロボットがボールを操作しなくてもボール配置は成功する可能性がある。これは、配置チームによる貢献なしに失敗した試行のリセットのカウンターにつながる可能性がある。 +
 If the ball is already at the placement position (for example after a failed free kick by the other team), the ball placement can be successful without a robot manipulating the ball. This could lead to the counter for failed attempts resetting without a contribution by the placing team.
 
-NOTE: placementコマンドが発行されているときは、ボールが動いている可能性がある。 +
+NOTE: placementコマンドが発行された時点では、ボールはまだ動いている可能性がある。 +
 The ball may still be moving when the placement command is issued.
 
 Division Aのすべてのチームでボールの配置が必須である。 Division Bのチームは主審と話すことによって、試合中や試合のいつでも試合の残り時間でボール配置をしないことを決定しても良い。主審はgame controller operatorに対してそのチームのボール配置を無効にするように指示する。この場合、チームは相手チームがボールを配置した後にボールをインプレイに持ち込むことができる。もし相手チームがボール配置に失敗したり、ボール配置ができるチームがいない場合は、ボールは主審か副審によって配置される。 +
@@ -95,14 +95,14 @@ For two-staged referee commands, when normal start is sent, an attacker may <<Ba
 Normal startはキックオフ、ペナルティキック、シュートアウトの時に使用する。 +
 Normal start is used for <<Kick-Off, kick-offs>>, <<Penalty Kick, penalty kicks>> and <<Shoot-Out, shoot-out>>.
 
-NOTE: (訳者注記)この小節で言いたいのは、試合が停止しているときにいきなりキックオフコマンドが送信されることはなくて、キックオフやペナルティキックのコマンドが送信されてからその次にNormal startのコマンドが送信されるという事。
+NOTE: (訳者注記)この小節で言いたいのは、試合が停止しているときにいきなりNormal Startコマンドが送信されることはなくて、キックオフやペナルティキックのコマンドが送信されてからその次にNormal startのコマンドが送信されるという事。
 
 ==== キックオフ/Kick-Off
 .定義/Definition
 ボールはフィールドの中心に人によって配置されなければならない。 +
 The ball has to be placed in the center of the field by the human referee.
 
-kick-offコマンドが発行されたとき、すべてのロボットはセンターサークルを除く自分たちの陣地側のフィールド半面に移動しなければならない。ただし、攻撃側チームのアタッカーロボットはセンターサークル内に侵入することが許可される。このロボットはキッカーと呼ばれる。すべてのロボットはボールに触れてはいけない。 +
+kick-offコマンドが発行されたとき、すべてのロボットはセンターサークルを除く自分たちの陣地側のフィールド半面に移動しなければならない。ただし、攻撃側チームのアタッカーロボット1台はセンターサークル内に侵入することが許可される。このロボットはキッカーと呼ばれる。すべてのロボットはボールに触れてはいけない。 +
 When the kick-off command is issued, all robots have to move to their own half of the field excluding the <<Center Circle, center circle>>. However, one robot of the attacking team is also allowed to be inside the whole center circle. This robot will be referred to as the kicker. No robot is allowed to touch the ball.
 
 normal startコマンドが送信されたとき、キッカーはボールをシュートすることが許可される。キックオフからゴールを直接獲得することができる。 +
@@ -184,7 +184,7 @@ Additional time is allowed for a penalty kick to be taken at the end of each hal
 The penalty kick is retaken if the attacking team infringes the rules and the ball enters the goal or the defending team infringes the rules and the ball does not enter the goal.
 
 .用途/Usage
-ペナルティキックは複数のイエローカードを受け取ったチームを罰するために使用され、それ以外に非スポーツマン行為やを行ったときにも使用される。 +
+ペナルティキックは複数のイエローカードを受け取ったチームを罰するために使用され、それ以外に非スポーツマン行為やマルチプルディフェンスを行ったときにも使用される。 +
 Penalty Kicks are used to punish teams that received multiple <<Yellow Card, yellow cards>>, as well as to punish <<Unsporting Behavior, unsporting behavior>> and <<Multiple Defenders, multiple defenders>>.
 
 
@@ -229,7 +229,7 @@ For example, serious violent contact by the robots or disrespectful behavior tow
 
 ==== 強制的な試合放棄/Forced Forfeit
 .定義/Definition
-強制的な試合放棄は片方のチームが0-10で現在の試合で即時に負ける事を意味する。 +
+強制的な試合放棄とは、当該チームが現在の試合に即座に敗北し、スコアとして0-10が記録される事を意味する。 +
 A Forced forfeit means that a team instantly loses the current game with a score of 0 to 10.
 
 .用途/Usage

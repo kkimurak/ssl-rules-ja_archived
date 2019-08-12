@@ -8,7 +8,7 @@ To play an official match in the Small Size League, four impartial roles must be
 * game controller operator(the <<Game Controller Operator, game controller operator>>)
 * vision expert(the <<Vision Expert, vision expert>>)
 
-通常、これらの役割には、試合に出場していない2チームによって行われる。1チーム目から主審とgame controller operatorを、2チーム目からは副審とvision expertを担当する。これらの役割は組織委員会によって割り当てられる。 +
+通常、これらの役割には、試合に出場していない2チームによって行われる。1チーム目は主審とgame controller operatorを、2チーム目は副審とvision expertを担当する。これらの役割は組織委員会によって割り当てられる。 +
 Usually, these roles are filled by two non-playing teams, with one team providing the <<Referee, referee>> and the <<Game Controller Operator, game controller operator>> and the other team providing the <<Assistant Referee, assistant referee>> and the <<Vision Expert, vision expert>>. The assignment of the roles is up to the <<Organizing Committee, organizing committee>>.
 
 すべての参加するチームはこれらの役割に精通した十分な人材を提供できることが求められる
@@ -18,10 +18,10 @@ Every participating team is required to be able to provide enough people who are
 各試合は主審によってコントロールされる。主審は任命された試合に関して競技規則を施行する一切の権限を持つ。主審はフィールド横にある歩行エリアを使うことが推奨される(フィールドセットアップを参照)。 +
 Each match is controlled by the referee. He has full authority to enforce the rules of the Small Size League in connection with the match to which he has been appointed. The referee is encouraged to use the designated walking area next to the field (see <<Field Setup>>).
 
-主審はautomatic refereeソフトウェアによって支援される。人間の審判はautomatic refereeによって生成されたいかなる決定も上書きすることが許可されている。 +
+主審はautomatic refereeソフトウェアによって支援される。人間の主審はautomatic refereeによって生成されたいかなる決定も上書きすることが許可されている。 +
 The referee is assisted by the <<Automatic Referee, automatic referee>> software. The human referee is allowed to override any decision made by the automatic referee software.
 
-プレーに関する事実についての主審の決定は、得点となったかどうか、また試合結果を含め最終である。プレーを再開する前、または試合を終結する前であれば、主審は、その直前の決定が正しくないことに気づいたとき、または主審の裁量によって副審の助言を採用したときのみ、決定を変えることができる。 +
+プレーに関する事実についての主審の決定は、最終的なものである。プレーを再開する前、または試合を終結する前であれば、主審は、その直前の決定が正しくないことに気づいたとき、または主審の裁量によって副審の助言を採用したときのみ、決定を変えることができる。 +
 The decisions of the referee regarding facts connected with play are final. The referee may only change a decision on realizing that it is incorrect or, at his discretion, on the
 advice of an assistant referee, provided that he has not restarted play.
 
@@ -77,7 +77,7 @@ The game controller operator enters the signals of the <<Referee, referee>> into
 The game controller operator watches the game event log for any events that need attention, like detections of an <<Automatic Referee, automatic referee>> or elapsed timers and notifies the <<Referee, referee>>
 
 ==== Vision Expert
-競技中、Vision Expertはフィールドのshared vision systemを担当する。 +
+競技中、Vision Expertはフィールドの共有Visionシステムを担当する。 +
 During a match, the vision expert is in charge of the <<Vision, shared vision system>> on the field.
 
 Visionに大きな問題が発生した場合を除いて、チームメンバは一般的にVision Expertに対して話しかけない事を推奨する。 +
@@ -105,7 +105,7 @@ The robot handler helps <<Match Preparation, preparing the match>>.
 The robot handler asks the referee for <<Timeouts, timeouts>> if necessary.
 * ハンドラーは次のStop Game時にロボットを交代する許可を主審に要求し、主審が許可した場合はロボットを交代する。 +
 The robot handler asks the referee for the permission to substitute a robot in the next stoppage and, if the referee agrees, <<Robot Substitution, substitutes the robot>>.
-* ハンドラはチームの懸念事項を発生する(例えばネットワークやビジョンの問題)。 +
+* ハンドラはチームの懸念事項を表明する(例えばネットワークやビジョンの問題)。 +
 The robot handler voices concerns of the team (for example network issues or vision problems).
 
 === 競技の準備/Match Preparation
@@ -127,7 +127,7 @@ The <<Referee, referee>> ensures that both teams receive vision data and referee
 主審は両チームのハンドラに希望するチームカラー(青か黄色のどちらか)を確認する。両チームが色の割り当てに同意するのであれば、競技全体でその色が使用される。 +
 The <<Referee, referee>> asks the <<Robot Handler, robot handlers>> of the teams about their preferred team color (either blue or yellow). If the teams agree on a color assignment, the colors will be used for the entire match.
 
-しかし、両チームが同じ色を希望するのであれば、主審は色を入れ替えるよう割り当てる。この場合、両チームは前半戦と可能であればオーバータイムの前半戦の後に色を入れ替える。 +
+しかし、両チームが同じ色を希望した場合は、主審は色を任意に割り当てる。この場合、両チームは前半戦と可能であればオーバータイムの前半戦の後に色を入れ替える。 +
 However, if both teams prefer the same color, the referee assigns the colors by chance. In this case, the teams switch the colors after the first half of the match as well as after the first half of the overtime if applicable.
 
 ==== 陣地とキックオフの選択/Choosing Side And Kick-Off
@@ -135,7 +135,7 @@ However, if both teams prefer the same color, the referee assigns the colors by 
 The <<Referee, referee>> tosses a coin with both <<Robot Handler, robot handlers>>. The winning team chooses the goal it will attack in the first half of the match. The other team takes the <<Kick-Off, kick-off>> to start the match.
 
 ==== ゴールキーパーのIDの選択/Choosing Keeper Id
-主審は両チームのハンドラにどのロボットをキーパーとフォワードとして使用するつもりなのか確認し、game controller operatorに情報を連絡する。 +
+主審は両チームのハンドラにどのロボットをキーパーとして使用するつもりなのか確認し、game controller operatorに情報を連絡する。 +
 The <<Referee, referee>> asks both <<Robot Handler, robot handlers>> which robot they will use as the keeper and forwards this information to the <<Game Controller Operator, game controller operator>>.
 
 NOTE: もしチームがキーパーを使用したくない場合、フィールド上に存在しないロボットのIDを選択すること。 +

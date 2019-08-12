@@ -26,10 +26,14 @@ A robot must fit inside a 0.18 meters wide and 0.15 meters high cylinder at any 
 ボールを積極的にスピンさせてボールをロボットに接触し続けさせるためのドリブルデバイスは以下の条件を満たす場合のみ許可される。 +
 Dribbling devices that actively exert spin on the ball, which keep the ball in contact with the robot are permitted under certain conditions:
 
-* ドリブルデバイスは地面からボールを上昇させてはいけない(The dribbling device must not elevate the ball from the ground)
-* ほかのロボットがボールを持ったロボットからボールを引き離せるようにしなければならない。(Another robot must be able to remove the ball from a robot with the ball.)
-* ロボットは自由度をすべて取り除いてボールを完全にコントロールしてはならない。(A robot must not take full control of the ball by removing all of its degrees of freedom.)
-* 上から見たボールの面積の80%はロボットの周囲の外側にある必要がある。この制限はすべてのキックデバイスに対しても適用され、瞬間的に違反することも禁止される。(80% of the area of the ball when viewed from above has to be outside the convex hull around the robot. This limitation applies as well to all kicking devices, even if such infringement is momentary.)
+* ドリブルデバイスは地面からボールを上昇させてはいけない +
+The dribbling device must not elevate the ball from the ground
+* ほかのロボットがボールを持ったロボットからボールを引き離せるようにしなければならない。 +
+Another robot must be able to remove the ball from a robot with the ball.
+* ロボットは自由度をすべて取り除いてボールを完全にコントロールしてはならない。 +
+A robot must not take full control of the ball by removing all of its degrees of freedom.
+* 上から見たボールの面積の80%はロボットの周囲の外側にある必要がある。この制限はすべてのキックデバイスに対しても適用され、瞬間的に違反することも禁止される。 +
+80% of the area of the ball when viewed from above has to be outside the convex hull around the robot. This limitation applies as well to all kicking devices, even if such infringement is momentary.
 
 ==== Vision Pattern
 すべての参加チームは、共有Visionシステムによる動作条件に従わなければならない。チームは標準化されたカラーとパターンをロボットの頭部にセットする必要がある。 +

@@ -1,3 +1,4 @@
+:appendix-caption: 付録/Appendix
 [appendix]
 == 専門用語/Terminology
 === インプレイとアウトオブプレイ/Ball In And Out Of Play

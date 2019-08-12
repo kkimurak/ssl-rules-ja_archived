@@ -35,7 +35,7 @@ image::lawsofthegame_201819_p35_field.png[]
 競技フィールドの表面は緑色のフェルトマットかカーペットである。カーペット下の床は固く平坦で水平である。 +
 The playing surface is green felt mat or carpet. The floor under the carpet is level, flat, and hard.
 
-フィールドはすべてのフィールドライン/field linesから0.7mまで続いている。フィールドのさらに0.4m外側は主審/refereeと副審/assistant refereeが通行するためのエリアである。フィールドの外周には高さ0.1mのフェンスがあり、ロボットやボールがフィールド外に出ることを防ぐ。 +
+フィールドはすべてのフィールドライン/field linesから0.7mまで続いている。フィールドの外周には高さ0.1mのフェンスがあり、ロボットやボールがフィールド外に出ることを防ぐ。フィールドのさらに0.4m外側は主審/refereeと副審/assistant refereeが通行するためのエリアである。 +
 The field surface will continue for 0.7 meters beyond the <<Field Lines, field lines>> on all sides. The outer 0.4 meters of this runoff area, separated from the robot area by a 0.1 meters tall wall, is used as a designated walking area for the <<Referee, referee>> and the <<Assistant Referee, assistant referee>>.
 
 

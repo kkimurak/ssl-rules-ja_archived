@@ -14,7 +14,7 @@ endif::basebackend-html[]
 :icons: font
 :numbered:
 
-NOTE: ルールにおける審判、チームメンバー、運営その他の男性称の使用は単純化のためであり、性別を問わず適用されます。 +
+NOTE: ルールにおける審判、チームメンバー、運営その他の男性称の使用は単純化のためであり、性別を問わず適用される。 +
 References to the male gender in the rules with respect to referees, team members, officials, etc. are for simplification and apply to both males and females.
 
 include::chapters/introduction.adoc[]

@@ -4,9 +4,9 @@
 To play an official match in the Small Size League, four impartial roles must be filled:
 
 * 主審(the <<Referee, referee>>)
-* 副審)(the <<Assistant Referee, assistant referee>>)
+* 副審(the <<Assistant Referee, assistant referee>>)
 * game controller operator(the <<Game Controller Operator, game controller operator>>)
-* vision expert)(the <<Vision Expert, vision expert>>)
+* vision expert(the <<Vision Expert, vision expert>>)
 
 通常、これらの役割には、試合に出場していない2チームによって行われる。1チーム目から主審とgame controller operatorを、2チーム目からは副審とvision expertを担当する。これらの役割は組織委員会によって割り当てられる。 +
 Usually, these roles are filled by two non-playing teams, with one team providing the <<Referee, referee>> and the <<Game Controller Operator, game controller operator>> and the other team providing the <<Assistant Referee, assistant referee>> and the <<Vision Expert, vision expert>>. The assignment of the roles is up to the <<Organizing Committee, organizing committee>>.
@@ -186,7 +186,7 @@ As a result, the time needed for a match is much greater than the playing time.
 タイムアウトを取りたい時、ハンドラは主審に確認をとらなければならない。タイムアウトは休憩のように扱われ、両チームとも自らのソフトウェアとハードウェアの修正を行うことが許可されている(自律性を参照)。 +
 The <<Robot Handler, robot handler>> has to ask the referee for a timeout. Timeouts are handled like <<Overview, breaks>>, meaning that both teams are allowed to make modifications to their software and hardware (see <<Autonomy>>).
 
-どちらのチームも競技開始から4回までのタイムアウトが割り当てられている。すべてのタイムアウトの合計は300秒まで許されている。タイムアウトはstop game中のみ取得することができる。時間はgame controller operatorによて監視と記録がされている。 +
+どちらのチームも競技開始から4回までのタイムアウトが割り当てられている。すべてのタイムアウトの合計は300秒まで許されている。タイムアウトはstop game中のみ取得することができる。時間はgame controller operatorによって監視と記録がされている。 +
 Each team is allocated 4 timeouts at the beginning of the match. A total of 300 seconds is allowed for all timeouts. Timeouts may only be taken during a game
 stoppage. The time is monitored and recorded by the <<Game Controller Operator, game controller operator>>.
 

@@ -89,7 +89,7 @@ There is a grace period of 2 seconds for the robots to move away from the oppone
 ボール配置の間、配置を担当しないチームのすべてのロボットはボールと配置位置の間のラインから少なくとも0.5mは離れなければならない(禁止された領域はオーバルのようなスタジアム状の形になる。)。 +
 During <<Ball Placement, ball placement>>, all robots of the non-placing team have to keep at least 0.5 meters distance to the line between the ball and the placement position (the forbidden area forms a stadium shape).
 
-ボール配置を担当しないチームがボールと配置位置の間のラインに2秒以上近づいている場合、ファイルが与えられる。この場合、ボール配置の手順は再スタートする。
+ボール配置を担当しないチームがボールと配置位置の間のラインに2秒以上近づいている場合、ファウルが与えられる。この場合、ボール配置の手順は再スタートする。
 If a robot of the non-placing team is too close to the line between the ball and the placement position for more than 2 seconds, it commits a foul.
 In this case, the placement procedure is restarted.
 
@@ -131,7 +131,7 @@ There is a grace period of 2 seconds for the robots to slow down.
 NOTE: このルールはボール配置には適用されない。 +
 This rule does not apply to <<Ball Placement, ball placement>>.
 
-NOTE: ロボットの速度制限の意図は、Stopコマンドが主導のボール配置とロボットの交代に使用されるため、ロボットがフィールド内にいる人間の怪我を防ぐためである。 +
+NOTE: ロボットの速度制限の意図は、Stopコマンドが手動のボール配置とロボットの交代に使用されるため、ロボットがフィールド内にいる人間の怪我を防ぐためである。 +
 Since the stop command is used for manual ball placement and <<Robot Substitution, robot substitution>>, the intention of the robot speed limit is to avoid robots harming the people on the field.
 
 ==== ディフェンダーがボールに近すぎる/Defender Too Close To Ball

@@ -10,7 +10,7 @@ NOTE: ボールが高速に転がる場合、特にstop中はロボットに速�
 If the ball moves very quickly, it is hard to always keep the required distance to the ball, especially since the speed of the robots is limited during stop. Therefore, it is sufficient if it is obvious to the referee that the robots try their best to follow the distance rule.
 
 .用途/Usage
-stopコマンドはボールが(ゴールを含む)フィールドラインを超えた後や反則が発生した後に競技を一時停止するために使われ、Haltやタイムアウト、automatic ball placementの再開を準備するために使われる。ロボットの速度制限とボールとの最小距離によて、主審や副審がボールを安全に干渉なく置くことができる。 +
+stopコマンドはボールが(ゴールを含む)フィールドラインを超えた後や反則が発生した後に競技を一時停止するために使われ、Haltやタイムアウト、automatic ball placementの再開を準備するために使われる。ロボットの速度制限とボールとの最小距離によって、主審や副審がボールを安全に干渉なく置くことができる。 +
 The stop command is used to pause the game after the ball crossed the <<Field Lines, field lines>> (including goals) or an offense occurred as well as to prepare the start or resumption of the game after halt, timeouts and automatic ball placement. The robot speed limit and the minimum distance to the ball allow the referee or assistant referee to place the ball safely and without interference.
 
 ==== ハルト/Halt

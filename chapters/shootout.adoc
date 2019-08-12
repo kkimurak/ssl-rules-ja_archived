@@ -9,7 +9,7 @@ Only one attacking robot and one keeper is allowed per team. During a shoot-out 
 シュートアウトの手順は以下である: +
 The procedure of a shoot-out attempt is as follows:
 
-. ボールは相手のゴールから(Division Aなら)8mか(Division Bなら)6mの位置にあるミッドライン(ハーフウェイラインではない)に人間の審判によって置かれる。(The ball is placed by the human referee on the <<Additional Lines, mid-line>> (not halfway line), 8 meters (division A) or 6 meters (division B) away from the opponent goal.)
+. ボールは相手のゴールから(ディヴィジョンAなら)8mか(ディヴィジョンBなら)6mの位置にあるミッドライン(ハーフウェイラインではない)に人間の審判によって置かれる。(The ball is placed by the human referee on the <<Additional Lines, mid-line>> (not halfway line), 8 meters (division A) or 6 meters (division B) away from the opponent goal.)
 . ペナルティーキックのコマンドが発行されたとき、守備側チームのキーパーはゴールラインに移動し、ラインに触れ続けなければならない(When the <<Penalty Kick, penalty>> command is issued, the defending keeper has to move to the goal line and keep touching it.)
 . normal startのコマンドが発行されたとき、アタッカーはボールを操作することが許可される。ボールは相手ゴールに向かって動かさなければならない。これは、SSL-Visionの座標系におけるx座標によって測定されている。(When the <<Normal Start, normal start>> command is issued, the attacker is allowed to <<Ball Manipulation, manipulate the ball>>. The ball has to only move towards the opponent goal, as measured by its x coordinate in the coordinate system of <<Vision, SSL-Vision>>.)
 . ボールがインプレイになった時、守備側チームのキーパはペナルティキックと同じように再び自由に動いてよい。(When the ball is <<Ball In And Out Of Play, in play>>, the defending keeper may move freely again, analogous to a <<Penalty Kick, penalty kick>>.)

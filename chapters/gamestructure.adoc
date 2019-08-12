@@ -39,7 +39,7 @@ The referee ensures a safe match for all humans and robots
 The referee ensures a fair match according to the rules of the Small Size League
 * 主審は許可されていない人間やチームメンバーによる干渉が発生していないことを確かめる +
 The referee ensures that there is no interference by unauthorized persons or team members
-* 主審か副審はキックオフやペナルティキック(division A)もしくは試合の停止(division B)の時にボールを配置する。その後、主審は試合を再開する。 +
+* 主審か副審はキックオフやペナルティキック(ディヴィジョンA)もしくは試合の停止(ディヴィジョンB)の時にボールを配置する。その後、主審は試合を再開する。 +
 The referee or assistant referee places the ball for <<Kick-Off, kick-offs>> and <<Penalty Kick, penalties>> (division A) or after every <<Stopping The Game, stoppage>> (division B). Subsequently, the referee resumes the match
 * 主審は時間内に試合が開始もしくは再開されることを確かめる +
 The referee ensures that the game is started and resumed in time
@@ -57,7 +57,7 @@ No team members are allowed to talk to the assistant referee.
 The assistant referee indicates when misconduct or any other incident has occurred out of the view of the referee
 * 副審は主審と不明確な状況について議論をする +
 The assistant referee discusses unclear situations with the referee
-* 主審か副審はキックオフやペナルティキック(division A)もしくは試合の停止(division B)の時にボールを配置する。その後、主審は試合を再開する +
+* 主審か副審はキックオフやペナルティキック(ディヴィジョンA)もしくは試合の停止(ディヴィジョンB)の時にボールを配置する。その後、主審は試合を再開する +
 The referee or assistant referee places the ball for <<Kick-Off, kick-offs>> and <<Penalty Kick, penalties>> (division A) or after every <<Stopping The Game, stoppage>> (division B)
 
 

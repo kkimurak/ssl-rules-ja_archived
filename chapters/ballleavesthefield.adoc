@@ -34,7 +34,7 @@ After the ball has been placed, a <<Direct Free Kick, direct free kick>> is awar
 ゴールキックはボールが最後にボールに触れなかったチームのゴールラインを横切ってフィールドを離れた後にゲームを再開するために使用される。 +
 A goal kick is used to restart the game after the ball left the field by crossing the goal line of the team that did not touch the ball last.
 
-NOTE: Division B では、aimless kick ruleが適用されるかもしれない。 +
+NOTE: ディヴィジョンB では、aimless kick ruleが適用されるかもしれない。 +
 In division B, the <<Aimless Kick [small]#(_division B only_)#, aimless kick rule>> might apply instead.
 
 ==== コーナーキック/Corner Kick

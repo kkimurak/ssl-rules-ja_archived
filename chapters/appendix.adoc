@@ -112,18 +112,18 @@ Chapter <<ロボットの交代/Robot Substitution>>:
 |===
 
 [appendix]
-== Divisionごとの違い/Differences Between Divisions
+== ディヴィジョンごとの違い/Differences Between Divisions
 
-これは、divisionAとdivisionBの違いの完全なリストである。 +
+これは、ディヴィジョンAとディヴィジョンBの違いの完全なリストである。 +
 This is a complete list of differences between <<Divisions, division>> A and <<Divisions, division>> B.
 
-* Division A はDivision Bよりも大きなフィールドとlarger ゴールで試合を行う。その結果、シュートアウトもより遠くから行われる。 +
+* ディヴィジョンAはディヴィジョンBよりも大きなフィールドとlarger ゴールで試合を行う。その結果、シュートアウトもより遠くから行われる。 +
 Division A plays on a <<Dimensions, larger field>> with <<Goals, larger goals>> than division B. As a result, the <<Shoot-Out, shoot-out>> is taken from a greater distance as well.
-* Division AはDivision Bよりも多いロボットで試合を行う。 +
+* ディヴィジョンAはディヴィジョンBよりも多いロボットで試合を行う。 +
 Division A plays with <<Number Of Robots, more robots>> than division B.
-* ボール配置の手順はDivision Aでは必須であり、Division Bでは任意である。 +
+* ボール配置の手順はディヴィジョンAでは必須であり、ディヴィジョンBでは任意である。 +
 The automatic <<Ball Placement, ball placement>> procedure is mandatory for division A and optional for division B.
-* 無意味なキックのルールはDivision Bにのみ適用される。 +
+* 無意味なキックのルールはディヴィジョンBにのみ適用される。 +
 The <<Aimless Kick [small]#(_division B only_)#, aimless kick>> rule only applies to division B.
-* Division Aには進行の欠如が呼び出されるより前にフリーキックをするための小さな時間枠がある。 +
+* ディヴィジョンAには進行の欠如が呼び出されるより前にフリーキックをするための小さな時間枠がある。 +
 There is a smaller time window in division A for taking a free kick before <<Lack Of Progress, lack of progress>> is called.

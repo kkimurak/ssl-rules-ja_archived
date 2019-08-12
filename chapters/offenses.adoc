@@ -17,7 +17,7 @@ All minor offenses are listed below.
 A kick is aimless when after the ball touched a robot, it subsequently crossed the midline and then its opponent's goal line outside the goal without touching another robot. A kick-off kick cannot be aimless, as the ball is located at the midline and does therefore not cross it.
 
 ==== 進行の欠落/Lack Of Progress
-1チームだけがボールを操作することが許可されている(キックオフ、直接フリーキック、間接フリーキック、ペナルティーキック)時に、ボールを動かして試合をインプレイに変化させない場合、進行の欠落が発生している。制限時間はDivisionAの間接フリーキックと直接フリーキックが5秒、それ以外は10秒である。 +
+1チームだけがボールを操作することが許可されている(キックオフ、直接フリーキック、間接フリーキック、ペナルティーキック)時に、ボールを動かして試合をインプレイに変化させない場合、進行の欠落が発生している。制限時間はディヴィジョンAの間接フリーキックと直接フリーキックが5秒、それ以外は10秒である。 +
 There is a lack of progress if only one team is allowed to <<Ball Manipulation, manipulate the ball>> (<<Kick-Off, kick-off>>, <<Direct Free Kick, direct free kick>>, <<Indirect Free Kick, indirect free kick>>, <<Penalty Kick, penalty kick>>) and does not bring the ball <<Ball In And Out Of Play, into play>> in time. The time limit is 5 seconds for <<Indirect Free Kick, indirect free kicks>> and <<Direct Free Kick, direct free kicks>> in division A and 10 seconds in all other cases.
 
 また、ボールがどちらかのチームのディフェンスエリアに入っている場合、ゴールキーパーだけがボールを操作してよいロボットなので、10秒間たてば進行の欠落となる。 +

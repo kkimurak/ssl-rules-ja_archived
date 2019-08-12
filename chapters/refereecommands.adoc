@@ -74,7 +74,7 @@ If the ball is already at the placement position (for example after a failed fre
 NOTE: placementコマンドが発行された時点では、ボールはまだ動いている可能性がある。 +
 The ball may still be moving when the placement command is issued.
 
-Division Aのすべてのチームでボールの配置が必須である。 Division Bのチームは主審と話すことによって、試合中や試合のいつでも試合の残り時間でボール配置をしないことを決定しても良い。主審はgame controller operatorに対してそのチームのボール配置を無効にするように指示する。この場合、チームは相手チームがボールを配置した後にボールをインプレイに持ち込むことができる。もし相手チームがボール配置に失敗したり、ボール配置ができるチームがいない場合は、ボールは主審か副審によって配置される。 +
+ディヴィジョンAのすべてのチームでボールの配置が必須である。ディヴィジョンBのチームは主審と話すことによって、試合中や試合のいつでも試合の残り時間でボール配置をしないことを決定しても良い。主審はgame controller operatorに対してそのチームのボール配置を無効にするように指示する。この場合、チームは相手チームがボールを配置した後にボールをインプレイに持ち込むことができる。もし相手チームがボール配置に失敗したり、ボール配置ができるチームがいない場合は、ボールは主審か副審によって配置される。 +
 Ball placement is mandatory for all teams in division A.
 Teams in division B may decide, at any time before or during the game, not to place the ball for the rest of the game by talking to the <<Referee, referee>>, who in turn tells the <<Game Controller Operator, game controller operator>> to disable ball placement for this team.
 In this case, the team is allowed to bring the ball into play, after the ball was placed by the opposing team.

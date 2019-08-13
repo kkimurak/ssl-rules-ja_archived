@@ -124,8 +124,6 @@ At least one automatic referee is required per game. If more than one automatic 
 ソースコードがオープンソースであることを前提として、新たなautomatic refereeの実装を提供することができる。新しい実装は少なくとも競技会の3か月前までにアナウンスされなければならない。技術委員会/technical committeeはその実装を使用するかしないかを決定する。 +
 New automatic referee implementations can be provided, given that the source code is open-sourced. New implementations must be announced at least three months before the competition. The <<Technical Committee, technical committee>> decides if an implementation will be used or not.
 
-NOTE: (訳者注記)元の英文の解釈があっているのか練習会かチーム内のミーティングで確認したいです。
-
 Game Event TableはAutomatic Refereeの実装がどのゲームイベントを検出できなけらばならないかを示す。 +
 The <<Game Event Table>> shows which game events an automatic referee implementation must be able to detect.
 

@@ -33,14 +33,14 @@ If both teams are clearly unable to bring the ball <<Ball In And Out Of Play, in
 キックオフ、直接フリーキック、間接フリーキック、ペナルティーキックによってボールがインプレイに持ち込まれたとき、キッカーは他のロボットが触れるか、試合が停止するまでボールに触れてはいけない。 +
 When the ball is brought <<Ball In And Out Of Play, into play>> following a <<Kick-Off, kick-off>>, <<Direct Free Kick, direct free kick>>, <<Indirect Free Kick, indirect free kick>> or <<Penalty Kick, penalty kick>>, the kicker is not allowed to touch the ball until it has been touched by another robot or the game has been stopped.
 
-インプレイになったとみなされるには、少なくとも0.05m以上ボールが動いていなければいけない。（訳注、つまり風圧とかでボールを動かしてからボールに触れるとダブルタッチ扱いになってしまう？） +
+インプレイになったとみなされるには、少なくとも0.05m以上ボールが動いていなければいけない。 +
 The ball must have moved at least 0.05 meters to be considered as <<Ball In And Out Of Play, in play>>.
 
 NOTE: キックを行おうとしている間に、ロボットが短い距離でボールを跳ねさせてしまう事がありうることが理解される。そこで、ロボットがルールに違反しているかどうかの判定に0.05mの距離が使用される。技術的にロボットが一度しかボールに触れていなかったとしても、0.05m以上ボールと接触し続けた場合は、ダブルタッチとみなされる。 +
 It is understood that the ball may be bumped by the robot multiple times over a short distance while the kick is being taken. This is why a distance of 0.05 meters is used to decide whether a robot violates this rule or not. Remaining in contact with the ball for more than 0.05 meters also counts as double touch, even though technically the robot only touched the ball once.
 
 ==== ディフェンスエリアにあるアタッカー/Attacker In Defense Area
-相手のディフェンスエリアに部分的もしくは完全に入っている場合、ロボットはボールに触れてはいけない。(訳注、逆に言えばボールに触れずに通過する目的であれば相手のディフェンスエリアに入っていいって事？) +
+相手のディフェンスエリアに部分的もしくは完全に入っている場合、ロボットはボールに触れてはいけない。 +
 A robot must not touch the ball while being partially or fully inside the opponent <<Defense Area, defense area>>.
 
 NOTE: ボールが試合の停止中の場合、より厳密なルールであるロボットがディフェンスエリアに近すぎるが適用される。 +
@@ -112,7 +112,7 @@ If both robots are pushing each other with similar force, no team is at fault.
 Robots must not surround the ball to prevent access by others.
 
 ==== 転倒や部品の脱落/Tipping Over Or Dropping Parts
-ロボットは他のロボットに潜在的な脅威を与えるように、フィールドで転倒したり、部品を脱落させてはならない。（訳者注：この内容だと意図的にパーツをばらまくのが禁止されているイメージに近くて不慮の事故の場合はノーカウント？それともそれも違反扱い？） +
+ロボットは他のロボットに潜在的な脅威を与えるように、フィールドで転倒したり、部品を脱落させてはならない。 +
 A robot must not tip over, break or drop parts on the field that pose a potential threat to other robots.
 
 ロボットがこのルールに違反した場合、ロボットの交代を行わなければならない。 +

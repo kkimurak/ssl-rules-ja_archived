@@ -181,7 +181,7 @@ When the force start command is issued, the game is immediately resumed and both
 主審は両方のチームがボールに近づき操作することが許可されている間に、少なくとも10秒間試合が進行していることが明確でない場合には、stopコマンド停止コマンドの後にforce startコマンドを発行することができる。 +
 The referee can issue a stop command followed by force start if there is a clear lack of progress for at least 10 seconds while both teams are allowed to approach and <<Ball Manipulation, manipulate the ball>>.
 
-また、ゲームを止めなければならず、片方もしくは両方のチームも不具合がない場合に、試合を再開するために使用することもできる。 +
+また、ゲームを止めなければならず、両方のチームに不具合がない場合、もしくは両方のチームに不具合がある場合に、試合を再開するために使用することもできる。 +
 It can also be used to resume the game when the game had to be stopped and no team or both teams are at fault.
 
 ==== ペナルティーキック/Penalty Kick

@@ -13,6 +13,8 @@ If the ball moves very quickly, it is hard to always keep the required distance 
 stopコマンドはボールが(ゴールを含む)フィールドラインを超えた後や反則が発生した後に競技を一時停止するために使われ、Haltやタイムアウト、automatic ball placementの再開を準備するために使われる。ロボットの速度制限とボールとの最小距離によって、主審や副審がボールを安全に干渉なく置くことができる。 +
 The stop command is used to pause the game after the ball crossed the <<Field Lines, field lines>> (including goals) or an offense occurred as well as to prepare the start or resumption of the game after halt, timeouts and automatic ball placement. The robot speed limit and the minimum distance to the ball allow the referee or assistant referee to place the ball safely and without interference.
 
+NOTE: (訳者注)一般的に「ストップゲーム」もしくは単に「ストップ」と呼称されることが多い。
+
 ==== ハルト/Halt
 .定義/Definition
 haltコマンドが発行されると、すべてのロボットは動作を停止し、ボールを操作してはいけない。 +
@@ -93,6 +95,7 @@ Teams in division B may decide, at any time before or during the game, not to pl
 In this case, the team is allowed to bring the ball into play, after the ball was placed by the opposing team.
 If the opposing team fails to place the ball or no team can place the ball, it is placed by the <<Referee, referee>> or the <<Assistant Referee, assistant referee>>.
 
+NOTE: (訳者注)一般的に「ボールプレースメント」と呼称されることが多い。
 
 === 試合の再開/Resuming The Game
 ボール配置完了後、試合は以下のコマンドのうちのどれかを使用して再開される。 +
@@ -100,7 +103,7 @@ After the ball has been placed, the game is resumed using one of the following c
 
 // In division A, the ball will be placed automatically by the robots if the following command is a free kick or force start (see <<Ball Placement>>).
 
-==== Normal Start
+==== ノーマルスタート/Normal Start
 .定義/Definition
 2段階式コマンドの場合、Normal startが送信されると、アタッカーがボールを操作することになる。Normal startから直接試合を再開することはできない。 +
 For two-staged referee commands, when normal start is sent, an attacker may <<Ball Manipulation, manipulate the ball>>. A match cannot be resumed directly via normal start.
@@ -147,6 +150,8 @@ When the ball is <<Ball In And Out Of Play, in play>>, the kicker may not touch 
 直接フリーキックはファウルが発生した後に試合を再開するために使われる。さらに、ゴールキックとコーナーキックも直接フリーキックに割り当てられている。 +
 Direct free kicks are used to restart the game after a <<Fouls, foul>> has occured. Additionally, <<Goal Kick, goal kicks>> and <<Corner Kick, corner kicks>> are mapped to direct free kicks.
 
+NOTE: (訳者注)一般的に「ダイレクトフリーキック」もしくは単に「ダイレクト」と呼称されることが多い。
+
 ==== 関節フリーキック/Indirect Free Kick
 .定義/Definition
 間接フリーキックは直接フリーキックと似ているが違いがある：間接フリーキックのあと、ボールがプレーに入った後で、守備側チームのゴールに入る前にボールが攻撃側チームのロボットに接触した場合にのみ、ゴールで得点が得られる。ボールが攻撃側のロボットの1台にも触れることなく守備側のチームのゴールに入った場合は、ゴール外のゴールラインを横切ったように扱う。 +
@@ -164,6 +169,8 @@ In association football, it is sufficient if any player (including the keeper) t
 .用途/Usage
 間接フリーキックは軽微な違反が発生した時に試合を再開するために使用する。さらにスローインも間接フリーキックに割り当てられている。 +
 Indirect free kicks are used to restart the game after a <<Minor Offenses, minor offense>> has occured. Additionally, <<Throw-In, throw-ins>> are mapped to indirect free kicks.
+
+NOTE: (訳者注)一般的に「インダイレクトフリーキック」もしくは単に「インダイレクト」と呼称されることが多い。
 
 ==== フォーススタート/Force Start
 .定義/Definition

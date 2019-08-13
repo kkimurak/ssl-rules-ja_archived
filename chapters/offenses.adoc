@@ -16,6 +16,8 @@ All minor offenses are listed below.
 ロボットがボールに触れた後、ミッドラインを通過してさらに別のロボットに触れずにゴール以外のゴールラインを通過した時、そのキックは無意味である。キックオフをするためのキックはボールはミッドラインに位置しているのでミッドラインを交差していない扱いとなり、そのため無意味なキックではない。 +
 A kick is aimless when after the ball touched a robot, it subsequently crossed the midline and then its opponent's goal line outside the goal without touching another robot. A kick-off kick cannot be aimless, as the ball is located at the midline and does therefore not cross it.
 
+NOTE: (訳者注)一般的に「エイムレスキック」、もしくはルールを参考にした競技であるアイスホッケーに由来して「アイシング」と呼称されることが多い。
+
 ==== 進行の欠落/Lack Of Progress
 1チームだけがボールを操作することが許可されている(キックオフ、直接フリーキック、間接フリーキック、ペナルティーキック)時に、ボールを動かして試合をインプレイに変化させない場合、進行の欠落が発生している。制限時間はディヴィジョンAの間接フリーキックと直接フリーキックが5秒、それ以外は10秒である。 +
 There is a lack of progress if only one team is allowed to <<Ball Manipulation, manipulate the ball>> (<<Kick-Off, kick-off>>, <<Direct Free Kick, direct free kick>>, <<Indirect Free Kick, indirect free kick>>, <<Penalty Kick, penalty kick>>) and does not bring the ball <<Ball In And Out Of Play, into play>> in time. The time limit is 5 seconds for <<Indirect Free Kick, indirect free kicks>> and <<Direct Free Kick, direct free kicks>> in division A and 10 seconds in all other cases.
@@ -46,13 +48,15 @@ A robot must not touch the ball while being partially or fully inside the oppone
 NOTE: ボールが試合の停止中の場合、より厳密なルールであるロボットがディフェンスエリアに近すぎるが適用される。 +
 When the ball is <<Ball In And Out Of Play, out of play>>, the more strict rule <<Robot Too Close To Opponent Defense Area>> applies instead.
 
-==== オーバードリブル/Excessive Dribbling
+==== ドリブルの超過/Excessive Dribbling
 
 ロボットはドリブルが開始されたボールの位置から直線距離で測定して1m以上ドリブルしてはいけない。(ドリブルをした距離の測定方法としては)ロボットはボールと接触したときにドリブルを開始し、ボールとロボットの間に視認できるだけの間隔がある場合にドリブルを停止する。
 A robot must not <<Dribbling Device, dribble>> the ball further than 1 meter, measured linearly from the ball location where the dribbling started. A robot begins dribbling when it makes contact with the ball and stops dribbling when there is an observable separation between the ball and the robot.
 
 NOTE: 人間のサッカー選手が頻繁に行うように、ロボットがボールを前に蹴るなどして定期的にボールの所有権を失う限り、ドリブラー使用して長い距離をドリブルし続けることができる。 +
 Dribblers can still be used to dribble large distances with the ball as long as the robot periodically loses possession, such as kicking the ball ahead of it as human soccer players often do.
+
+NOTE: (訳者注)一般的に「オーバードリブル」と呼称されることが多い。
 
 ==== ボール速度/Ball Speed
 ロボットは3D空間内で6.5m/s以上の速さでボールをシュートしてはいけない。 +
@@ -110,6 +114,8 @@ If both robots are pushing each other with similar force, no team is at fault.
 ==== ボールの保持/Ball Holding
 ロボットは他のロボットがアクセスできないようにボールを囲んではならない。 +
 Robots must not surround the ball to prevent access by others.
+
+NOTE: (訳者注)一般的に「ホールディング」と呼称されることが多い。
 
 ==== 転倒や部品の脱落/Tipping Over Or Dropping Parts
 ロボットは他のロボットに潜在的な脅威を与えるように、フィールドで転倒したり、部品を脱落させてはならない。 +

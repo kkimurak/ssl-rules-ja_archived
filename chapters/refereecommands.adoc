@@ -81,7 +81,7 @@ When a team has failed to place the ball 5 times in a row, it is not allowed to 
 . もしボール配置できるチームがいない場合、ボールは主審か副審によって配置される。主審または副審は、ボールを動かすために、いわゆるボールハンドラ（長い、できれば黒の棒状のデバイス）を使用することが推奨される。 +
 If no team can place the ball, the ball is placed by the <<Referee, referee>> or the <<Assistant Referee, assistant referee>>. Both the referee as well as the assistant referee are advised to use a so-called ball handler (a long, preferably black stick-like device) to move the ball.
 
-NOTE: ボールがすでに配置位置にある場合（たとえば、他のチームによるフリーキックの失敗後）、ロボットがボールを操作しなくてもボール配置は成功する可能性がある。これは、配置チームによる貢献なしに失敗した試行のリセットのカウンターにつながる可能性がある。 +
+NOTE: ボールがすでに配置位置にある場合（たとえば、他のチームによるフリーキックの失敗後）、ロボットがボールを操作しなくてもボール配置は成功する可能性がある。これは、配置チームによる貢献なしに失敗回数のカウンターのリセットにつながる可能性がある。 +
 If the ball is already at the placement position (for example after a failed free kick by the other team), the ball placement can be successful without a robot manipulating the ball. This could lead to the counter for failed attempts resetting without a contribution by the placing team.
 
 NOTE: placementコマンドが発行された時点では、ボールはまだ動いている可能性がある。 +

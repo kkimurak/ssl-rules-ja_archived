@@ -86,7 +86,7 @@ During <<Stop, stop>>, <<Direct Free Kick, direct free kicks>> and <<Indirect Fr
 There is a grace period of 2 seconds for the robots to move away from the opponent defense area.
 
 ==== ボール配置に干渉する/Ball Placement Interference
-ボール配置の間、配置を担当しないチームのすべてのロボットはボールと配置位置の間のラインから少なくとも0.5mは離れなければならない(禁止された領域はオーバルのようなスタジアム状の形になる。)。 +
+ボール配置の間、配置を担当しないチームのすべてのロボットはボールと配置位置の間のラインから少なくとも0.5mは離れなければならない(この領域はスタジアム状の形になる)。 +
 During <<Ball Placement, ball placement>>, all robots of the non-placing team have to keep at least 0.5 meters distance to the line between the ball and the placement position (the forbidden area forms a stadium shape).
 
 ボール配置を担当しないチームがボールと配置位置の間のラインに2秒以上近づいている場合、ファウルが与えられる。この場合、ボール配置の手順は再スタートする。
@@ -101,7 +101,7 @@ This rule does not cover all cases of ball placement interference. The <<Referee
 At the moment of collision of two robots of different teams, the difference of the speed vectors of both robots is taken and projected onto the line that is defined by the position of both robots. If the length of this projection is greater than 1.5 meters per second, the faster robot committed a foul. If the absolute robot speed difference is less than 0.3 meters per second, both conduct a foul but the game will not be stopped.
 
 ==== プッシング/Pushing
-あるロボットが相手のロボットに外力を加えて押していて、両方のロボットがボールもしくは互いに接触している(たとえば互いのロボットが相手のロボットの方向に移動している)時、これはPushingの反則となる。 +
+あるロボットが相手のロボットに外力を加えて押していて、両方のロボットがボールもしくは互いに接触している(たとえば互いのロボットが相手のロボットの方向に移動している)時、これはプッシングの反則となる。 +
 A robot pushes an opponent robot if both robots keep contact to the ball or to each other while the robot exerts force onto the opponent robot, such that both robots travel towards the opponent robot.
 
 NOTE: 両方のロボットが同じような力で互いに押し合っている場合は、どちらに対してもファウルはとられない。 +

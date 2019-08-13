@@ -1,6 +1,6 @@
 == リーグ概要/League Overview
 === 委員会/Committees
-(ロボカップの他のリークと同じように)小型機リーグは3つの異なる委員会(実行委員会/executive committee,技術委員会/technical committee,組織委員会/organizing committee)で運営されている。これらの委員会はそれぞれ異なる責任を持っている。各委員会の委員はロボカップ小型機リーグの公式ウェブサイト(https://ssl.robocup.org)で確認できる。 +
+(ロボカップの他のリークと同じように)小型機リーグは3つの異なる委員会(実行委員会/executive committee,技術委員会/technical committee,組織委員会/organizing committee)で運営されている。これらの委員会はそれぞれ異なる責任を持っている。各委員会の委員はロボカップ小型機リーグの公式ウェブサイト(https://ssl.robocup.org) で確認できる。 +
 The Small Size League (like every other league of the RoboCup) is run by close cooperation of three different committees (<<Executive Committee, executive committee>>, <<Technical Committee, technical committee>> and <<Organizing Committee, organizing committee>>), all with a different set of responsibilities. The members of the respective committees can be found on the official RoboCup Small Size League website (https://ssl.robocup.org).
 
 NOTE: 実際には、技術委員会と組織委員会に厳密な区別はない。各委員会の委員が協力して業務をこなしている。 +

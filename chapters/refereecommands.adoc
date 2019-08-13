@@ -74,7 +74,7 @@ For a <<Force Start, force start>>, a team is drawn by chance and must place the
 The ball must be visible and must not be inside a field corner, a goal corner or behind the goal, before the ball placement starts
 . 主審はいつでもボールを手動で配置することを決定できる +
 The <<Referee, referee>> can decide to place the ball manually at any time
-. 主審は試合の残り時間でautomatic ball placementを無効化することが決定できる。TC/OCはこの決定に同意しなければならない。 +
+. 主審は、試合の終わりまでautomatic ball placementを無効化とすることが決定できる。TC/OCはこの決定に同意しなければならない。 +
 The <<Referee, referee>> can decide to disable automatic ball placement for the rest of the game. TC/OC must agree with this decision
 . 片方のチームが連続して5回ボールを配置することに失敗した場合、そのハーフが終わるまでボールを配置することは許されない。フィールド外に出てしまった事で発生したすべてのフリーキックは相手チームに与えられる。その他のルール違反や両チームともボールを配置することに失敗した場合、ボールは主審によって配置される +
 When a team has failed to place the ball 5 times in a row, it is not allowed to place the ball for the rest of the game half. All free kicks that were a result of the ball leaving the field, are awarded to the opposing team. For all other rule violations or when both teams failed to place the ball, the ball is placed by the <<Referee, referee>>

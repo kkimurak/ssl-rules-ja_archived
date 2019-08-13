@@ -11,7 +11,7 @@ To play an official match in the Small Size League, four impartial roles must be
 通常、これらの役割には、試合に出場していない2チームによって行われる。1チーム目は主審とgame controller operatorを、2チーム目は副審とvision expertを担当する。これらの役割は組織委員会によって割り当てられる。 +
 Usually, these roles are filled by two non-playing teams, with one team providing the <<Referee, referee>> and the <<Game Controller Operator, game controller operator>> and the other team providing the <<Assistant Referee, assistant referee>> and the <<Vision Expert, vision expert>>. The assignment of the roles is up to the <<Organizing Committee, organizing committee>>.
 
-すべての参加するチームはこれらの役割に精通した十分な人材を提供できることが求められる
+すべての参加するチームはこれらの役割に精通した十分な人材を提供できることが求められる。
 Every participating team is required to be able to provide enough people who are familiar with these roles.
 
 ==== 主審/Referee

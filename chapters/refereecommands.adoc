@@ -76,7 +76,7 @@ For a <<Force Start, force start>>, a team is drawn by chance and must place the
 The ball must be visible and must not be inside a field corner, a goal corner or behind the goal, before the ball placement starts
 . 主審はいつでもボールを手動で配置することを決定できる +
 The <<Referee, referee>> can decide to place the ball manually at any time
-. 主審は、試合の終わりまでautomatic ball placementを無効化とすることが決定できる。TC/OCはこの決定に同意しなければならない。 +
+. 主審は、試合の終わりまでautomatic ball placementを無効化とすることを決定できる。TC/OCはこの決定に同意しなければならない。 +
 The <<Referee, referee>> can decide to disable automatic ball placement for the rest of the game. TC/OC must agree with this decision
 . 片方のチームが連続して5回ボールを配置することに失敗した場合、そのハーフが終わるまでボールを配置することは許されない。フィールド外に出てしまった事で発生したすべてのフリーキックは相手チームに与えられる。その他のルール違反や両チームともボールを配置することに失敗した場合、ボールは主審によって配置される +
 When a team has failed to place the ball 5 times in a row, it is not allowed to place the ball for the rest of the game half. All free kicks that were a result of the ball leaving the field, are awarded to the opposing team. For all other rule violations or when both teams failed to place the ball, the ball is placed by the <<Referee, referee>>
@@ -189,7 +189,7 @@ It can also be used to resume the game when the game had to be stopped and no te
 ペナルティーキックを開始するには、停止コマンドを送信しなければならず、ボールは人間の主審によってペナルティマーク上に配置されなければならない。 +
 To initiate a penalty kick, the stop command has to be sent and the ball has to be placed on the <<Penalty Mark, penalty mark>> by the human <<Referee, referee>>.
 
-penaltyコマンドが発行されたとき、1台の攻撃側ロボットはボールに触れない範囲で近づくことが許可される。このロボットはキッカーと呼ばれる。守備をするキーパーはゴールラインに触れていなけばならない。それ以外のすべてのロボットはゴールラインから平行で、ペナルティマークから0.4m後ろに移動する必要がある。これらの制約が満たされると主審はnormal startコマンドを続けることができる。 +
+penaltyコマンドが発行されたとき、1台の攻撃側ロボットはボールに触れない範囲で近づくことが許可される。このロボットはキッカーと呼ばれる。守備をするキーパーはゴールラインに触れていなけばならない。それ以外のすべてのロボットは、ゴールラインと平行でペナルティマークから0.4m後ろにあたる線より後ろに移動する必要がある。これらの制約が満たされたら主審はnormal startコマンドにより続けることができる。 +
 When the penalty command is issued, one attacking robot is allowed to approach but not touch the ball. This robot will be referred to as the kicker. The defending keeper has to touch the goal line. All other robots have to move behind a line parallel to the goal line and 0.4 meters behind the penalty mark. When these constraints are met, the referee may continue with a <<Normal Start, normal start>> command.
 
 normal startコマンドが発行されたとき、キッカーはボールをシュートすることが許可される。ペナルティキックから直接ゴールしても得点となる。 +

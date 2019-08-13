@@ -8,7 +8,7 @@ To play an official match in the Small Size League, four impartial roles must be
 * game controller operator(the <<Game Controller Operator, game controller operator>>)
 * vision expert(the <<Vision Expert, vision expert>>)
 
-通常、これらの役割には、試合に出場していない2チームによって行われる。1チーム目は主審とgame controller operatorを、2チーム目は副審とvision expertを担当する。これらの役割は組織委員会によって割り当てられる。 +
+通常、これらの役割は、試合に出場していない2チームによって行われる。1チーム目は主審とgame controller operatorを、2チーム目は副審とvision expertを担当する。これらの役割は組織委員会によって割り当てられる。 +
 Usually, these roles are filled by two non-playing teams, with one team providing the <<Referee, referee>> and the <<Game Controller Operator, game controller operator>> and the other team providing the <<Assistant Referee, assistant referee>> and the <<Vision Expert, vision expert>>. The assignment of the roles is up to the <<Organizing Committee, organizing committee>>.
 
 すべての参加するチームはこれらの役割に精通した十分な人材を提供できることが求められる。
@@ -94,7 +94,7 @@ The vision expert monitors the shared vision system during the match and reports
 * 主審が必要であると考えた場合には、Vision expartはVision systemを再キャリブレーションする。 +
 The vision expert recalibrates the vision system if the referee deems it necessary
 
-NOTE: (訳者注)日本では一般的に「ビジョン」と呼称されることが多い。Visionソフトウェアそのものと混同される懸念があるが、Vision Expertが呼ばれるということはVisionソフトウェアに異常がある場合がたいはんであり、運用する上で支障があることはあまりない。
+NOTE: (訳者注)日本では一般的に「ビジョン」と呼称されることが多い。Visionソフトウェアそのものと混同される懸念があるが、Vision Expertが呼ばれるということはVisionソフトウェアに異常がある場合が大半であり、運用する上で支障があることはあまりない。
 
 === チーム固有の役割/Team-Specific Roles
 

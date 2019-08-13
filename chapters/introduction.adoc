@@ -18,7 +18,7 @@ Executive committee members are responsible for the long term goals of the Small
 The technical committee of the Small Size League is responsible for the technical aspects of the RoboCup, such as maintaining the rules and the shared software. All members are elected by the team leaders of the teams which have participated in the previous competition.
 
 ==== 組織委員会/Organizing Committee
-小型機リーグの組織委員会は競技会の準備と組織を担当している。これにはスケジュールの作成、予選リーグの評価方法、競技の進行が含まれている。技術委員会の委員は、ロボカップ評議員会とリーグの実行委員会によって選出される。 +
+小型機リーグの組織委員会は競技会の準備と組織を担当している。これにはスケジュールの作成、予選リーグの評価方法、競技の進行が含まれている。組織委員会の委員は、ロボカップ評議員会とリーグの実行委員会によって選出される。 +
 The organizing committee of the Small Size League is responsible for preparing and organizing the competition. This mainly includes making the schedule, performing the qualification process, and running the competition. The committee members are selected by the <<Executive Committee, executive committee>> of the league and the RoboCup trustees.
 
 ==== 地域の組織委員会/Local Organizing Committee

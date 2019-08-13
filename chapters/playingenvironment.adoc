@@ -27,9 +27,9 @@ image::quad-size-field.png[]
 .Field dimensions and markings for division B
 image::double-size-field.png[]
 
-[[参考-hogehoge]]
-.参考 人間のサッカーの競技エリア
+[[reference-human-soccer-field]]
 image::lawsofthegame_201819_p35_field.png[]
+(訳者注記)参考 人間のサッカーの競技フィールド(出典:国際サッカー評議会著, 日本サッカー協会訳 "Laws of the Game 2018/19", P.35 https://www.jfa.jp/documents/pdf/soccer/lawsofthegame_201819.pdf]
 
 ==== フィールドの表面/Field Surface
 競技フィールドの表面は緑色のフェルトマットかカーペットである。カーペット下の床は固く平坦で水平である。 +

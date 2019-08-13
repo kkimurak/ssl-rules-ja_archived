@@ -20,11 +20,11 @@ NOTE: 図中の数値はミリメートル表示の距離である +
 The numbers in the figures below show the distances in millimeters.
 
 [[field-dimensions-a]]
-.Field dimensions and markings for division A
+.ディヴィジョンAにおけるフィールドの寸法と各マーキング/Field dimensions and markings for division A
 image::quad-size-field.png[]
 
 [[field-dimensions-b]]
-.Field dimensions and markings for division B
+.ディヴィジョンBにおけるフィールドの寸法と各マーキング/Field dimensions and markings for division B
 image::double-size-field.png[]
 
 [[reference-human-soccer-field]]
@@ -81,11 +81,11 @@ NOTE: 図中の数値はミリメートル表示の距離である +
 The numbers in the figures below show the distances in millimeters.
 
 [[goal-detail-a]]
-.The goal in detail for division A
+.ディヴィジョンAにおけるゴール詳細/The goal in detail for division A
 image::goal_detail_divisionA.png[width=400]
 
 [[goal-detail-b]]
-.The goal in detail for division B
+.ディヴィジョンBにおけるゴール詳細/The goal in detail for division B
 image::goal_detail_divisionB.png[width=400]
 
 === ボール/Ball

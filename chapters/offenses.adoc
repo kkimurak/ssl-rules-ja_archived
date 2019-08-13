@@ -71,21 +71,21 @@ In case of severe fouls, the referee can also issue a <<Yellow Card, yellow card
 すべてのファウルは以下の通りである。 +
 All fouls are listed below.
 
-==== アタッカーが敵ディフェンスエリアの中でロボットに触れる/Attacker Touches Robot In Opponent Defense Area
+==== 相手ディフェンスエリア内におけるアタッカーロボットの相手ロボットへの接触/Attacker Touches Robot In Opponent Defense Area
 インプレイ中に、敵チームのディフェンスエリアでは、ロボットは敵チームのどのロボットに対しても触れてはいけない。 +
 When the ball <<Ball In And Out Of Play, in play>>, a robot must not touch any opponent robot inside the opponent <<Defense Area, defense area>>.
 
 NOTE: ボールが試合の停止中の場合、より厳密なルールであるロボットがディフェンスエリアに近すぎるが適用される。 +
 When the ball is <<Ball In And Out Of Play, out of play>>, the rule <<Robot Too Close To Opponent Defense Area>> applies instead.
 
-==== ロボットがディフェンスエリアに近すぎる/Robot Too Close To Opponent Defense Area
+==== ロボットの相手ディフェンスエリアへの極端な接近/Robot Too Close To Opponent Defense Area
 ボールが試合の再開に入る前の、停止、直接フリーキック、間接フリーキックの間、すべてのロボットは相手のディフェンスエリアから少なくとも0.2m以上離れていなければならない。 +
 During <<Stop, stop>>, <<Direct Free Kick, direct free kicks>> and <<Indirect Free Kick, indirect free kicks>>, before the ball <<Resuming The Game, has entered play>>, all robots have to keep at least 0.2 meters distance to the opponent <<Defense Area, defense area>>.
 
 ロボットが相手のディフェンスエリアから離れるのに2秒の猶予期間がある。 +
 There is a grace period of 2 seconds for the robots to move away from the opponent defense area.
 
-==== ボール配置に干渉する/Ball Placement Interference
+==== ボール配置への干渉/Ball Placement Interference
 ボール配置の間、配置を担当しないチームのすべてのロボットはボールと配置位置の間のラインから少なくとも0.5mは離れなければならない(この領域はスタジアム状の形になる)。 +
 During <<Ball Placement, ball placement>>, all robots of the non-placing team have to keep at least 0.5 meters distance to the line between the ball and the placement position (the forbidden area forms a stadium shape).
 
@@ -134,7 +134,7 @@ This rule does not apply to <<Ball Placement, ball placement>>.
 NOTE: ロボットの速度制限の意図は、Stopコマンドが手動のボール配置とロボットの交代に使用されるため、ロボットがフィールド内にいる人間の怪我を防ぐためである。 +
 Since the stop command is used for manual ball placement and <<Robot Substitution, robot substitution>>, the intention of the robot speed limit is to avoid robots harming the people on the field.
 
-==== ボールに近すぎるディフェンダー/Defender Too Close To Ball
+==== ディフェンダーのボールへの極端な接近/Defender Too Close To Ball
 相手チームのキックオフ、直接フリーキック、間接フリーキックの間、ロボットはボールから少なくとも0.5m以上離れなければならない。ファウルの前に発行されたコマンドと同じコマンドで試合が再開される。 +
 A robot's distance to the ball must be at least 0.5 meters during an opponent <<Kick-Off, kick-off>>, <<Direct Free Kick, direct free kick>> or <<Indirect Free Kick, indirect free kick>>.
 The game is resumed with the same command that was issued before the foul.
@@ -171,7 +171,7 @@ It is not allowed to damage or modify robots of other teams.
 フィールドとボールの損傷や変形は許可されない。 +
 It is not allowed to damage or modify the field or the ball.
 
-==== 敬意の欠如を示す/Showing Lack Of Respect
+==== 敬意の欠如/Showing Lack Of Respect
 チームメンバーは試合に関わる全員に対して適切な敬意を示している必要がある。このルールの侵害には以下が含まれるがこれらに限定されない。 +
 A team member must show appropriate respect to everyone involved in the game. Infringements of this rule include but are not limited to:
 

@@ -39,7 +39,8 @@ Chapter <<レフェリーコマンド/Referee Commands>>:
 | <<キックオフ/Kick-Off>> prepared | during <<キックオフ/Kick-Off>> | <<Normal Start>> | icon:check[role="green"]
 | No Progress | <<Ball In And Out Of Play, ball in play>> | <<停止/Stop>>, then <<フォーススタート/Force Start>> | icon:check[role="green"]
 | <<ペナルティーキック/Penalty Kick>> prepared | during <<ペナルティーキック/Penalty Kick>> | <<Normal Start>> | icon:check[role="green"]
-| Multiple <<Yellow Card, Yellow Cards>> | <<Ball In And Out Of Play, ball out of play>> | <<ペナルティーキック/Penalty Kick>> | icon:times[role="red"] (handled by the game controller)
+| Multiple <<Yellow Card, Yellow Cards>> | <<Ball In And Out Of Play, ball out of play>> | <<ペナルティーキック/Penalty Kick>> | icon:times[role="red"] (ゲームコントローラーにより処理される +
+handled by the game controller)
 | <<ボール配置/Ball Placement>> failed by team in favor | during <<ボール配置/Ball Placement>> | <<ストップ/Stop>>, then <<間接フリーキック/Direct Free Kick>> (div A) / previous command (div B) | icon:check[role="green"]
 | <<ボール配置/Ball Placement>> failed by opponent | during <<ボール配置/Ball Placement>> | <<Stop>> | icon:check[role="green"]
 | <<ボール配置/Ball Placement>> successful | during <<ボール配置/Ball Placement>> | continue | icon:check[role="green"]

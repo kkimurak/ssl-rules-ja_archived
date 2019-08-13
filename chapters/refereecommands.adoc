@@ -21,7 +21,7 @@ When the halt command is issued, no robot is allowed to move or <<Ball Manipulat
 ロボットが減速するために2秒間の猶予がある。 +
 There is a grace period of 2 seconds for the robots to brake.
 
-.Usage
+.用途/Usage
 (例えばロボットが制御不能になった時など)緊急事態が発生した時に主審はhaltコマンドで試合を中断させることができる。また、Vision expertが必要と判断した場合にはVision ソフトウェアの再キャリブレーションにも使われ、主審が同意する場合にはロボットの交代にも使われる。さらに、主審は自由にhaltコマンドを発行することができる。 +
 The halt command allows the referee to interrupt the game immediately whenever an emergency occurs (for example when a robot gets out of contol). It is
 also used to recalibrate the vision software during a game if the vision expert considers it necessary and the referee agrees and for <<Robot Substitution, robot substitution>>. Additionally, the referee is free to issue the halt command at will.
@@ -95,6 +95,7 @@ If the opposing team fails to place the ball or no team can place the ball, it i
 
 
 === 試合の再開/Resuming The Game
+ボール配置完了後、試合は以下のコマンドのうちのどれかを使用して再開される。 +
 After the ball has been placed, the game is resumed using one of the following commands.
 
 // In division A, the ball will be placed automatically by the robots if the following command is a free kick or force start (see <<Ball Placement>>).

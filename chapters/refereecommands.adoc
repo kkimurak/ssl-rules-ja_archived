@@ -37,7 +37,7 @@ After the game was stopped, the ball must be placed on the appropriate position,
 The automatic ball placement is the preferred way to place the ball at the designated position on the field by the robots of the teams without human interaction.
 If this is not possible, the <<Referee, referee>> places the ball manually.
 
-ボールがロボットによってうまく配置されたと考えられるのは以下の場合である
+ボールがロボットによってうまく配置されたと考えられるのは以下の場合である +
 A ball is considered placed successfully by the robots if
 
 * 配置コマンドが発行されてから30秒以内(no more than 30 seconds passed since the placement command)

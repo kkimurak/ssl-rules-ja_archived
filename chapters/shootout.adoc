@@ -14,7 +14,7 @@ The procedure of a shoot-out attempt is as follows:
 . normal startのコマンドが発行されたとき、アタッカーはボールを操作することが許可される。ボールは相手ゴールに向かって動かさなければならない。これは、SSL-Visionの座標系におけるx座標によって測定されている。(When the <<Normal Start, normal start>> command is issued, the attacker is allowed to <<Ball Manipulation, manipulate the ball>>. The ball has to only move towards the opponent goal, as measured by its x coordinate in the coordinate system of <<Vision, SSL-Vision>>.)
 . ボールがインプレイになった時、守備側チームのキーパはペナルティキックと同じように再び自由に動いてよい。(When the ball is <<Ball In And Out Of Play, in play>>, the defending keeper may move freely again, analogous to a <<Penalty Kick, penalty kick>>.)
 
-以下の場合に得点が与えられる:
+以下の場合に得点が与えられる: +
 A goal is awarded if:
 
 * normal startのコマンドが発行されてから10秒以内に守備側チームのゴールの地面もしくはゴールウォールの内面にボールが接触した。(the ball touches the inner surface of a goal wall or the ground of the goal of the defending team in less than 10 seconds, starting from when the <<Normal Start, normal start>> command is issued)

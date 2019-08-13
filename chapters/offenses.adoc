@@ -43,7 +43,7 @@ It is understood that the ball may be bumped by the robot multiple times over a 
 相手のディフェンスエリアに部分的もしくは完全に入っている場合、ロボットはボールに触れてはいけない。(訳注、逆に言えばボールに触れずに通過する目的であれば相手のディフェンスエリアに入っていいって事？) +
 A robot must not touch the ball while being partially or fully inside the opponent <<Defense Area, defense area>>.
 
-NOTE: ボールが試合の停止中の場合、より厳密なルールであるロボットがディフェンスエリアに近すぎるが適用される。+
+NOTE: ボールが試合の停止中の場合、より厳密なルールであるロボットがディフェンスエリアに近すぎるが適用される。 +
 When the ball is <<Ball In And Out Of Play, out of play>>, the more strict rule <<Robot Too Close To Opponent Defense Area>> applies instead.
 
 ==== オーバードリブル/Excessive Dribbling

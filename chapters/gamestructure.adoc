@@ -154,7 +154,7 @@ An official match of the Small Size League consists of the following stages:
 | 後半戦(Second Half) | 競技時間は300秒(300 seconds of playing time)
 |===
 
-試合が予選(同点が可能な結果ではない)かつ規定の試合時間経過後に同点の場合、競技は延長戦に進み次のゲームステージが追加される：
+試合が予選(同点が可能な結果ではない)かつ規定の試合時間経過後に同点の場合、競技は延長戦に進み次のゲームステージが追加される： +
 If the match is an elimination match (draw is not a possible outcome) and the score is even after the regular game time, the match goes into overtime and the following game stages are added:
 
 |===
@@ -196,7 +196,7 @@ For example, a team may take 3 timeouts of 60 seconds duration and thereafter ha
 延長戦の間は、両チームとも合計150秒間で2回のタイムアウトを取得できる。レギュラーゲームで使われなかったタイムアウトの回数と時間は加算されない。 +
 During overtime, both teams can use 2 timeouts with a total time of 150 seconds. The number of timeouts and the time not used in regular game are not added.
 
-シュートアウトの間はタイムアウトを取得できない。
+シュートアウトの間はタイムアウトを取得できない。 +
 No timeouts are possible in the <<Shoot-Out, shoot-out>> stage.
 
 ==== 10点先取による早期終了/Early Termination At A Score Of 10

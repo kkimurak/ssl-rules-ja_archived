@@ -6,7 +6,7 @@ NOTE: 経験則:軽微な違反はボールが<<インプレイとアウトオ�
 Rule of thumb: Minor offenses are infringements of the rules committed by an attacking robot while the ball is <<インプレイとアウトオブプレイ/Ball In And Out Of Play, in play>>. Fouls are infringements of the rules committed by a defender or while the ball is <<インプレイとアウトオブプレイ/Ball In And Out Of Play, out of play>> or infringements that may harm the humans, the robots or the field.
 
 === 軽微な違反/Minor Offenses
-軽微な違反はルール違反となり、結果として試合の停止とその後の相手チームへの<<間接フリーキック/Indirect Free Kick, 間接フリーキック>>となる。フリーキックは違反が発生した場所から蹴られる(正確なボールの位置に関するルールは「<<直接フリーキック/Direct Free Kick, 直接フリーキック>>」を参照する事。 +
+軽微な違反はルール違反となり、結果として試合の停止とその後の相手チームへの<<間接フリーキック/Indirect Free Kick, 間接フリーキック>>となる。フリーキックは違反が発生した場所から蹴られる(正確なボールの位置に関するルールは「<<直接フリーキック/Direct Free Kick, 直接フリーキック>>」を参照する事)。 +
 Minor offenses are violations of the rules that result in a stoppage and a subsequent <<間接フリーキック/Indirect Free Kick, indirect free kick>> for the opposing team. The free kick will be shot from the position where the offense began happening (see <<直接フリーキック/Direct Free Kick, the direct free kick rules>> for the exact ball position rules).
 
 軽微な違反を以下に示す +
@@ -28,7 +28,7 @@ There is also a lack of progress if the ball is inside a team's <<ディフェ�
 NOTE: もし両チームともボールを操作してよい状態で、チームが違反をしていないのであれば、主審は試合を停止し、<<フォーススタート/Force Start, force start>>コマンドを発行することができる。 +
 If both teams are allowed to manipulate the ball, and thus no team is at fault, the referee may stop the game and issue a <<フォーススタート/Force Start, force start>> command.
 
-NOTE: 両チームともルール違反をせずにボールを<<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ>>にする事が明らかにできない場合、主審は相手チームの、<<間接フリーキック/Indirect Free Kick, 間接フリーキック>>の代わりに<<フォーススタート/Force Start, force start>>コマンドを発行することができる。 +
+NOTE: 両チームともルール違反をせずにボールを<<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ>>にする事が明らかにできない場合、主審は相手チームの<<間接フリーキック/Indirect Free Kick, 間接フリーキック>>の代わりに<<フォーススタート/Force Start, force start>>コマンドを発行することができる。 +
 If both teams are clearly unable to bring the ball <<インプレイとアウトオブプレイ/Ball In And Out Of Play, into play>> without violating the rules, the referee may issue a <<フォーススタート/Force Start, force start>> command instead of an <<間接フリーキック/Indirect Free Kick, indirect free kick>> for the other team.
 
 ==== ダブルタッチ/Double Touch
@@ -83,7 +83,7 @@ NOTE: ボールが試合の停止中の場合、より厳密なルールであ�
 When the ball is <<インプレイとアウトオブプレイ/Ball In And Out Of Play, out of play>>, the rule <<ロボットの相手ディフェンスエリアへの極端な接近/Robot Too Close To Opponent Defense Area, Robot Too Close To Opponent Defense Area>> applies instead.
 
 ==== ロボットの相手ディフェンスエリアへの極端な接近/Robot Too Close To Opponent Defense Area
-ボールが<<試合の再開/Resuming The Game, 試合の再開>>に入る前の、<<停止/Stop, 停止>>、<<直接フリーキック/Direct Free Kick, 直接フリーキック>>、<<間接フリーキック/Indirect Free Kick, 間接フリーキック>>の間、すべてのロボットは相手の<<ディフェンスエリア/Defense Area, ディフェンスエリア>>から少なくとも0.2m以上離れていなければならない。 +
+<<試合の再開/Resuming The Game, 試合を再開する>>前の、<<停止/Stop, 停止>>、<<直接フリーキック/Direct Free Kick, 直接フリーキック>>、<<間接フリーキック/Indirect Free Kick, 間接フリーキック>>の間、すべてのロボットは相手の<<ディフェンスエリア/Defense Area, ディフェンスエリア>>から少なくとも0.2m以上離れていなければならない。 +
 During <<停止/Stop, stop>>, <<直接フリーキック/Direct Free Kick, direct free kicks>> and <<間接フリーキック/Indirect Free Kick, indirect free kicks>>, before the ball <<試合の再開/Resuming The Game, has entered play>>, all robots have to keep at least 0.2 meters distance to the opponent <<ディフェンスエリア/Defense Area, defense area>>.
 
 ロボットが相手のディフェンスエリアから離れるのに2秒の猶予期間がある。 +

@@ -4,7 +4,7 @@
 To play an official match in the Small Size League, four impartial roles must be filled:
 
 * <<主審/Referee>>
-* <<副審/Assistant Referee>>)
+* <<副審/Assistant Referee>>
 * <<Game Controller Operator>>
 * <<Vision Expert>>
 

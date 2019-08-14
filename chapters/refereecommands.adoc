@@ -10,7 +10,7 @@ NOTE: ボールが高速に転がる場合、特にstop中はロボットに速�
 If the ball moves very quickly, it is hard to always keep the required distance to the ball, especially since the speed of the robots is limited during stop. Therefore, it is sufficient if it is obvious to the referee that the robots try their best to follow the distance rule.
 
 .用途/Usage
-stopコマンドはボールが(ゴールを含む)<<フィールドライン/Field Lines, フィールドライン>>を超えた後や反則が発生した後に競技を一時停止するために使われ、Haltやタイムアウト、automatic ball placementの再開を準備するために使われる。ロボットの速度制限とボールとの最小距離によって、主審や副審がボールを安全に干渉なく置くことができる。 +
+stopコマンドはボールが(ゴールを含む)<<フィールドライン/Field Lines, フィールドライン>>を超えた後や反則が発生した後に競技を一時停止するために使われ、Haltやタイムアウト、自動的なボール配置の再開を準備するために使われる。ロボットの速度制限とボールとの最小距離によって、主審や副審がボールを安全に干渉なく置くことができる。 +
 The stop command is used to pause the game after the ball crossed the <<フィールドライン/Field Lines, field lines>> (including goals) or an offense occurred as well as to prepare the start or resumption of the game after halt, timeouts and automatic ball placement. The robot speed limit and the minimum distance to the ball allow the referee or assistant referee to place the ball safely and without interference.
 
 NOTE: (訳者注)一般的に「ストップゲーム」もしくは単に「ストップ」と呼称されることが多い。
@@ -53,17 +53,17 @@ the ball is stationary
 * ボールは要求された位置から半径0.15m以内の場所に配置されている +
 the ball is at a position within 0.15 meters radius from the requested position
 
-automatic ball placementが完了するまで、<<Game Controller, game controller>>によってそれ以外のコマンドは発行されない。ボールが上手く配置された場合、試合は<<Game Controller, game controller>>によって可能な限り早く再開される(ただし、ボール配置コマンドが発行されてから2秒より早くはならない)。配置が失敗した場合、相手に間接フリーキックが与えられる。このチームがボールをうまく配置することに失敗した場合、ボールは<<主審/Referee, 主審>>により配置され、試合は元のコマンドによって続行される。 +
+ボールが正常に配置されるまで、<<Game Controller, game controller>>によってそれ以外のコマンドは発行されない。ボールが上手く配置された場合、試合は<<Game Controller, game controller>>によって可能な限り早く再開される(ただし、ボール配置コマンドが発行されてから2秒より早くはならない)。配置が失敗した場合、相手に間接フリーキックが与えられる。このチームがボールをうまく配置することに失敗した場合、ボールは<<主審/Referee, 主審>>により配置され、試合は元のコマンドによって続行される。 +
 No further commands will be issued by the <<Game Controller, game controller>> until the automatic placement is complete.
 The game will be continued by the <<Game Controller, game controller>> as soon as the ball is successfully placed, but not earlier than 2 seconds after the ball placement command has been issued.
 A failed placement will result in an indirect free kick for the opposing team.
 If this team failed to place the ball as well, the ball is placed by the <<主審/Referee, referee>> and game continues with the original command.
 
-配置を担当しない方のチームは<<ボール配置への干渉/Ball Placement Interference, ball placement taskを妨害>>してはいけない。 +
+配置を担当しない方のチームは<<ボール配置への干渉/Ball Placement Interference, ボール配置に干渉>>してはいけない。 +
 The non-placing team must not <<ボール配置への干渉/Ball Placement Interference, interfere the ball placement task>>.
 
 .用途/Usage
-ボールが<<インプレイとアウトオブプレイ/Ball In And Out Of Play, アウトオブプレイ>>のとき、automatic ball placementが適用されるのであれば、次のルールが決定される; +
+ボールが<<インプレイとアウトオブプレイ/Ball In And Out Of Play, アウトオブプレイ>>のとき、自動ボール配置が適用されるのであれば、次のルールが決定される; +
 When the ball goes <<インプレイとアウトオブプレイ/Ball In And Out Of Play, out of play>>, the following rules decide, if automatic ball placement is applied:
 
 . <<主審/Referee, 主審>>はすべてのキックオフとすべてのペナルティキックの時にボールを配置する +
@@ -72,11 +72,11 @@ The <<主審/Referee, referee>> has to place the ball for all kickoffs and all p
 For an <<間接フリーキック/Indirect Free Kick, indirect free kick>> or <<直接フリーキック/Direct Free Kick, direct free kick>>, the team that brings the ball <<インプレイとアウトオブプレイ/Ball In And Out Of Play, into play>> must place the ball
 . <<フォーススタート/Force Start, フォーススタート>>の場合、偶然選ばれたどちらか片方のチームがボールを配置しなければならない。 +
 For a <<フォーススタート/Force Start, force start>>, a team is drawn by chance and must place the ball
-. ball placementが開始される前は、ボールは見えていなければならず、フィールドコーナーやゴールコーナー、ゴールの後ろにボールが配置されてはいけない +
+. ボール配置が開始される前は、ボールは見えていなければならず、フィールドコーナーやゴールコーナー、ゴールの後ろにボールが配置されてはいけない +
 The ball must be visible and must not be inside a field corner, a goal corner or behind the goal, before the ball placement starts
 . <<主審/Referee, 主審>>はいつでもボールを手動で配置することを決定できる +
 The <<主審/Referee, referee>> can decide to place the ball manually at any time
-. <<主審/Referee, 主審>>は、試合の終わりまでautomatic ball placementを無効化とすることを決定できる。TC/OCはこの決定に同意しなければならない。 +
+. <<主審/Referee, 主審>>は、試合の終わりまで自動ボール配置を無効化とすることを決定できる。TC/OCはこの決定に同意しなければならない。 +
 The <<主審/Referee, referee>> can decide to disable automatic ball placement for the rest of the game. TC/OC must agree with this decision
 . 片方のチームが連続して5回ボールを配置することに失敗した場合、そのハーフが終わるまでボールを配置することは許されない。フィールド外に出てしまった事で発生したすべてのフリーキックは相手チームに与えられる。その他のルール違反や両チームともボールを配置することに失敗した場合、ボールは<<主審/Referee, 主審>>によって配置される +
 When a team has failed to place the ball 5 times in a row, it is not allowed to place the ball for the rest of the game half. All free kicks that were a result of the ball leaving the field, are awarded to the opposing team. For all other rule violations or when both teams failed to place the ball, the ball is placed by the <<主審/Referee, referee>>

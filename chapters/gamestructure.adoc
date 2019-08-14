@@ -116,11 +116,11 @@ The robot handler voices concerns of the team (for example network issues or vis
 競技で役割のあるすべての人間(「<<公正な役割/Impartial Roles, 公平な役割>>」もしくは「<<チーム固有の役割/Team-Specific Roles, チーム固有の役割>>」を参照)は、主審が次の準備を可能にするために、少なくとも試合開始の10分前には準備できていなければならない: +
 All people that fill a role in the match (<<公正な役割/Impartial Roles, impartial>> or <<チーム固有の役割/Team-Specific Roles, team-specific>>) have to be ready at least 10 minutes before the start of the match to allow the referee to make the following preparations:
 
-==== Game Result Sheet
-<<主審/Referee, 主審>>は<<組織委員会/Organizing Committee, 組織委員会>>からGame Result Sheetを受け取る。試合後に、主審は最終結果を記入し、必要な署名を集めてSheetを<<組織委員会/Organizing Committee, 組織委員会>>に提出する。 +
+==== 試合結果シート/Game Result Sheet
+<<主審/Referee, 主審>>は<<組織委員会/Organizing Committee, 組織委員会>>から試合結果シートを受け取る。試合後に、主審は最終結果を記入し、必要な署名を集めてSheetを<<組織委員会/Organizing Committee, 組織委員会>>に提出する。 +
 The <<主審/Referee, referee>> obtains a game result sheet from the <<組織委員会/Organizing Committee, organizing committee>>. After the game, the referee fills in the final score, collects the required signatures and submits the sheet to the <<組織委員会/Organizing Committee, organizing committee>>.
 
-NOTE: Game Result Sheetを受け取っている間、主審は<<ボール/Ball, 公式球>>と(もし提供されるのであれば)ホイッスルやレッドカードイエローカードなどの審判向けの機器も使用できる。 +
+NOTE: 試合結果シートを受け取っている間、主審は<<ボール/Ball, 公式球>>と(もし提供されるのであれば)ホイッスルやレッドカードイエローカードなどの審判向けの機器も使用できる。 +
 While obtaining the game result sheet, the referee can also take an official <<ボール/Ball, ball>> and referee equipment such as a whistle or red and yellow cards (if provided).
 
 ==== ネットワークのテスト/Testing The Network

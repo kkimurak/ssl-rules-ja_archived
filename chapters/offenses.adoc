@@ -41,7 +41,7 @@ The ball must have moved at least 0.05 meters to be considered as <<インプレ
 NOTE: キックを行おうとしている間に、ロボットが短い距離でボールを跳ねさせてしまう事がありうることが理解される。そこで、ロボットがルールに違反しているかどうかの判定に0.05mの距離が使用される。技術的にロボットが一度しかボールに触れていなかったとしても、0.05m以上ボールと接触し続けた場合は、ダブルタッチとみなされる。 +
 It is understood that the ball may be bumped by the robot multiple times over a short distance while the kick is being taken. This is why a distance of 0.05 meters is used to decide whether a robot violates this rule or not. Remaining in contact with the ball for more than 0.05 meters also counts as double touch, even though technically the robot only touched the ball once.
 
-==== ディフェンスエリアにあるアタッカー/Attacker In Defense Area
+==== アタッカーの相手ディフェンスエリアへの侵入/Attacker In Defense Area
 相手の<<ディフェンスエリア/Defense Area, ディフェンスエリア>>に部分的もしくは完全に入っている場合、ロボットはボールに触れてはいけない。 +
 A robot must not touch the ball while being partially or fully inside the opponent <<ディフェンスエリア/Defense Area, defense area>>.
 

@@ -13,7 +13,7 @@ Minor offenses are violations of the rules that result in a stoppage and a subse
 All minor offenses are listed below.
 
 ==== エイムレスキック/Aimless Kick [small]#(_division B only_)#
-ロボットがボールに触れた後、ミッドラインを通過してさらに別のロボットに触れずにゴール以外のゴールラインを通過した時、そのキックは無意味である。キックオフをするためのキックはボールはミッドラインに位置しているのでミッドラインを交差していない扱いとなり、そのため無意味なキックではない。 +
+ロボットがボールに触れた後、ミッドラインを通過してさらに別のロボットに触れずにゴール以外のゴールラインを通過した時、そのキックは無意味である。キックオフをするためのキックはボールはミッドラインに位置しているのでミッドラインを交差していない扱いとなり、そのため無エイムレスキックではない。 +
 A kick is aimless when after the ball touched a robot, it subsequently crossed the midline and then its opponent's goal line outside the goal without touching another robot. A kick-off kick cannot be aimless, as the ball is located at the midline and does therefore not cross it.
 
 NOTE: (訳者注)一般的に「エイムレスキック」、もしくはルールを参考にした競技であるアイスホッケーに由来して「アイシング」と呼称されることが多い。

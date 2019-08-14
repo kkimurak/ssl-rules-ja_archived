@@ -178,7 +178,7 @@ NOTE: (訳者注)一般的に「インダイレクトフリーキック」もし
 When the force start command is issued, the game is immediately resumed and both teams are allowed to approach and <<ボールの操作/Ball Manipulation, manipulate the ball>> again.
 
 .用途/Usage
-主審は両方のチームがボールに近づき<<ボールの操作/Ball Manipulation, 操作する>>ことが許可されている間に、少なくとも10秒間試合が進行していることが明確でない場合には、stopコマンド停止コマンドの後にforce startコマンドを発行することができる。 +
+主審は両方のチームがボールに近づき<<ボールの操作/Ball Manipulation, 操作する>>ことが許可されている間に、少なくとも10秒間試合が進行していることが明確でない場合には、Stopコマンドの後にforce startコマンドを発行することができる。 +
 The referee can issue a stop command followed by force start if there is a clear lack of progress for at least 10 seconds while both teams are allowed to approach and <<ボールの操作/Ball Manipulation, manipulate the ball>>.
 
 また、ゲームを止めなければならず、両方のチームに不具合がない場合、もしくは両方のチームに不具合がある場合に、試合を再開するために使用することもできる。 +

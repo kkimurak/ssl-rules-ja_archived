@@ -16,7 +16,7 @@ All minor offenses are listed below.
 ロボットがボールに触れた後、ミッドラインを通過してさらに別のロボットに触れずにゴール以外のゴールラインを通過した時、そのキックは無意味である。キックオフをするためのキックはボールはミッドラインに位置しているのでミッドラインを交差していない扱いとなり、そのため無エイムレスキックではない。 +
 A kick is aimless when after the ball touched a robot, it subsequently crossed the midline and then its opponent's goal line outside the goal without touching another robot. A kick-off kick cannot be aimless, as the ball is located at the midline and does therefore not cross it.
 
-NOTE: (訳者注)一般的に「エイムレスキック」、もしくはルールを参考にした競技であるアイスホッケーに由来して「アイシング」と呼称されることが多い。
+NOTE: (訳者注)一般的に「エイムレスキック」と呼称されるが、ルールを参考にした競技であるアイスホッケーに由来して「アイシング」、さらにそれを解釈して(ロボカップがカーペット上で行われることから)「カーペティング」などと呼称されることもある。
 
 ==== 進行の欠落/Lack Of Progress
 1チームだけが<<ボールの操作/Ball Manipulation, ボールを操作する>>ことが許可されている(<<キックオフ/Kick-Off, キックオフ>>、<<直接フリーキック/Direct Free Kick, 直接フリーキック>>、<<間接フリーキック/Indirect Free Kick, 間接フリーキック>>、<<ペナルティーキック/Penalty Kick, ペナルティーキック>>)時に、ボールを動かして試合をインプレイに変化させない場合、進行の欠落が発生している。制限時間はディヴィジョンAの<<間接フリーキック/Indirect Free Kick, 間接フリーキック>>と<<直接フリーキック/Direct Free Kick, 直接フリーキック>>が5秒、それ以外は10秒である。 +

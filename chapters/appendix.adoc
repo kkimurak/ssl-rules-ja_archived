@@ -308,5 +308,5 @@ Division A plays with <<ロボットの台数/Number Of Robots, more robots>> th
 The automatic <<ボール配置/Ball Placement, ball placement>> procedure is mandatory for division A and optional for division B.
 * <<エイムレスキック/Aimless Kick [small]#(_division B only_)#, エイムレスキック>>のルールはディヴィジョンBにのみ適用される。 +
 The <<エイムレスキック/Aimless Kick [small]#(_division B only_)#, aimless kick>> rule only applies to division B.
-* ディヴィジョンAには<<進行の欠落/Lack Of Progress, 進行の欠如>>が呼び出されるより前にフリーキックをするための小さな時間枠がある。 +
+* ディヴィジョンAには<<進行の欠落/Lack Of Progress, 進行の欠落>>が呼び出されるより前にフリーキックをするための小さな時間枠がある。 +
 There is a smaller time window in division A for taking a free kick before <<進行の欠落/Lack Of Progress, lack of progress>> is called.

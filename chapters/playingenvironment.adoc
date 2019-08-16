@@ -13,7 +13,7 @@ The field of play must be rectangular and of the following size:
 実際のフィールドサイズとフィールドのマーキングは±10％の誤差の範囲内にある。 +
 The exact field dimensions and the field markings at the venue may vary by up to ±10% in each linear dimension.
 
-フィールド、ゴールおよび特別なフィールドエリアの詳細については<<field-dimensions-a, Figure 1>>、<<field-dimensions-b, Figure 2>>を見ること。 +
+以下の２つの図は、フィールド、ゴールおよび特別なフィールドエリアをミリメータで測定した詳細を示している。ディヴィジョンAについては<<field-dimensions-a, Figure 1>>、ディフィジョンBについては<<field-dimensions-b, Figure 2>>を見ること。 +
 The two figures below show the dimensions of the field, the goals and special field areas, measured in millimeters.  <<field-dimensions-a, Figure 1>> shows the dimensions for division A and  <<field-dimensions-b, figure 2>> for division B.
 
 NOTE: 図中の数値はミリメートル表示の距離である +

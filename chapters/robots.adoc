@@ -19,7 +19,7 @@ A robot must not pose danger to itself, another robot, or humans. It must not <<
 The <<主審/Referee, referee>> has to force a team to remove a robot from the field if he considers it a potential safety threat.
 
 ==== 形状/Shape
-ロボットはいかなる時点においても、直径0.18m、高さ0.15m以下の大きさでなければならない。さらに、ロボットの上面はstandard patternが貼り付けられており、表面の制約を満たさなければいけない。 +
+ロボットはいかなる時点においても、直径0.18m、高さ0.15m以下の大きさでなければならない。さらに、ロボットの上面はstandard patternのサイズおよび表面の制約を満たさなければいけない。 +
 A robot must fit inside a 0.18 meters wide and 0.15 meters high cylinder at any point in time. Additionally, the top of the robot must adhere to the standard pattern size and surface constraints.
 
 ==== ドリブルデバイス/Dribbling Device

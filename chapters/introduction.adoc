@@ -1,6 +1,6 @@
 == リーグ概要/League Overview
 === 委員会/Committees
-(ロボカップの他のリークと同じように)小型機リーグは3つの異なる委員会(<<実行委員会/Executive Committee, 実行委員会>>、<<技術委員会/Technical Committee, 技術委員会>>、<<組織委員会/Organizing Committee, 組織委員会>>)で運営されている。これらの委員会はそれぞれ異なる責任を持っている。各委員会の委員はロボカップ小型機リーグの公式ウェブサイト(https://ssl.robocup.org) で確認できる。 +
+(ロボカップの他のリークと同じように)小型機リーグは3つの異なる委員会(<<実行委員会/Executive Committee, 実行委員会>>、<<技術委員会/Technical Committee, 技術委員会>>、<<組織委員会/Organizing Committee, 組織委員会>>)で運営されている。これらの委員会はそれぞれ異なる責任を負う。各委員会の委員はロボカップ小型機リーグの公式ウェブサイト(https://ssl.robocup.org) で確認できる。 +
 The Small Size League (like every other league of the RoboCup) is run by close cooperation of three different committees (<<実行委員会/Executive Committee, executive committee>>, <<技術委員会/Technical Committee, technical committee>> and <<組織委員会/Organizing Committee, organizing committee>>), all with a different set of responsibilities. The members of the respective committees can be found on the official RoboCup Small Size League website (https://ssl.robocup.org).
 
 NOTE: 実際には、<<技術委員会/Technical Committee, 技術委員会>>と<<組織委員会/Organizing Committee, 組織委員会>>に厳密な区別はない。各委員会の委員が協力して業務をこなしている。 +
@@ -37,5 +37,5 @@ When submitting the qualification material, the team also chooses a preferred di
 二つのディビジョンの違いに関する要約は<<ディヴィジョンごとの違い/Differences Between Divisions, 付録>>で確認できる。 +
 A summary of differences between the two divisions can be found in the <<ディヴィジョンごとの違い/Differences Between Divisions, Appendix>>.
 
-NOTE: ディヴィジョン制を導入することによって、新しいチームの参入障壁を大幅に引き上げることなく、小型機リーグのより急速な進歩を可能にする。また、ディビジョンの導入によって、同じ強さのチームとの試合を大幅に増やすことができる。 +
+NOTE: ディヴィジョン制を導入することによって、新しいチームの参入障壁を大幅に引き上げることなく、小型機リーグのより急速な進歩を可能にする。また、ディビジョンの導入によって、同じような強さのチームとの試合を大幅に増やすことができる。 +
 Divisions allow for more radical advancements in the Small Size League without drastically raising the entry barrier for new teams. Additionally, they also considerably increase the amount of matches between teams of similar skill.

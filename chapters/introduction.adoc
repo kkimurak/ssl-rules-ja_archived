@@ -28,7 +28,7 @@ NOTE: "Qualification Process"(出場資格審査)は参加予定チームによ�
 The local organizing committee is responsible for planning and executing the event itself in accordance with the needs of the different leagues. This includes setting up the team areas (fields, network, tables, whiteboard, screens, etc.), creating a schedule for the event and implementing a safety and security concept.
 
 === ディヴィジョン/Divisions
-小型リーグはディヴィジョンAとディヴィジョンBと呼ばれる2つの分けられたトーナメントに分割される。ディヴィジョンAは先進的なチームを対象としており、それ以外の新しいチームや競争力が弱いチームなどはディヴィジョンBで試合をすることができる。各チームは2つのディヴィジョンのうち1つのみに参加することができる。 +
+小型リーグはディヴィジョンAとディヴィジョンBと呼ばれる2つのトーナメントに分割される。ディヴィジョンAは先進的なチームを対象としており、それ以外の新しいチームや競争力が弱いチームなどはディヴィジョンBで試合をすることができる。各チームは2つのディヴィジョンのうち1つのみに参加することができる。 +
 The Small Size League is divided into two divisions with separate tournaments, namely division A and division B. Division A is aimed at advanced teams whereas new and/or less competitive teams can play in division B. Each team will only play in one of those two divisions.
 
 出場資格審査で使う資料を提出する時、各チームは簡潔な理由をつけてどちらのディヴィジョンで競技したいかも選択すること。<<組織委員会/Organizing Committee, 組織委員会>>のメンバーは最終的な決定をする。出場資格審査の方法に関する情報はロボカップ小型機リーグの公式ウェブサイト(https://ssl.robocup.org) で確認できる。 +

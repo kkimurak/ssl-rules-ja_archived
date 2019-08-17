@@ -39,7 +39,7 @@ A robot must not take full control of the ball by removing all of its degrees of
 すべての参加チームは、<<Vision, 共有Visionシステム>>による動作条件に従わなければならない。チームは標準化されたカラーとパターンをロボットの頭部にセットする必要がある。 +
 All participating teams must adhere to the given operating requirements of the <<Vision, shared vision system>>. In particular, teams are required to use a certain set of standardized colors and patterns on top of their robots.
 
-ロボットの上部の色は黒もしくはダークグレーで、照り返しがないようにしなければならない。スタンダードVisionパターンは<<standard-vision-pattern, 図5>>に.示されるように、ロボット前面側については中心から0.055mより先を接線と並行に切り落とした、半径0.085mの円形に収まらなければならない。チームはロボットの上部が完全にこの領域を囲むようにする必要がある。 +
+ロボットの上部の色は黒もしくはダークグレーで、照り返しがないようにしなければならない。スタンダードVisionパターンは<<standard-vision-pattern, 図5>>に示されるように、ロボット前面側については中心から0.055mより先を接線と並行に切り落とした、半径0.085mの円形に収まらなければならない。チームはロボットの上部が完全にこの領域を囲むようにする必要がある。 +
 To ensure compatibility with the standardized patterns for the shared vision system, all teams must ensure that all robots have a flat surface with sufficient space available on the top side. The color of the robot top must be black or dark grey and have a matte (non-shiny) finish to reduce glare. The standard vision pattern is guaranteed to fit within a circle with a radius of 0.085 meters that is linearly cut off on the front side of the robot to a distance of 0.055 meters from the centre, as shown in <<standard-vision-pattern, figure 5>>. Teams must ensure that their robot tops fully enclose this area.
 
 [[standard-vision-pattern]]
@@ -49,7 +49,7 @@ image::standard_pattern2010.png[]
 すべてのロボットは<<standard-vision-colors, 図6>>に示された16パターンのうちのひとつを持たなければならない。2台のロボットが同じ色のパターンを使用することは許可しない。 +
 Every robot must have one of the 16 patterns shown in <<standard-vision-colors, figure 6>>. No two robots are allowed to use the same pattern.
 
-センターカラーは先に述べたとおり、青か黄色のいずれかである(「<<チームカラーの選択/Choosing Team Colors, チームカラーの選択>>」も参照するように)。残りの4点の色はロボットのIDが符号化されている。<<組織委員会/Organizing Committee, 組織委員会>>はすべてのチームにおいて同じ色が使用されていることを確かめるため、十分な量の色紙を協議会において提供する。 +
+センターカラーは先に述べたとおり、青か黄色のいずれかである(「<<チームカラーの選択/Choosing Team Colors, チームカラーの選択>>」を参照)。残りの4点の色はロボットのIDが符号化されている。<<組織委員会/Organizing Committee, 組織委員会>>はすべてのチームにおいて同じ色が使用されていることを確かめるため、十分な量の色紙を協議会において提供する。 +
 The center dot color determines the team and is either blue or yellow (see <<チームカラーの選択/Choosing Team Colors, Choosing Team Colors>>). The other four dot colors encode the id of the robot. To ensure that every team uses the same colors, the <<組織委員会/Organizing Committee, organizing committee>> provides enough colored paper at the competition.
 
 NOTE: 2つのドットの間に“色にじみ”が起きる危険性があるが、 ID0から7のパターンは実験的に安定して動作することが確かめられたため、参加チームはこれらのパターンを選択することを推奨する。 +
@@ -63,7 +63,7 @@ image::standard_colors2010.png[width=500]
 無線通信を使用する参加者は、通信の方法、電力、周波数を<<組織委員会/Organizing Committee, 組織委員会>>に通知するものとする。<<組織委員会/Organizing Committee, 組織委員会>>は、登録後のいかなる変更についてもできるだけ早く通知を受けなければならない。混線を回避するために、試合の前にチームは2つの周波数から選択出来るようにしなければならない。無線通信の形式は、競技が開催される国の法的規則に従うものとする。現地の法律を守ることは、ロボカップ委員会ではなく競技するチームが責任を負うものとする。 +
 Participants using wireless communications must notify the <<組織委員会/Organizing Committee, organizing committee>> of the method of wireless communication, power, and frequency. The <<組織委員会/Organizing Committee, organizing committee>> must be notified of any change after registration as soon as possible. In order to avoid interference, a team must be able to select from two carrier frequencies before the match. The type of wireless communication has to follow legal regulations of the country where the competition is held. Compliance with local laws is the responsibility of the competing teams, not the RoboCup Federation.
 
-無線通信のタイプも地域の組織委員会により制限されることがある。<<地域の組織委員会/Local Organizing Committee, 地域の組織委員会>>はどんな制限も、できるだけ早くコミュニティーに通知すること。 +
+無線通信のタイプも<<地域の組織委員会/Local Organizing Committee, 地域の組織委員会>>地域の組織委員会により制限されることがある。地域の組織委員会はどんな制限も、できるだけ早くコミュニティーに通知すること。 +
 The type of wireless communication may also be restricted by the <<地域の組織委員会/Local Organizing Committee, local organizing committee>>. The local organizing committee will announce any restrictions to the community as early as possible.
 
 NOTE: Bluetoothによる通信は周波数チャンネルを固定にできないので禁止する。 +

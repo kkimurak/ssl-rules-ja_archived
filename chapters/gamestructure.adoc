@@ -99,15 +99,15 @@ NOTE: (訳者注)日本では一般的に「ビジョン」と呼称されるこ
 === チーム固有の役割/Team-Specific Roles
 
 ==== ハンドラ/Robot Handler
-試合開始前に、すべてのチームは一人のハンドラーを指定しなければいけない。ハンドラーは試合中にチームを代表する。 +
+試合開始前に、すべてのチームは一人のハンドラを指定しなければいけない。ハンドラは試合中にチームを代表する。 +
 Before the start of the match, every team has to designate one robot handler. The robot handler represents the team during the match.
 
 .職務/Duties
-* ハンドラーは<<競技の準備/Match Preparation, 競技の準備>>の補助を行う。 +
+* ハンドラは<<競技の準備/Match Preparation, 競技の準備>>の補助を行う。 +
 The robot handler helps <<競技の準備/Match Preparation, preparing the match>>.
-* 必要であれば、ハンドラーは主審に<<タイムアウト/Timeouts, タイムアウト>>を要求する。 +
+* 必要であれば、ハンドラは主審に<<タイムアウト/Timeouts, タイムアウト>>を要求する。 +
 The robot handler asks the referee for <<タイムアウト/Timeouts, timeouts>> if necessary.
-* ハンドラーは次のStop Game時にロボットを交代する許可を主審に要求し、主審が許可した場合は<<ロボットの交代/Robot Substitution,ロボットを交代する>>。 +
+* ハンドラは次のStop Game時にロボットを交代する許可を主審に要求し、主審が許可した場合は<<ロボットの交代/Robot Substitution,ロボットを交代する>>。 +
 The robot handler asks the referee for the permission to substitute a robot in the next stoppage and, if the referee agrees, <<ロボットの交代/Robot Substitution, substitutes the robot>>.
 * ハンドラはチームの懸念事項を表明する(例えばネットワークやビジョンの問題)。 +
 The robot handler voices concerns of the team (for example network issues or vision problems).

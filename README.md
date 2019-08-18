@@ -11,17 +11,20 @@ Install AsciiDoctor on your system (https://asciidoctor.org/). Afterwards, build
 ```
 # Build the HTML5 version
 asciidoctor sslrules.adoc
+```
+
+To build PDF version with Japanese charactors, you can use asciidoctor-pdf-cjk-kai_gen_gothic.
 # Build the PDF version
-asciidoctor-pdf sslrules.adoc
+asciidoctor-pdf -r asciidoctor-pdf-cjk-kai_gen_gothic -a pdf-style=KaiGenGothicJP sslrules.adoc
 ```
 
 ### Using docker image
-If you have Docker installed, you can use the official AsciiDoctor image:
+If you have Docker installed, you can use the AsciiDoctor image that optimized for Japanese:
 ```
 # Pull image once
-docker pull asciidoctor/docker-asciidoctor
+docker pull htakeuchi/docker-asciidoctor-jp
 # Build the HTML5 version
 docker run -v $PWD:/documents/ asciidoctor/docker-asciidoctor asciidoctor sslrules.adoc
 # Build the PDF version
-docker run -v $PWD:/documents/ asciidoctor/docker-asciidoctor asciidoctor-pdf sslrules.adoc
+docker run -v $PWD:/documents/ asciidoctor/docker-asciidoctor asciidoctor-pdfasciidoctor-pdf -r asciidoctor-pdf-cjk-kai_gen_gothic -a pdf-style=KaiGenGothicJP sslrules.adoc
 ```

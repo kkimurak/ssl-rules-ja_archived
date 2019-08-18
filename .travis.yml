@@ -7,11 +7,11 @@ services:
 
 before_install:            
   - mkdir -p output
-  - docker pull asciidoctor/docker-asciidoctor
+  - docker pull htakeuchi/docker-asciidoctor-jp
 
 script:
-  - docker run -v $TRAVIS_BUILD_DIR:/documents/ asciidoctor/docker-asciidoctor asciidoctor sslrules.adoc
-  - docker run -v $TRAVIS_BUILD_DIR:/documents/ asciidoctor/docker-asciidoctor asciidoctor-pdf sslrules.adoc
+  - docker run -v $TRAVIS_BUILD_DIR:/documents/ htakeuchi/docker-asciidoctor-jp asciidoctor sslrules.adoc
+  - docker run -v $TRAVIS_BUILD_DIR:/documents/ htakeuchi/docker-asciidoctor-jp asciidoctor-pdf sslrules.adoc
 
 after_error: 
   - docker logs asciidoc-to-html

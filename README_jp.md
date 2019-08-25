@@ -3,8 +3,8 @@
 [English](README.md) | Japanese  
 
 ロボカップ小型機リーグ(SSL)ルールの非公式日本語訳の、AsciiDoc形式のソースコードです。  
-公式ルールは https://github.com/RoboCup-SSL/ssl-rules よりご覧いただけます。
-旧バージョンのルール(英語)は https://github.com/RoboCup-SSL/ssl-rules-legacy よりご覧いただけます。
+公式ルールは、[小型機リーグ公式GitHubリポジトリ](https://github.com/RoboCup-SSL/ssl-rules)よりご覧いただけます。
+旧バージョンのルール(英語)は[こちら](https://github.com/RoboCup-SSL/ssl-rules-legacy)よりご覧いただけます。
 
 ## ビルド
 
@@ -12,14 +12,16 @@
 
 ### ネイティブ版AsciDoctorの使用
 
-AsciiDoctorをインストールしてください(https://asciidoctor.org/)。その後、以下のコマンドでHTML5版をビルドできます :
-```
+[AsciiDoctor](https://asciidoctor.org/)をインストールしてください。その後、以下のコマンドでHTML5版をビルドできます :
+
+```sh
 # HTML5版のビルド
 asciidoctor sslrules.adoc
 ```
 
 日本語を含むPDFを生成する場合、asciidoctor-pdf-cjk-kai_gen_gothicを使うと良いでしょう :
-```
+
+```sh
 # Build the PDF version
 asciidoctor-pdf -r asciidoctor-pdf-cjk-kai_gen_gothic -a pdf-style=KaiGenGothicJP sslrules.adoc
 ```
@@ -27,7 +29,8 @@ asciidoctor-pdf -r asciidoctor-pdf-cjk-kai_gen_gothic -a pdf-style=KaiGenGothicJ
 ### dockerイメージの使用
 
 Dockerをインストールしているのであれば、日本語環境向けに最適化されたAsciiDoctorイメージを使うことができます :
-```
+
+```sh
 # dockerイメージをpullする
 docker pull htakeuchi/docker-asciidoctor-jp
 # HTML5版のビルド

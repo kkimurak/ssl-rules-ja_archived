@@ -1,5 +1,7 @@
 # ロボカップ小型機リーグルール
 
+[English](README.md) | Japanese  
+
 ロボカップ小型機リーグ(SSL)公式ルールの、AsciiDoc形式のソースコードです。  
 旧バージョンのルール(英語)は https://github.com/RoboCup-SSL/ssl-rules-legacy よりご覧いただけます。
 

@@ -1,5 +1,7 @@
 # RoboCup Small Size League rules
 
+English | [Japanese](README_jp.md)
+
 This is the AsciiDoc source for the official RoboCup Small Size League rules.
 The legacy version of the rules can be found at https://github.com/RoboCup-SSL/ssl-rules-legacy
 

@@ -2,11 +2,12 @@
 
 English | [Japanese](README_jp.md)
 
-This is the AsciiDoc source for the official RoboCup Small Size League rules.
+This is the AsciiDoc source for the unofficial Japanese translation of RoboCup Small Size League rules.  
+The official rules can be found at https://github.com/RoboCup-SSL/ssl-rules
 The legacy version of the rules can be found at https://github.com/RoboCup-SSL/ssl-rules-legacy
 
 ## Build
-The rules are automatically built on updates to the master branch and published to [Github Pages](https://kkimurak.github.io/ssl-rules-jp/sslrules.html). There is also a [PDF-version](https://kkimurak.github.io/ssl-rules-jp/sslrules.pdf).
+The rules are automatically built on updates to the master-jp branch and published to [Github Pages](https://kkimurak.github.io/ssl-rules-jp/sslrules.html). There is also a [PDF-version](https://kkimurak.github.io/ssl-rules-jp/sslrules.pdf).
 
 ### Using AsciiDoctor natively
 Install AsciiDoctor on your system (https://asciidoctor.org/). Afterwards, build HTML5 version with

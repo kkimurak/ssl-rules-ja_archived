@@ -14,6 +14,7 @@ asciidoctor sslrules.adoc
 ```
 
 To build PDF version with Japanese charactors, you can use asciidoctor-pdf-cjk-kai_gen_gothic.
+```
 # Build the PDF version
 asciidoctor-pdf -r asciidoctor-pdf-cjk-kai_gen_gothic -a pdf-style=KaiGenGothicJP sslrules.adoc
 ```

@@ -1,0 +1,3 @@
+[submodule "3rd/asciidoctor"]
+	path = 3rd/asciidoctor
+	url = https://github.com/asciidoctor/asciidoctor.git

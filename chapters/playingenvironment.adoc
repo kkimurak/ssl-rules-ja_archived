@@ -13,7 +13,7 @@ The field of play must be rectangular and of the following size:
 実際のフィールドサイズとフィールドのマーキングは±10％の誤差の範囲内にある。 +
 The exact field dimensions and the field markings at the venue may vary by up to ±10% in each linear dimension.
 
-以下の２つの図は、フィールド、ゴールおよび特別なフィールドエリアをミリメータで測定した詳細を示している。ディヴィジョンAについては<<field-dimensions-a, Figure 1>>、ディフィジョンBについては<<field-dimensions-b, Figure 2>>を見ること。 +
+以下の２つの図は、フィールド、ゴールおよび特別なフィールドエリアをミリメータで測定した詳細を示している。ディヴィジョンAについては<<field-dimensions-a, 図1>>、ディフィジョンBについては<<field-dimensions-b, 図2>>を見ること。 +
 The two figures below show the dimensions of the field, the goals and special field areas, measured in millimeters.  <<field-dimensions-a, Figure 1>> shows the dimensions for division A and  <<field-dimensions-b, figure 2>> for division B.
 
 NOTE: 図中の数値はミリメートル表示の距離である +
@@ -61,7 +61,7 @@ A mid-line runs along the length of the field, passing through the center of the
 The center mark is indicated at the midpoint of the halfway line. A circle with a diameter of 1 meter is marked around it for both divisions.
 
 ===== ディフェンスエリア/Defense Area
-ディフェンスエリアは中心から見て両端にある<<ゴール/Goals, ゴール>>と接するゴールラインと接する長方形で定義される。ディフェンスエリアの大きさは<<field-dimensions-a, Figure 1>>と<<field-dimensions-b, Figure 2>>に示される通り、ディヴィジョンAであれば2.4×1.2m、ディヴィジョンBであれば2m×1mである。 +
+ディフェンスエリアは中心から見て両端にある<<ゴール/Goals, ゴール>>と接するゴールラインと接する長方形で定義される。ディフェンスエリアの大きさは<<field-dimensions-a, 図1>>と<<field-dimensions-b, 図2>>に示される通り、ディヴィジョンAであれば2.4×1.2m、ディヴィジョンBであれば2m×1mである。 +
 A defense area is defined as a rectangle touching the goal lines centrally in front of both <<ゴール/Goals, goals>>. The size of the defense area is 2.4 meters times 1.2 meters for division A and 2 meters times 1 meter for division B, as shown in figures <<field-dimensions-a, 1>> and <<field-dimensions-b, 2>> respectively.
 
 
@@ -76,7 +76,7 @@ The penaly mark does not need to be painted since it coincides with the intersec
 ゴールはそれぞれのゴールラインの中央に配置し、しっかりと固定されなければいけない。ゴールは高さ0.16mの2枚の垂直なサイドウォールと1枚の垂直なリヤウォールがつながって構成されている。ゴールの内側は、ボールの衝撃を吸収し偏向速度を減じるための材質 - 例えば発泡材など - で覆われる必要がある。ゴールの壁と角と上面は白色で塗装される。 +
 Goals must be placed on the center of each goal line and anchored securely to the field surface. They consist of two 0.16 meters high vertical side walls joined at the back by a 0.16 meters high vertical rear wall. The inner face of the goal has to be covered with an energy absorbing material such as foam to help absorb ball impacts and lessen the speed of deflections. The goal walls, edges, and tops are white in color.
 
-サイドウォールの間の距離はディヴィジョンAであれば1.2mでディヴィジョンBであれば1mで、奥行は0.18mである。ゴールウォールの厚さは0.02mでゴールラインと接している。ただし、フィールドラインやフィールドに対して侵入したり重なったりしないようにしている。<<goal-detail-a, Figure 3>>と<<goal-detail-b, Figure 4>>にディヴィジョンAとディヴィジョンBの詳細をそれぞれ示す。 +
+サイドウォールの間の距離はディヴィジョンAであれば1.2mでディヴィジョンBであれば1mで、奥行は0.18mである。ゴールウォールの厚さは0.02mでゴールラインと接している。ただし、フィールドラインやフィールドに対して侵入したり重なったりしないようにしている。<<goal-detail-a, 図3>>と<<goal-detail-b, 図4>>にディヴィジョンAとディヴィジョンBの詳細をそれぞれ示す。 +
 The distance between the side walls is 1.2 meters for division A and 1 meter for division B, and the goal is 0.18 meters deep. The goal walls are 0.02 meters thick and touch the goal line, but do not overlap or encroach on the field lines or the field. <<goal-detail-a, Figure 3>> and <<goal-detail-b, figure 4>> show these details for division A and division B respectively.
 
 NOTE: 図中の数値はミリメートル表示の距離である +

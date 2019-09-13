@@ -3,7 +3,7 @@
 [English](README.md) | Japanese  
 
 ロボカップ小型機リーグ(SSL)ルールの非公式日本語訳の、AsciiDoc形式のソースコードです。  
-公式ルールは、[小型機リーグ公式GitHubリポジトリ](https://github.com/RoboCup-SSL/ssl-rules)よりご覧いただけます。
+公式ルールは、[小型機リーグ公式GitHubリポジトリ](https://github.com/RoboCup-SSL/ssl-rules)よりご覧いただけます。  
 旧バージョンのルール(英語)は[こちら](https://github.com/RoboCup-SSL/ssl-rules-legacy)よりご覧いただけます。
 
 ## ビルド

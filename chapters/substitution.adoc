@@ -1,24 +1,39 @@
-== Robot Substitution
-.Definition
-Robots are substituted by the <<Robot Handler, robot handler>> of the respective team. No other team member is allowed to take robots out or put robots in.
+== ロボットの交代/Robot Substitution
+.定義/Definition
+ロボットはそれぞれのチームの<<ハンドラ/Robot Handler, ハンドラ>>によって交代される。他のいかなるチームメンバもロボットを出し入れすることは許可されない。 +
+Robots are substituted by the <<ハンドラ/Robot Handler, robot handler>> of the respective team. No other team member is allowed to take robots out or put robots in.
 
-. A <<Robot Handler, robot handler>> who's team is marked for robot substitution performs at least one of the following operations in the given order.
-.. Put robots in. The maximum allowed number of robots of the team on the field must not be exceeded.
-.. Take robots out. If a robot that is taken out is closer than 1 meter to the intersection of the halfway line with one of the touch lines, another robot can be put in right away. Otherwise the robot handler has to wait until the next substitution opportunity.
-. If one of the robots taken out is the keeper, the <<Robot Handler, robot handler>> tells the <<Game Controller Operator, game controller operator>> the id of the robot that takes over the keeper role.
-. The <<Robot Handler, robot handler>> informs the <<Referee, referee>> when done.
-. When both teams finished the robot substitution, the <<Referee, referee>> informs the <<Game Controller Operator, game controller operator>>.
-. The <<Game Controller Operator, game controller operator>> performs a <<Stop, stop>> followed by continuing the game.
+. ロボットの交代のためにチームが指定した<<ハンドラ/Robot Handler, ハンドラ>>は、以下の動作の少なくとも1つを所定の順序で実行する。 +
+A <<ハンドラ/Robot Handler, robot handler>> who's team is marked for robot substitution performs at least one of the following operations in the given order.
+.. ロボットを中に置く。チームがフィールド上においてよい最大数を超えてはいけない。 +
+Put robots in. The maximum allowed number of robots of the team on the field must not be exceeded.
+.. ロボットを取り除く。取り除かれたロボットがハーフウェイラインとタッチラインの交点から1m以内の距離にいる場合、別のロボットをすぐに置くことができる。それ以外の場合はハンドラは次の機会を待たなければならない。 +
+Take robots out. If a robot that is taken out is closer than 1 meter to the intersection of the halfway line with one of the touch lines, another robot can be put in right away. Otherwise the robot handler has to wait until the next substitution opportunity.
+. 取り除かれたロボットのうち1台がキーパーだった場合、<<ハンドラ/Robot Handler, ハンドラ>>は<<Game Controller Operator, game controller operator>>にキーパーの役割を引き継ぐロボットのIDを伝える。 +
+If one of the robots taken out is the keeper, the <<ハンドラ/Robot Handler, robot handler>> tells the <<Game Controller Operator, game controller operator>> the id of the robot that takes over the keeper role.
+. <<ハンドラ/Robot Handler, ハンドラ>>は交代が完了したら<<主審/Referee, 主審>>に連絡する +
+The <<ハンドラ/Robot Handler, robot handler>> informs the <<主審/Referee, referee>> when done.
+. 両チームともロボットの交代が終わったら、<<主審/Referee, 主審>>は<<Game Controller Operator, game controller operator>>に連絡する。 +
+When both teams finished the robot substitution, the <<主審/Referee, referee>> informs the <<Game Controller Operator, game controller operator>>.
+. <<Game Controller Operator, game controller operator>>は試合を続行するために<<停止/Stop, stop>>コマンドを実行する。 +
+The <<Game Controller Operator, game controller operator>> performs a <<停止/Stop, stop>> followed by continuing the game.
 
-.Usage
+.用途/Usage
+いかなる理由であってもロボットの交代ができる。交代の回数に制限はない。 +
 Robots can be substituted for any reason. There is no limit on the number of substitutions.
 
+ロボットの交代の意思表示は次のようにして行う： +
 A robot substitution intent can be made by:
 
-. A <<Robot Handler, robot handler>> by informing the <<Game Controller Operator, game controller operator>> who in turn enters the intent into the <<Game Controller, game controller>>.
-. A team software by sending a request to the <<Game Controller, game controller>>.
-. The <<Game Controller, game controller>> itself if a team exceeds the maximum number of robots (for example after a team receives a <<Yellow Card, yellow>> or <<Red Card, red card>>).
+. <<ハンドラ/Robot Handler, ハンドラ>>は<<Game Controller, game controller>>へ意図を入力する<<Game Controller Operator, game controller operator>>に通知する。 +
+A <<ハンドラ/Robot Handler, robot handler>> by informing the <<Game Controller Operator, game controller operator>> who in turn enters the intent into the <<Game Controller, game controller>>.)
+. チームのソフトウェアは<<Game Controller, game controller>>へリクエストを送信する。 +
+A team software by sending a request to the <<Game Controller, game controller>>.
+. <<Game Controller, game controller>>は当該チームに許された最大ロボット数を超えていないかを確認し(例えばチームが<<イエローカード/Yellow Card, イエロー>>か<<レッドカード/Red Card, レッドカード>>を受け取ったあと等)、リクエストを処理する。 +
+The <<Game Controller, game controller>> itself if a team exceeds the maximum number of robots (for example after a team receives a <<イエローカード/Yellow Card, yellow>> or <<レッドカード/Red Card, red card>>).
 
+片方のチームの交代の意図のために試合がHaltにされた場合、このチームが少なくとも1台は(ロボットを取り除くか置くかして)交代しなければならない。交代のために試合がHaltされていない場合に限り交代の意図を取り消すことができる。 +
 If the game was halted due to a substitution intent by a team, at least one substitution (taking a robot out or putting one in) must be performed by this team. A substitution intent can be revoked unless the game was not already halted for substitution.
 
-If a robot substitution intent for either team is present just before the game would continue after ball placement, the <<Game Controller, game controller>> automatically <<Halt, halts>> the game.
+ボール配置後、試合が継続する直前にどちらかのチームがロボットを交代する意思がある場合、<<Game Controller, game controller>>は自動的に試合を<<ハルト/Halt, ハルト>>する。 +
+If a robot substitution intent for either team is present just before the game would continue after ball placement, the <<Game Controller, game controller>> automatically <<ハルト/Halt, halts>> the game.

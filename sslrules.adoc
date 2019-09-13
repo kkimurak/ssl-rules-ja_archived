@@ -1,6 +1,7 @@
 :imagesdir: images/
+include::3rd/asciidoctor/data/locale/attributes-ja.adoc[]
 
-= Rules of the RoboCup Small Size League 2019
+= RoboCup小型機リーグ2019年度ルール
 {docdate}
 :toc:
 
@@ -14,7 +15,10 @@ endif::basebackend-html[]
 :icons: font
 :numbered:
 
-NOTE: References to the male gender in the rules with respect to referees, team members, officials, etc. are for simplification and apply to both males and females.
+NOTE: ルールにおける審判、チームメンバー、運営その他への男性称の使用は単純化のためであり、性別を問わず適用される。 +
+References to the male gender in the rules with respect to referees, team members, officials, etc. are for simplification and apply to both males and females.
+
+<<<
 
 include::chapters/introduction.adoc[]
 

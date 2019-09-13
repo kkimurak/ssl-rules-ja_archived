@@ -1,28 +1,41 @@
-== League Overview
-=== Committees
-The Small Size League (like every other league of the RoboCup) is run by close cooperation of three different committees (<<Executive Committee, executive committee>>, <<Technical Committee, technical committee>> and <<Organizing Committee, organizing committee>>), all with a different set of responsibilities. The members of the respective committees can be found on the official RoboCup Small Size League website (https://ssl.robocup.org).
+== リーグ概要/League Overview
+=== 委員会/Committees
+(ロボカップの他のリークと同じように)小型機リーグは3つの異なる委員会(<<実行委員会/Executive Committee, 実行委員会>>、<<技術委員会/Technical Committee, 技術委員会>>、<<組織委員会/Organizing Committee, 組織委員会>>)で運営されている。これらの委員会はそれぞれ異なる責任を負う。各委員会の委員はロボカップ小型機リーグの公式ウェブサイト(https://ssl.robocup.org) で確認できる。 +
+The Small Size League (like every other league of the RoboCup) is run by close cooperation of three different committees (<<実行委員会/Executive Committee, executive committee>>, <<技術委員会/Technical Committee, technical committee>> and <<組織委員会/Organizing Committee, organizing committee>>), all with a different set of responsibilities. The members of the respective committees can be found on the official RoboCup Small Size League website (https://ssl.robocup.org).
 
-NOTE: In practice, there is no strict separation between the <<Technical Committee, technical>> and the <<Organizing Committee, organizing committee>>. Members of both committees often work together on the joint set of tasks.
+NOTE: 実際には、<<技術委員会/Technical Committee, 技術委員会>>と<<組織委員会/Organizing Committee, 組織委員会>>に厳密な区別はない。各委員会の委員が協力して業務をこなしている。 +
+In practice, there is no strict separation between the <<技術委員会/Technical Committee, technical>> and the <<組織委員会/Organizing Committee, organizing committee>>. Members of both committees often work together on the joint set of tasks.
 
-Additionally, the members of the <<Local Organizing Committee, local organizing committee>> organize the RoboCup event for all leagues.
+それに加えて、<<地域の組織委員会/Local Organizing Committee, 地域の組織委員会>>の委員がロボカップのすべてのリーグのイベントを整備している。 +
+Additionally, the members of the <<地域の組織委員会/Local Organizing Committee, local organizing committee>> organize the RoboCup event for all leagues.
 
-==== Executive Committee
+==== 実行委員会/Executive Committee
+実行委員会の委員は小型機リーグの長期的目標を担当しており、ロボカップ委員会だけでなく、他のリーグとの提携も行っている。実行委員会は小型機リーグとその成果を毎年ロボカップ委員会に報告し、リーグを組織するためのフィードバッグを得る。実行委員会の委員はロボカップ委員会の理事会によって選出される。委員は3年間の任期を務める。 +
 Executive committee members are responsible for the long term goals of the Small Size League and thus have also contact to other leagues as well as to the RoboCup federation. The executive committee presents the Small Size League and its achievements to the RoboCup federation every year and gets feedback to organize the league. Executive committee members are elected by the board of trustees of the RoboCup federation. They serve 3-year terms.
 
-==== Technical Committee
+==== 技術委員会/Technical Committee
+小型機リーグの技術委員会はルールや共有ソフトウェアのような技術的な側面を担当している。すべての委員は前回大会に参加したチームのチームリーダー達によって選出される。 +
 The technical committee of the Small Size League is responsible for the technical aspects of the RoboCup, such as maintaining the rules and the shared software. All members are elected by the team leaders of the teams which have participated in the previous competition.
 
-==== Organizing Committee
-The organizing committee of the Small Size League is responsible for preparing and organizing the competition. This mainly includes making the schedule, performing the qualification process, and running the competition. The committee members are selected by the <<Executive Committee, executive committee>> of the league and the RoboCup trustees.
+==== 組織委員会/Organizing Committee
+小型機リーグの組織委員会は競技会の準備と組織を担当している。これにはスケジュールの作成、出場資格審査、競技の進行が含まれている。組織委員会の委員は、ロボカップ評議員会とリーグの<<実行委員会/Executive Committee,実行委員会>>によって選出される。 +
+The organizing committee of the Small Size League is responsible for preparing and organizing the competition. This mainly includes making the schedule, performing the qualification process, and running the competition. The committee members are selected by the <<実行委員会/Executive Committee, executive committee>> of the league and the RoboCup trustees.
 
-==== Local Organizing Committee
+NOTE: "Qualification Process"(出場資格審査)は参加予定チームによるTeam Description Paper(TDP)ならびに評価用ビデオの提出、匿名での他チーム評価(要求された場合は加筆訂正のうえ再提出)からなる一連のプロセスを指し、世界大会出場のための前提条件となる。
+
+==== 地域の組織委員会/Local Organizing Committee
+地域の組織委員会は異なるリーグのニーズに応じてイベントを計画して実行する事を担当している。これには、チームエリア（フィールド、ネットワーク、テーブル、ホワイトボード、スクリーンなど）の設営、イベントのスケジュールの作成、安全性とセキュリティのコンセプトの実装が含まれる。 +
 The local organizing committee is responsible for planning and executing the event itself in accordance with the needs of the different leagues. This includes setting up the team areas (fields, network, tables, whiteboard, screens, etc.), creating a schedule for the event and implementing a safety and security concept.
 
-=== Divisions
+=== ディヴィジョン/Divisions
+小型リーグはディヴィジョンAとディヴィジョンBと呼ばれる2つのトーナメントに分割される。ディヴィジョンAは先進的なチームを対象としており、それ以外の新しいチームや競争力が弱いチームなどはディヴィジョンBで試合をすることができる。各チームは2つのディヴィジョンのうち1つのみに参加することができる。 +
 The Small Size League is divided into two divisions with separate tournaments, namely division A and division B. Division A is aimed at advanced teams whereas new and/or less competitive teams can play in division B. Each team will only play in one of those two divisions.
 
-When submitting the qualification material, the team also chooses a preferred division including a short rationale. The members of the <<Organizing Committee, organizing committee>> will have the final word. Information about the qualification process can be found on the official RoboCup Small Size League website (https://ssl.robocup.org).
+出場資格審査で使う資料を提出する時、各チームは簡潔な理由をつけてどちらのディヴィジョンで競技したいかも選択すること。<<組織委員会/Organizing Committee, 組織委員会>>のメンバーは最終的な決定をする。出場資格審査の方法に関する情報はロボカップ小型機リーグの公式ウェブサイト(https://ssl.robocup.org) で確認できる。 +
+When submitting the qualification material, the team also chooses a preferred division including a short rationale. The members of the <<組織委員会/Organizing Committee, organizing committee>> will have the final word. Information about the qualification process can be found on the official RoboCup Small Size League website (https://ssl.robocup.org).
 
-A summary of differences between the two divisions can be found in the <<Differences Between Divisions, Appendix>>.
+二つのディビジョンの違いに関する要約は<<ディヴィジョンごとの違い/Differences Between Divisions, 付録>>で確認できる。 +
+A summary of differences between the two divisions can be found in the <<ディヴィジョンごとの違い/Differences Between Divisions, Appendix>>.
 
-NOTE: Divisions allow for more radical advancements in the Small Size League without drastically raising the entry barrier for new teams. Additionally, they also considerably increase the amount of matches between teams of similar skill.
+NOTE: ディヴィジョン制を導入することによって、新しいチームの参入障壁を大幅に引き上げることなく、小型機リーグのより急速な進歩を可能にする。また、ディビジョンの導入によって、同じような強さのチームとの試合を大幅に増やすことができる。 +
+Divisions allow for more radical advancements in the Small Size League without drastically raising the entry barrier for new teams. Additionally, they also considerably increase the amount of matches between teams of similar skill.

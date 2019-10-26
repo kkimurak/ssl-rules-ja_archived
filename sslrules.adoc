@@ -1,5 +1,5 @@
 :imagesdir: images/
-include::3rd/asciidoctor/data/locale/attributes-ja.adoc[]
+include::https://raw.githubusercontent.com/asciidoctor/asciidoctor/master/data/locale/attributes-ja.adoc[]
 
 = RoboCup小型機リーグ2019年度ルール
 {docdate}

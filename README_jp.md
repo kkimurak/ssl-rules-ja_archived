@@ -8,7 +8,8 @@
 
 ## ビルド
 
-ルールはmaster-jpブランチの更新に応じて、自動的に[Github Page](https://kkimurak.github.io/ssl-rules-jp/sslrules.html)に公開されます。[PDF版](https://kkimurak.github.io/ssl-rules-jp/sslrules.pdf)もご利用いただけます。
+ルールはmaster-jpブランチの更新に応じて、自動的に[Github Page](https://kkimurak.github.io/ssl-rules-jp/sslrules.html)に公開されます。[PDF版](https://kkimurak.github.io/ssl-rules-jp/sslrules.pdf)もご利用いただけます。  
+組み込み属性（「図」、「目次」など）に翻訳を適用するために、AsciiDocの機能である["Include Content from a URI"](https://asciidoctor.org/docs/user-manual/#include-uri)を使用しているため、`allow-uri-read`オプションを使用する必要があります。
 
 ### ネイティブ版AsciDoctorの使用
 
@@ -16,14 +17,14 @@
 
 ```sh
 # HTML5版のビルド
-asciidoctor sslrules.adoc
+asciidoctor -a allow-uri-read sslrules.adoc
 ```
 
 日本語を含むPDFを生成する場合、asciidoctor-pdf-cjk-kai_gen_gothicを使うと良いでしょう :
 
 ```sh
 # Build the PDF version
-asciidoctor-pdf -r asciidoctor-pdf-cjk-kai_gen_gothic -a pdf-style=KaiGenGothicJP sslrules.adoc
+asciidoctor-pdf -r asciidoctor-pdf-cjk-kai_gen_gothic -a pdf-style=KaiGenGothicJP -a allow-uri-read sslrules.adoc
 ```
 
 ### dockerイメージの使用
@@ -34,7 +35,7 @@ Dockerをインストールしているのであれば、日本語環境向け�
 # dockerイメージをpullする
 docker pull htakeuchi/docker-asciidoctor-jp
 # HTML5版のビルド
-docker run -v $PWD:/documents/ htakeuchi/docker-asciidoctor asciidoctor sslrules.adoc
+docker run -v $PWD:/documents/ htakeuchi/docker-asciidoctor asciidoctor -a allow-uri-read sslrules.adoc
 # Build the PDF version
-docker run -v $PWD:/documents/ htakeuchi/docker-asciidoctor asciidoctor-pdf -r asciidoctor-pdf-cjk-kai_gen_gothic -a pdf-style=KaiGenGothicJP sslrules.adoc
+docker run -v $PWD:/documents/ htakeuchi/docker-asciidoctor asciidoctor-pdf -r asciidoctor-pdf-cjk-kai_gen_gothic -a pdf-style=KaiGenGothicJP -a allow-uri-read sslrules.adoc
 ```

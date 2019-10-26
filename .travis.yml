@@ -10,8 +10,8 @@ before_install:
   - docker pull htakeuchi/docker-asciidoctor-jp
 
 script:
-  - docker run -v $TRAVIS_BUILD_DIR:/documents/ htakeuchi/docker-asciidoctor-jp asciidoctor sslrules.adoc
-  - docker run -v $TRAVIS_BUILD_DIR:/documents/ htakeuchi/docker-asciidoctor-jp asciidoctor-pdf -r asciidoctor-pdf-cjk-kai_gen_gothic -a pdf-style=KaiGenGothicJP sslrules.adoc
+  - docker run -v $TRAVIS_BUILD_DIR:/documents/ htakeuchi/docker-asciidoctor-jp asciidoctor -a allow-uri-read sslrules.adoc
+  - docker run -v $TRAVIS_BUILD_DIR:/documents/ htakeuchi/docker-asciidoctor-jp asciidoctor-pdf -r asciidoctor-pdf-cjk-kai_gen_gothic -a pdf-style=KaiGenGothicJP -a allow-uri-read sslrules.adoc
 
 after_error: 
   - docker logs asciidoc-to-html

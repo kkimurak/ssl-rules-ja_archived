@@ -34,7 +34,7 @@ Dockerをインストールしているのであれば、日本語環境向け�
 # dockerイメージをpullする
 docker pull htakeuchi/docker-asciidoctor-jp
 # HTML5版のビルド
-docker run -v $PWD:/documents/ asciidoctor/docker-asciidoctor asciidoctor sslrules.adoc
+docker run -v $PWD:/documents/ htakeuchi/docker-asciidoctor asciidoctor sslrules.adoc
 # Build the PDF version
-docker run -v $PWD:/documents/ asciidoctor/docker-asciidoctor asciidoctor-pdf -r asciidoctor-pdf-cjk-kai_gen_gothic -a pdf-style=KaiGenGothicJP sslrules.adoc
+docker run -v $PWD:/documents/ htakeuchi/docker-asciidoctor asciidoctor-pdf -r asciidoctor-pdf-cjk-kai_gen_gothic -a pdf-style=KaiGenGothicJP sslrules.adoc
 ```

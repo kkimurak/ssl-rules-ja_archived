@@ -36,5 +36,5 @@ docker pull htakeuchi/docker-asciidoctor-jp
 # Build the HTML5 version
 docker run -v $PWD:/documents/ asciidoctor/docker-asciidoctor asciidoctor sslrules.adoc
 # Build the PDF version
-docker run -v $PWD:/documents/ asciidoctor/docker-asciidoctor asciidoctor-pdfasciidoctor-pdf -r asciidoctor-pdf-cjk-kai_gen_gothic -a pdf-style=KaiGenGothicJP sslrules.adoc
+docker run -v $PWD:/documents/ asciidoctor/docker-asciidoctor asciidoctor-pdf -r asciidoctor-pdf-cjk-kai_gen_gothic -a pdf-style=KaiGenGothicJP sslrules.adoc
 ```

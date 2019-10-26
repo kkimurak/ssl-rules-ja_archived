@@ -19,7 +19,7 @@ Install [AsciiDoctor](https://asciidoctor.org/) on your system . Afterwards, bui
 asciidoctor sslrules.adoc
 ```
 
-To build PDF version with Japanese charactors, you can use asciidoctor-pdf-cjk-kai_gen_gothic.
+To build PDF version with Japanese characters, you can use asciidoctor-pdf-cjk-kai_gen_gothic.
 
 ```sh
 # Build the PDF version

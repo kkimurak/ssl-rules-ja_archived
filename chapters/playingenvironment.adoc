@@ -21,11 +21,11 @@ The numbers in the figures below show the distances in millimeters.
 
 [[field-dimensions-a]]
 .ディヴィジョンAにおけるフィールドの寸法と各マーキング/Field dimensions and markings for division A
-image::quad-size-field.png[]
+image::quad-size-field.svg[]
 
 [[field-dimensions-b]]
 .ディヴィジョンBにおけるフィールドの寸法と各マーキング/Field dimensions and markings for division B
-image::double-size-field.png[]
+image::double-size-field.svg[]
 
 [[reference-human-soccer-field]]
 image::lawsofthegame_201819_p35_field.png[]
@@ -84,11 +84,11 @@ The numbers in the figures below show the distances in millimeters.
 
 [[goal-detail-a]]
 .ディヴィジョンAにおけるゴール詳細/The goal in detail for division A
-image::goal_detail_divisionA.png[width=400]
+image::goal_detail_divisionA.svg[width=400]
 
 [[goal-detail-b]]
 .ディヴィジョンBにおけるゴール詳細/The goal in detail for division B
-image::goal_detail_divisionB.png[width=400]
+image::goal_detail_divisionB.svg[width=400]
 
 === ボール/Ball
 ボールは普通のオレンジ色のゴルフボールである。重さは約0.046kgで直径は0.043mである。 +

@@ -5,7 +5,7 @@ sudo: required
 services:
   - docker
 
-before_install:            
+before_install:
   - mkdir -p output
   - docker pull htakeuchi/docker-asciidoctor-jp
 
@@ -13,7 +13,7 @@ script:
   - docker run -v $TRAVIS_BUILD_DIR:/documents/ htakeuchi/docker-asciidoctor-jp asciidoctor -a allow-uri-read sslrules.adoc
   - docker run -v $TRAVIS_BUILD_DIR:/documents/ htakeuchi/docker-asciidoctor-jp asciidoctor-pdf -r asciidoctor-pdf-cjk-kai_gen_gothic -a pdf-style=KaiGenGothicJP -a allow-uri-read sslrules.adoc
 
-after_error: 
+after_error:
   - docker logs asciidoc-to-html
   - docker logs asciidoc-to-pdf
 
@@ -26,7 +26,7 @@ after_script:
   - cd $TRAVIS_BUILD_DIR/gh-pages
   - cp ../*.html ../*.pdf .
   - mkdir -p images
-  - cp ../images/*.png images/
+  - cp ../images/*.png ../images/*.svg images/
   - git config user.name "TravisCI"
   - git config user.email "build-pipeline@travis-ci.org"
   - git add images *.html *.pdf

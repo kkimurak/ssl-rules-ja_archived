@@ -57,7 +57,7 @@ Teams are encouraged to prefer color assignments with ids 0 to 7 because they ha
 
 .スタンダードVisionパターンの色/Standard Vision Pattern Colors
 [[standard-vision-colors]]
-image::standard_colors2010.png[width=500]
+image::standard_colors2010.svg[width=500]
 
 ==== 無線通信/Radio Communication
 無線通信を使用する参加者は、通信の方法、電力、周波数を<<組織委員会/Organizing Committee, 組織委員会>>に通知するものとする。<<組織委員会/Organizing Committee, 組織委員会>>は、登録後のいかなる変更についてもできるだけ早く通知を受けなければならない。混線を回避するために、試合の前にチームは2つの周波数から選択出来るようにしなければならない。無線通信の形式は、競技が開催される国の法的規則に従うものとする。現地の法律を守ることは、ロボカップ委員会ではなく競技するチームが責任を負うものとする。 +

@@ -1,7 +1,7 @@
 :imagesdir: images/
 include::https://raw.githubusercontent.com/asciidoctor/asciidoctor/master/data/locale/attributes-ja.adoc[]
 
-= RoboCup小型機リーグ2019年度ルール
+= RoboCup小型機リーグルール
 {docdate}
 :toc:
 

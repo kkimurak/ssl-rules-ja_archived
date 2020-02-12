@@ -148,7 +148,7 @@ When the ball is <<インプレイとアウトオブプレイ/Ball In And Out Of
 
 .用途/Usage
 直接フリーキックは<<ファウル/Fouls, ファウル>>が発生した後に試合を再開するために使われる。さらに、<<ゴールキック/Goal Kick, ゴールキック>>と<<コーナーキック/Corner Kick, コーナーキック>>も直接フリーキックに割り当てられている。 +
-Direct free kicks are used to restart the game after a <<ファウル/Fouls, foul>> has occured. Additionally, <<ゴールキック/Goal Kick, goal kicks>> and <<コーナーキック/Corner Kick, corner kicks>> are mapped to direct free kicks.
+Direct free kicks are used to restart the game after a <<ファウル/Fouls, foul>> has occurred. Additionally, <<ゴールキック/Goal Kick, goal kicks>> and <<コーナーキック/Corner Kick, corner kicks>> are mapped to direct free kicks.
 
 NOTE: (訳者注)一般的に「ダイレクトフリーキック」もしくは単に「ダイレクト」と呼称されることが多い。
 
@@ -168,7 +168,7 @@ In association football, it is sufficient if any player (including the keeper) t
 
 .用途/Usage
 間接フリーキックは<<軽微な違反/Minor Offenses, 軽微な違反>>が発生した時に試合を再開するために使用する。さらに<<スローイン/Throw-In, スローイン>>も間接フリーキックに割り当てられている。 +
-Indirect free kicks are used to restart the game after a <<軽微な違反/Minor Offenses, minor offense>> has occured. Additionally, <<スローイン/Throw-In, throw-ins>> are mapped to indirect free kicks.
+Indirect free kicks are used to restart the game after a <<軽微な違反/Minor Offenses, minor offense>> has occurred. Additionally, <<スローイン/Throw-In, throw-ins>> are mapped to indirect free kicks.
 
 NOTE: (訳者注)一般的に「インダイレクトフリーキック」もしくは単に「インダイレクト」と呼称されることが多い。
 
@@ -238,7 +238,7 @@ Yellow cards can also be given by the referee to punish <<ファウル/Fouls, fo
 ==== レッドカード/Red Card
 .定義/Definition
 レッドカードは<<イエローカード/Yellow Card, イエローカード>>と似ているが違いがある：レッドカードは試合終了まで有効期間が終了しない。 +
-A red card behaves like a <<イエローカード/Yellow Card, yellow card>>, exept: It does not expire until the end of the game.
+A red card behaves like a <<イエローカード/Yellow Card, yellow card>>, except: It does not expire until the end of the game.
 
 .用途/Usage
 レッドカードは<<ファウル/Fouls, ファウル>>や<<非スポーツマン行為/Unsporting Behavior, 非スポーツマン行為>>を罰するために主審が宣告する。 +

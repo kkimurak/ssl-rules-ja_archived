@@ -1,6 +1,6 @@
 == ゴールの得点方法/Scoring Goals
 ボールがゴールポストの間に入ってゴールした場合にゴールの得点が認められる。ただし、インプレイに入った後にゴールを得点したチームがいかなるルール違反も犯していないことを条件とする。 +
-A goal is scored if the ball enters the goal between the goal posts, provided that no rule infringement has been committed in the play immediately preceeding this event, by the team scoring the goal.
+A goal is scored if the ball enters the goal between the goal posts, provided that no rule infringement has been committed in the play immediately preceding this event, by the team scoring the goal.
 
 さらに、ゴールは以下の場合のみ有効である。 +
 Additionally, the goal is only valid if

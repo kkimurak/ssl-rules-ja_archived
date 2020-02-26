@@ -158,6 +158,9 @@ If a robot other than the keeper touches the ball while being partially inside i
 キーパー以外のロボットが自チームのディフェンスエリアに完全に入った状態でボールに触れた場合、試合は中断される。そして相手チームの<<ペナルティーキック/Penalty Kick, ペナルティーキック>>で試合を再開する。ファウルのカウンターは増加しない。 +
 If a robot other than the keeper touches the ball while being entirely inside its own defense area, the game is stopped and a <<ペナルティーキック/Penalty Kick, penalty kick>> is awarded to the other team. The foul counter is not increased.
 
+==== Boundary Crossing
+A robot must not kick the ball over the field boundary such that the ball leaves the field.
+
 
 === 非スポーツマン行為/Unsporting Behavior
 非スポーツマン行為は<<イエローカード/Yellow Card, イエローカード>>、<<レッドカード/Red Card, レッドカード>>、<<ペナルティーキック/Penalty Kick, ペナルティーキック>>、<<強制的な試合放棄/Forced Forfeit, 強制的な試合放棄>>、<<失格/Disqualification, 失格>>につながる可能性がある。人間の主審は反則の重要性に応じて適切な処罰を選択する。 +

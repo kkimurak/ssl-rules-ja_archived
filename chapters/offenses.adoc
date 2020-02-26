@@ -7,7 +7,7 @@ Rule of thumb: Minor offenses are infringements of the rules committed by an att
 
 === 軽微な違反/Minor Offenses
 軽微な違反はルール違反となり、結果として試合の停止とその後の相手チームへの<<間接フリーキック/Indirect Free Kick, 間接フリーキック>>となる。フリーキックは違反が発生した場所から蹴られる(正確なボールの位置に関するルールは「<<直接フリーキック/Direct Free Kick, 直接フリーキック>>」を参照する事)。 +
-Minor offenses are violations of the rules that result in a stoppage and a subsequent <<間接フリーキック/Indirect Free Kick, indirect free kick>> for the opposing team. The free kick will be shot from the position where the offense began happening (see <<直接フリーキック/Direct Free Kick, the direct free kick rules>> for the exact ball position rules).
+Minor offenses are violations of the rules that result in a stoppage and a subsequent <<間接フリーキック/Indirect Free Kick, indirect free kick>> for the opposing team. The free kick will be shot from the position where the ball was located when the offense began happening (see <<直接フリーキック/Direct Free Kick, the direct free kick rules>> for the exact ball position rules).
 
 軽微な違反を以下に示す +
 All minor offenses are listed below.
@@ -64,7 +64,7 @@ A robot must not accelerate the ball faster than 6.5 meters per second in 3D spa
 
 === ファウル/Fouls
 ファウルは違反に関するルールで、結果として相手チームに<<直接フリーキック/Direct Free Kick, 直接フリーキック>>を与える。そのフリーキックは違反が発生し始めた場所からシュートされる(正確なボールの位置に関するルールは<<直接フリーキック/Direct Free Kick, 直接フリーキックのルール>>を参照)。ファウルが<<インプレイとアウトオブプレイ/Ball In And Out Of Play, 試合の停止中>>に発生した場合、フリーキックは与えられない。 +
-Fouls are violations of the rules that result in a <<直接フリーキック/Direct Free Kick, direct free kick>> for the opposing team. The free kick will be shot from the position where the offense began happening (see <<直接フリーキック/Direct Free Kick, the direct free kick rules>> for the exact ball position rules). If the foul happened while the ball is <<インプレイとアウトオブプレイ/Ball In And Out Of Play, out of play>>, no free kick is given.
+Fouls are violations of the rules that result in a <<直接フリーキック/Direct Free Kick, direct free kick>> for the opposing team. The free kick will be shot from the position where the ball was located when the offense began happening (see <<直接フリーキック/Direct Free Kick, the direct free kick rules>> for the exact ball position rules). If the foul happened while the ball is <<インプレイとアウトオブプレイ/Ball In And Out Of Play, out of play>>, no free kick is given.
 
 同じチームの3回目のファウルごとに<<イエローカード/Yellow Card, イエローカード>>が出る。 +
 Every third foul of the same team results in a <<イエローカード/Yellow Card, yellow card>>.

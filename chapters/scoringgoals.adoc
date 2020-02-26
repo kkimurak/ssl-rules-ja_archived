@@ -11,7 +11,7 @@ It is not shot directly from an <<間接フリーキック/Indirect Free Kick, i
 The height of the ball did not exceed 0.15 meters after the last touch of an attacker
 
 NOTE: <<シュートアウト/Shoot-Out, シュートアウト>>中は、これらの追加ルールは適用されない。 +
-During <<シュートアウト/Shoot-Out, shoot-out>>, these additional rules do not apply.
+During <<ペナルティーキック/Penalty Kick, penalty kicks>>, these additional rules do not apply.
 
 ゴールが無効とみなされた場合、試合はボールがゴールの外側のゴールラインを交差したものとして継続する。 +
 If the goal is considered invalid, the game will be continued as if the ball crossed the goal line outside the goal.

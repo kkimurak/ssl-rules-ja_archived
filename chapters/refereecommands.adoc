@@ -110,7 +110,7 @@ For two-staged referee commands, when normal start is sent, an attacker may <<�
 
 .用途/Usage
 Normal startは<<キックオフ/Kick-Off, キックオフ>>、<<ペナルティーキック/Penalty Kick, ペナルティキック>>、<<シュートアウト/Shoot-Out, シュートアウト>>の時に使用する。 +
-Normal start is used for <<キックオフ/Kick-Off, kick-offs>>, <<ペナルティーキック/Penalty Kick, penalty kicks>> and <<シュートアウト/Shoot-Out, shoot-out>>.
+Normal start is used for <<キックオフ/Kick-Off, kick-offs>> and <<ペナルティーキック/Penalty Kick, penalty kicks>>.
 
 NOTE: (訳者注記)この小節で言いたいのは、試合が停止しているときにいきなりNormal Startコマンドが送信されることはなくて、キックオフやペナルティーキックのコマンドが送信されてからその次にNormal startのコマンドが送信されるという事。
 
@@ -186,23 +186,35 @@ It can also be used to resume the game when the game had to be stopped and no te
 
 ==== ペナルティーキック/Penalty Kick
 .定義/Definition
-ペナルティーキックを開始するには、停止コマンドを送信しなければならず、ボールは人間の<<主審/Referee, 主審>>によって<<ペナルティーマーク/Penalty Mark, ペナルティマーク>>上に配置されなければならない。 +
-To initiate a penalty kick, the stop command has to be sent and the ball has to be placed on the <<ペナルティーマーク/Penalty Mark, penalty mark>> by the human <<主審/Referee, referee>>.
+The procedure of a penalty kick is as follows:
 
-penaltyコマンドが発行されたとき、1台の攻撃側ロボットはボールに触れない範囲で近づくことが許可される。このロボットはキッカーと呼ばれる。守備をするキーパーはゴールラインに触れていなけばならない。それ以外のすべてのロボットは、ゴールラインと平行でペナルティマークから0.4m後ろにあたる線より後ろに移動する必要がある。これらの制約が満たされたら主審は<<ノーマルスタート/Normal Start, normal start>>コマンドにより続けることができる。 +
-When the penalty command is issued, one attacking robot is allowed to approach but not touch the ball. This robot will be referred to as the kicker. The defending keeper has to touch the goal line. All other robots have to move behind a line parallel to the goal line and 0.4 meters behind the penalty mark. When these constraints are met, the referee may continue with a <<ノーマルスタート/Normal Start, normal start>> command.
+. The ball is placed by the human referee on the <<Penalty Mark, penalty mark>>.
+. When the <<Penalty Kick, penalty>> command is issued
+.. The defending keeper has to move to the goal line and keep touching it
+.. One attacking robot is allowed to approach the ball but not touch the ball
+.. All other robots have to be 1m behind the ball such that they do not interfere the penalty kick procedure at any time.
+. When the <<Normal Start, normal start>> command is issued, the attacker is allowed to <<Ball Manipulation, manipulate the ball>>. The ball has to only move towards the opponent goal, as measured by its x coordinate in the coordinate system of <<Vision, SSL-Vision>>.
+. When the ball is <<Ball In And Out Of Play, in play>>, the defending keeper may move freely again
 
-<<ノーマルスタート/Normal Start, normal start>>コマンドが発行されたとき、キッカーはボールをシュートすることが許可される。ペナルティキックから直接ゴールしても得点となる。 +
-When the <<ノーマルスタート/Normal Start, normal start>> command is issued, the kicker is allowed to shoot the ball. A goal may be scored directly from the penalty kick.
+A goal is awarded if:
+
+* the ball touches the inner surface of a goal wall or the ground of the goal of the defending team in less than 10 seconds, starting from when the <<Normal Start, normal start>> command is issued
+* the defending team violates any rule
+
+A goal is not awarded if:
+
+* the ball crosses any <<Field Lines, field lines>> outside the goal
+* the defending keeper touches the ball such that the ball speed vector changes direction by at least 90 degrees in 2D space
+* the attacking team violates any rule
+
+NOTE: The restrictions defined for <<Scoring Goals, scoring goals>>, including the ball height limit of 0.15 meters, do not apply here.
+Other rules like the <<Excessive Dribbling, excessive dribbling>> limitation for example do.
 
 ボールが<<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ>>になっているとき、キッカーは他のロボットがボールに触れるか、ゲームが停止するまでボールに触れてはいけない(「<<ダブルタッチ/Double Touch, ダブルタッチ>>」を参照)。また、ロボットの位置に関する制限が解除される。 +
 When the ball is <<インプレイとアウトオブプレイ/Ball In And Out Of Play, in play>>, the kicker may not touch the ball until it has been touched by another robot or the game has been stopped (see <<ダブルタッチ/Double Touch, double touch>>). Also, the restrictions regarding the robot positions are lifted.
 
 ペナルティーキックがハーフタイムや試合終了の時に実行される場合、アディショナルタイムが許可される。 +
 Additional time is allowed for a penalty kick to be taken at the end of each half or at the end of periods of overtime.
-
-攻撃側のチームがルールを侵害し、ボールがゴールに入った場合、または守備側のチームがルールを侵害し、ボールがゴールに入っていない場合、ペナルティーキックは再度行われる。 +
-The penalty kick is retaken if the attacking team infringes the rules and the ball enters the goal or the defending team infringes the rules and the ball does not enter the goal.
 
 .用途/Usage
 ペナルティキックは複数の<<イエローカード/Yellow Card, イエローカード>>を受け取ったチームを罰するために使用され、それ以外に<<非スポーツマン行為/Unsporting Behavior, 非スポーツマン行為>>や<<マルチプルディフェンス/Multiple Defenders, マルチプルディフェンス>>を行ったときにも使用される。 +

@@ -158,7 +158,8 @@ If a robot other than the keeper touches the ball while being partially inside i
 キーパー以外のロボットが自チームのディフェンスエリアに完全に入った状態でボールに触れた場合、試合は中断される。そして相手チームの<<ペナルティーキック/Penalty Kick, ペナルティーキック>>で試合を再開する。ファウルのカウンターは増加しない。 +
 If a robot other than the keeper touches the ball while being entirely inside its own defense area, the game is stopped and a <<ペナルティーキック/Penalty Kick, penalty kick>> is awarded to the other team. The foul counter is not increased.
 
-==== Boundary Crossing
+==== 境界線との交差/Boundary Crossing
+ロボットは、フィールド境界を越えてフィールド外に出るようにボールを蹴ってはならない。 +
 A robot must not kick the ball over the field boundary such that the ball leaves the field.
 
 

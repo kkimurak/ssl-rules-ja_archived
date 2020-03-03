@@ -39,6 +39,15 @@ After the game was stopped, the ball must be placed on the appropriate position,
 The automatic ball placement is the preferred way to place the ball at the designated position on the field by the robots of the teams without human interaction.
 If this is not possible, the <<主審/Referee, referee>> places the ball manually.
 
+No ball placement is required if all of the following constraints are fulfilled:
+
+* The ball is closer than 1m to the designated position.
+* The ball is inside the field.
+* The ball is at least 0.7m away from any defense area.
+* The ball is stationary.
+
+In this case, the game can be continued as soon as all robots keep the required distance for <<Stop, stop>>.
+
 ボールがロボットによってうまく配置されたと考えられるのは以下の場合である +
 A ball is considered placed successfully by the robots if
 
@@ -62,6 +71,8 @@ If this team failed to place the ball as well, the ball is placed by the <<主�
 配置を担当しない方のチームは<<ボール配置への干渉/Ball Placement Interference, ボール配置に干渉>>してはいけない。 +
 The non-placing team must not <<ボール配置への干渉/Ball Placement Interference, interfere the ball placement task>>.
 
+For each team a ball placement failure counter is incremented on each placement failure and decremented for successful placements. It can not get negative.
+
 .用途/Usage
 ボールが<<インプレイとアウトオブプレイ/Ball In And Out Of Play, アウトオブプレイ>>のとき、自動ボール配置が適用されるのであれば、次のルールが決定される; +
 When the ball goes <<インプレイとアウトオブプレイ/Ball In And Out Of Play, out of play>>, the following rules decide, if automatic ball placement is applied:
@@ -79,17 +90,19 @@ The <<主審/Referee, referee>> can decide to place the ball manually at any tim
 . <<主審/Referee, 主審>>は、試合の終わりまで自動ボール配置を無効化とすることを決定できる。TC/OCはこの決定に同意しなければならない。 +
 The <<主審/Referee, referee>> can decide to disable automatic ball placement for the rest of the game. TC/OC must agree with this decision
 . 片方のチームが連続して5回ボールを配置することに失敗した場合、そのハーフが終わるまでボールを配置することは許されない。フィールド外に出てしまった事で発生したすべてのフリーキックは相手チームに与えられる。その他のルール違反や両チームともボールを配置することに失敗した場合、ボールは<<主審/Referee, 主審>>によって配置される +
-When a team has failed to place the ball 5 times in a row, it is not allowed to place the ball for the rest of the game half. All free kicks that were a result of the ball leaving the field, are awarded to the opposing team. For all other rule violations or when both teams failed to place the ball, the ball is placed by the <<主審/Referee, referee>>
+. When a teams placement failure counter reached 5, it is not allowed to place the ball for the rest of the game half. All free kicks that were a result of the ball leaving the field, are awarded to the opposing team. For all other rule violations or when both teams failed to place the ball, the ball is placed by the <<主審/Referee, referee>>
 . もしボール配置できるチームがいない場合、ボールは<<主審/Referee, 主審>>か<<副審/Assistant Referee, 副審>>によって配置される。主審または副審は、ボールを動かすために、いわゆるボールハンドラ（長い、できれば黒の棒状のデバイス）を使用することが推奨される。 +
 If no team can place the ball, the ball is placed by the <<主審/Referee, referee>> or the <<副審/Assistant Referee, assistant referee>>. Both the referee as well as the assistant referee are advised to use a so-called ball handler (a long, preferably black stick-like device) to move the ball.
-
-NOTE: ボールがすでに配置位置にある場合（たとえば、他のチームによるフリーキックの失敗後）、ロボットがボールを操作しなくてもボール配置は成功する可能性がある。これは、配置チームによる貢献なしに失敗回数のカウンターのリセットにつながる可能性がある。 +
-If the ball is already at the placement position (for example after a failed free kick by the other team), the ball placement can be successful without a robot manipulating the ball. This could lead to the counter for failed attempts resetting without a contribution by the placing team.
 
 NOTE: placementコマンドが発行された時点では、ボールはまだ動いている可能性がある。 +
 The ball may still be moving when the placement command is issued.
 
+NOTE: The game commences directly after ball placement. The team receiving the ball may shoot immediately and leave the opposing team little time to arrange defensive actions if needed.
+
+NOTE: It is allowed to enter the defense area during ball placement.
+
 ディヴィジョンAのすべてのチームでボールの配置が必須である。ディヴィジョンBのチームは<<主審/Referee, 主審>>と話すことによって、試合中や試合のいつでも試合の残り時間でボール配置をしないことを決定しても良い。主審は<<Game Controller Operator, game controller operator>>に対してそのチームのボール配置を無効にするように指示する。この場合、チームは相手チームがボールを配置した後にボールをインプレイに持ち込むことができる。もし相手チームがボール配置に失敗したり、ボール配置ができるチームがいない場合は、ボールは<<主審/Referee, 主審>>か<<副審/Assistant Referee, 副審>>によって配置される。 +
+
 Ball placement is mandatory for all teams in division A.
 Teams in division B may decide, at any time before or during the game, not to place the ball for the rest of the game by talking to the <<主審/Referee, referee>>, who in turn tells the <<Game Controller Operator, game controller operator>> to disable ball placement for this team.
 In this case, the team is allowed to bring the ball into play, after the ball was placed by the opposing team.
@@ -100,8 +113,6 @@ NOTE: (訳者注)一般的に「ボールプレースメント」と呼称され
 === 試合の再開/Resuming The Game
 ボール配置完了後、試合は以下のコマンドのうちのどれかを使用して再開される。 +
 After the ball has been placed, the game is resumed using one of the following commands.
-
-// In division A, the ball will be placed automatically by the robots if the following command is a free kick or force start (see <<ボール配置/Ball Placement>>).
 
 ==== ノーマルスタート/Normal Start
 .定義/Definition

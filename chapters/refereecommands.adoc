@@ -44,8 +44,8 @@ A ball is considered placed successfully by the robots if
 
 * 配置コマンドが発行されてから30秒以内 +
 no more than 30 seconds passed since the placement command
-* 次のコマンドがボール配置を担当するチームの<<間接フリーキック/Indirect Free Kick, 間接フリーキック>>か<<直接フリーキック/Direct Free Kick, 直接フリーキック>>の場合、ボールまでの距離が0.05m以内のロボットが存在しない +
-there is no robot within 0.05 meters distance to the ball if the next command is an <<間接フリーキック/Indirect Free Kick, indirect free kick>> or <<直接フリーキック/Direct Free Kick, direct free kick>> for the placing team
+* 次のコマンドがボール配置を担当するチームの<<フリーキック/Free Kick, フリーキック>>の場合、ボールまでの距離が0.05m以内のロボットが存在しない +
+there is no robot within 0.05 meters distance to the ball if the next command is a <<フリーキック/Free Kick, free kick>> for the placing team
 * 次のコマンドが<<フォーススタート/Force Start, force start>>の場合、ボールまでの距離が0.5m以内のロボットが存在しない +
 there is no robot within 0.5 meters distance to the ball if the next command is a <<フォーススタート/Force Start, force start>>
 * ボールは静止している +
@@ -53,10 +53,10 @@ the ball is stationary
 * ボールは要求された位置から半径0.15m以内の場所に配置されている +
 the ball is at a position within 0.15 meters radius from the requested position
 
-ボールが正常に配置されるまで、<<Game Controller, game controller>>によってそれ以外のコマンドは発行されない。ボールが上手く配置された場合、試合は<<Game Controller, game controller>>によって可能な限り早く再開される(ただし、ボール配置コマンドが発行されてから2秒より早くはならない)。配置が失敗した場合、相手に間接フリーキックが与えられる。このチームがボールをうまく配置することに失敗した場合、ボールは<<主審/Referee, 主審>>により配置され、試合は元のコマンドによって続行される。 +
+ボールが正常に配置されるまで、<<Game Controller, game controller>>によってそれ以外のコマンドは発行されない。ボールが上手く配置された場合、試合は<<Game Controller, game controller>>によって可能な限り早く再開される(ただし、ボール配置コマンドが発行されてから2秒より早くはならない)。配置が失敗した場合、相手にフリーキックが与えられる。このチームがボールをうまく配置することに失敗した場合、ボールは<<主審/Referee, 主審>>により配置され、試合は元のコマンドによって続行される。 +
 No further commands will be issued by the <<Game Controller, game controller>> until the automatic placement is complete.
 The game will be continued by the <<Game Controller, game controller>> as soon as the ball is successfully placed, but not earlier than 2 seconds after the ball placement command has been issued.
-A failed placement will result in an indirect free kick for the opposing team.
+A failed placement will result in a free kick for the opposing team.
 If this team failed to place the ball as well, the ball is placed by the <<主審/Referee, referee>> and game continues with the original command.
 
 配置を担当しない方のチームは<<ボール配置への干渉/Ball Placement Interference, ボール配置に干渉>>してはいけない。 +
@@ -68,8 +68,8 @@ When the ball goes <<インプレイとアウトオブプレイ/Ball In And Out 
 
 . <<主審/Referee, 主審>>はすべてのキックオフとすべてのペナルティキックの時にボールを配置する +
 The <<主審/Referee, referee>> has to place the ball for all kickoffs and all penalty kicks
-. <<間接フリーキック/Indirect Free Kick, 間接フリーキック>>と<<直接フリーキック/Direct Free Kick, 直接フリーキック>>の場合、ボールを<<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ>>にするチームがボールを配置しなければならない +
-For an <<間接フリーキック/Indirect Free Kick, indirect free kick>> or <<直接フリーキック/Direct Free Kick, direct free kick>>, the team that brings the ball <<インプレイとアウトオブプレイ/Ball In And Out Of Play, into play>> must place the ball
+. <<フリーキック/Free Kick, フリーキック>>の場合、ボールを<<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ>>にするチームがボールを配置しなければならない +
+For an <<フリーキック/Free Kick, free kick>>, the team that brings the ball <<インプレイとアウトオブプレイ/Ball In And Out Of Play, into play>> must place the ball
 . <<フォーススタート/Force Start, フォーススタート>>の場合、偶然選ばれたどちらか片方のチームがボールを配置しなければならない。 +
 For a <<フォーススタート/Force Start, force start>>, a team is drawn by chance and must place the ball
 . ボール配置が開始される前は、ボールは見えていなければならず、フィールドコーナーやゴールコーナー、ゴールの後ろにボールが配置されてはいけない +
@@ -135,42 +135,20 @@ Both half times as well as both overtime periods (if needed) start with a kick-o
 さらに、ゴールが得点になった後、得点されたチームはキックオフで試合を再開する。 +
 Additionally, after a goal has been scored, the receiving team restarts the game with a kick-off.
 
-==== 直接フリーキック/Direct Free Kick
+==== フリーキック/Free Kick
 .定義/Definition
 フリーキックのためのボールの配置位置は、フリーキックの原因となったイベントによって異なる。この位置はすべての<<フィールドライン/Field Lines, フィールドライン>>から少なくとも0.2m、それぞれの<<ディフェンスエリア/Defense Area, ディフェンスエリア>>から1m以上離れているときに有効である。もし、このルールが適用できないところにボールを配置する必要がある場合、その位置から最も近い有効な位置にボールを配置する必要がある。 +
 The ball placement position for a free kick depends on the event that led to the free kick. This position is valid if there is at least 0.2 meters distance to all <<フィールドライン/Field Lines, field lines>> and 1 meter distance to either <<ディフェンスエリア/Defense Area, defense area>>. If an event requires the ball to be placed at a position that contravenes this rule, it has to be placed at the closest valid position instead.
 
-直接フリーキックのコマンドが発行されたとき、攻撃側チームのロボットはボールに近づくことが許可され、防御側チームのロボットはボールから少なくとも0.5mは離れていなければならない(試合が停止中と同じ距離)。攻撃側チームのロボット1台はボールを蹴ることが許される。このロボットはキッカーと呼ばれる。直接フリーキックから直接ゴールに入った場合それは得点になる。 +
-When the direct free kick command is issued, robots of the attacking team are allowed to approach the ball while robots of the defending team still have to stay at least 0.5 meters distance away from the ball (the same distance as in stop). One robot of the attacking team is allowed to shoot the ball. This robot will be referred to as the kicker. A goal may be scored directly from the direct free kick.
+フリーキックのコマンドが発行されたとき、攻撃側チームのロボットはボールに近づくことが許可され、防御側チームのロボットはボールから少なくとも0.5mは離れていなければならない(試合が停止中と同じ距離)。攻撃側チームのロボット1台はボールを蹴ることが許される。このロボットはキッカーと呼ばれる。フリーキックから直接ゴールに入った場合それは得点になる。 +
+When the free kick command is issued, robots of the attacking team are allowed to approach the ball while robots of the defending team still have to stay at least 0.5 meters distance away from the ball (the same distance as in stop). One robot of the attacking team is allowed to shoot the ball. This robot will be referred to as the kicker. A goal may be scored directly from the free kick.
 
 ボールがインプレイになっているとき、キッカーは他のロボットがボールに触れるか、ゲームが停止するまでボールに触れてはいけない(ダブルタッチを参照)。また、ロボットの位置に関する制限が解除される。 +
 When the ball is <<インプレイとアウトオブプレイ/Ball In And Out Of Play, in play>>, the kicker may not touch the ball until it has been touched by another robot or the game has been stopped (see <<ダブルタッチ/Double Touch, double touch>>). Also, the restrictions regarding the robot positions are lifted.
 
 .用途/Usage
-直接フリーキックは<<ファウル/Fouls, ファウル>>が発生した後に試合を再開するために使われる。さらに、<<ゴールキック/Goal Kick, ゴールキック>>と<<コーナーキック/Corner Kick, コーナーキック>>も直接フリーキックに割り当てられている。 +
-Direct free kicks are used to restart the game after a <<ファウル/Fouls, foul>> has occurred. Additionally, <<ゴールキック/Goal Kick, goal kicks>> and <<コーナーキック/Corner Kick, corner kicks>> are mapped to direct free kicks.
-
-NOTE: (訳者注)一般的に「ダイレクトフリーキック」もしくは単に「ダイレクト」と呼称されることが多い。
-
-==== 間接フリーキック/Indirect Free Kick
-.定義/Definition
-間接フリーキックは<<直接フリーキック/Direct Free Kick, 直接フリーキック>>と似ているが違いがある：間接フリーキックのあと、ボールが<<試合の再開/Resuming The Game, プレーに入った>>後で、守備側チームのゴールに入る前にボールが攻撃側チームのロボットに接触した場合にのみ、ゴールで得点が得られる。ボールが攻撃側のロボットの1台にも触れることなく守備側のチームのゴールに入った場合は、ゴール外のゴールラインを横切ったように扱う。 +
-An indirect free kick behaves like a <<直接フリーキック/Direct Free Kick,direct free kick>>, except: After an indirect free kick, a goal can only be scored if the ball touches a robot of the attacking team after the ball <<試合の再開/Resuming The Game, entered play>> and before it entering the goal of the defending team. If the ball enters the goal of the defending team without touching an attacking robot, it will be treated like it crossed the goal line outside the goal.
-
-攻撃側チームのゴールにボールが入ってしまった場合(オウンゴール)は、守備側チームにゴールが与えられる。 +
-If the ball enters the goal of the attacking team (an own goal), a goal will be awarded to the defending team.
-
-NOTE: 間接フリーキックからのゴールによる得点は1台以上の攻撃ロボットを必要としない。アタッカーがゴールに蹴る前に、守備側のチームのロボットがボールに触れた場合、フリーキックを蹴った同じロボットがゴールを撃ってもよい。 +
-Scoring a goal from an indirect free kick does not require more than one attacking robot. The goal can also be shot by the same robot that kicked the free kick if a robot of the defending team touches the ball before the attacker shoots the goal.
-
-NOTE: (人間の)サッカーでは、(キーパーを含む)いずれかのプレイヤーがゴールに入る前にボールに触れていれば得点として認められる。小型ロボットリーグのルールでは、攻撃側チームが守備側のキーパーがタッチすることを望んで直接ゴールに向かってキックして得点になってしまうことを防ぐために、攻撃側チームのロボットが2回はタッチすることを必要としている。 +
-In association football, it is sufficient if any player (including the keeper) touches the ball before it enters the goal. To discourage the teams to shoot directly at the goal and hope that the keeper touches it, the rules of the Small Size League require a second touch of an attacking robot.
-
-.用途/Usage
-間接フリーキックは<<軽微な違反/Minor Offenses, 軽微な違反>>が発生した時に試合を再開するために使用する。さらに<<スローイン/Throw-In, スローイン>>も間接フリーキックに割り当てられている。 +
-Indirect free kicks are used to restart the game after a <<軽微な違反/Minor Offenses, minor offense>> has occurred. Additionally, <<スローイン/Throw-In, throw-ins>> are mapped to indirect free kicks.
-
-NOTE: (訳者注)一般的に「インダイレクトフリーキック」もしくは単に「インダイレクト」と呼称されることが多い。
+フリーキックは<<ファウル/Fouls, ファウル>>が発生した後に試合を再開するために使われる。さらに、<<ゴールキック/Goal Kick, ゴールキック>>と<<コーナーキック/Corner Kick, コーナーキック>>もフリーキックに割り当てられている。 +
+free kicks are used to restart the game after a <<ファウル/Fouls, foul>> has occurred. Additionally, <<ゴールキック/Goal Kick, goal kicks>> and <<コーナーキック/Corner Kick, corner kicks>> are mapped to free kicks.
 
 ==== フォーススタート/Force Start
 .定義/Definition
@@ -237,14 +215,13 @@ Additional time is allowed for a penalty kick to be taken at the end of each hal
 ペナルティキックは複数の<<イエローカード/Yellow Card, イエローカード>>を受け取ったチームを罰するために使用され、それ以外に<<非スポーツマン行為/Unsporting Behavior, 非スポーツマン行為>>や<<マルチプルディフェンス/Multiple Defenders, マルチプルディフェンス>>を行ったときにも使用される。 +
 Penalty Kicks are used to punish teams that received multiple <<イエローカード/Yellow Card, yellow cards>>, as well as to punish <<非スポーツマン行為/Unsporting Behavior, unsporting behavior>> and <<マルチプルディフェンス/Multiple Defenders, multiple defenders>>.
 
-
 === 罰則/Sanctions
 
 ==== イエローカード/Yellow Card
 .定義/Definition
 
-イエローカードが非スポーツマン行為の結果として示された場合、主審は直ちに試合を<<ハルト/Halt, 中断>>することができる。この場合、もう片方のチームの直接フリーキックで試合が継続される。 +
-If the yellow card is shown as a result of <<非スポーツマン行為/Unsporting Behavior, unsporting behavior>>, the referee may decide to immediately <<ハルト/Halt, halt>> the match. In this case, the match continues with a direct free kick for the other team.
+イエローカードが非スポーツマン行為の結果として示された場合、主審は直ちに試合を<<ハルト/Halt, 中断>>することができる。この場合、もう片方のチームのフリーキックで試合が継続される。 +
+If the yellow card is shown as a result of <<非スポーツマン行為/Unsporting Behavior, unsporting behavior>>, the referee may decide to immediately <<ハルト/Halt, halt>> the match. In this case, the match continues with a free kick for the other team.
 
 イエローカードを受け取ると、ペナルティを受けたチームがフィールドに出場させて良いロボットの数が1台減少する。この減少のあと、チームがフィールドに出場させて良い台数よりも多くのロボットが出場している場合、<<ロボットの交代/Robot Substitution, ロボットを退場>>させなければいけない。 +
 Upon receipt of a yellow card, the number of robots allowed on the field for the penalized team decreases by one. If, after this decrease, the team has more robots than permitted on the field, a robot must be <<ロボットの交代/Robot Substitution, taken out>>.

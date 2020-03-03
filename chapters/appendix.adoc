@@ -4,8 +4,8 @@
 試合が<<試合の停止/Stopping The Game, 停止>>されると、ボールは次のプレイに移行するまではアウトオブプレイとみなされる。 +
 When the match is <<試合の停止/Stopping The Game, stopped>>, the ball is considered *out of play* until it has been brought into play.
 
-試合が<<試合の再開/Resuming The Game, 再開>>されると、ボールは次の停止が発生するまではインプレイとみなされる。<<フォーススタート/Force Start, フォーススタート>>が発行される、もしくは<<キックオフ/Kick-Off, キックオフ>>、<<直接フリーキック/Direct Free Kick, 直接フリーキック>>、<<間接フリーキック/Indirect Free Kick, 間接フリーキック>>、<<ペナルティーキック/Penalty Kick, ペナルティキック>>によってボールが0.05m以上移動した時に試合が再開される。 +
-When the match is <<試合の再開/Resuming The Game, resumed>>, the ball is considered *in play* until the next stoppage occurs. The match is resumed when <<フォーススタート/Force Start, force start>> has been issued or the ball moved at least 0.05 meters following a <<キックオフ/Kick-Off, kick-off>>, <<直接フリーキック/Direct Free Kick, direct free kick>>, <<間接フリーキック/Indirect Free Kick, indirect free kick>> or <<ペナルティーキック/Penalty Kick, penalty kick>>.
+試合が<<試合の再開/Resuming The Game, 再開>>されると、ボールは次の停止が発生するまではインプレイとみなされる。<<フォーススタート/Force Start, フォーススタート>>が発行される、もしくは<<キックオフ/Kick-Off, キックオフ>>、<<フリーキック/Free Kick, フリーキック>>、<<ペナルティーキック/Penalty Kick, ペナルティキック>>によってボールが0.05m以上移動した時に試合が再開される。 +
+When the match is <<試合の再開/Resuming The Game, resumed>>, the ball is considered *in play* until the next stoppage occurs. The match is resumed when <<フォーススタート/Force Start, force start>> has been issued or the ball moved at least 0.05 meters following a <<キックオフ/Kick-Off, kick-off>>, <<フリーキック/Free Kick, free kick>> or <<ペナルティーキック/Penalty Kick, penalty kick>>.
 
 NOTE: 0.05メートルの距離の理論的根拠については「<<ダブルタッチ/Double Touch, ダブルタッチ>>」を参照すること +
 see <<ダブルタッチ/Double Touch, double touch>> for the rationale of the 0.05 meter distance
@@ -69,8 +69,8 @@ handled by the game controller)
  <<ボール配置/Ball Placement, Ball Placement>> failed by team in favor 
 | <<ボール配置/Ball Placement, ボール配置>>中 +
 during <<ボール配置/Ball Placement, Ball Placement>>  
-| <<停止/Stop, ストップ>>、次いで<<間接フリーキック/Direct Free Kick, 間接フリーキック>>(ディヴィジョンA) / 前回のコマンド(B) +
-<<停止/Stop, Stop>>, then <<間接フリーキック/Indirect Free Kick, Indirect Free Kick>> (div A) / previous command (div B) 
+| <<停止/Stop, ストップ>>、次いで<<フリーキック/Free Kick, フリーキック>>(ディヴィジョンA) / 前回のコマンド(B) +
+<<停止/Stop, Stop>>, then <<フリーキック/Free Kick, Free Kick>> (div A) / previous command (div B) 
 | icon:check[role="green"]
 | 相手による<<ボール配置/Ball Placement, ボール配置>>の失敗 +
 <<ボール配置/Balll Placement, Ball Placement>> failed by opponent 
@@ -93,22 +93,22 @@ Chapter <<フィールド外に出るボール/Ball Leaves The Field>>:
 <<スローイン/Throw-In, Throw-In>> 
 | <<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ>>中 +
 <<インプレイとアウトオブプレイ/Ball In And Out Of Play, ball in play>> 
-| <<停止/Stop, ストップ>>、次いで<<間接フリーキック/Direct Free Kick, 間接フリーキック>> +
-<<停止/Stop, Stop>>, then <<間接フリーキック/Indirect Free Kick, Indirect Free Kick>> 
+| <<停止/Stop, ストップ>>、次いで<<フリーキック/Free Kick, フリーキック>> +
+<<停止/Stop, Stop>>, then <<フリーキック/Free Kick, Free Kick>> 
 | icon:check[role="green"]
 | <<ゴールキック/Goal Kick, ゴールキック>> +
 <<ゴールキック/Goal Kick, Goal Kick>>
 | <<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ>>中 +
 <<インプレイとアウトオブプレイ/Ball In And Out Of Play, ball in play>> 
-| <<停止/Stop, ストップ>>、次いで<<直接フリーキック/Direct Free Kick, 直接フリーキック>> +
-<<停止/Stop, Stop>>, then <<直接フリーキック/Direct Free Kick, Direct Free Kick>> 
+| <<停止/Stop, ストップ>>、次いで<<フリーキック/Free Kick, フリーキック>> +
+<<停止/Stop, Stop>>, then <<フリーキック/Free Kick, Free Kick>> 
 | icon:check[role="green"]
 | <<コーナーキック/Corner Kick, コーナーキック>> +
 <<コーナーキック/Corner Kick, Corner Kick>> 
 | <<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ>>中 +
 <<インプレイとアウトオブプレイ/Ball In And Out Of Play, ball in play>> 
-| <<停止/Stop, ストップ>>、次いで<<直接フリーキック/Direct Free Kick, 直接フリーキック>> +
-<<停止/Stop, Stop>>, then <<直接フリーキック/Direct Free Kick, Direct Free Kick>> 
+| <<停止/Stop, ストップ>>、次いで<<フリーキック/Free Kick, フリーキック>> +
+<<停止/Stop, Stop>>, then <<フリーキック/Free Kick, Free Kick>> 
 | icon:check[role="green"]
 |===
 
@@ -127,8 +127,8 @@ Goal
 Invalid Goal 
 | <<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ>>中 +
 <<インプレイとアウトオブプレイ/Ball In And Out Of Play, ball in play>> 
-| <<停止/Stop, ストップ>>、次いで<<直接フリーキック/Direct Free Kick, 直接フリーキック>> +
-<<停止/Stop, Stop>>, then <<直接フリーキック/Direct Free Kick, Direct Free Kick>> 
+| <<停止/Stop, ストップ>>、次いで<<フリーキック/Free Kick, フリーキック>> +
+<<停止/Stop, Stop>>, then <<フリーキック/Free Kick, Free Kick>> 
 | icon:check[role="green"]
 |===
 
@@ -140,29 +140,29 @@ Chapter <<反則/Offenses>>, section <<軽微な違反/Minor Offenses>>:
 <<エイムレスキック/Aimless Kick [small]#(_division B only_)#, Aimless Kick>> 
 | <<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ>>中 +
 <<インプレイとアウトオブプレイ/Ball In And Out Of Play, ball in play>> 
-| <<停止/Stop, ストップ>>、次いで<<間接フリーキック/Direct Free Kick, 間接フリーキック>> +
-<<停止/Stop, Stop>>, then <<間接フリーキック/Indirect Free Kick, Indirect Free Kick>> 
+| <<停止/Stop, ストップ>>、次いで<<フリーキック/Free Kick, フリーキック>> +
+<<停止/Stop, Stop>>, then <<フリーキック/Free Kick, Free Kick>> 
 | icon:check[role="green"]
 | <<進行の欠落/Lack Of Progress, 進行の欠落>> +
 <<進行の欠落/Lack Of Progress, Lack Of Progress>> 
 | <<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ>>中 +
 <<インプレイとアウトオブプレイ/Ball In And Out Of Play, ball in play>> 
-| <<停止/Stop, ストップ>>、次いで<<間接フリーキック/Direct Free Kick, 間接フリーキック>> +
-<<停止/Stop, Stop>>, then <<間接フリーキック/Indirect Free Kick, Indirect Free Kick>> 
+| <<停止/Stop, ストップ>>、次いで<<フリーキック/Free Kick, フリーキック>> +
+<<停止/Stop, Stop>>, then <<フリーキック/Free Kick, Free Kick>> 
 | icon:check[role="green"]
 | <<ダブルタッチ/Double Touch, ダブルタッチ>> +
 <<ダブルタッチ/Double Touch, Double Touch>> 
 | <<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ>>中 +
 <<インプレイとアウトオブプレイ/Ball In And Out Of Play, ball in play>> 
-| <<停止/Stop, ストップ>>、次いで<<間接フリーキック/Direct Free Kick, 間接フリーキック>> +
-<<停止/Stop, Stop>>, then <<間接フリーキック/Indirect Free Kick, Indirect Free Kick>> 
+| <<停止/Stop, ストップ>>、次いで<<フリーキック/Free Kick, フリーキック>> +
+<<停止/Stop, Stop>>, then <<フリーキック/Free Kick, Free Kick>> 
 | icon:check[role="green"]
 | <<アタッカーの相手ディフェンスエリアへの侵入/Attacker In Defense Area, アタッカーの相手ディフェンスエリアへの侵入>> +
  <<アタッカーの相手ディフェンスエリアへの侵入/Attacker In Defense Area, Attacker In Defense Area>>
 | <<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ>>中 +
 <<インプレイとアウトオブプレイ/Ball In And Out Of Play, ball in play>> 
-| <<停止/Stop, ストップ>>、次いで<<間接フリーキック/Direct Free Kick, 間接フリーキック>> +
-<<停止/Stop, Stop>>, then <<間接フリーキック/Indirect Free Kick, Indirect Free Kick>> 
+| <<停止/Stop, ストップ>>、次いで<<フリーキック/Free Kick, フリーキック>> +
+<<停止/Stop, Stop>>, then <<フリーキック/Free Kick, Free Kick>> 
 | icon:check[role="green"]
 | 「<<相手ディフェンスエリア内におけるアタッカーロボットの相手ロボットへの接触/Attacker Touches Robot In Opponent Defense Area, 相手ディフェンスエリア内におけるアタッカーロボットの相手ロボットへの接触>>」のスキップ +
 <<相手ディフェンスエリア内におけるアタッカーロボットの相手ロボットへの接触/Attacker Touches Robot In Opponent Defense Area, Attacker Touches Robot In Opponent Defense Area>> skipped 
@@ -174,15 +174,15 @@ Chapter <<反則/Offenses>>, section <<軽微な違反/Minor Offenses>>:
 <<ドリブルの超過/Excessive Dribbling, Excessive Dribbling>> 
 | <<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ>>中 +
 <<インプレイとアウトオブプレイ/Ball In And Out Of Play, ball in play>> 
-| <<停止/Stop, ストップ>>、次いで<<間接フリーキック/Direct Free Kick, 間接フリーキック>> +
-<<停止/Stop, Stop>>, then <<間接フリーキック/Indirect Free Kick, Indirect Free Kick>> 
+| <<停止/Stop, ストップ>>、次いで<<フリーキック/Free Kick, フリーキック>> +
+<<停止/Stop, Stop>>, then <<フリーキック/Free Kick, Free Kick>> 
 | icon:check[role="green"]
 | <<ボール速度/Ball Speed, ボール速度>> +
 <<ボール速度/Ball Speed, Ball Speed>> 
 | <<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ>>中 +
 <<インプレイとアウトオブプレイ/Ball In And Out Of Play, ball in play>> 
-| <<停止/Stop, ストップ>>、次いで<<間接フリーキック/Direct Free Kick, 間接フリーキック>> +
-<<停止/Stop, Stop>>, then <<間接フリーキック/Indirect Free Kick, Indirect Free Kick>> 
+| <<停止/Stop, ストップ>>、次いで<<フリーキック/Free Kick, フリーキック>> +
+<<停止/Stop, Stop>>, then <<フリーキック/Free Kick, Free Kick>> 
 | icon:check[role="green"]
 |===
 
@@ -202,26 +202,26 @@ handled by the game controller)
  <<相手ディフェンスエリア内におけるアタッカーロボットの相手ロボットへの接触/Attacker Touches Robot In Opponent Defense Area, Attacker Touches Robot In Opponent Defense Area>>
 | <<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ>>中 +
 <<インプレイとアウトオブプレイ/Ball In And Out Of Play, ball in play>> 
-| <<停止/Stop, ストップ>>、次いで<<間接フリーキック/Indirect Free Kick, 間接フリーキック>> +
-<<停止/Stop, Stop>>, then <<間接フリーキック/Indirect Free Kick, Indirect Free Kick>> 
+| <<停止/Stop, ストップ>>、次いで<<フリーキック/Free Kick, フリーキック>> +
+<<停止/Stop, Stop>>, then <<フリーキック/Free Kick, Free Kick>> 
 | icon:check[role="green"]
 | <<ロボットの相手ディフェンスエリアへの極端な接近/Robot Too Close To Opponent Defense Area, ロボットの相手ディフェンスエリアへの極端な接近>> +
 <<ロボットの相手ディフェンスエリアへの極端な接近/Robot Too Close To Opponent Defense Area, Robot Too Close To Opponent Defense Area>>  
 | <<インプレイとアウトオブプレイ/Ball In And Out Of Play, アウトオブプレイ>>中  +
 <<インプレイとアウトオブプレイ/Ball In And Out Of Play, ball out of play>> 
-| <<停止/Stop, ストップ>>、次いで<<直接フリーキック/Direct Free Kick, 直接フリーキック>> +
-<<停止/Stop, Stop>>, then <<直接フリーキック/Direct Free Kick, Direct Free Kick>> 
+| <<停止/Stop, ストップ>>、次いで<<フリーキック/Free Kick, フリーキック>> +
+<<停止/Stop, Stop>>, then <<フリーキック/Free Kick, Free Kick>> 
 | icon:check[role="green"]
 | <<ボール配置への干渉/Ball Placement Interference, ボール配置への干渉>> +
 <<ボール配置への干渉/Ball Placement Interference, Ball Placement Interference>> 
 | <<ボール配置/Ball Placement, ボール配置>>中 +
 during <<ボール配置/Ball Placement, Ball Placement>> 
-| <<停止/Stop, ストップ>>、次いで<<直接フリーキック/Direct Free Kick, 直接フリーキック>> +
-<<停止/Stop, Stop>>, then <<直接フリーキック/Direct Free Kick, Direct Free Kick>> 
+| <<停止/Stop, ストップ>>、次いで<<フリーキック/Free Kick, フリーキック>> +
+<<停止/Stop, Stop>>, then <<フリーキック/Free Kick, Free Kick>> 
 | icon:check[role="green"]
 | <<衝突/Crashing>> | 常時/always 
-| <<停止/Stop, ストップ>>、次いで<<直接フリーキック/Direct Free Kick, 直接フリーキック>> +
-<<停止/Stop, Stop>>, then <<直接フリーキック/Direct Free Kick, Direct Free Kick>> 
+| <<停止/Stop, ストップ>>、次いで<<フリーキック/Free Kick, フリーキック>> +
+<<停止/Stop, Stop>>, then <<フリーキック/Free Kick, Free Kick>> 
 | icon:check[role="green"]
 | <<衝突/Crashing, 衝突の反則>>のスキップ +
 <<衝突/Crashing, Crashing>> skipped | 常時/always | no command 
@@ -230,38 +230,38 @@ during <<ボール配置/Ball Placement, Ball Placement>>
 <<衝突/Crashing, Crashing>> draw | 常時/always | no command 
 | icon:check[role="green"]
 | <<プッシング/Pushing>> | 常時/always 
-| <<停止/Stop, ストップ>>、次いで<<直接フリーキック/Direct Free Kick, 直接フリーキック>> +
-<<停止/Stop, Stop>>, then <<直接フリーキック/Direct Free Kick, Direct Free Kick>> 
+| <<停止/Stop, ストップ>>、次いで<<フリーキック/Free Kick, フリーキック>> +
+<<停止/Stop, Stop>>, then <<フリーキック/Free Kick, Free Kick>> 
 | icon:times[role="red"]
 | <<ボールの保持/Ball Holding>> 
 | <<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ>>中 +
 <<インプレイとアウトオブプレイ/Ball In And Out Of Play, ball in play>> 
-| <<停止/Stop, ストップ>>、次いで<<直接フリーキック/Direct Free Kick, 直接フリーキック>> +
-<<停止/Stop, Stop>>, then <<直接フリーキック/Direct Free Kick, Direct Free Kick>> 
+| <<停止/Stop, ストップ>>、次いで<<フリーキック/Free Kick, フリーキック>> +
+<<停止/Stop, Stop>>, then <<フリーキック/Free Kick, Free Kick>> 
 | icon:check[role="green"]
 | <<転倒や部品の脱落/Tipping Over Or Dropping Parts>> | 常時/always 
-| <<停止/Stop, ストップ>>、次いで<<直接フリーキック/Direct Free Kick, 直接フリーキック>> +
-<<停止/Stop, Stop>>, then <<直接フリーキック/Direct Free Kick, Direct Free Kick>> 
+| <<停止/Stop, ストップ>>、次いで<<フリーキック/Free Kick, フリーキック>> +
+<<停止/Stop, Stop>>, then <<フリーキック/Free Kick, Free Kick>> 
 | icon:times[role="red"]
 | <<ストップ中のロボットの速度/Robot Stop Speed, ストップ中のロボットの速度>> +
 <<ストップ中のロボットの速度/Robot Stop Speed, Robot Stop Speed>>
 | <<停止/Stop, ストップ>>中 +
 during <<停止/Stop, Stop>> 
-| <<停止/Stop, ストップ>>、次いで<<直接フリーキック/Direct Free Kick, 直接フリーキック>> +
-<<停止/Stop, Stop>>, then <<直接フリーキック/Direct Free Kick, Direct Free Kick>> 
+| <<停止/Stop, ストップ>>、次いで<<フリーキック/Free Kick, フリーキック>> +
+<<停止/Stop, Stop>>, then <<フリーキック/Free Kick, Free Kick>> 
 | icon:check[role="green"]
 | <<ディフェンダーのボールへの極端な接近/Defender Too Close To Ball>> 
 | <<インプレイとアウトオブプレイ/Ball In And Out Of Play, アウトオブプレイ>>中  +
 <<インプレイとアウトオブプレイ/Ball In And Out Of Play, ball out of play>> 
-| <<停止/Stop, ストップ>>、次いで<<直接フリーキック/Direct Free Kick, 直接フリーキック>> +
-<<停止/Stop, Stop>>, then <<直接フリーキック/Direct Free Kick, Direct Free Kick>> 
+| <<停止/Stop, ストップ>>、次いで<<フリーキック/Free Kick, フリーキック>> +
+<<停止/Stop, Stop>>, then <<フリーキック/Free Kick, Free Kick>> 
 | icon:check[role="green"]
 | <<マルチプルディフェンス/Multiple Defenders, マルチプルディフェンス>> (一部が侵入している場合) +
 <<マルチプルディフェンス/Multiple Defenders, Multiple Defenders>> partially 
 | <<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ>>中 +
 <<インプレイとアウトオブプレイ/Ball In And Out Of Play, ball in play>> 
-| <<停止/Stop, ストップ>>、次いで<<直接フリーキック/Direct Free Kick, 直接フリーキック>>、<<イエローカード/Yellow Card, イエローカード>> +
-<<停止/Stop, Stop>>, then <<直接フリーキック/Direct Free Kick, Direct Free Kick>>, <<イエローカード/Yellow Card, Yellow Card>> 
+| <<停止/Stop, ストップ>>、次いで<<フリーキック/Free Kick, フリーキック>>、<<イエローカード/Yellow Card, イエローカード>> +
+<<停止/Stop, Stop>>, then <<フリーキック/Free Kick, Free Kick>>, <<イエローカード/Yellow Card, Yellow Card>> 
 | icon:check[role="green"]
 | <<マルチプルディフェンス/Multiple Defenders, マルチプルディフェンス>> (完全に侵入している場合) +
 <<マルチプルディフェンス/Multiple Defenders, Multiple Defenders>> entirely 

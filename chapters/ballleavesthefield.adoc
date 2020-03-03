@@ -11,8 +11,8 @@ Touch lines are the long <<フィールドライン/Field Lines, field lines>> a
 ボールはボールが横切った側のタッチラインから垂直に0.2mの位置に配置する必要がある。ゴールラインまでの距離は少なくとも0.2mは無くてはいけない。 +
 The ball has to be placed 0.2 meters perpendicular to the touch line where the ball crossed the touch line. Its distance to the goal lines must be at least 0.2 meters.
 
-ボールが設置されたのち、フィールドを離れる前の最後にボールに触れたチームの相手チームに対して<<間接フリーキック/Indirect Free Kick, 間接フリーキック>>が与えられる。 +
-After the ball has been placed, an <<間接フリーキック/Indirect Free Kick, indirect free kick>> is awarded to the opponent of the team that last touched the ball before it left the field.
+ボールが設置されたのち、フィールドを離れる前の最後にボールに触れたチームの相手チームに対して<<フリーキック/Free Kick, フリーキック>>が与えられる。 +
+After the ball has been placed, an <<フリーキック/Free Kick, free kick>> is awarded to the opponent of the team that last touched the ball before it left the field.
 
 .用途/Usage
 スローインはボールがタッチラインを横切ってフィールドを離れた後にゲームを再開するために使用される。 +
@@ -27,8 +27,8 @@ Goal lines are the short <<フィールドライン/Field Lines, field lines>> a
 ボールはボールが横切った位置から近いほうのタッチラインから0.2m、ゴールラインから1mの位置に配置する必要がある。 +
 The ball has to be placed 0.2 meters from the closest touch line and 1 meter from the goal line.
 
-ボールが設置されたのち、フィールドを離れる前の最後にボールに触れたチームの相手チームに対して<<直接フリーキック/Direct Free Kick, 直接フリーキック>>が与えられる。 +
-After the ball has been placed, a <<直接フリーキック/Direct Free Kick, direct free kick>> is awarded to the opponent of the team that last touched the ball before it left the field.
+ボールが設置されたのち、フィールドを離れる前の最後にボールに触れたチームの相手チームに対して<<フリーキック/Free Kick, フリーキック>>が与えられる。 +
+After the ball has been placed, a <<フリーキック/Free Kick, free kick>> is awarded to the opponent of the team that last touched the ball before it left the field.
 
 .用途/Usag
 ゴールキックはボールが最後にボールに触れなかったチームのゴールラインを横切ってフィールドを離れた後にゲームを再開するために使用される。 +
@@ -42,8 +42,8 @@ In division B, the <<エイムレスキック/Aimless Kick [small]#(_division B 
 ボールはボールが横切った位置から近いほうのタッチラインから0.2m、ゴールラインから0.2mの位置に配置する必要がある。 +
 The ball has to be placed 0.2 meters from the closest touch line and 0.2 meters from the goal line.
 
-ボールが設置されたのち、フィールドを離れる前の最後にボールに触れたチームの相手チームに対して<<直接フリーキック/Direct Free Kick,直接フリーキック>>が与えられる。 +
-After the ball has been placed, a <<直接フリーキック/Direct Free Kick, direct free kick>> is awarded to the opponent of the team that last touched the ball before it left the field.
+ボールが設置されたのち、フィールドを離れる前の最後にボールに触れたチームの相手チームに対して<<フリーキック/Free Kick, フリーキック>>が与えられる。 +
+After the ball has been placed, a <<フリーキック/Free Kick, free kick>> is awarded to the opponent of the team that last touched the ball before it left the field.
 
 .用途/Usage
 コーナーキックはボールが最後に触れたチームのゴールラインを横切ってフィールドを離れた後にゲームを再開するために使用される。 +

@@ -6,7 +6,7 @@ Robots are substituted by the <<ハンドラ/Robot Handler, robot handler>> of t
 <<ハンドラ/Robot Handler, ハンドラ>>は、visionシステムに干渉しない色の長袖を着用することが推奨される。 +
 The <<ハンドラ/Robot Handler, robot handler>> should prefer to use long sleeves and colors that won't interfere with the vision system.
 
-以下の条件に適合する場合は、ゲーム中のいつでも<<主審/Referee, 主審>>に確認を取ることなくロボットを交代させることができる: +
+以下のすべての条件に適合する場合は、ゲーム中のいつでも<<主審/Referee, 主審>>に確認を取ることなくロボットを交代させることができる: +
 Robots can always be substituted during game play without notifying the <<主審/Referee, referee>> if all the following conditions are met:
 
 . ロボットは少なくとも部分的に<<フィールドの表面/Field Surface, フィールドのマージン部分>>にある。 +

@@ -109,7 +109,7 @@ After the ball has been placed, the game is resumed using one of the following c
 For two-staged referee commands, when normal start is sent, an attacker may <<ボールの操作/Ball Manipulation, manipulate the ball>>. A match cannot be resumed directly via normal start.
 
 .用途/Usage
-Normal startは<<キックオフ/Kick-Off, キックオフ>>、<<ペナルティーキック/Penalty Kick, ペナルティキック>>、<<シュートアウト/Shoot-Out, シュートアウト>>の時に使用する。 +
+ノーマルスタートは<<キックオフ/Kick-Off, キックオフ>>、<<ペナルティーキック/Penalty Kick, ペナルティキック>>の時に使用する。 +
 Normal start is used for <<キックオフ/Kick-Off, kick-offs>> and <<ペナルティーキック/Penalty Kick, penalty kicks>>.
 
 NOTE: (訳者注記)この小節で言いたいのは、試合が停止しているときにいきなりNormal Startコマンドが送信されることはなくて、キックオフやペナルティーキックのコマンドが送信されてからその次にNormal startのコマンドが送信されるという事。
@@ -186,28 +186,45 @@ It can also be used to resume the game when the game had to be stopped and no te
 
 ==== ペナルティーキック/Penalty Kick
 .定義/Definition
+ペナルティーキックの手順は以下の通りである: +
 The procedure of a penalty kick is as follows:
 
-. The ball is placed by the human referee on the <<Penalty Mark, penalty mark>>.
-. When the <<Penalty Kick, penalty>> command is issued
-.. The defending keeper has to move to the goal line and keep touching it
-.. One attacking robot is allowed to approach the ball but not touch the ball
-.. All other robots have to be 1m behind the ball such that they do not interfere the penalty kick procedure at any time.
-. When the <<Normal Start, normal start>> command is issued, the attacker is allowed to <<Ball Manipulation, manipulate the ball>>. The ball has to only move towards the opponent goal, as measured by its x coordinate in the coordinate system of <<Vision, SSL-Vision>>.
-. When the ball is <<Ball In And Out Of Play, in play>>, the defending keeper may move freely again
+. ボールが人間の主審により<<ペナルティーマーク/Penalty Mark, ペナルティーマーク>>に置かれる +
+The ball is placed by the human referee on the <<ペナルティーマーク/Penalty Mark, penalty mark>>.
+. <<ペナルティーキック/Penalty Kick, ペナルティー>>コマンドが発行された時、 +
+When the <<Penalty Kick, penalty>> command is issued
+.. 守備側のキーパーはゴールラインまで移動し、それに触れ続けなければならない +
+The defending keeper has to move to the goal line and keep touching it
+.. 攻撃側のロボット1台はボールに近付くことが許されるが、このときボールに触れてはならない。 +
+One attacking robot is allowed to approach the ball but not touch the ball
+.. その他の全てのロボットはペナルティーキックの手順に干渉しないよう、ボールから1m以上後方にいなければならない。 +
+All other robots have to be 1m behind the ball such that they do not interfere the penalty kick procedure at any time.
+. <<ノーマルスタート/Normal Start, ノーマルスタート>>コマンドが発行された時、攻撃側ロボットは<<ボールの操作/Ball Manipulation, ボールを操作>>することが許可される。ボールは<<Vision, SSL-Vision>>の座標系におけるX座標で計測されるところの相手ゴール側にのみ動かすことができる。 +
+When the <<ノーマルスタート/Normal Start, normal start>> command is issued, the attacker is allowed to <<ボールの操作/Ball Manipulation, manipulate the ball>>. The ball has to only move towards the opponent goal, as measured by its x coordinate in the coordinate system of <<Vision, SSL-Vision>>.
+. <<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ>>になった時、守備側のキーパーは再び自由に移動できる。 +
+When the ball is <<Ball In And Out Of Play, in play>>, the defending keeper may move freely again
 
+以下の場合は得点が認められる: +
 A goal is awarded if:
 
-* the ball touches the inner surface of a goal wall or the ground of the goal of the defending team in less than 10 seconds, starting from when the <<Normal Start, normal start>> command is issued
-* the defending team violates any rule
+* <<ノーマルスタート/Normal Start, ノーマルスタート>>コマンドが発行されてから10秒以内に、ボールがゴールの内側表面もしくはゴールの地面に接触する +
+the ball touches the inner surface of a goal wall or the ground of the goal of the defending team in less than 10 seconds, starting from when the <<Normal Start, normal start>> command is issued
+* 守備側チームがなんらかのルールに違反する +
+the defending team violates any rule
 
+以下の場合は得点が認められない: +
 A goal is not awarded if:
 
-* the ball crosses any <<Field Lines, field lines>> outside the goal
-* the defending keeper touches the ball such that the ball speed vector changes direction by at least 90 degrees in 2D space
-* the attacking team violates any rule
+* ボールがゴール外の<<フィールドライン/Field Lines, フィールドライン>>と交差する +
+the ball crosses any <<Field Lines, field lines>> outside the goal
+* 守備側キーパーがボールに触れ、ボールの速度ベクトルが二次元空間で少なくとも90度方向を変える +
+the defending keeper touches the ball such that the ball speed vector changes direction by at least 90 degrees in 2D space
+* 攻撃側チームが何らかのルールに違反する +
+the attacking team violates any rule
 
-NOTE: The restrictions defined for <<Scoring Goals, scoring goals>>, including the ball height limit of 0.15 meters, do not apply here.
+NOTE: 0.15mのボール高さ制限を含め、<<ゴールの得点方法/Scoring Goals, 得点方法>>に定められた制限はここでは適用されない。
+その他のルール、例えば<<ドリブルの超過/Excessive Dribbling, オーバードリブル>>の制限などどは適用される。 +
+The restrictions defined for <<Scoring Goals, scoring goals>>, including the ball height limit of 0.15 meters, do not apply here.
 Other rules like the <<Excessive Dribbling, excessive dribbling>> limitation for example do.
 
 ボールが<<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ>>になっているとき、キッカーは他のロボットがボールに触れるか、ゲームが停止するまでボールに触れてはいけない(「<<ダブルタッチ/Double Touch, ダブルタッチ>>」を参照)。また、ロボットの位置に関する制限が解除される。 +

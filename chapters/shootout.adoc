@@ -1,16 +1,20 @@
 == シュートアウト/Shoot-Out
 
 .定義/Definition
-両チームが交互にゴールに得点を決めようと各チームそれぞれ5回のシュートを試行する。もし両チームとも5回の試行が終わった時に同点であった場合、2チームの得点が異なるまで前と同じ順番でさらに試行回数を増やす。 +
+両チームが交互にそれぞれ5回の<<ペナルティーキック/Penalty Kick, ペナルティーキック>>を試行する。
+もし両チームとも5回の試行が終わった時に同点であった場合、2チームの得点が異なるまで前と同じ順番でさらに試行回数を増やす。 +
 Both teams alternately attempt to score a goal with a <<ペナルティーキック/Penalty Kick, penalty kick>> until each team has performed 5 attempts.
 If both teams have the same score after those 5 attempts, each team takes another attempt in the same order as before until the score of the two teams is different.
 
-各チームには1台の攻撃ロボットと1台のキーパーだけが許可される。シュートアウトの間、攻撃ロボットと相手のキーパーだけが<<ボールの操作/Ball Manipulation, ボールの操作>>と移動ができる。他のロボットは干渉してはいけない。 +
+各チームには1台の攻撃ロボットと1台のキーパーだけが許可される。
+シュートアウトの間、攻撃ロボットと相手のキーパーだけが<<ボールの操作/Ball Manipulation, ボールの操作>>と移動ができる。
+他のロボットは干渉してはいけない。 +
 Only one attacking robot and one keeper is allowed per team. 
 During a shoot-out attempt, the attacking robot and the opponent keeper are the only ones allowed to move and <<ボールの操作/Ball Manipulation, manipulate the ball>>. 
 Other robots are not allowed to interfere.
 
-ロボットはシュートアウトの間に<<ロボットの交代/Robot Substitution, 交代>>してもよい。新しいロボットを即時入れても良い。 +
+ロボットはシュートアウトの間に<<ロボットの交代/Robot Substitution, 交代>>してもよい。
+新しいロボットを即時入れても良い。 +
 Robots may be <<ロボットの交代/Robot Substitution, substituted>> between shoot-out attempts. 
 The new robot may be put in right away.
 

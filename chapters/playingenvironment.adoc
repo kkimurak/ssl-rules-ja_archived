@@ -135,14 +135,21 @@ Existing implementations can be found on Github: https://github.com/RoboCup-SSL/
 
 NOTE: (訳者注)日本では一般的に「オートレフ」と呼称されることが多い。
 
-=== Communication Flags
+=== コミュニケーションフラッグ/Communication Flags
 
-The communication flags are used to avoid gesturing and yelling with the <<Referee, referee>> during a match.
-These flags are responsible for communicating various intents, such as: <<Timeouts, timeouts>>, <<Emergency stop, emergency stops>>, <<Robot Substitution, manual robot substitution>> and <<Challenge flags, challenges>>.
+コミュニケーションフラッグは、試合中の<<主審/Referee, 主審>>に対するジェスチャーや叫び声を挙げる行為を回避するために用いられる。
+これらのフラッグは<<タイムアウト/Timeout, タイムアウト>>や<<非常停止/Emergency stop, 非常停止>>、<<ロボットの交代/Robot Substitution, 手動でのロボットの交代>>、<<チャレンジフラッグ/Challenge flags, チャレンジ>>など、さまざまな場面で用いられる。 +
+The communication flags are used to avoid gesturing and yelling with the <<主審/Referee, referee>> during a match.
+These flags are responsible for communicating various intents, such as: <<タイムアウト/Timeouts, timeouts>>, <<非常停止/Emergency stop, emergency stops>>, <<ロボットの交代/Robot Substitution, manual robot substitution>> and <<チャレンジフラッグ/Challenge flags, challenges>>.
 
+<<主審/Referee, 主審>>もしくは<<Game Controller Operator, game controller operator>>がコミュニケーションフラッグを確認する必要がある。
+ジェスチャーや叫び声をあげるといった行為は<<非スポーツマン行為/Unsporting Behavior, 非スポーツマン行為>>とみなされ、一度の警告ののちに<<レッドカード/Red card, レッドカード>>となる。
 The <<Referee, referee>> or <<Game Controller Operator, game controller operator>> has to acknowledge the communication flag.
-Any gesturing and yelling will be considered <<Unsporting Behavior, unsporting behavior>>, punished by a <<Red card, red card>> after the first warning.
+Any gesturing and yelling will be considered <<非スポーツマン行為/Unsporting Behavior, unsporting behavior>>, punished by a <<レッドカード/Red card, red card>> after the first warning.
 
+コミュニケーションフラッグは大会主催者より提供される。
+リモートコントロールソフトウェアやデバイスも提供される場合があり、その場合は物理的なフラッグを置き換える。
+主催者が実行可能と判断した他の方法も使用できる。 +
 The communication flags are provided by the organizers of the competition.
 A remote control software or device can be provided and replace physical flags.
 Any other solution that the organizers find feasible can also be used.

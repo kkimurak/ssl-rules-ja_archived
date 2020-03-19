@@ -59,10 +59,9 @@ during <<ペナルティーキック/Penalty Kick, Penalty Kick>>
 | icon:check[role="green"]
 | 複数枚の<<イエローカード/Yellow Card, イエローカード>> +
 Multiple <<イエローカード/Yellow Card, Yellow Cards>> 
-| <<インプレイとアウトオブプレイ/Ball In And Out Of Play, アウトオブプレイ>>中  +
-<<インプレイとアウトオブプレイ/Ball In And Out Of Play, ball out of play>> 
-| <<ペナルティーキック/Penalty Kick, ペナルティーキック>> +
-<<ペナルティーキック/Penalty Kick, Penalty Kick>> 
+| 常時/always
+| <<レッドカード/Red Card, レッドカード>> +
+<<レッドカード/Red Card, Red Card>>
 | icon:times[role="red"] (ゲームコントローラーにより処理される +
 handled by the game controller)
 | 次にインプレイにする権利を持つチームによる<<ボール配置/Ball Placement, ボール配置>>の失敗 +

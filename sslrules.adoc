@@ -4,6 +4,7 @@ include::https://raw.githubusercontent.com/asciidoctor/asciidoctor/master/data/l
 = RoboCup小型機リーグルール
 {docdate}
 :toc:
+:toclevels: 4
 
 // add icons from fontawesome in a up-to-date version
 ifdef::basebackend-html[]

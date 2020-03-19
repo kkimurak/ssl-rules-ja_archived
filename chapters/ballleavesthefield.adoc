@@ -34,8 +34,8 @@ After the ball has been placed, a <<フリーキック/Free Kick, free kick>> is
 ゴールキックはボールが最後にボールに触れなかったチームのゴールラインを横切ってフィールドを離れた後にゲームを再開するために使用される。 +
 A goal kick is used to restart the game after the ball left the field by crossing the goal line of the team that did not touch the ball last.
 
-NOTE: ディヴィジョンB では、<<エイムレスキック/Aimless Kick [small]#(_division B only_)#, エイムレスキック>>が適用されるかもしれない。 +
-In division B, the <<エイムレスキック/Aimless Kick [small]#(_division B only_)#, aimless kick rule>> might apply instead.
+NOTE: ディヴィジョンB では、<<エイムレスキック/aimless-kick, エイムレスキック>>が適用されるかもしれない。 +
+In division B, the <<エイムレスキック/aimless-kick, aimless kick rule>> might apply instead.
 
 ==== コーナーキック/Corner Kick
 .定義/Definition
@@ -48,3 +48,15 @@ After the ball has been placed, a <<フリーキック/Free Kick, free kick>> is
 .用途/Usage
 コーナーキックはボールが最後に触れたチームのゴールラインを横切ってフィールドを離れた後にゲームを再開するために使用される。 +
 A corner kick is used to restart the game after the ball left the field by crossing the goal line of the team that touched the ball last.
+
+[[aimless-kick, Aimless Kick]]
+==== Aimless Kick [small]#(_Division B only_)#
+.Definition
+The ball has to be placed at the position from where the ball was kicked (see the <<Free Kick, free kick>> rules for the exact ball position rules).
+
+After the ball has been placed, a <<Free Kick, free kick>> is awarded to the opponent of the team that last touched the ball before it left the field.
+
+.Usage
+A kick is aimless when after the ball touched a robot, it subsequently crossed the midline and then its opponent's goal line outside the goal without touching another robot.
+
+A kick-off kick cannot be aimless, as the ball is located at the midline and does therefore not cross it.

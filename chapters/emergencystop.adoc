@@ -1,0 +1,40 @@
+== 非常停止/Emergency stop
+
+このルールはDivision Aにのみ適用される。 +
+This rule only applies to Division A.
+
+.定義/Definition
+チームは現在の状況に関係なく、10秒の猶予時間後もしくは次のストップのいずれか早い時点でゲームを停止するよう要求できる。
+これはイエローカードとなり、直ちにタイムアウトの取得となる。
+非常停止を要求したチームにタイムアウトが残されていない場合でもフィールド上からロボットを取り除くことはできるが、残りのタイムアウト時間を使用することはできない。 +
+A team can ask to stop the game immediately after a grace period of 10 seconds or at the next stoppage, whichever happens first regardless of the current situation.
+It will receive a yellow card for this and must take a timeout immediately.
+If the team is out of timeouts, it is still allowed to remove robots from the field, but can not use any remaining timeout time.
+
+NOTE: このルールは極端な - 例えばソフトウェアがクラッシュした、ロボットが自分自身にダメージを与えている、といった - 状況でのみ使用されることを想定する。 +
+This rule is supposed to be used in extreme situations only, e.g. a software crash or when robots are damaging themselves significantly.
+
+このルールで試合が停止された場合、以下の3つの可能性が考えられる: +
+When the game is stopped due to this rule, there are three possibilities that may have happened:
+
+. 猶予時間が経過し、試合が停止された。 +
+The grace period has passed and the game is stopped.
+. 主審が、猶予時間が経過するより早く試合を停止した。 +
+The human referee stopped the game earlier.
+. ファウルが発生した、またはボールがフィールド外に出たことにより、猶予時間より早く試合が停止した。 +
+The game is stopped earlier due to the ball leaving the field or because of a foul.
+
+これらの可能性に対し、試合を処理するにあたって以下の2種類の方法がある: +
+For these possibilities there are two methods to proceed the game:
+
+. *1* および *2* に対しては、試合は相手チームの<<フリーキック/Free Kick, フリーキック>>で続行される。 +
+For *1* and *2*, the game is continued with a <<フリーキック/Free Kick, free kick>> for the opposing team.
+. *3* に対しては、試合は通常のタイムアウトと同様に続行される。 +
+For *3*, the game is continued like after a regular timeout.
+
+.用途/Usage
+非常停止の意図は<<コミュニケーションフラッグ/Communication Flags, コミュニケーションフラッグ>>を使用して伝えらえる。 +
+An emergency stop intent can be made using <<コミュニケーションフラッグ/Communication Flags, communication flags>>.
+
+NOTE: 主審は、有望なプレイが行われていない場合は猶予時間より早く試合を停止することができる。 +
+The referee may stop the game earlier if there is no promising play in action.

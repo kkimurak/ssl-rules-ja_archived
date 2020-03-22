@@ -107,6 +107,8 @@ Before the start of the match, every team has to designate one robot handler. Th
 The robot handler helps <<競技の準備/Match Preparation, preparing the match>>.
 * 必要であれば、ハンドラは主審に<<タイムアウト/Timeouts, タイムアウト>>を要求する。 +
 The robot handler asks the referee for <<タイムアウト/Timeouts, timeouts>> if necessary.
+* ハンドラは<<ロボットの交代/Robot Substitution, 試合中にロボットを交代することができる>>。 +
+The robot handler can <<ロボットの交代/Robot Substitution, substitute a robot during game play>>.
 * ハンドラは次のStop Game時にロボットを交代する許可を主審に要求し、主審が許可した場合は<<ロボットの交代/Robot Substitution,ロボットを交代する>>。 +
 The robot handler asks the referee for the permission to substitute a robot in the next stoppage and, if the referee agrees, <<ロボットの交代/Robot Substitution, substitutes the robot>>.
 * ハンドラはチームの懸念事項を表明する(例えばネットワークやビジョンの問題)。 +

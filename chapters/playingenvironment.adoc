@@ -37,8 +37,8 @@ https://www.jfa.jp/documents/pdf/soccer/lawsofthegame_201819.pdf)
 競技フィールドの表面は緑色のフェルトマットかカーペットである。カーペット下の床は固く平坦で水平である。 +
 The playing surface is green felt mat or carpet. The floor under the carpet is level, flat, and hard.
 
-フィールドはすべての<<フィールドライン/Field Lines, フィールドライン>>から0.7mまで続いている。フィールドの外周には高さ0.1mのフェンスがあり、ロボットやボールがフィールド外に出ることを防ぐ。フィールドのさらに0.4m外側は<<主審/Referee, 主審>>と<<副審/Assistant Referee, 副審>>が通行するためのエリアである。 +
-The field surface will continue for 0.7 meters beyond the <<フィールドライン/Field Lines, field lines>> on all sides. The outer 0.4 meters of this runoff area, separated from the robot area by a 0.1 meters tall wall, is used as a designated walking area for the <<主審/Referee, referee>> and the <<副審/Assistant Referee, assistant referee>>.
+フィールドはすべての<<フィールドライン/Field Lines, フィールドライン>>から0.7mまで続いている。フィールドの外周には高さ0.1mのフェンスがあり、ロボットやボールがフィールド外に出ることを防ぐ。フィールドのさらに0.4m外側は<<主審/Referee, 主審>>と<<副審/Assistant Referee, 副審>>が通行するためのエリアである。 残りの0.3mはフィールドのマージンである。 +
+The field surface will continue for 0.7 meters beyond the <<フィールドライン/Field Lines, field lines>> on all sides. The outer 0.4 meters of this runoff area, separated from the robot area by a 0.1 meters tall wall, is used as a designated walking area for the <<主審/Referee, referee>> and the <<副審/Assistant Referee, assistant referee>>. The remaining 0.3 meters are the field margins.
 
 
 ==== フィールドのマーキング/Field Markings

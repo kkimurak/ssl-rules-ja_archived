@@ -8,7 +8,7 @@ If both teams have the same score after those 5 attempts, each team takes anothe
 
 各チームには1台の攻撃ロボットと1台のキーパーだけが許可される。
 シュートアウトの間、攻撃ロボットと相手のキーパーだけが<<ボールの操作/Ball Manipulation, ボールの操作>>と移動ができる。
-他のロボットは干渉してはいけない。 +
+他のロボットは干渉してはならない。 +
 Only one attacking robot and one keeper is allowed per team. 
 During a shoot-out attempt, the attacking robot and the opponent keeper are the only ones allowed to move and <<ボールの操作/Ball Manipulation, manipulate the ball>>. 
 Other robots are not allowed to interfere.

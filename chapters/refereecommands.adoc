@@ -213,14 +213,24 @@ Penalty Kicks are used to punish teams that received multiple <<イエローカ�
 
 ==== イエローカード/Yellow Card
 .定義/Definition
-イエローカードは<<ハルト/Halt,ハルト>>中の時のみ宣告される。 +
-A yellow card can only be given during <<ハルト/Halt, halt>>.
 
 イエローカードが非スポーツマン行為の結果として示された場合、主審は直ちに試合を<<ハルト/Halt, 中断>>することができる。この場合、もう片方のチームの直接フリーキックで試合が継続される。 +
 If the yellow card is shown as a result of <<非スポーツマン行為/Unsporting Behavior, unsporting behavior>>, the referee may decide to immediately <<ハルト/Halt, halt>> the match. In this case, the match continues with a direct free kick for the other team.
 
-イエローカードを受け取ると、ペナルティを受けたチームがフィールドに出場させて良いロボットの数が1台減少する。この減少のあと、チームがフィールドに出場させて良い台数よりも多くのロボットが出場している場合、<<試合の再開/Resuming The Game, 試合の再開>>より前に<<ロボットの交代/Robot Substitution, ロボットを退場>>させなければいけない。ペナルティを受けたチームは、退場させるロボットを選択することができる。 +
-Upon receipt of a yellow card, the number of robots allowed on the field for the penalized team decreases by one. If, after this decrease, the team has more robots than permitted on the field, a robot must be <<ロボットの交代/Robot Substitution, taken out>> before <<試合の再開/Resuming The Game, play resumes>>. The penalized team can choose the robot to remove.
+イエローカードを受け取ると、ペナルティを受けたチームがフィールドに出場させて良いロボットの数が1台減少する。この減少のあと、チームがフィールドに出場させて良い台数よりも多くのロボットが出場している場合、<<ロボットの交代/Robot Substitution, ロボットを退場>>させなければいけない。 +
+Upon receipt of a yellow card, the number of robots allowed on the field for the penalized team decreases by one. If, after this decrease, the team has more robots than permitted on the field, a robot must be <<ロボットの交代/Robot Substitution, taken out>>.
+
+イエローカードは自動的には試合を停止させない。<<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ>>であれば、イエローカードを受けたチームは10秒間で、<<ロボットの交代/Robot Substitution, 自動的にロボットを退場>>させることができる。もしその時間でロボットが退場しなかった場合、ゲームは<<ロボットの交代/Robot Substitution, 手動でのロボット退場>>のため停止させられる。 +
+A yellow card does not lead to a stop automatically. If the the ball is <<インプレイとアウトオブプレイ/Ball In And Out Of Play, in play>>, the team will have 10 seconds to <<Robot Substitution, automatically remove the robot>>. If a robot is not taken out within time, the game is stopped for <<ロボットの交代/Robot Substitution, manual substitution>>.
+
+NOTE: このルールは、イエローカードを受け取った後、ゲームが自動的に停止しない可能性があることを意味する。しかしながら、例えば部品を落とすといった、イエローカードの対象となるファウルがあった場合はゲームは停止する。したがって、これらのファウルのいずれかが発生した場合、チームはロボットを手動で取り除くことができる。 +
+This rule implies that after receiving a yellow card, the game might not be automatically stopped. However, the game will be stopped if the foul that led to the yellow card causes a game stoppage, e.g. dropping parts. Therefore, if one of those fouls occurred, the team is allowed to manually remove the robot.
+
+NOTE: 2020年のルールでは、時間内にロボットを外に出せなかった場合もペナルティーは無い。したがって、ゲームはフォーススタートにより再開する。しかしながら2021年には、ロボットを手動で取り除いた場合には、ボールは当該チームのディフェンスエリアから1.5mのミッドライン上に置かれ、相手チームのフリーキックとなる。 +
+In 2020 no penalty will be given to the team that couldn't get the robot out of the field in time. Thus, the game shall be restarted using a force start. However, in 2021, if the robot gets manually substituted, the ball is placed on the mid line and 1.5 meters away from the teams defense area and the opposing team gets a free kick.
+
+許可された台数以上のロボットがフィールド上にある間は、そのチームの得点は認められない。 +
+A team cannot score a goal while having more than the allowed number of robots on the field.
 
 (game controllerによって計測された)試合時間が120秒経過した後、イエローカードの有効期間が終了してフィールドに出場してよいロボットが1台増える。イエローカードを受けていたチームは次の機会に<<ロボットの交代/Robot Substitution, ロボットを戻しても良い>>。 +
 After 120 seconds of playing time (measured by the game controller), the yellow card expires and the number of allowed robots is increased by one. The team may <<ロボットの交代/Robot Substitution, put a robot back in>> during the next opportunity.

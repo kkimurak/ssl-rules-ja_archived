@@ -4,7 +4,7 @@
 This rule only applies to Division A.
 
 .定義/Definition
-チームは、10秒の猶予時間後もしくは次のストップのいずれか早い時点で、現在の状況に関係なくゲームの停止を要求できる。
+チームは現在の状況に関係なく、10秒の猶予時間後もしくは次のストップのいずれか早い時点でゲームを停止するよう要求できる。
 これはイエローカードとなり、直ちにタイムアウトの取得となる。
 非常停止を要求したチームにタイムアウトが残されていない場合でもフィールド上からロボットを取り除くことはできるが、残りのタイムアウト時間を使用することはできない。 +
 A team can ask to stop the game immediately after a grace period of 10 seconds or at the next stoppage, whichever happens first regardless of the current situation.

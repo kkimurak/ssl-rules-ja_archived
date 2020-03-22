@@ -1,13 +1,13 @@
 == 大会期間中のルール変更/Rule Changes During Competition
 
 各年のルール変更は、予期しない結果をもたらす可能性がある。
-ルールが競技に対し重大な悪影響をおよぼしていることが判明した場合、以下の条件のもとルールが造り替えられる可能性がある:
+ルールが競技に対し重大な悪影響をおよぼしていることが判明した場合、以下の条件のもとルールが変更される可能性がある:
 Rule changes between years can have unforeseen consequences.
 If a rule is found to cause significant negative impact to the competition, the rules may be adapted under the following conditions:
 
-* 予選(総当たり戦)や勝ち抜き戦といった、大会のある段階の間のみである +
+* 予選(総当たり戦)や勝ち抜き戦といった、大会中のあるフェイズの間のみの適用であること +
 Only between phases of the competition, like round-robin and knockout
-* 重大な問題に対してのみ、最終手段として適用される +
+* 重大な問題にのみ適用されるものであり、かつそれが最終手段であること +
 Only for major problems, as a last resort
-* その変更が、参加する全チームのリーダーによる全会一致で可決される +
+* その変更が、参加する全チームのリーダーによる全会一致で可決されること +
 The change must be approved by all team leaders (by an unanimity vote)

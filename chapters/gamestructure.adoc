@@ -142,6 +142,17 @@ The <<主審/Referee, referee>> tosses a coin with both <<ハンドラ/Robot Han
 <<主審/Referee, 主審>>は両チームの<<ハンドラ/Robot Handler, ハンドラ>>にどのロボットをキーパーとして使用するつもりなのか確認し、<<Game Controller Operator, game controller operator>>に情報を連絡する。 +
 The <<主審/Referee, referee>> asks both <<ハンドラ/Robot Handler, robot handlers>> which robot they will use as the keeper and forwards this information to the <<Game Controller Operator, game controller operator>>.
 
+キーパーのIDは、<<インプレイとアウトオブプレイ/Ball In And Out Of Play, アウトオブプレイ中>>もしくはボールがフィールドの相手側ハーフにあれば、以下の方法でいつでも変更できる: +
+The keeper id can be changed anytime during the game if the ball is either <<Ball In And Out Of Play, out of play>> or in the opponent's field half by:
+
+. <<Game Controller, Game controller>>のネットワークインターフェースを利用する +
+Using the <<Game Controller, game controller>> network interface
+. <<Game Controller Operator, game controller operator>>に、<<Game Controller, game controller>>で設定されているキーパーのIDを変更するよう依頼する。<<Game Controller Operator, Game controller operator>>は、ボールが適切な位置に来るまでキーパーのIDを変更してはならない。 +
+Asking the <<Game Controller Operator, game controller operator>> to change it in the <<Game Controller, game controller>>. The <<Game Controller Operator, game controller operator>> must not change the keeper id until the ball is at a valid position.
+
+NOTE: チームは、要件を満たした時にのみ変更を要請する必要がある。<<Game Controller Operator, Game controller operator>>はルールを尊守する必要がある。 +
+Teams should only ask for a change once the requirements are met. The <<Game Controller Operator, game controller operator>> is responsible for complying to the rules.
+
 NOTE: もしチームがキーパーを使用したくない場合、フィールド上に存在しないロボットのIDを選択すること。 +
 If a team does not want to use a keeper, it may select the id of a robot that is not on the field.
 

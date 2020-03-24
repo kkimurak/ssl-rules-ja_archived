@@ -264,7 +264,7 @@ A team cannot score a goal while having more than the allowed number of robots o
 (game controllerによって計測された)試合時間が120秒経過した後、イエローカードの有効期間が終了してフィールドに出場してよいロボットが1台増える。イエローカードを受けていたチームは次の機会に<<ロボットの交代/Robot Substitution, ロボットを戻しても良い>>。 +
 After 120 seconds of playing time (measured by the game controller), the yellow card expires and the number of allowed robots is increased by one. The team may <<ロボットの交代/Robot Substitution, put a robot back in>> during the next opportunity.
 
-1チームにつき(そのカードの色に関係なく)3枚ごとに、1回の<<ペナルティーキック/Penalty Kick, ペナルティーキック>>が相手チームに与えられる。 +
+あるチームが失効していない2枚のイエローカードを保持しており、さらにもう一枚を受け取った時、これは代わりに一枚のレッドカードとなる。 +
 When a team has two not yet expired yellow cards and receives another yellow card, this card will be turned into a red card instead.
 
 .用途/Usage

@@ -234,8 +234,8 @@ When the ball is <<インプレイとアウトオブプレイ/Ball In And Out Of
 Additional time is allowed for a penalty kick to be taken at the end of each half or at the end of periods of overtime.
 
 .用途/Usage
-ペナルティキックは複数の<<イエローカード/Yellow Card, イエローカード>>を受け取ったチームを罰するために使用され、それ以外に<<非スポーツマン行為/Unsporting Behavior, 非スポーツマン行為>>や<<マルチプルディフェンス/Multiple Defenders, マルチプルディフェンス>>を行ったときにも使用される。 +
-Penalty Kicks are used to punish teams that received multiple <<イエローカード/Yellow Card, yellow cards>>, as well as to punish <<非スポーツマン行為/Unsporting Behavior, unsporting behavior>> and <<マルチプルディフェンス/Multiple Defenders, multiple defenders>>.
+ペナルティキックは<<非スポーツマン行為/Unsporting Behavior, 非スポーツマン行為>>や<<マルチプルディフェンス/Multiple Defenders, マルチプルディフェンス>>を罰するために使用される。 +
+Penalty Kicks are used to punish <<非スポーツマン行為/Unsporting Behavior, unsporting behavior>> and <<マルチプルディフェンス/Multiple Defenders, multiple defenders>>.
 
 
 === 罰則/Sanctions
@@ -264,8 +264,8 @@ A team cannot score a goal while having more than the allowed number of robots o
 (game controllerによって計測された)試合時間が120秒経過した後、イエローカードの有効期間が終了してフィールドに出場してよいロボットが1台増える。イエローカードを受けていたチームは次の機会に<<ロボットの交代/Robot Substitution, ロボットを戻しても良い>>。 +
 After 120 seconds of playing time (measured by the game controller), the yellow card expires and the number of allowed robots is increased by one. The team may <<ロボットの交代/Robot Substitution, put a robot back in>> during the next opportunity.
 
-1チームにつき(そのカードの色に関係なく)3枚ごとに、1回の<<ペナルティーキック/Penalty Kick, ペナルティーキック>>が相手チームに与えられる。 +
-For every third card (regardless of its color) for one team, a <<ペナルティーキック/Penalty Kick, penalty kick>> is awarded to the opponent team.
+あるチームが失効していない2枚のイエローカードを保持しており、さらにもう一枚を受け取った時、これは代わりに一枚のレッドカードとなる。 +
+When a team has two not yet expired yellow cards and receives another yellow card, this card will be turned into a red card instead.
 
 .用途/Usage
 イエローカードは複数回の<<ファウル/Fouls, ファウル>>を犯したチームを罰するために使用される。 +

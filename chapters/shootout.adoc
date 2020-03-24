@@ -1,46 +1,22 @@
 == シュートアウト/Shoot-Out
+
 .定義/Definition
-両チームが交互にゴールに得点を決めようと各チームそれぞれ5回のシュートを試行する。もし両チームとも5回の試行が終わった時に同点であった場合、2チームの得点が異なるまで前と同じ順番でさらに試行回数を増やす。 +
-Both teams alternately attempt to score a goal until each team has performed 5 attempts. If both teams have the same score after those 5 attempts, each team takes another attempt in the same order as before until the score of the two teams is different.
+両チームが交互にそれぞれ5回の<<ペナルティーキック/Penalty Kick, ペナルティーキック>>を試行する。
+もし両チームとも5回の試行が終わった時に同点であった場合、2チームの得点が異なるまで前と同じ順番でさらに試行回数を増やす。 +
+Both teams alternately attempt to score a goal with a <<ペナルティーキック/Penalty Kick, penalty kick>> until each team has performed 5 attempts.
+If both teams have the same score after those 5 attempts, each team takes another attempt in the same order as before until the score of the two teams is different.
 
-各チームには1台の攻撃ロボットと1台のキーパーだけが許可される。シュートアウトの間、攻撃ロボットと相手のキーパーだけが<<ボールの操作/Ball Manipulation, ボールの操作>>と移動ができる。他のロボットは干渉してはいけない。 +
-Only one attacking robot and one keeper is allowed per team. During a shoot-out attempt, the attacking robot and the opponent keeper are the only ones allowed to move and <<ボールの操作/Ball Manipulation, manipulate the ball>>. Other robots are not allowed to interfere.
+各チームには1台の攻撃ロボットと1台のキーパーだけが許可される。
+シュートアウトの間、攻撃ロボットと相手のキーパーだけが<<ボールの操作/Ball Manipulation, ボールの操作>>と移動ができる。
+他のロボットは干渉してはならない。 +
+Only one attacking robot and one keeper is allowed per team. 
+During a shoot-out attempt, the attacking robot and the opponent keeper are the only ones allowed to move and <<ボールの操作/Ball Manipulation, manipulate the ball>>. 
+Other robots are not allowed to interfere.
 
-シュートアウトの手順は以下である: +
-The procedure of a shoot-out attempt is as follows:
-
-. ボールは相手のゴールから(ディヴィジョンAなら)8mか(ディヴィジョンBなら)6mの位置にある<<追加のライン/Additional Lines, ミッドライン>>(ハーフウェイラインではない)に人間の審判によって置かれる。 +
-The ball is placed by the human referee on the <<追加のライン/Additional Lines, mid-line>> (not halfway line), 8 meters (division A) or 6 meters (division B) away from the opponent goal.
-. <<ペナルティーキック/Penalty Kick, ペナルティーキック>>のコマンドが発行されたとき、守備側チームのキーパーはゴールラインに移動し、ラインに触れ続けなければならない +
-When the <<ペナルティーキック/Penalty Kick, penalty>> command is issued, the defending keeper has to move to the goal line and keep touching it.
-. <<ノーマルスタート/Normal Start, ノーマルスタート>>のコマンドが発行されたとき、アタッカーは<<ボールの操作/Ball Manipulation, ボールを操作する>>ことが許可される。ボールは相手ゴールに向かって動かさなければならない。これは、SSL-Visionの座標系におけるx座標によって測定されている。 +
-When the <<ノーマルスタート/Normal Start, normal start>> command is issued, the attacker is allowed to <<ボールの操作/Ball Manipulation, manipulate the ball>>. The ball has to only move towards the opponent goal, as measured by its x coordinate in the coordinate system of <<Vision, SSL-Vision>>.
-. ボールが<<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ>>になった時、守備側チームのキーパは<<ペナルティーキック/Penalty Kick,  ペナルティキック>>と同じように再び自由に動いてよい。 +
-When the ball is <<インプレイとアウトオブプレイ/Ball In And Out Of Play, in play>>, the defending keeper may move freely again, analogous to a <<ペナルティーキック/Penalty Kick, penalty kick>>.
-
-以下の場合に得点が与えられる: +
-A goal is awarded if:
-
-* <<ノーマルスタート/Normal Start, ノーマルスタート>>のコマンドが発行されてから10秒以内に守備側チームのゴールの地面もしくはゴールウォールの内面にボールが接触した。 +
-the ball touches the inner surface of a goal wall or the ground of the goal of the defending team in less than 10 seconds, starting from when the <<ノーマルスタート/Normal Start, normal start>> command is issued
-* 守備側チームがいかなる違反も犯していない +
-the defending team violates any rule
-
-以下の場合に得点が与えられない: +
-A goal is not awarded if:
-
-* ボールがゴールより外側のいずれかの<<フィールドライン/Field Lines, フィールドライン>>を横切った +
-the ball crosses any <<フィールドライン/Field Lines, field lines>> outside the goal
-* 守備側チームのキーパーが2次元空間内で少なくとも90°以上ボールの速度ベクトルを変えるようにボールに触れる +
-the defending keeper touches the ball such that the ball speed vector changes direction by at least 90 degrees in 2D space
-* 攻撃側チームが何らかの違反を犯した +
-the attacking team violates any rule
-
-NOTE: <<ゴールの得点方法/Scoring Goals, ゴールの得点>>のために定義された制限はここでは適用されない。これには0.15mのボールの高さ制限も含まれる。例えば<<ドリブルの超過/Excessive Dribbling, ドリブルの超過>>なども該当する。 +
-The restrictions defined for <<ゴールの得点方法/Scoring Goals, scoring goals>> do not apply here. This explicitly includes the ball height limit of 0.15 meters. Other rules like the <<ドリブルの超過/Excessive Dribbling, excessive dribbling>> limitation for example do.
-
-ロボットはシュートアウトの間に<<ロボットの交代/Robot Substitution, 交代>>してもよい。新しいロボットを即時入れても良い。 +
-Robots may be <<ロボットの交代/Robot Substitution, substituted>> between shoot-out attempts. The new robot may be put in right away.
+ロボットはシュートアウトの間に<<ロボットの交代/Robot Substitution, 交代>>してもよい。
+新しいロボットを即時入れても良い。 +
+Robots may be <<ロボットの交代/Robot Substitution, substituted>> between shoot-out attempts. 
+The new robot may be put in right away.
 
 NOTE: シュートアウト中は<<タイムアウト/Timeouts, タイムアウト>>は許可されていない事に注意する事。 +
 Note that <<タイムアウト/Timeouts, timeouts>> are not allowed during shoot-out.
@@ -48,4 +24,3 @@ Note that <<タイムアウト/Timeouts, timeouts>> are not allowed during shoot
 .用途/Usage
 シュートアウトは直前の<<ゲームステージ/Game Stages, ゲームステージ>>で両チームが同じ点の場合に、勝ち抜き戦の勝者を決定するために使用される。 +
 Shoot-Out is used to determine the winner of an elimination match if both teams scored the same amount of goals in previous <<ゲームステージ/Game Stages, game stages>>.
-

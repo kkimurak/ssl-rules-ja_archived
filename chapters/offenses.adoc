@@ -29,7 +29,7 @@ NOTE: もし両チームともボールを操作してよい状態で、チー�
 If both teams are allowed to manipulate the ball, and thus no team is at fault, the referee may stop the game and issue a <<フォーススタート/Force Start, force start>> command.
 
 NOTE: 両チームともルール違反をせずにボールを<<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ>>にする事が明らかにできない場合、主審は相手チームの<<フリーキック/Free Kick, フリーキック>>の代わりに<<フォーススタート/Force Start, force start>>コマンドを発行することができる。 +
-If both teams are clearly unable to bring the ball <<インプレイとアウトオブプレイ/Ball In And Out Of Play, into play>> without violating the rules, the referee may issue a <<フォーススタート/Force Start, force start>> command instead of an <<フリーキック/Free Kick, free kick>> for the other team.
+If both teams are clearly unable to bring the ball <<インプレイとアウトオブプレイ/Ball In And Out Of Play, into play>> without violating the rules, the referee may issue a <<フォーススタート/Force Start, force start>> command instead of a <<フリーキック/Free Kick, free kick>> for the other team.
 
 
 ==== ダブルタッチ/Double Touch

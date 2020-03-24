@@ -12,7 +12,7 @@ Touch lines are the long <<フィールドライン/Field Lines, field lines>> a
 The ball has to be placed 0.2 meters perpendicular to the touch line where the ball crossed the touch line. Its distance to the goal lines must be at least 0.2 meters.
 
 ボールが設置されたのち、フィールドを離れる前の最後にボールに触れたチームの相手チームに対して<<フリーキック/Free Kick, フリーキック>>が与えられる。 +
-After the ball has been placed, an <<フリーキック/Free Kick, free kick>> is awarded to the opponent of the team that last touched the ball before it left the field.
+After the ball has been placed, a <<フリーキック/Free Kick, free kick>> is awarded to the opponent of the team that last touched the ball before it left the field.
 
 .用途/Usage
 スローインはボールがタッチラインを横切ってフィールドを離れた後にゲームを再開するために使用される。 +

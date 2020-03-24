@@ -69,7 +69,7 @@ When the ball goes <<インプレイとアウトオブプレイ/Ball In And Out 
 . <<主審/Referee, 主審>>はすべてのキックオフとすべてのペナルティキックの時にボールを配置する +
 The <<主審/Referee, referee>> has to place the ball for all kickoffs and all penalty kicks
 . <<フリーキック/Free Kick, フリーキック>>の場合、ボールを<<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ>>にするチームがボールを配置しなければならない +
-For an <<フリーキック/Free Kick, free kick>>, the team that brings the ball <<インプレイとアウトオブプレイ/Ball In And Out Of Play, into play>> must place the ball
+For a <<フリーキック/Free Kick, free kick>>, the team that brings the ball <<インプレイとアウトオブプレイ/Ball In And Out Of Play, into play>> must place the ball
 . <<フォーススタート/Force Start, フォーススタート>>の場合、偶然選ばれたどちらか片方のチームがボールを配置しなければならない。 +
 For a <<フォーススタート/Force Start, force start>>, a team is drawn by chance and must place the ball
 . ボール配置が開始される前は、ボールは見えていなければならず、フィールドコーナーやゴールコーナー、ゴールの後ろにボールが配置されてはいけない +
@@ -214,6 +214,7 @@ Additional time is allowed for a penalty kick to be taken at the end of each hal
 .用途/Usage
 ペナルティキックは複数の<<イエローカード/Yellow Card, イエローカード>>を受け取ったチームを罰するために使用され、それ以外に<<非スポーツマン行為/Unsporting Behavior, 非スポーツマン行為>>や<<マルチプルディフェンス/Multiple Defenders, マルチプルディフェンス>>を行ったときにも使用される。 +
 Penalty Kicks are used to punish teams that received multiple <<イエローカード/Yellow Card, yellow cards>>, as well as to punish <<非スポーツマン行為/Unsporting Behavior, unsporting behavior>> and <<マルチプルディフェンス/Multiple Defenders, multiple defenders>>.
+
 
 === 罰則/Sanctions
 

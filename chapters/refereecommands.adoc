@@ -39,6 +39,21 @@ After the game was stopped, the ball must be placed on the appropriate position,
 The automatic ball placement is the preferred way to place the ball at the designated position on the field by the robots of the teams without human interaction.
 If this is not possible, the <<主審/Referee, referee>> places the ball manually.
 
+以下の条件が全て満たされている場合、ボール配置は必要ない: +
+No ball placement is required if all of the following constraints are fulfilled:
+
+* ボールは指定位置から1m以内にある。 +
+The ball is closer than 1m to the designated position.
+* ボールはフィールド内にある。 +
+The ball is inside the field.
+* ボールは、どのディフェンスエリアからも0.7m以上離れている。 +
+The ball is at least 0.7m away from any defense area.
+* ボールは静止している。 +
+The ball is stationary.
+
+この場合、試合は<<停止/Stop, ストップ>>に必要とされる距離を維持した時点ですぐに再開できる。 +
+In this case, the game can be continued as soon as all robots keep the required distance for <<停止/Stop, stop>>.
+
 ボールがロボットによってうまく配置されたと考えられるのは以下の場合である +
 A ball is considered placed successfully by the robots if
 
@@ -53,7 +68,10 @@ the ball is stationary
 * ボールは要求された位置から半径0.15m以内の場所に配置されている +
 the ball is at a position within 0.15 meters radius from the requested position
 
-ボールが正常に配置されるまで、<<Game Controller, game controller>>によってそれ以外のコマンドは発行されない。ボールが上手く配置された場合、試合は<<Game Controller, game controller>>によって可能な限り早く再開される(ただし、ボール配置コマンドが発行されてから2秒より早くはならない)。配置が失敗した場合、相手にフリーキックが与えられる。このチームがボールをうまく配置することに失敗した場合、ボールは<<主審/Referee, 主審>>により配置され、試合は元のコマンドによって続行される。 +
+ボールが正常に配置されるまで、<<Game Controller, game controller>>によってそれ以外のコマンドは発行されない。
+ボールが上手く配置された場合、試合は<<Game Controller, game controller>>によって可能な限り早く再開される(ただし、ボール配置コマンドが発行されてから2秒より早くはならない)。
+配置が失敗した場合、相手にフリーキックが与えられる。
+このチームがボールをうまく配置することに失敗した場合、ボールは<<主審/Referee, 主審>>により配置され、試合は元のコマンドによって続行される。 +
 No further commands will be issued by the <<Game Controller, game controller>> until the automatic placement is complete.
 The game will be continued by the <<Game Controller, game controller>> as soon as the ball is successfully placed, but not earlier than 2 seconds after the ball placement command has been issued.
 A failed placement will result in a free kick for the opposing team.
@@ -61,6 +79,9 @@ If this team failed to place the ball as well, the ball is placed by the <<主�
 
 配置を担当しない方のチームは<<ボール配置への干渉/Ball Placement Interference, ボール配置に干渉>>してはいけない。 +
 The non-placing team must not <<ボール配置への干渉/Ball Placement Interference, interfere the ball placement task>>.
+
+チームごとに設けられたボール配置失敗カウンターは配置失敗ごとに増加し、配置成功ごとに減少する。カウンターは負値にはならない。 +
+For each team a ball placement failure counter is incremented on each placement failure and decremented for successful placements. It can not get negative.
 
 .用途/Usage
 ボールが<<インプレイとアウトオブプレイ/Ball In And Out Of Play, アウトオブプレイ>>のとき、自動ボール配置が適用されるのであれば、次のルールが決定される; +
@@ -79,15 +100,18 @@ The <<主審/Referee, referee>> can decide to place the ball manually at any tim
 . <<主審/Referee, 主審>>は、試合の終わりまで自動ボール配置を無効化とすることを決定できる。TC/OCはこの決定に同意しなければならない。 +
 The <<主審/Referee, referee>> can decide to disable automatic ball placement for the rest of the game. TC/OC must agree with this decision
 . 片方のチームが連続して5回ボールを配置することに失敗した場合、そのハーフが終わるまでボールを配置することは許されない。フィールド外に出てしまった事で発生したすべてのフリーキックは相手チームに与えられる。その他のルール違反や両チームともボールを配置することに失敗した場合、ボールは<<主審/Referee, 主審>>によって配置される +
-When a team has failed to place the ball 5 times in a row, it is not allowed to place the ball for the rest of the game half. All free kicks that were a result of the ball leaving the field, are awarded to the opposing team. For all other rule violations or when both teams failed to place the ball, the ball is placed by the <<主審/Referee, referee>>
+When a teams placement failure counter reached 5, it is not allowed to place the ball for the rest of the game half. All free kicks that were a result of the ball leaving the field, are awarded to the opposing team. For all other rule violations or when both teams failed to place the ball, the ball is placed by the <<主審/Referee, referee>>
 . もしボール配置できるチームがいない場合、ボールは<<主審/Referee, 主審>>か<<副審/Assistant Referee, 副審>>によって配置される。主審または副審は、ボールを動かすために、いわゆるボールハンドラ（長い、できれば黒の棒状のデバイス）を使用することが推奨される。 +
 If no team can place the ball, the ball is placed by the <<主審/Referee, referee>> or the <<副審/Assistant Referee, assistant referee>>. Both the referee as well as the assistant referee are advised to use a so-called ball handler (a long, preferably black stick-like device) to move the ball.
 
-NOTE: ボールがすでに配置位置にある場合（たとえば、他のチームによるフリーキックの失敗後）、ロボットがボールを操作しなくてもボール配置は成功する可能性がある。これは、配置チームによる貢献なしに失敗回数のカウンターのリセットにつながる可能性がある。 +
-If the ball is already at the placement position (for example after a failed free kick by the other team), the ball placement can be successful without a robot manipulating the ball. This could lead to the counter for failed attempts resetting without a contribution by the placing team.
-
 NOTE: placementコマンドが発行された時点では、ボールはまだ動いている可能性がある。 +
 The ball may still be moving when the placement command is issued.
+
+NOTE: ゲームはボール配置の直後に開始される。ボールを受け取ったチームは必要に応じて即座にボールを蹴り、相手チームが守備のためのアクションを取る時間をわずかなものに出来る。 +
+The game commences directly after ball placement. The team receiving the ball may shoot immediately and leave the opposing team little time to arrange defensive actions if needed.
+
+NOTE: ボール配置中はディエンスエリアへの侵入は許される。 +
+It is allowed to enter the defense area during ball placement.
 
 ディヴィジョンAのすべてのチームでボールの配置が必須である。ディヴィジョンBのチームは<<主審/Referee, 主審>>と話すことによって、試合中や試合のいつでも試合の残り時間でボール配置をしないことを決定しても良い。主審は<<Game Controller Operator, game controller operator>>に対してそのチームのボール配置を無効にするように指示する。この場合、チームは相手チームがボールを配置した後にボールをインプレイに持ち込むことができる。もし相手チームがボール配置に失敗したり、ボール配置ができるチームがいない場合は、ボールは<<主審/Referee, 主審>>か<<副審/Assistant Referee, 副審>>によって配置される。 +
 Ball placement is mandatory for all teams in division A.
@@ -100,8 +124,6 @@ NOTE: (訳者注)一般的に「ボールプレースメント」と呼称され
 === 試合の再開/Resuming The Game
 ボール配置完了後、試合は以下のコマンドのうちのどれかを使用して再開される。 +
 After the ball has been placed, the game is resumed using one of the following commands.
-
-// In division A, the ball will be placed automatically by the robots if the following command is a free kick or force start (see <<ボール配置/Ball Placement>>).
 
 ==== ノーマルスタート/Normal Start
 .定義/Definition

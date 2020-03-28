@@ -13,7 +13,6 @@ The game event table is a compilation of the different game events and their con
 NOTE: この表にまとめられた情報は不完全なものである。すべての定義を確認するには、対応した各章を読むこと。 +
 Note that the information shown in this table here is incomplete. Please read the sections of the respective events for the full definitions.
 
-<<<<<<< HEAD
 === Events For Match Proceeding
 |===
 | イベント/Event | 適用範囲/Applicability | 実行されるコマンド/Command | Handled by

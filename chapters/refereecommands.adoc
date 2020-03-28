@@ -178,10 +178,13 @@ free kicks are used to restart the game after a <<ファウル/Fouls, foul>> has
 When the force start command is issued, the game is immediately resumed and both teams are allowed to approach and <<ボールの操作/Ball Manipulation, manipulate the ball>> again.
 
 .用途/Usage
+ニュートラルなフォーススタートは、以下のような、明らかな優劣がない状況で使用される: +
 A neutral forced start is used in situations where no team is clearly in favor, such as:
 
-* the game had to be stopped without a specific reason.
-* both teams are at fault.
+* 特別な理由なく試合が停止させられた場合 +
+the game had to be stopped without a specific reason.
+* 両チームにファウルが与えられた場合 +
+both teams are at fault.
 
 ==== ペナルティーキック/Penalty Kick
 .定義/Definition
@@ -202,7 +205,8 @@ All other robots have to be 1m behind the ball such that they do not interfere t
 When the <<ノーマルスタート/Normal Start, normal start>> command is issued, the attacker is allowed to <<ボールの操作/Ball Manipulation, manipulate the ball>>. The ball has to only move towards the opponent goal, as measured by its x coordinate in the coordinate system of <<Vision, SSL-Vision>>.
 . <<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ>>になった時、守備側のキーパーは再び自由に移動できる。 +
 When the ball is <<Ball In And Out Of Play, in play>>, the defending keeper may move freely again
-. If the ball is still <<Ball In And Out Of Play, in play>> after 1- seconds, the game is stopped and then continued by a <<Goal Kick, goal kick>> for the defending team.
+. 10秒経過した後にボールが引き続き<<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ>>であった場合、試合は停止され<<ゴールキック/Goal Kick, ゴールキック>>で再開される。 +
+If the ball is still <<Ball In And Out Of Play, in play>> after 10 seconds, the game is stopped and then continued by a <<Goal Kick, goal kick>> for the defending team.
 
 以下の場合は得点が認められる: +
 A goal is awarded if:
@@ -236,17 +240,21 @@ Penalty Kicks are used to punish <<非スポーツマン行為/Unsporting Behavi
 
 
 === インプレイとアウトオブプレイ/Ball In And Out Of Play
-試合が<<試合の停止/Stopping The Game, 停止>>されると、ボールは次のプレイに移行するまではアウトオブプレイとみなされる。 +
+試合が<<試合の停止/Stopping The Game, 停止>>されると、ボールは次のプレイに移行するまでは *アウトオブプレイ* とみなされる。 +
 When the match is <<試合の停止/Stopping The Game, stopped>>, the ball is considered *out of play* until it has been brought into play.
 
-試合が<<試合の再開/Resuming The Game, 再開>>されると、ボールは次の停止が発生するまではインプレイとみなされる。
+試合が<<試合の再開/Resuming The Game, 再開>>されると、ボールは次の停止が発生するまではインプレイとみなされる。試合は以下により再開される : +
 When the match is <<試合の再開/Resuming The Game, resumed>>, the ball is considered *in play* until the next stoppage occurs. 
 The match is resumed when
 
-* <<Force Start, force start>> has been issued.
-* the ball moved at least 0.05 meters following a <<Kick-Off, kick-off>>, <<Free Kick, free kick>> or <<Penalty Kick, penalty kick>>.
-* 10 seconds passed following a <<Kick-Off, kick-off>>.
-* 5 seconds (Division A) or 10 seconds (Division B) passed following a <<Free Kick, free kick>>.
+* <<フォーススタート/Force Start, フォーススタート>>コマンドが発行された時 +
+<<フォーススタート/Force Start, force start>> has been issued.
+* <<キックオフ/Kick-Off, キックオフ>>、<<フリーキック/Free Kick, フリーキック>>、<<ペナルティーキック/Penalty Kick, ペナルティーキック>>いずれかの開始から、少なくともボールが0.05m移動した時 +
+the ball moved at least 0.05 meters following a <<キックオフ/Kick-Off, kick-off>>, <<フリーキック/Free Kick, free kick>> or <<ペナルティーキック/Penalty Kick, penalty kick>>.
+* <<キックオフ/Kick-Off, キックオフ>>開始から10秒が経過した時 +
+10 seconds passed following a <<キックオフ/Kick-Off, kick-off>>.
+* <<フリーキック/Free Kick, フリーキック>>から、ディヴィジョンAでは5秒、ディヴィジョンBでは10秒が経過した時 +
+5 seconds (Division A) or 10 seconds (Division B) passed following a <<Free Kick, free kick>>.
 
 NOTE: 0.05メートルの距離の理論的根拠については「<<ダブルタッチ/Double Touch, ダブルタッチ>>」を参照すること +
 see <<ダブルタッチ/Double Touch, double touch>> for the rationale of the 0.05 meter distance

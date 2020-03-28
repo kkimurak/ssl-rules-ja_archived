@@ -5,7 +5,7 @@ If there is no progress in the game for 5 seconds (Division A) or 10 seconds (Di
 <<ボールの操作/Ball Manipulation, manipulate the ball>>, the game is <<停止/Stop, stopped>>
 and continued by a <<フォーススタート/Forced Start, forced start>>.
 
-==== ダブルタッチ/Double Touch
+=== ダブルタッチ/Double Touch
 
 <<キックオフ/Kick-Off, キックオフ>>、<<フリーキック/Free Kick, フリーキック>>、<<ペナルティーキック/Penalty Kick, ペナルティーキック>>によってボールがインプレイに持ち込まれたとき、キッカーは他のロボットが触れるか、試合が停止するまでボールに触れてはいけない。 +
 When the ball is brought <<インプレイとアウトオブプレイ/Ball In And Out Of Play, into play>> following a <<キックオフ/Kick-Off, kick-off>> or <<フリーキック/Free Kick, free kick>>, the kicker is not allowed to touch the ball until it has been touched by another robot or the game has been stopped.
@@ -104,7 +104,7 @@ A robot violating this rule has to be <<ロボットの交代/Robot Substitution
 NOTE: (例えばねじなどの)金属パーツと大きな部品は一般的に潜在的に脅威をもたらし、非常に小さい(例えば小車輪のゴムなどの)非金属のパーツはそうではない。 +
 Metal parts (screws for example) as well as larger parts generally pose a potential threat, very small non-metal parts (for example rubber subwheel rings) don't.
 
-==== マルチプルディフェンス/Multiple Defenders
+===== マルチプルディフェンス/Multiple Defenders
 NOTE: このルールは<<ファウル/Fouls,　ファウル>>に対して定義された標準的な罰則を使用しない。 +
 This rule does not use the standard sanctions defined for <<ファウル/Fouls, fouls>>.
 
@@ -130,7 +130,7 @@ A robot must not kick the ball over the field boundary such that the ball leaves
 The ball must not be kept in the <<Defense Area, defense area>> for more than
 5 seconds (Division A) or 10 seconds (Division B).
 
-==== ドリブルの超過/Excessive Dribbling
+===== ドリブルの超過/Excessive Dribbling
 ロボットは<<ドリブルデバイス/Dribbling Device, ドリブル>>が開始されたボールの位置から直線距離で測定して1m以上ドリブルしてはいけない。(ドリブルをした距離の測定方法としては)ロボットはボールと接触したときにドリブルを開始し、ボールとロボットの間に視認できるだけの間隔がある場合にドリブルを停止する。
 A robot must not <<ドリブルデバイス/Dribbling Device, dribble>> the ball further than 1 meter, measured linearly from the ball location where the dribbling started. A robot begins dribbling when it makes contact with the ball and stops dribbling when there is an observable separation between the ball and the robot.
 

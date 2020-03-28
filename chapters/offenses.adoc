@@ -1,8 +1,9 @@
 == 反則/Offenses
-=== No Progress In Game
+=== 試合の進展なし/No Progress In Game
+両チームが<<ボールの操作/Ball Manipulation, ボールを操作する>>ことが許されているにもかかわらず5秒 (ディヴィジョンA)もしくは10秒 (ディヴィジョンB)に亘って試合に進展がなかった場合、試合は<<停止/Stop, 停止され>>、<<フォーススタート/Forced Start, フォーススタート>>で再開される。 +
 If there is no progress in the game for 5 seconds (Division A) or 10 seconds (Division B) while both teams are allowed to
-<<Ball Manipulation, manipulate the ball>>, the game is <<Stop, stopped>>
-and continued by a <<Force Start, forced start>>.
+<<ボールの操作/Ball Manipulation, manipulate the ball>>, the game is <<停止/Stop, stopped>>
+and continued by a <<フォーススタート/Forced Start, forced start>>.
 
 ==== ダブルタッチ/Double Touch
 
@@ -12,15 +13,18 @@ When the ball is brought <<インプレイとアウトオブプレイ/Ball In An
 <<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ>>になったとみなされるには、少なくとも0.05m以上ボールが動いていなければいけない。 +
 The ball must have moved at least 0.05 meters to be considered as <<インプレイとアウトオブプレイ/Ball In And Out Of Play, in play>>.
 
-A double touch results in a <<Stop, stop>> followed by a <<Free Kick, free kick>> from the same ball position.
+ダブルタッチによって試合は<<停止/Stop, 停止>>され、次いで同じボールの位置から<<フリーキック/Free Kick, フリーキック>>となる。 +
+A double touch results in a <<停止/Stop, stop>> followed by a <<フリーキック/Free Kick, free kick>> from the same ball position.
 
-NOTE: キックを行おうとしている間に、ロボットが短い距離でボールを跳ねさせてしまう事がありうることが理解される。そこで、ロボットがルールに違反しているかどうかの判定に0.05mの距離が使用される。技術的にロボットが一度しかボールに触れていなかったとしても、0.05m以上ボールと接触し続けた場合は、ダブルタッチとみなされる。 +
+NOTE: キックを行おうとしている間に、ロボットが短い距離でボールを跳ねさせてしまう事がありうることが理解される。
+そこで、ロボットがルールに違反しているかどうかの判定に0.05mの距離が使用される。
+技術的にロボットが一度しかボールに触れていなかったとしても、0.05m以上ボールと接触し続けた場合は、ダブルタッチとみなされる。 +
 It is understood that the ball may be bumped by the robot multiple times over a short distance while the kick is being taken.
 This is why a distance of 0.05 meters is used to decide whether a robot violates this rule or not.
 Remaining in contact with the ball for more than 0.05 meters also counts as double touch, even though technically the robot only touched the ball once.
 
 === 非スポーツマン行為/Unsporting Behavior
-非スポーツマン行為は<<イエローカード/Yellow Card, イエローカード>>、<<レッドカード/Red Card, レッドカード>>、<<ペナルティーキック/Penalty Kick, ペナルティーキック>>、<<強制的な試合放棄/Forced Forfeit, 強制的な試合放棄>>、<<失格/Disqualification, 失格>>につながる可能性がある。人間の主審は反則の重要性に応じて適切な処罰を選択する。 +
+非スポーツマン行為は<<イエローカード/Yellow Card, イエローカード>>、<<レッドカード/Red Card, レッドカード>>、<<ペナルティーキック/Penalty Kick, ペナルティーキック>>、<<強制的な試合放棄/Forced Forfeit, 強制的な試合放棄>>、<<失格/Disqualification, 失格>>につながる可能性がある。人間の<<主審/Referee, 主審>>は反則の重要性に応じて適切な処罰を選択する。 +
 Unsporting behavior can lead to <<イエローカード/Yellow Card, yellow cards>>, <<レッドカード/Red Card, red cards>>, <<ペナルティーキック/Penalty Kick, penalty kicks>>, a <<強制的な試合放棄/Forced Forfeit, forced forfeit>> or a <<失格/Disqualification, disqualification>>. The human <<主審/Referee, referee>> chooses an appropriate sanction, depending on the severity of the offense.
 
 NOTE: 審判は、どの処罰を選択すべきか判断できない場合は、<<技術委員会/Technical Committee, 技術委員会>>または<<組織委員会/Organizing Committee, 組織委員会>>のメンバーと協議することができる。 +
@@ -34,7 +38,7 @@ Some examples of unsporting behavior are listed below.
 It is not allowed to damage or modify robots of other teams.
 
 ==== ボールやフィールドの損傷/Damaging The Field Or The Ball
-フィールドとボールの損傷や変形は許可されない。 +
+フィールドやボールを損傷させたり変形させてはならない。 +
 It is not allowed to damage or modify the field or the ball.
 
 ==== 敬意の欠如/Showing Lack Of Respect
@@ -49,20 +53,26 @@ annoying the <<主審/Referee, referee>> or other persons holding an <<公正な
 not obeying the orders of the <<主審/Referee, referee>>
 
 === ファウル/Fouls
+各チームのファウルの回数はカウンターにより追跡されている。
+各ファウルはカウンターを1だけ増加させる。
+ファウルカウンターが3増加する毎に<<イエローカード/Yellow Card, イエローカード>>が与えられる。 +
 The number of fouls per team is tracked by a counter. Each foul will
 increase the counter by one. Every third increase to the foul counter
-causes a <<Yellow Card, yellow card>> to be awarded.
+causes a <<イエローカード/Yellow Card, yellow card>> to be awarded.
 
+このセクションとサブセクションにある事項の違反は、特に明記されていない限りファウルのカウンターを増加させる。 +
 Violations in this section and its subsections increase the foul counter if not stated otherwise.
 
-NOTE: Regardless, of the prescribed penalties in this section, if a
+NOTE: 人間の主審は、各セクションに記述された罰則に関係なく、そのファウルが繰り返される場合は<<イエローカード/Yellow Card, イエローカード>>を、特に極端な場合は<<レッドカード/Red Card, レッドカード>>を即座に与えることを選択できる。 +
+Regardless, of the prescribed penalties in this section, if a
 foul is severe or repeated, the referee can choose to immediately
 issue a <<Yellow Card, yellow card>> or in extreme cases a <<Red Card,
 red card>>.
 
 
 
-==== Stopping Fouls
+==== 試合の停止を伴うファウル/Stopping Fouls
+このセクションにあるファウルは試合を<<停止/Stop, 停止>>させ、反則が発生した時点でボールが置かれていた位置からの<<フリーキック/Free Kick, フリーキック>>で再開する。 +
 Fouls in this section cause the game to <<Stop, stop>> and then resume
 with a <<Free Kick, free kick>> from the position where the ball was
 located when the foul began happening.
@@ -98,17 +108,25 @@ Metal parts (screws for example) as well as larger parts generally pose a potent
 NOTE: このルールは<<ファウル/Fouls,　ファウル>>に対して定義された標準的な罰則を使用しない。 +
 This rule does not use the standard sanctions defined for <<ファウル/Fouls, fouls>>.
 
+キーパー以外のロボットは、自陣のディフェンスエリア外にとどまるよう最善を尽くさなければならない。
+このルールの違反は非スポーツマン行為とみなされ得る。 +
 Robots other than the keeper must maintain best-effort to fully stay outside the own defense area.
 Infraction of this rule can be rated as unsporting behavior.
 
-キーパー以外のロボットが自チームのディフェンスエリアに完全に入った状態でボールに触れた場合、試合は中断される。そして相手チームの<<ペナルティーキック/Penalty Kick, ペナルティーキック>>で試合を再開する。ファウルのカウンターは増加しない。 +
-If a robot other than the keeper touches the ball while being entirely inside its own defense area, the game is stopped and a <<ペナルティーキック/Penalty Kick, penalty kick>> is awarded to the other team. The foul counter is not increased.
+キーパー以外のロボットが自チームのディフェンスエリアに完全に入った状態でボールに触れた場合、試合は中断され、相手チームの<<ペナルティーキック/Penalty Kick, ペナルティーキック>>で試合を再開する。
+ファウルのカウンターは増加 *しない*。 +
+If a robot other than the keeper touches the ball while being entirely
+inside its own defense area, the game is stopped and a <<ペナルティーキック/Penalty Kick, 
+penalty kick>> is awarded to the other team. The foul counter is *not*
+increased.
 
 ===== 境界線との交差/Boundary Crossing
 ロボットは、フィールド境界を越えてフィールド外に出るようにボールを蹴ってはならない。 +
 A robot must not kick the ball over the field boundary such that the ball leaves the field.
 
-===== Keeper Held Ball
+===== キーパーによるボール保持/Keeper Held Ball
+ボールはディヴィジョンAであれば5秒、ディヴィジョンBであれば10秒を超えて
+<<ディフェンスエリア/Defense Area, デイフェンスエリア>>に留まってはならない。 +
 The ball must not be kept in the <<Defense Area, defense area>> for more than
 5 seconds (Division A) or 10 seconds (Division B).
 
@@ -123,18 +141,23 @@ NOTE: (訳者注)一般的に「オーバードリブル」と呼称されるこ
 
 
 
-==== Non Stopping Fouls
+==== 試合の停止を伴わないファウル/Non Stopping Fouls
+このセクションにあるファウルは<<停止/Stop, 試合を停止しない>>。
+代わりに、試合は通常どおり続行される。 +
 Fouls in this section do not cause a <<Stop, stop>>.
 Instead, the game continues normally.
 
+同一の「試合の停止を伴わないファウル」は、その違反状態が解消されるか、最初に違反が認定されてから2秒が経過するまでは処理されない。
+これは、チームが追加のペナルティを受ける前に、違反の原因となっているロボットの位置やボールスピードなどの特性を調整できるようにするためのものである。 +
 The same no stop foul cannot be triggered again until the foul
 condition has stopped being violated or there has been 2 seconds since
 the foul was first triggered. This is to allow teams to adjust their
 robots' positions, ball speed or any other property that is causing
 the violation before being penalized additional times.
 
-===== Attacker Touched Ball In Opponent Defense Area
-The ball must not be touched while being partially or fully inside the opponent <<Defense Area, defense area>>.
+===== 相手ディフェンスエリア内でのアタッカーのボールへの接触/Attacker Touched Ball In Opponent Defense Area
+ボールが部分的にもしくは完全に相手チームの<<ディフェンスエリア/Defense Area, ディフェンスエリア>>にある間、ボールに接触してはならない。 +
+The ball must not be touched while being partially or fully inside the opponent <<ディフェンスエリア/Defense Area, defense area>>.
 
 ===== ボール速度/Ball Speed
 ロボットは3D空間内で6.5m/s以上の速さでボールをシュートしてはいけない。 +
@@ -146,14 +169,18 @@ At the moment of collision of two robots of different teams, the difference of t
 
 
 
-==== Fouls While Ball Out Of Play
+==== アウトオブプレイ中のファウル/Fouls While Ball Out Of Play
+このセクションにあるファウルはボールが<<インプレイとアウトオブプレイ/Ball In And Out Of Play, アウトオブプレイ>>の時にのみ発生する。 +
 Fouls in this section can only occur when the ball is <<Ball In And Out Of Play, out of play>>.
 
+各ファウルには、再度ファウルとなるまでチームごとに2秒の猶予時間がある。 +
 Each foul has a grace period of 2 seconds per team until it is raised again.
 
-NOTE: If multiple robots commit the same foul within 2 seconds, only the first foul counts.
+NOTE: 複数のロボットが同じファウルを2秒以内に行った場合、最初のファウルのみが計上される。 +
+If multiple robots commit the same foul within 2 seconds, only the first foul counts.
 
-NOTE: If a robot keeps committing a foul, it will be punished again after the grace period.
+NOTE: ロボットがファウルを続ける場合、猶予時間後に再び罰則が与えられる。 +
+If a robot keeps committing a foul, it will be punished again after the grace period.
 
 ===== ディフェンダーのボールへの極端な接近/Defender Too Close To Ball
 相手チームの<<キックオフ/Kick-Off,  キックオフ>>、<<フリーキック/Free Kick, フリーキック>>の間、ロボットはボールから少なくとも0.5m以上離れなければならない。
@@ -161,6 +188,7 @@ NOTE: If a robot keeps committing a foul, it will be punished again after the gr
 A robot's distance to the ball must be at least 0.5 meters during an opponent <<キックオフ/Kick-Off, kick-off>> or <<フリーキック/Free Kick, free kick>>.
 While the foul is being committed, the timer of the opponent team for bringing the ball into play is reset.
 
+<<主審/Referee, 人間の主審>>は、著しい妨害を受けた<<キックオフ/Kick-Off, キックオフ>>もしくは<<フリーキック/Free Kick, フリーキック>>を再度行う事ができる。 +
 The <<Referee, human referee>> may decide to repeat the <<Kick-Off, kick-off>> or <<Free Kick, free kick>> on significant disturbances.
 
 NOTE: <<停止/Stop, stop>>中は、ボールに近すぎる事に対する自動的な罰則はない。主審はチームが必要な距離を守っていない場合、<<イエローカード/Yellow Card, イエローカード>>を発行することで非スポーツマン行為を罰することができる。詳しい説明は「<<停止/Stop, 停止>>」を参照する事。 +
@@ -185,11 +213,13 @@ speed limit is to avoid robots harming the people on the field.
 <<ボール配置/Ball Placement, ボール配置>>の間、配置を担当しないチームのすべてのロボットはボールと配置位置の間のラインから少なくとも0.5mは離れなければならない(この領域はスタジアム状の形になる)。 +
 During <<ボール配置/Ball Placement, ball placement>>, all robots of the non-placing team have to keep at least 0.5 meters distance to the line between the ball and the placement position (the forbidden area forms a stadium shape).
 
+ボール配置を担当しないチームのロボットが2秒以上に亘ってボールと配置場所の間に接近した場合、ファウルとなる。この場合、ボール配置を行える時間が10秒だけ追加される。 +
 If a robot of the non-placing team is too close to the line between
 the ball and the placement position for more than 2 seconds, it
 commits a foul. In this case, 10 seconds are added to the ball
 placement timer.
 
-NOTE: このルールは、ボール配置への干渉をすべてカバーするものではない。<<主審/Referee, 主審>>はボール配置を担当しないチームが明らかにボール配置に干渉している場合は、ファウルを宣告することが推奨される。 +
+NOTE: このルールは、ボール配置への干渉をすべてカバーするものではない。
+<<主審/Referee, 主審>>はボール配置を担当しないチームが明らかにボール配置に干渉している場合は、ファウルを宣告することが推奨される。 +
 This rule does not cover all cases of ball placement interference.
 The <<主審/Referee, referee>> is encouraged to call fouls if the non-placing team is obviously interfering with the ball placement.

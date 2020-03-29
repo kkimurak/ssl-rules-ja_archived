@@ -312,7 +312,7 @@ Only once per foul, team and 2 seconds. +
 | - | auto referee
 
 | <<ストップ中のロボットの速度/Robot Stop Speed, ストップ中のロボットの速度>> +
-| <<ストップ中のロボットの速度/Robot Stop Speed, Robot Stop Speed>>
+<<ストップ中のロボットの速度/Robot Stop Speed, Robot Stop Speed>>
 | <<停止/Stop, ストップゲーム>>中 +
 during <<停止/Stop, Stop>>
 | - | auto referee

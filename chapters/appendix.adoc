@@ -182,7 +182,7 @@ All <<試合の停止を伴うファウル/Stopping Fouls, Stopping Fouls>> resu
 Incrementing the foul counter (except for <<マルチプルディフェンス/Multiple Defenders, Multiple Defenders>>).
 
 |===
-| イベント /Event | 適用範囲 /Applicability | 実行されるコマンド /Command | 処理担当 /Handled by
+| イベント /Event | 適用範囲 /Applicability | アクション /Action | 処理担当 /Handled by
 
 | <<ロボットの相手ディフェンスエリアへの極端な接近/Robot Too Close To Opponent Defense Area, ロボットの相手ディフェンスエリアへの極端な接近>> +
 <<ロボットの相手ディフェンスエリアへの極端な接近/Robot Too Close To Opponent Defense Area, Robot Too Close To Opponent Defense Area>>
@@ -263,7 +263,7 @@ Incrementing the foul counter.
 Repeated every 2 seconds, if still committed without interruption.
 
 |===
-| イベント /Event | 適用範囲 /Applicability | 実行されるコマンド /Command | 処理担当 /Handled by
+| イベント /Event | 適用範囲 /Applicability | アクション /Action | 処理担当 /Handled by
 
 | <<相手ディフェンスエリア内でのアタッカーのボールへの接触/Attacker Touched Ball In Opponent Defense Area, 相手ディフェンスエリア内でのボールへの接触>> +
 <<相手ディフェンスエリア内でのアタッカーのボールへの接触/Attacker Touched Ball In Opponent Defense Area, Attacker Touched Ball In Opponent Defense Area>>
@@ -303,7 +303,7 @@ Repeated every 2 seconds, if still committed.
 Only once per foul, team and 2 seconds. +
 
 |===
-| イベント /Event | 適用範囲 /Applicability | 実行されるコマンド /Command | 処理担当 /Handled by
+| イベント /Event | 適用範囲 /Applicability | アクション /Action | 処理担当 /Handled by
 
 | <<ディフェンダーのボールへの極端な接近/Defender Too Close To Ball, ディフェンダーのボールへの極端な接近>> +
 <<ディフェンダーのボールへの極端な接近/Defender Too Close To Ball, Defender Too Close To Ball>>

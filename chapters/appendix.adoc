@@ -236,7 +236,7 @@ referee -> game controller
 | auto referee
 
 | <<ディフェンスエリア/Defense Area, ディフェンスエリア>>内での<<キーパーによるボール保持/Keeper Held Ball, キーパーによるボール保持>> +
-<<キーパーによるボール保持/Keeper Held Ball, Keeper Held Ball>> in <<ディフェンスエリア/Defense Area, Defense Area>>
+<<キーパーによるボール保持/Keeper Held Ball, Keeper Held Ball>> in <<ディフェンスエリア/Defense Area, defense area>>
 | <<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ>> +
 <<インプレイとアウトオブプレイ/Ball In And Out Of Play, ball in play>>
 | <<停止/Stop, ストップ>> -> <<フリーキック/Free Kick, フリーキック>> +

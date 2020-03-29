@@ -77,11 +77,11 @@ The game will be continued by the <<Game Controller, game controller>> as soon a
 A failed placement will result in a free kick for the opposing team.
 If this team failed to place the ball as well, the ball is placed by the <<主審/Referee, referee>> and game continues with the original command.
 
-配置を担当しない方のチームは<<ボール配置への干渉/Ball Placement Interference, ボール配置に干渉>>してはいけない。 +
-The non-placing team must not <<ボール配置への干渉/Ball Placement Interference, interfere the ball placement task>>.
-
 チームごとに設けられたボール配置失敗カウンターは配置失敗ごとに増加し、配置成功ごとに減少する。カウンターは負値にはならない。 +
 For each team a ball placement failure counter is incremented on each placement failure and decremented for successful placements. It can not get negative.
+
+配置を担当しない方のチームは<<ボール配置への干渉/Ball Placement Interference, ボール配置に干渉>>してはいけない。 +
+The non-placing team must not <<ボール配置への干渉/Ball Placement Interference, interfere the ball placement task>>.
 
 .用途/Usage
 ボールが<<インプレイとアウトオブプレイ/Ball In And Out Of Play, アウトオブプレイ>>のとき、自動ボール配置が適用されるのであれば、次のルールが決定される; +

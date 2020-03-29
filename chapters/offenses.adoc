@@ -134,7 +134,7 @@ The ball must not be kept in the <<Defense Area, defense area>> for more than
 5 seconds (Division A) or 10 seconds (Division B).
 
 ===== ドリブルの超過/Excessive Dribbling
-ロボットは<<ドリブルデバイス/Dribbling Device, ドリブル>>が開始されたボールの位置から直線距離で測定して1m以上ドリブルしてはいけない。(ドリブルをした距離の測定方法としては)ロボットはボールと接触したときにドリブルを開始し、ボールとロボットの間に視認できるだけの間隔がある場合にドリブルを停止する。
+ロボットは<<ドリブルデバイス/Dribbling Device, ドリブル>>が開始されたボールの位置から直線距離で測定して1m以上ドリブルしてはいけない。(ドリブルをした距離の測定方法としては)ロボットはボールと接触したときにドリブルを開始し、ボールとロボットの間に視認できるだけの間隔がある場合にドリブルを停止する。 +
 A robot must not <<ドリブルデバイス/Dribbling Device, dribble>> the ball further than 1 meter, measured linearly from the ball location where the dribbling started. A robot begins dribbling when it makes contact with the ball and stops dribbling when there is an observable separation between the ball and the robot.
 
 NOTE: 人間のサッカー選手が頻繁に行うように、ロボットがボールを前に蹴るなどして定期的にボールの所有権を失う限り、ドリブラー使用して長い距離をドリブルし続けることができる。 +
@@ -167,7 +167,7 @@ The ball must not be touched while being partially or fully inside the opponent 
 A robot must not accelerate the ball faster than 6.5 meters per second in 3D space.
 
 ===== 衝突/Crashing
-異なるチームの2つのロボットの衝突の瞬間に、両方のロボットの速度ベクトルの差が取られ、両方のロボットの位置によって定義される線上に投影される。この投影の長さが1.5m/sを超えると、より速いロボットにファウルを与える。ロボットの絶対速度の差が0.3m./s未満であれば、どちらもファウルを与える。
+異なるチームの2つのロボットの衝突の瞬間に、両方のロボットの速度ベクトルの差が取られ、両方のロボットの位置によって定義される線上に投影される。この投影の長さが1.5m/sを超えると、より速いロボットにファウルを与える。ロボットの絶対速度の差が0.3m./s未満であれば、どちらもファウルを与える。 +
 At the moment of collision of two robots of different teams, the difference of the speed vectors of both robots is taken and projected onto the line that is defined by the position of both robots. If the length of this projection is greater than 1.5 meters per second, the faster robot committed a foul. If the absolute robot speed difference is less than 0.3 meters per second, both conduct a foul
 
 

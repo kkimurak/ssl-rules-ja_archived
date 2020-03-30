@@ -131,8 +131,8 @@ always
 |===
 | イベント /Event | 適用範囲 /Applicability | 実行されるコマンド /Command | 処理担当 /Handled by
 
-| <<試合の進展なし/No Progress In Game, 試合の進展なし>> +
-<<試合の進展なし/No Progress In Game, No Progress In Game>>
+| <<試合の停滞/No Progress In Game, 試合の停滞>> +
+<<試合の停滞/No Progress In Game, No Progress In Game>>
 | <<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ>> +
 <<インプレイとアウトオブプレイ/Ball In And Out Of Play, ball in play>>
 | <<停止/Stop, ストップ>> -> <<フォーススタート/Force Start, フォーススタート>> +
@@ -352,8 +352,8 @@ Remove robot for <<Yellow Card>>
 <<キーパーによるボール保持/Keeper Held Ball, Keeper Held Ball>> inside <<ディフェンスエリア/Defense Area, Defense Area>>
 |  5 s       | 10 s
 
-| <<試合の進展なし/No Progress In Game, 試合の進展なし>> +
-<<試合の進展なし/No Progress In Game, No Progress In Game>>
+| <<試合の停滞/No Progress In Game, 試合の停滞>> +
+<<試合の停滞/No Progress In Game, No Progress In Game>>
 |  5 s       | 10 s
 |===
 

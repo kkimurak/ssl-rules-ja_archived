@@ -1,5 +1,5 @@
 == 反則/Offenses
-=== 試合の進展なし/No Progress In Game
+=== 試合の停滞/No Progress In Game
 両チームが<<ボールの操作/Ball Manipulation, ボールを操作する>>ことが許されているにもかかわらず5秒 (ディヴィジョンA)もしくは10秒 (ディヴィジョンB)に亘って試合に進展がなかった場合、試合は<<停止/Stop, 停止され>>、<<フォーススタート/Forced Start, フォーススタート>>で再開される。 +
 If there is no progress in the game for 5 seconds (Division A) or 10 seconds (Division B) while both teams are allowed to
 <<ボールの操作/Ball Manipulation, manipulate the ball>>, the game is <<停止/Stop, stopped>>

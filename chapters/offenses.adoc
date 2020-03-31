@@ -134,7 +134,7 @@ The ball must not be kept in the <<Defense Area, defense area>> for more than
 5 seconds (Division A) or 10 seconds (Division B).
 
 ===== ドリブルの超過/Excessive Dribbling
-ロボットは<<ドリブルデバイス/Dribbling Device, ドリブル>>が開始されたボールの位置から直線距離で測定して1m以上ドリブルしてはいけない。(ドリブルをした距離の測定方法としては)ロボットはボールと接触したときにドリブルを開始し、ボールとロボットの間に視認できるだけの間隔がある場合にドリブルを停止する。 +
+ロボットは<<ドリブルデバイス/Dribbling Device, ドリブル>>が開始されたボールの位置から直線距離で測定して1m以上ドリブルしてはいけない。(ドリブルをした距離の測定方法としては)ロボットはボールと接触したときにドリブルを開始し、ボールとロボットの間に視認できるだけの間隔がある場合にドリブルを停止したものと見なす。 +
 A robot must not <<ドリブルデバイス/Dribbling Device, dribble>> the ball further than 1 meter, measured linearly from the ball location where the dribbling started. A robot begins dribbling when it makes contact with the ball and stops dribbling when there is an observable separation between the ball and the robot.
 
 NOTE: 人間のサッカー選手が頻繁に行うように、ロボットがボールを前に蹴るなどして定期的にボールの所有権を失う限り、ドリブラー使用して長い距離をドリブルし続けることができる。 +
@@ -191,7 +191,7 @@ If a robot keeps committing a foul, it will be punished again after the grace pe
 A robot's distance to the ball must be at least 0.5 meters during an opponent <<キックオフ/Kick-Off, kick-off>> or <<フリーキック/Free Kick, free kick>>.
 While the foul is being committed, the timer of the opponent team for bringing the ball into play is reset.
 
-<<主審/Referee, 人間の主審>>は、著しい妨害を受けた<<キックオフ/Kick-Off, キックオフ>>もしくは<<フリーキック/Free Kick, フリーキック>>を再度行う事ができる。 +
+<<主審/Referee, 人間の主審>>は、著しい妨害を受けた<<キックオフ/Kick-Off, キックオフ>>もしくは<<フリーキック/Free Kick, フリーキック>>をやり直す事ができる。 +
 The <<Referee, human referee>> may decide to repeat the <<Kick-Off, kick-off>> or <<Free Kick, free kick>> on significant disturbances.
 
 NOTE: <<停止/Stop, stop>>中は、ボールに近すぎる事に対する自動的な罰則はない。主審はチームが必要な距離を守っていない場合、<<イエローカード/Yellow Card, イエローカード>>を発行することで非スポーツマン行為を罰することができる。詳しい説明は「<<停止/Stop, 停止>>」を参照する事。 +
@@ -213,10 +213,10 @@ Since the stop command is used for manual ball placement and
 speed limit is to avoid robots harming the people on the field.
 
 ===== ボール配置への干渉/Ball Placement Interference
-<<ボール配置/Ball Placement, ボール配置>>の間、配置を担当しないチームのすべてのロボットはボールと配置位置の間のラインから少なくとも0.5mは離れなければならない(この領域はスタジアム状の形になる)。 +
+<<ボール配置/Ball Placement, ボール配置>>の間、配置を担当しないチームのすべてのロボットはボールと配置位置を結ぶラインから少なくとも0.5mは離れなければならない(この領域はスタジアム状の形になる)。 +
 During <<ボール配置/Ball Placement, ball placement>>, all robots of the non-placing team have to keep at least 0.5 meters distance to the line between the ball and the placement position (the forbidden area forms a stadium shape).
 
-ボール配置を担当しないチームのロボットが2秒以上に亘ってボールと配置場所の間に接近した場合、ファウルとなる。この場合、ボール配置を行える時間が10秒だけ追加される。 +
+ボール配置を担当しないチームのロボットが2秒以上に亘ってボールと配置場所を結ぶラインに接近した場合、ファウルとなる。この場合、ボール配置を行える時間が10秒だけ追加される。 +
 If a robot of the non-placing team is too close to the line between
 the ball and the placement position for more than 2 seconds, it
 commits a foul. In this case, 10 seconds are added to the ball

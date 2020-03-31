@@ -16,7 +16,7 @@ The ball must have moved at least 0.05 meters to be considered as <<インプレ
 ダブルタッチによって試合は<<停止/Stop, 停止>>され、次いで同じボールの位置から<<フリーキック/Free Kick, フリーキック>>となる。 +
 A double touch results in a <<停止/Stop, stop>> followed by a <<フリーキック/Free Kick, free kick>> from the same ball position.
 
-NOTE: キックを行おうとしている間に、ロボットが短い距離でボールを跳ねさせてしまう事がありうることが理解される。
+NOTE: キックが行われている間に、ロボットにぶつかったボールが短い距離で何度もはねるであろうことは理解されている。
 そこで、ロボットがルールに違反しているかどうかの判定に0.05mの距離が使用される。
 技術的にロボットが一度しかボールに触れていなかったとしても、0.05m以上ボールと接触し続けた場合は、ダブルタッチとみなされる。 +
 It is understood that the ball may be bumped by the robot multiple times over a short distance while the kick is being taken.

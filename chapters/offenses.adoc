@@ -108,7 +108,7 @@ NOTE: (例えばねじなどの)金属パーツと大きな部品は一般的に
 Metal parts (screws for example) as well as larger parts generally pose a potential threat, very small non-metal parts (for example rubber subwheel rings) don't.
 
 ===== マルチプルディフェンス/Multiple Defenders
-NOTE: このルールは<<ファウル/Fouls,　ファウル>>に対して定義された標準的な罰則を使用しない。 +
+NOTE: このルールは<<ファウル/Fouls, ファウル>>に対して定義された標準的な罰則を使用しない。 +
 This rule does not use the standard sanctions defined for <<ファウル/Fouls, fouls>>.
 
 キーパー以外のロボットは、自陣のディフェンスエリア外にとどまるよう最善を尽くさなければならない。

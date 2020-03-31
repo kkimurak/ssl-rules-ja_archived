@@ -77,11 +77,11 @@ The game will be continued by the <<Game Controller, game controller>> as soon a
 A failed placement will result in a free kick for the opposing team.
 If this team failed to place the ball as well, the ball is placed by the <<主審/Referee, referee>> and game continues with the original command.
 
-配置を担当しない方のチームは<<ボール配置への干渉/Ball Placement Interference, ボール配置に干渉>>してはいけない。 +
-The non-placing team must not <<ボール配置への干渉/Ball Placement Interference, interfere the ball placement task>>.
-
 チームごとに設けられたボール配置失敗カウンターは配置失敗ごとに増加し、配置成功ごとに減少する。カウンターは負値にはならない。 +
 For each team a ball placement failure counter is incremented on each placement failure and decremented for successful placements. It can not get negative.
+
+配置を担当しない方のチームは<<ボール配置への干渉/Ball Placement Interference, ボール配置に干渉>>してはいけない。 +
+The non-placing team must not <<ボール配置への干渉/Ball Placement Interference, interfere the ball placement task>>.
 
 .用途/Usage
 ボールが<<インプレイとアウトオブプレイ/Ball In And Out Of Play, アウトオブプレイ>>のとき、自動ボール配置が適用されるのであれば、次のルールが決定される; +
@@ -178,11 +178,13 @@ free kicks are used to restart the game after a <<ファウル/Fouls, foul>> has
 When the force start command is issued, the game is immediately resumed and both teams are allowed to approach and <<ボールの操作/Ball Manipulation, manipulate the ball>> again.
 
 .用途/Usage
-主審は両方のチームがボールに近づき<<ボールの操作/Ball Manipulation, 操作する>>ことが許可されている間に、少なくとも10秒間試合が進行していることが明確でない場合には、Stopコマンドの後にforce startコマンドを発行することができる。 +
-The referee can issue a stop command followed by force start if there is a clear lack of progress for at least 10 seconds while both teams are allowed to approach and <<ボールの操作/Ball Manipulation, manipulate the ball>>.
+ニュートラルなフォーススタートは、以下のような、明らかな優劣がない状況で使用される: +
+A neutral forced start is used in situations where no team is clearly in favor, such as:
 
-また、ゲームを止めなければならず、両方のチームに不具合がない場合、もしくは両方のチームに不具合がある場合に、試合を再開するために使用することもできる。 +
-It can also be used to resume the game when the game had to be stopped and no team or both teams are at fault.
+* 特別な理由なく試合が停止させられた場合 +
+the game had to be stopped without a specific reason.
+* 両チームにファウルが与えられた場合 +
+both teams are at fault.
 
 ==== ペナルティーキック/Penalty Kick
 .定義/Definition
@@ -196,19 +198,21 @@ When the <<Penalty Kick, penalty>> command is issued
 .. 守備側のキーパーはゴールラインまで移動し、それに触れ続けなければならない +
 The defending keeper has to move to the goal line and keep touching it
 .. 攻撃側のロボット1台はボールに近付くことが許されるが、このときボールに触れてはならない。 +
-One attacking robot is allowed to approach the ball but not touch the ball
+One attacking robot is allowed to approach the ball but not allowed to touch the ball
 .. その他の全てのロボットはペナルティーキックの手順に干渉しないよう、ボールから1m以上後方にいなければならない。 +
 All other robots have to be 1m behind the ball such that they do not interfere the penalty kick procedure at any time.
 . <<ノーマルスタート/Normal Start, ノーマルスタート>>コマンドが発行された時、攻撃側ロボットは<<ボールの操作/Ball Manipulation, ボールを操作>>することが許可される。ボールは<<Vision, SSL-Vision>>の座標系におけるX座標で計測されるところの相手ゴール側にのみ動かすことができる。 +
 When the <<ノーマルスタート/Normal Start, normal start>> command is issued, the attacker is allowed to <<ボールの操作/Ball Manipulation, manipulate the ball>>. The ball has to only move towards the opponent goal, as measured by its x coordinate in the coordinate system of <<Vision, SSL-Vision>>.
 . <<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ>>になった時、守備側のキーパーは再び自由に移動できる。 +
 When the ball is <<Ball In And Out Of Play, in play>>, the defending keeper may move freely again
+. 10秒経過した後にボールが引き続き<<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ>>であった場合、試合は停止され<<ゴールキック/Goal Kick, ゴールキック>>で再開される。 +
+If the ball is still <<Ball In And Out Of Play, in play>> after 10 seconds, the game is stopped and then continued by a <<Goal Kick, goal kick>> for the defending team.
 
 以下の場合は得点が認められる: +
 A goal is awarded if:
 
-* <<ノーマルスタート/Normal Start, ノーマルスタート>>コマンドが発行されてから10秒以内に、ボールがゴールの内側表面もしくはゴールの地面に接触する +
-the ball touches the inner surface of a goal wall or the ground of the goal of the defending team in less than 10 seconds, starting from when the <<Normal Start, normal start>> command is issued
+* <<ノーマルスタート/Normal Start, ノーマルスタート>>コマンドが発行されてから、ボールがゴールの内側表面もしくはゴールの地面に接触する +
+the ball touches the inner surface of a goal wall or the ground of the goal of the defending team, starting from when the <<Normal Start, normal start>> command is issued
 * 守備側チームがなんらかのルールに違反する +
 the defending team violates any rule
 
@@ -227,15 +231,33 @@ NOTE: 0.15mのボール高さ制限を含め、<<ゴールの得点方法/Scorin
 The restrictions defined for <<Scoring Goals, scoring goals>>, including the ball height limit of 0.15 meters, do not apply here.
 Other rules like the <<Excessive Dribbling, excessive dribbling>> limitation for example do.
 
-ボールが<<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ>>になっているとき、キッカーは他のロボットがボールに触れるか、ゲームが停止するまでボールに触れてはいけない(「<<ダブルタッチ/Double Touch, ダブルタッチ>>」を参照)。また、ロボットの位置に関する制限が解除される。 +
-When the ball is <<インプレイとアウトオブプレイ/Ball In And Out Of Play, in play>>, the kicker may not touch the ball until it has been touched by another robot or the game has been stopped (see <<ダブルタッチ/Double Touch, double touch>>). Also, the restrictions regarding the robot positions are lifted.
-
 ペナルティーキックがハーフタイムや試合終了の時に実行される場合、アディショナルタイムが許可される。 +
 Additional time is allowed for a penalty kick to be taken at the end of each half or at the end of periods of overtime.
 
 .用途/Usage
 ペナルティキックは<<非スポーツマン行為/Unsporting Behavior, 非スポーツマン行為>>や<<マルチプルディフェンス/Multiple Defenders, マルチプルディフェンス>>を罰するために使用される。 +
 Penalty Kicks are used to punish <<非スポーツマン行為/Unsporting Behavior, unsporting behavior>> and <<マルチプルディフェンス/Multiple Defenders, multiple defenders>>.
+
+
+=== インプレイとアウトオブプレイ/Ball In And Out Of Play
+試合が<<試合の停止/Stopping The Game, 停止>>されると、ボールは次のプレイに移行するまでは *アウトオブプレイ* とみなされる。 +
+When the match is <<試合の停止/Stopping The Game, stopped>>, the ball is considered *out of play* until it has been brought into play.
+
+試合が<<試合の再開/Resuming The Game, 再開>>されると、ボールは次の停止が発生するまではインプレイとみなされる。試合は以下により再開される : +
+When the match is <<試合の再開/Resuming The Game, resumed>>, the ball is considered *in play* until the next stoppage occurs. 
+The match is resumed when
+
+* <<フォーススタート/Force Start, フォーススタート>>コマンドが発行された時 +
+<<フォーススタート/Force Start, force start>> has been issued.
+* <<キックオフ/Kick-Off, キックオフ>>、<<フリーキック/Free Kick, フリーキック>>、<<ペナルティーキック/Penalty Kick, ペナルティーキック>>いずれかの開始から、少なくともボールが0.05m移動した時 +
+the ball moved at least 0.05 meters following a <<キックオフ/Kick-Off, kick-off>>, <<フリーキック/Free Kick, free kick>> or <<ペナルティーキック/Penalty Kick, penalty kick>>.
+* <<キックオフ/Kick-Off, キックオフ>>開始から10秒が経過した時 +
+10 seconds passed following a <<キックオフ/Kick-Off, kick-off>>.
+* <<フリーキック/Free Kick, フリーキック>>から、ディヴィジョンAでは5秒、ディヴィジョンBでは10秒が経過した時 +
+5 seconds (Division A) or 10 seconds (Division B) passed following a <<Free Kick, free kick>>.
+
+NOTE: 0.05メートルの距離の理論的根拠については「<<ダブルタッチ/Double Touch, ダブルタッチ>>」を参照すること +
+see <<ダブルタッチ/Double Touch, double touch>> for the rationale of the 0.05 meter distance
 
 
 === 罰則/Sanctions

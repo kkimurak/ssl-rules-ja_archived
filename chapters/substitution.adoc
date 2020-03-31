@@ -39,7 +39,7 @@ Robots can be substituted for any reason. There is no limit on the number of sub
 A robot substitution intent can be made by:
 
 . <<ハンドラ/Robot Handler, ハンドラ>>は<<Game Controller, game controller>>へ意図を入力する<<Game Controller Operator, game controller operator>>に通知する。 +
-A <<ハンドラ/Robot Handler, robot handler>> by informing the <<Game Controller Operator, game controller operator>> who in turn enters the intent into the <<Game Controller, game controller>>.)
+A <<ハンドラ/Robot Handler, robot handler>> by informing the <<Game Controller Operator, game controller operator>> who in turn enters the intent into the <<Game Controller, game controller>>.
 . チームのソフトウェアは<<Game Controller, game controller>>へリクエストを送信する。 +
 A team software by sending a request to the <<Game Controller, game controller>>.
 . <<Game Controller, game controller>>は当該チームに許された最大ロボット数を超えていないかを確認し(例えばチームが<<イエローカード/Yellow Card, イエロー>>か<<レッドカード/Red Card, レッドカード>>を受け取ったあと等)、リクエストを処理する。 +

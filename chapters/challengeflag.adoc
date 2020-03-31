@@ -1,4 +1,4 @@
-== チャレンジフラッグ/Challenge Flag
+== チャレンジフラッグ/Challenge Flags
 
 チャレンジフラッグは各チームに、主審の決定に対するチャレンジを許可する: +
 A challenge flag allows teams to challenge a decision of the referee:

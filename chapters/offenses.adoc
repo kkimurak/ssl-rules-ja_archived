@@ -1,9 +1,9 @@
 == 反則/Offenses
 === 試合の停滞/No Progress In Game
-両チームが<<ボールの操作/Ball Manipulation, ボールを操作する>>ことが許されているにもかかわらず5秒 (ディヴィジョンA)もしくは10秒 (ディヴィジョンB)に亘って試合に進展がなかった場合、試合は<<停止/Stop, 停止され>>、<<フォーススタート/Forced Start, フォーススタート>>で再開される。 +
+両チームが<<ボールの操作/Ball Manipulation, ボールを操作する>>ことが許されているにもかかわらず5秒 (ディヴィジョンA)もしくは10秒 (ディヴィジョンB)に亘って試合に進展がなかった場合、試合は<<停止/Stop, 停止され>>、<<フォーススタート/Force Start, フォーススタート>>で再開される。 +
 If there is no progress in the game for 5 seconds (Division A) or 10 seconds (Division B) while both teams are allowed to
 <<ボールの操作/Ball Manipulation, manipulate the ball>>, the game is <<停止/Stop, stopped>>
-and continued by a <<フォーススタート/Forced Start, forced start>>.
+and continued by a <<フォーススタート/Force Start, forced start>>.
 
 === ダブルタッチ/Double Touch
 
@@ -66,15 +66,15 @@ Violations in this section and its subsections increase the foul counter if not 
 NOTE: 人間の主審は、各セクションに記述された罰則に関係なく、そのファウルが繰り返される場合は<<イエローカード/Yellow Card, イエローカード>>を、特に極端な場合は<<レッドカード/Red Card, レッドカード>>を即座に与えることを選択できる。 +
 Regardless, of the prescribed penalties in this section, if a
 foul is severe or repeated, the referee can choose to immediately
-issue a <<Yellow Card, yellow card>> or in extreme cases a <<Red Card,
+issue a <<イエローカード/Yellow Card, yellow card>> or in extreme cases a <<レッドカード/Red Card,
 red card>>.
 
 
 
 ==== 試合の停止を伴うファウル/Stopping Fouls
 このセクションにあるファウルは試合を<<停止/Stop, 停止>>させ、反則が発生した時点でボールが置かれていた位置からの<<フリーキック/Free Kick, フリーキック>>で再開する。 +
-Fouls in this section cause the game to <<Stop, stop>> and then resume
-with a <<Free Kick, free kick>> from the position where the ball was
+Fouls in this section cause the game to <<停止/Stop, stop>> and then resume
+with a <<フリーキック/Free Kick, free kick>> from the position where the ball was
 located when the foul began happening.
 
 ===== ロボットの相手ディフェンスエリアへの極端な接近/Robot Too Close To Opponent Defense Area
@@ -130,7 +130,7 @@ A robot must not kick the ball over the field boundary such that the ball leaves
 ===== キーパーによるボール保持/Keeper Held Ball
 ボールはディヴィジョンAであれば5秒、ディヴィジョンBであれば10秒を超えて
 <<ディフェンスエリア/Defense Area, デイフェンスエリア>>に留まってはならない。 +
-The ball must not be kept in the <<Defense Area, defense area>> for more than
+The ball must not be kept in the <<ディフェンスエリア/Defense Area, defense area>> for more than
 5 seconds (Division A) or 10 seconds (Division B).
 
 ===== ドリブルの超過/Excessive Dribbling
@@ -147,7 +147,7 @@ NOTE: (訳者注)一般的に「オーバードリブル」と呼称されるこ
 ==== 試合の停止を伴わないファウル/Non Stopping Fouls
 このセクションにあるファウルは<<停止/Stop, 試合を停止しない>>。
 代わりに、試合は通常どおり続行される。 +
-Fouls in this section do not cause a <<Stop, stop>>.
+Fouls in this section do not cause a <<停止/Stop, stop>>.
 Instead, the game continues normally.
 
 同一の「試合の停止を伴わないファウル」は、その違反状態が解消されるか、最初に違反が認定されてから2秒が経過するまでは処理されない。
@@ -174,7 +174,7 @@ At the moment of collision of two robots of different teams, the difference of t
 
 ==== アウトオブプレイ中のファウル/Fouls While Ball Out Of Play
 このセクションにあるファウルはボールが<<インプレイとアウトオブプレイ/Ball In And Out Of Play, アウトオブプレイ>>の時にのみ発生する。 +
-Fouls in this section can only occur when the ball is <<Ball In And Out Of Play, out of play>>.
+Fouls in this section can only occur when the ball is <<インプレイとアウトオブプレイ/Ball In And Out Of Play, out of play>>.
 
 各ファウルには、再度ファウルとなるまでチームごとに2秒の猶予時間がある。 +
 Each foul has a grace period of 2 seconds per team until it is raised again.
@@ -192,7 +192,7 @@ A robot's distance to the ball must be at least 0.5 meters during an opponent <<
 While the foul is being committed, the timer of the opponent team for bringing the ball into play is reset.
 
 <<主審/Referee, 人間の主審>>は、著しい妨害を受けた<<キックオフ/Kick-Off, キックオフ>>もしくは<<フリーキック/Free Kick, フリーキック>>をやり直す事ができる。 +
-The <<Referee, human referee>> may decide to repeat the <<Kick-Off, kick-off>> or <<Free Kick, free kick>> on significant disturbances.
+The <<Referee, human referee>> may decide to repeat the <<Kick-Off, kick-off>> or <<フリーキック/Free Kick, free kick>> on significant disturbances.
 
 NOTE: <<停止/Stop, stop>>中は、ボールに近すぎる事に対する自動的な罰則はない。主審はチームが必要な距離を守っていない場合、<<イエローカード/Yellow Card, イエローカード>>を発行することで非スポーツマン行為を罰することができる。詳しい説明は「<<停止/Stop, 停止>>」を参照する事。 +
 During <<停止/Stop, stop>>, there is no automatic sanction for being too close to the ball. The referee may still punish a team for <<非スポーツマン行為/Unsporting Behavior,unsporting behavior>> by issuing a <<イエローカード/Yellow Card, yellow card>> if it does not respect the required distance. See <<停止/Stop, stop>> for further explanation.

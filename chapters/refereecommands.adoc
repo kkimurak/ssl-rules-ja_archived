@@ -318,7 +318,7 @@ A Forced forfeit means that a team instantly loses the current game with a score
 少なくとも1台の規則を満たすロボットで試合ができない場合、チームは強制的に試合を放棄させられる。 +
 A team can be forced to forfeit if it is unable to play with at least one robot that satisfies the rules.
 
-チームは<<技術委員会/Technical Committee, 技術委員会>>と<<組織委員会/Organizing Committee, 組織委員会>>のメンバーと合意することによって強制的な試合放棄ができる。 +
+チームは<<技術委員会/Technical Committee, 技術委員会>>と<<組織委員会/Organizing Committee, 組織委員会>>のメンバーとの合意の上でのみ強制的な試合放棄となり得る。 +
 A team can only be forced to forfeit in agreement with members of the <<技術委員会/Technical Committee, technical committee>> and the <<組織委員会/Organizing Committee, organizing committee>>.
 
 ==== 失格/Disqualification
@@ -330,5 +330,5 @@ A Disqualification means that a team immediately drops out of the tournament and
 チームのメンバーが安全ガイドライン、会場のルールに従わない場合、または同様の重大な違反を行う場合、チームは失格になることがある。 +
 A team can be disqualified if members of this team don't follow safety guidelines, rules of the venue or commit similarly severe offenses.
 
-チームは<<技術委員会/Technical Committee, 技術委員会>>と<<組織委員会/Organizing Committee, 組織委員会>>のメンバーと合意することによって失格になることができる。 +
+チームは<<技術委員会/Technical Committee, 技術委員会>>と<<組織委員会/Organizing Committee, 組織委員会>>のメンバーとの合意の上でのみ失格になり得る。 +
 A team can only be disqualified in agreement with members of the <<技術委員会/Technical Committee, technical committee>> and the <<組織委員会/Organizing Committee, organizing committee>>.

@@ -7,10 +7,10 @@ and continued by a <<フォーススタート/Force Start, forced start>>.
 
 === ダブルタッチ/Double Touch
 
-<<キックオフ/Kick-Off, キックオフ>>、<<フリーキック/Free Kick, フリーキック>>、<<ペナルティーキック/Penalty Kick, ペナルティーキック>>によってボールがインプレイに持ち込まれたとき、キッカーは他のロボットが触れるか、試合が停止するまでボールに触れてはいけない。 +
+<<キックオフ/Kick-Off, キックオフ>>、<<フリーキック/Free Kick, フリーキック>>、<<ペナルティーキック/Penalty Kick, ペナルティーキック>>によってボールがインプレイに持ち込まれたとき、キッカーは他のロボットが触れるか、試合が停止するまでボールに触れてはならない。 +
 When the ball is brought <<インプレイとアウトオブプレイ/Ball In And Out Of Play, into play>> following a <<キックオフ/Kick-Off, kick-off>> or <<フリーキック/Free Kick, free kick>>, the kicker is not allowed to touch the ball until it has been touched by another robot or the game has been stopped.
 
-<<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ>>になったとみなされるには、少なくとも0.05m以上ボールが動いていなければいけない。 +
+<<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ>>になったとみなされるには、少なくとも0.05m以上ボールが動いていなければならない。 +
 The ball must have moved at least 0.05 meters to be considered as <<インプレイとアウトオブプレイ/Ball In And Out Of Play, in play>>.
 
 ダブルタッチによって試合は<<停止/Stop, 停止>>され、次いで同じボールの位置から<<フリーキック/Free Kick, フリーキック>>となる。 +
@@ -134,7 +134,7 @@ The ball must not be kept in the <<ディフェンスエリア/Defense Area, def
 5 seconds (Division A) or 10 seconds (Division B).
 
 ===== ドリブルの超過/Excessive Dribbling
-ロボットは<<ドリブルデバイス/Dribbling Device, ドリブル>>が開始されたボールの位置から直線距離で測定して1m以上ドリブルしてはいけない。(ドリブルをした距離の測定方法としては)ロボットはボールと接触したときにドリブルを開始し、ボールとロボットの間に視認できるだけの間隔がある場合にドリブルを停止したものと見なす。 +
+ロボットは<<ドリブルデバイス/Dribbling Device, ドリブル>>が開始されたボールの位置から直線距離で測定して1m以上ドリブルしてはならない。(ドリブルをした距離の測定方法としては)ロボットはボールと接触したときにドリブルを開始し、ボールとロボットの間に視認できるだけの間隔がある場合にドリブルを停止したものと見なす。 +
 A robot must not <<ドリブルデバイス/Dribbling Device, dribble>> the ball further than 1 meter, measured linearly from the ball location where the dribbling started. A robot begins dribbling when it makes contact with the ball and stops dribbling when there is an observable separation between the ball and the robot.
 
 NOTE: 人間のサッカー選手が頻繁に行うように、ロボットがボールを前に蹴るなどして定期的にボールの所有権を失う限り、ドリブラー使用して長い距離をドリブルし続けることができる。 +
@@ -163,7 +163,7 @@ the violation before being penalized additional times.
 The ball must not be touched while being partially or fully inside the opponent <<ディフェンスエリア/Defense Area, defense area>>.
 
 ===== ボール速度/Ball Speed
-ロボットは3D空間内で6.5m/s以上の速さでボールをシュートしてはいけない。 +
+ロボットは3D空間内で6.5m/s以上の速さでボールをシュートしてはならない。 +
 A robot must not accelerate the ball faster than 6.5 meters per second in 3D space.
 
 ===== 衝突/Crashing
@@ -198,7 +198,7 @@ NOTE: <<停止/Stop, stop>>中は、ボールに近すぎる事に対する自�
 During <<停止/Stop, stop>>, there is no automatic sanction for being too close to the ball. The referee may still punish a team for <<非スポーツマン行為/Unsporting Behavior,unsporting behavior>> by issuing a <<イエローカード/Yellow Card, yellow card>> if it does not respect the required distance. See <<停止/Stop, stop>> for further explanation.
 
 ===== ストップ中のロボットの速度/Robot Stop Speed
-ロボットはstop中は1.5m/s以上で動いてはいけない。このルールの反則は<<停止/Stop, ストップゲーム>>1回につき1台のロボットに対してカウントされる。 +
+ロボットはstop中は1.5m/s以上で動いてはならない。このルールの反則は<<停止/Stop, ストップゲーム>>1回につき1台のロボットに対してカウントされる。 +
 A robot must not move faster than 1.5 meters per second during <<停止/Stop, stop>>. A violation of this rule is only counted once per robot and stoppage.
 
 ロボットが減速する猶予時間は2秒である。 +

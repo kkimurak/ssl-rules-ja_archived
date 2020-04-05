@@ -12,21 +12,21 @@ The <<主審/Referee, referee>> may force a team to remove a robot from the fiel
 If a team is not able to provide at least one robot that satisfies the rules, the team is <<強制的な試合放棄/Forced Forfeit, forced to forfeit>>.
 
 ==== 安全性/Safety
-ロボットは自分自身、人間、他のロボットに対して危険な装備をしていてはならない。<<ボールやフィールドの損傷/Damaging The Field Or The Ball, ボールやフィールドを損傷や変形>>させてはいけない。 +
+ロボットは自分自身、人間、他のロボットに対して危険な装備をしていてはならない。<<ボールやフィールドの損傷/Damaging The Field Or The Ball, ボールやフィールドを損傷や変形>>させてはならない。 +
 A robot must not pose danger to itself, another robot, or humans. It must not <<ボールやフィールドの損傷/Damaging The Field Or The Ball, damage or modify the ball or the field>>.
 
 <<主審/Referee, 主審>>は潜在的な安全上の脅威が存在すると考えるならば、ロボットをフィールドから退場させなければならない。 +
 The <<主審/Referee, referee>> has to force a team to remove a robot from the field if he considers it a potential safety threat.
 
 ==== 形状/Shape
-ロボットはいかなる時点においても、直径0.18m、高さ0.15m以下の大きさでなければならない。さらに、ロボットの上面はstandard patternのサイズおよび表面の制約を満たさなければいけない。 +
+ロボットはいかなる時点においても、直径0.18m、高さ0.15m以下の大きさでなければならない。さらに、ロボットの上面はstandard patternのサイズおよび表面の制約を満たさなければならない。 +
 A robot must fit inside a 0.18 meters wide and 0.15 meters high cylinder at any point in time. Additionally, the top of the robot must adhere to the standard pattern size and surface constraints.
 
 ==== ドリブルデバイス/Dribbling Device
 ボールを積極的にスピンさせてボールをロボットに接触し続けさせるためのドリブルデバイスは以下の条件を満たす場合のみ許可される。 +
 Dribbling devices that actively exert spin on the ball, which keep the ball in contact with the robot are permitted under certain conditions:
 
-* ドリブルデバイスは地面からボールを上昇させてはいけない +
+* ドリブルデバイスは地面からボールを上昇させてはならない +
 The dribbling device must not elevate the ball from the ground
 * ほかのロボットがボールを持ったロボットからボールを引き離せるようにしなければならない。 +
 Another robot must be able to remove the ball from a robot with the ball.

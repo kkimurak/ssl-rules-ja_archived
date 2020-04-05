@@ -205,7 +205,7 @@ All other robots have to be 1m behind the ball such that they do not interfere t
 When the <<ノーマルスタート/Normal Start, normal start>> command is issued, the attacker is allowed to <<ボールの操作/Ball Manipulation, manipulate the ball>>. The ball has to only move towards the opponent goal, as measured by its x coordinate in the coordinate system of <<Vision, SSL-Vision>>.
 . <<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ>>になった時、守備側のキーパーは再び自由に移動できる。 +
 When the ball is <<インプレイとアウトオブプレイ/Ball In And Out Of Play, in play>>, the defending keeper may move freely again
-. 10秒経過した後にボールが引き続き<<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ>>であった場合、試合は停止され<<ゴールキック/Goal Kick, ゴールキック>>で再開される。 +
+. 10秒経過した後にボールが引き続き<<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ>>であった場合、試合は停止され守備側チームの<<ゴールキック/Goal Kick, ゴールキック>>で再開される。 +
 If the ball is still <<インプレイとアウトオブプレイ/Ball In And Out Of Play, in play>> after 10 seconds, the game is stopped and then continued by a <<ゴールキック/Goal Kick, goal kick>> for the defending team.
 
 以下の場合は得点が認められる: +

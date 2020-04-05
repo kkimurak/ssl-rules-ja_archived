@@ -192,7 +192,7 @@ A robot's distance to the ball must be at least 0.5 meters during an opponent <<
 While the foul is being committed, the timer of the opponent team for bringing the ball into play is reset.
 
 <<主審/Referee, 人間の主審>>は、著しい妨害を受けた<<キックオフ/Kick-Off, キックオフ>>もしくは<<フリーキック/Free Kick, フリーキック>>をやり直す事ができる。 +
-The <<Referee, human referee>> may decide to repeat the <<Kick-Off, kick-off>> or <<フリーキック/Free Kick, free kick>> on significant disturbances.
+The <<主審/Referee, human referee>> may decide to repeat the <<キックオフ/Kick-Off, kick-off>> or <<フリーキック/Free Kick, free kick>> on significant disturbances.
 
 NOTE: <<停止/Stop, stop>>中は、ボールに近すぎる事に対する自動的な罰則はない。主審はチームが必要な距離を守っていない場合、<<イエローカード/Yellow Card, イエローカード>>を発行することで非スポーツマン行為を罰することができる。詳しい説明は「<<停止/Stop, 停止>>」を参照する事。 +
 During <<停止/Stop, stop>>, there is no automatic sanction for being too close to the ball. The referee may still punish a team for <<非スポーツマン行為/Unsporting Behavior,unsporting behavior>> by issuing a <<イエローカード/Yellow Card, yellow card>> if it does not respect the required distance. See <<停止/Stop, stop>> for further explanation.

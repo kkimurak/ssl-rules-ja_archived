@@ -146,7 +146,7 @@ These flags are responsible for communicating various intents, such as: <<タイ
 
 <<主審/Referee, 主審>>もしくは<<Game Controller Operator, game controller operator>>がコミュニケーションフラッグを確認する必要がある。
 ジェスチャーや野次は<<非スポーツマン行為/Unsporting Behavior, 非スポーツマン行為>>とみなされ、一度の警告ののちに<<レッドカード/Red Card, レッドカード>>となる。
-The <<Referee, referee>> or <<Game Controller Operator, game controller operator>> has to acknowledge the communication flag.
+The <<主審/Referee, referee>> or <<Game Controller Operator, game controller operator>> has to acknowledge the communication flag.
 Any gesturing and yelling will be considered <<非スポーツマン行為/Unsporting Behavior, unsporting behavior>>, punished by a <<レッドカード/Red Card, red card>> after the first warning.
 
 コミュニケーションフラッグは大会主催者より提供される。

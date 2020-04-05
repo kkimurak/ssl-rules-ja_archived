@@ -16,7 +16,7 @@ Every participating team is required to be able to provide enough people who are
 
 ==== 主審/Referee
 各試合は主審によってコントロールされる。主審は任命された試合に関して競技規則を施行する一切の権限を持つ。主審はフィールド横にある歩行エリアを使うことが推奨される(「<<フィールドセットアップ/Field Setup,フィールドセットアップ>>」を参照)。 +
-Each match is controlled by the referee. He has full authority to enforce the rules of the Small Size League in connection with the match to which he has been appointed. The referee is encouraged to use the designated walking area next to the field (see [<<フィールドセットアップ/Field Setup, Field Setup>>]).
+Each match is controlled by the referee. He has full authority to enforce the rules of the Small Size League in connection with the match to which he has been appointed. The referee is encouraged to use the designated walking area next to the field (see <<フィールドセットアップ/Field Setup, Field Setup>>).
 
 主審は<<Automatic Referee, automatic referee>>ソフトウェアによって支援される。人間の主審はautomatic refereeによって生成されたいかなる決定も上書きすることが許可されている。 +
 The referee is assisted by the <<Automatic Referee, automatic referee>> software. The human referee is allowed to override any decision made by the automatic referee software.

@@ -99,7 +99,7 @@ NOTE: (訳者注)日本では一般的に「ビジョン」と呼称されるこ
 === チーム固有の役割/Team-Specific Roles
 
 ==== ハンドラ/Robot Handler
-試合開始前に、すべてのチームは一人のハンドラを指定しなければならない。ハンドラは試合中にチームを代表する。 +
+試合開始前に、すべてのチームは1人のハンドラを指定しなければならない。ハンドラは試合中にチームを代表する。 +
 Before the start of the match, every team has to designate one robot handler. The robot handler represents the team during the match.
 
 .職務/Duties

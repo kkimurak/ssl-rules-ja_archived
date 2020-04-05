@@ -305,7 +305,7 @@ A red card behaves like a <<イエローカード/Yellow Card, yellow card>>, ex
 レッドカードは<<ファウル/Fouls, ファウル>>や<<非スポーツマン行為/Unsporting Behavior, 非スポーツマン行為>>を罰するために主審が宣告する。 +
 Red cards are given by the referee to punish severe <<ファウル/Fouls, fouls>> or <<非スポーツマン行為/Unsporting Behavior,unsporting behavior>>.
 
-NOTE: 例えば、ロボットによる深刻な暴力的接触や審判に対する礼儀正しくない行動はレッドカードになる可能性がある。 +
+NOTE: 例えば、ロボットによる深刻な暴力的接触や審判に対する無礼な行動はレッドカードになる可能性がある。 +
 For example, serious violent contact by the robots or disrespectful behavior towards the referees can result in a red card.
 
 

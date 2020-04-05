@@ -165,7 +165,7 @@ The ball placement position for a free kick depends on the event that led to the
 フリーキックのコマンドが発行されたとき、攻撃側チームのロボットはボールに近づくことが許可され、防御側チームのロボットはボールから少なくとも0.5mは離れていなければならない(試合が停止中と同じ距離)。攻撃側チームのロボット1台はボールを蹴ることが許される。このロボットはキッカーと呼ばれる。フリーキックから直接ゴールに入った場合それは得点になる。 +
 When the free kick command is issued, robots of the attacking team are allowed to approach the ball while robots of the defending team still have to stay at least 0.5 meters distance away from the ball (the same distance as in stop). One robot of the attacking team is allowed to shoot the ball. This robot will be referred to as the kicker. A goal may be scored directly from the free kick.
 
-ボールがインプレイになっているとき、キッカーは他のロボットがボールに触れるか、ゲームが停止するまでボールに触れてはいけない(ダブルタッチを参照)。また、ロボットの位置に関する制限が解除される。 +
+ボールがインプレイになっているとき、キッカーは他のロボットがボールに触れるか、ゲームが停止するまでボールに触れてはいけない(「<<ダブルタッチ/Double Touch, ダブルタッチ>>」を参照)。また、ロボットの位置に関する制限が解除される。 +
 When the ball is <<インプレイとアウトオブプレイ/Ball In And Out Of Play, in play>>, the kicker may not touch the ball until it has been touched by another robot or the game has been stopped (see <<ダブルタッチ/Double Touch, double touch>>). Also, the restrictions regarding the robot positions are lifted.
 
 .用途/Usage

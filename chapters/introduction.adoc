@@ -24,7 +24,7 @@ The organizing committee of the Small Size League is responsible for preparing a
 NOTE: "Qualification Process"(出場資格審査)は参加予定チームによるTeam Description Paper(TDP)ならびに評価用ビデオの提出、匿名での他チーム評価(要求された場合は加筆訂正のうえ再提出)からなる一連のプロセスを指し、世界大会出場のための前提条件となる。
 
 ==== 地域の組織委員会/Local Organizing Committee
-地域の組織委員会は異なるリーグのニーズに応じてイベントを計画して実行する事を担当している。これには、チームエリア（フィールド、ネットワーク、テーブル、ホワイトボード、スクリーンなど）の設営、イベントのスケジュールの作成、安全性とセキュリティのコンセプトの実装が含まれる。 +
+地域の組織委員会は異なるリーグのニーズに応じてイベントを計画して実行する事を担当している。これには、チームエリア(フィールド、ネットワーク、テーブル、ホワイトボード、スクリーンなど)の設営、イベントのスケジュールの作成、安全性とセキュリティのコンセプトの実装が含まれる。 +
 The local organizing committee is responsible for planning and executing the event itself in accordance with the needs of the different leagues. This includes setting up the team areas (fields, network, tables, whiteboard, screens, etc.), creating a schedule for the event and implementing a safety and security concept.
 
 === ディヴィジョン/Divisions

@@ -34,7 +34,7 @@ The halt command is always followed up by stop.
 
 === ボール配置/Ball Placement
 .定義/Definition
-ゲームが停止中に、発生したイベントに応じてボールは適切な位置に配置されなければならない。automatic ball placementは人による介入なしにロボットによってフィールド上の指定された位置にボールを配置することができる、望ましい方法である。もしこれが無理な場合、<<主審/Referee, 主審>>が手動で配置する。 +
+ゲームが停止中に、発生したイベントに応じてボールは適切な位置に配置されなければならない。automatic ball placementは人による介入なしにロボットによってフィールド上の指定された位置にボールを配置することができる、望ましい方法である。もしこれが困難である場合、<<主審/Referee, 主審>>が手動で配置する。 +
 After the game was stopped, the ball must be placed on the appropriate position, depending on the event that occurred.
 The automatic ball placement is the preferred way to place the ball at the designated position on the field by the robots of the teams without human interaction.
 If this is not possible, the <<主審/Referee, referee>> places the ball manually.

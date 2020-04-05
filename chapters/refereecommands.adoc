@@ -10,7 +10,7 @@ NOTE: ボールが高速に転がる場合、特にstop中はロボットに速�
 If the ball moves very quickly, it is hard to always keep the required distance to the ball, especially since the speed of the robots is limited during stop. Therefore, it is sufficient if it is obvious to the referee that the robots try their best to follow the distance rule.
 
 .用途/Usage
-stopコマンドはボールが(ゴールを含む)<<フィールドライン/Field Lines, フィールドライン>>を超えた後や反則が発生した後に競技を一時停止するために使われ、Haltやタイムアウト、自動的なボール配置の再開を準備するために使われる。ロボットの速度制限とボールとの最小距離によって、主審や副審がボールを安全に干渉なく置くことができる。 +
+stopコマンドはボールが(ゴールを含む)<<フィールドライン/Field Lines, フィールドライン>>を超えた後や反則が発生した後に競技を一時停止するために使われ、Haltやタイムアウト、自動的なボール配置の再開を準備するために使われる。ロボットの速度制限とボールとの最小距離によって、主審や副審がボールを安全に干渉なく配置することができる。 +
 The stop command is used to pause the game after the ball crossed the <<フィールドライン/Field Lines, field lines>> (including goals) or an offense occurred as well as to prepare the start or resumption of the game after halt, timeouts and automatic ball placement. The robot speed limit and the minimum distance to the ball allow the referee or assistant referee to place the ball safely and without interference.
 
 NOTE: (訳者注)一般的に「ストップゲーム」もしくは単に「ストップ」と呼称されることが多い。
@@ -34,7 +34,7 @@ The halt command is always followed up by stop.
 
 === ボール配置/Ball Placement
 .定義/Definition
-ゲームが停止中に、発生したイベントに応じてボールは適切な位置におかなければならない。automatic ball placementは人による介入なしにロボットによってフィールド上の指定された位置にボールを置くことができる、望ましい方法である。もしこれが無理な場合、<<主審/Referee, 主審>>が手動で配置する。 +
+ゲームが停止中に、発生したイベントに応じてボールは適切な位置に配置されなければならない。automatic ball placementは人による介入なしにロボットによってフィールド上の指定された位置にボールを配置することができる、望ましい方法である。もしこれが無理な場合、<<主審/Referee, 主審>>が手動で配置する。 +
 After the game was stopped, the ball must be placed on the appropriate position, depending on the event that occurred.
 The automatic ball placement is the preferred way to place the ball at the designated position on the field by the robots of the teams without human interaction.
 If this is not possible, the <<主審/Referee, referee>> places the ball manually.
@@ -191,7 +191,7 @@ both teams are at fault.
 ペナルティーキックの手順は以下の通りである: +
 The procedure of a penalty kick is as follows:
 
-. ボールが人間の主審により<<ペナルティーマーク/Penalty Mark, ペナルティーマーク>>に置かれる +
+. ボールが人間の主審により<<ペナルティーマーク/Penalty Mark, ペナルティーマーク>>上に配置される +
 The ball is placed by the human referee on the <<ペナルティーマーク/Penalty Mark, penalty mark>>.
 . <<ペナルティーキック/Penalty Kick, ペナルティー>>コマンドが発行された時、 +
 When the <<ペナルティーキック/Penalty Kick, penalty>> command is issued
@@ -277,7 +277,7 @@ A yellow card does not lead to a stop automatically. If the the ball is <<イン
 NOTE: このルールは、イエローカードを受け取った後、ゲームが自動的に停止しない可能性があることを意味する。しかしながら、例えば部品を落とすといった、イエローカードの対象となるファウルがあった場合はゲームは停止する。したがって、これらのファウルのいずれかが発生した場合、チームはロボットを手動で取り除くことができる。 +
 This rule implies that after receiving a yellow card, the game might not be automatically stopped. However, the game will be stopped if the foul that led to the yellow card causes a game stoppage, e.g. dropping parts. Therefore, if one of those fouls occurred, the team is allowed to manually remove the robot.
 
-NOTE: 2020年のルールでは、時間内にロボットを外に出せなかった場合もペナルティーは無い。したがって、ゲームはフォーススタートにより再開する。しかしながら2021年には、ロボットを手動で取り除いた場合には、ボールは当該チームのディフェンスエリアから1.5mのミッドライン上に置かれ、相手チームのフリーキックとなる。 +
+NOTE: 2020年のルールでは、時間内にロボットを外に出せなかった場合もペナルティーは無い。したがって、ゲームはフォーススタートにより再開する。しかしながら2021年には、ロボットを手動で取り除いた場合には、ボールは当該チームのディフェンスエリアから1.5mのミッドライン上に配置され、相手チームのフリーキックとなる。 +
 In 2020 no penalty will be given to the team that couldn't get the robot out of the field in time. Thus, the game shall be restarted using a force start. However, in 2021, if the robot gets manually substituted, the ball is placed on the mid line and 1.5 meters away from the teams defense area and the opposing team gets a free kick.
 
 許可された台数以上のロボットがフィールド上にある間は、そのチームの得点は認められない。 +

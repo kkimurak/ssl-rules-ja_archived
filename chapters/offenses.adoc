@@ -72,7 +72,7 @@ red card>>.
 
 
 ==== 試合の停止を伴うファウル/Stopping Fouls
-このセクションにあるファウルは試合を<<停止/Stop, 停止>>させ、反則が発生した時点でボールが置かれていた位置からの<<フリーキック/Free Kick, フリーキック>>で再開する。 +
+このセクションにあるファウルは試合を<<停止/Stop, 停止>>させ、反則が発生した時点でボールがあった位置からの<<フリーキック/Free Kick, フリーキック>>で再開する。 +
 Fouls in this section cause the game to <<停止/Stop, stop>> and then resume
 with a <<フリーキック/Free Kick, free kick>> from the position where the ball was
 located when the foul began happening.

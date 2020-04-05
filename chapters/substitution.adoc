@@ -20,7 +20,7 @@ The ball must be at least 2 meters away from the halfway line.
 Additionally, robots can be taken out from any position during <<試合の停止/Stopping The Game, game stoppage>> by the <<ハンドラ/Robot Handler, robot handler>> using the procedure below:
 
 . <<ハンドラ/Robot Handler, ハンドラ>>はロボットを外に出す +
-The <<Robot Handler, robot handler>> takes robots out.
+The <<ハンドラ/Robot Handler, robot handler>> takes robots out.
 . <<ハンドラ/Robot Handler, ハンドラ>>は交代が完了したら<<主審/Referee, 主審>>に連絡する +
 The <<ハンドラ/Robot Handler, robot handler>> informs the <<主審/Referee, referee>> when done.
 . 両チームともロボットの交代が終わったら、<<主審/Referee, 主審>>は<<Game Controller Operator, game controller operator>>に連絡する。 +

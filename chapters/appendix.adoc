@@ -19,8 +19,8 @@ Note that the information shown in this table here is incomplete. Please read th
 
 | 準備完了 +
 Prepared
-| <<キックオフ/Kick-Off, キックオフ>>、<<ペナルティキック/Penalty Kick, ペナルティキック>>中 +
-during  <<キックオフ/Kick-Off, Kick-Off>>, <<ペナルティキック/Penalty Kick, Penalty Kick>>
+| <<キックオフ/Kick-Off, キックオフ>>、<<ペナルティーキック/Penalty Kick, ペナルティーキック>>中 +
+during  <<キックオフ/Kick-Off, Kick-Off>>, <<ペナルティーキック/Penalty Kick, Penalty Kick>>
 | <<ノーマルスタート/Normal Start,ノーマルスタート>> +
 <<ノーマルスタート/Normal Start, Normal Start>>
 | auto referee
@@ -95,8 +95,8 @@ always
 <<停止/Stop, Stop>> -> <<フリーキック/Free Kick, Free Kick>>
 | auto referee
 
-| <<エイムレスキック/aimless-kick, エイムレスキック>> +
-<<エイムレスキック/aimless-kick, Aimless Kick>>
+| <<aimless-kick, エイムレスキック>> +
+<<aimless-kick, Aimless Kick>>
 | <<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ>> +
 <<インプレイとアウトオブプレイ/Ball In And Out Of Play, ball in play>>
 | <<停止/Stop, ストップ>> -> <<フリーキック/Free Kick, フリーキック>> +
@@ -243,8 +243,8 @@ referee -> game controller
 <<停止/Stop, Stop>> -> <<フリーキック/Free Kick, Free Kick>>
 | auto referee
 
-| <<オーバードリブル/Excessive Dribbling, オーバードリブル>> +
-<<オーバードリブル/Excessive Dribbling, Excessive Dribbling>>
+| <<ドリブルの超過/Excessive Dribbling, オーバードリブル>> +
+<<ドリブルの超過/Excessive Dribbling, Excessive Dribbling>>
 | <<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ>> +
 <<インプレイとアウトオブプレイ/Ball In And Out Of Play, ball in play>>
 | <<停止/Stop, ストップ>> -> <<フリーキック/Free Kick, フリーキック>> +
@@ -333,7 +333,7 @@ placement timer increased by 10 seconds
 | 状況/Situation | ディヴィジョンAの時間/Div A Time | ディヴィジョンBの時間/Div B Time
 
 | <<イエローカード/Yellow Card, イエローカード>>によるロボット除去 +
-Remove robot for <<Yellow Card>>
+Remove robot for <<イエローカード/Yellow Card, Yellow Card>>
 | 10 s       | 10 s
 
 | <<ペナルティーキック/Penalty Kick, ペナルティーキック>> +
@@ -370,7 +370,7 @@ Division A plays on a <<フィールドの大きさ/Dimensions, larger field>> w
 Division A plays with <<ロボットの台数/Number Of Robots, more robots>> than division B.
 * <<ボール配置/Ball Placement, ボール配置>>の手順はディヴィジョンAでは必須であり、ディヴィジョンBでは任意である。 +
 The automatic <<ボール配置/Ball Placement, ball placement>> procedure is mandatory for division A and optional for division B.
-* <<エイムレスキック/aimless-kick, エイムレスキック>>のルールはディヴィジョンBにのみ適用される。 +
-The <<エイムレスキック/aimless-kick, aimless kick>> rule only applies to division B.
+* <<aimless-kick, エイムレスキック>>のルールはディヴィジョンBにのみ適用される。 +
+The <<aimless-kick, aimless kick>> rule only applies to division B.
 * ディヴィジョンAはいくつかの状況における時間切れまでの時間が短い。 +
 Division A has shorter timeouts in some situations

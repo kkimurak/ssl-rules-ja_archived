@@ -141,8 +141,8 @@ NOTE: (訳者注記)この小節で言いたいのは、試合が停止してい
 ボールはフィールドの中心に人によって配置されなければならない。 +
 The ball has to be placed in the center of the field by the human referee.
 
-kick-offコマンドが発行されたとき、すべてのロボットはセンターサークルを除く自分たちの陣地側のフィールド半面に移動しなければならない。ただし、攻撃側チームのアタッカーロボット1台はセンターサークル内に侵入することが許可される。このロボットはキッカーと呼ばれる。すべてのロボットはボールに触れてはいけない。 +
-When the kick-off command is issued, all robots have to move to their own half of the field excluding the <<Center Circle, center circle>>. However, one robot of the attacking team is also allowed to be inside the whole center circle. This robot will be referred to as the kicker. No robot is allowed to touch the ball.
+kick-offコマンドが発行されたとき、すべてのロボットは<<センターサークル/Center Circle, センターサークル>>を除く自分たちの陣地側のフィールド半面に移動しなければならない。ただし、攻撃側チームのアタッカーロボット1台はセンターサークル内に侵入することが許可される。このロボットはキッカーと呼ばれる。すべてのロボットはボールに触れてはいけない。 +
+When the kick-off command is issued, all robots have to move to their own half of the field excluding the <<センターサークル/Center Circle, center circle>>. However, one robot of the attacking team is also allowed to be inside the whole center circle. This robot will be referred to as the kicker. No robot is allowed to touch the ball.
 
 <<ノーマルスタート/Normal Start, normal start>>コマンドが送信されたとき、キッカーはボールをシュートすることが許可される。キックオフからゴールを直接獲得することができる。 +
 When the <<ノーマルスタート/Normal Start, normal start>> command is issued, the kicker is allowed to shoot the ball. A goal may be scored directly from the kick-off.
@@ -194,7 +194,7 @@ The procedure of a penalty kick is as follows:
 . ボールが人間の主審により<<ペナルティーマーク/Penalty Mark, ペナルティーマーク>>に置かれる +
 The ball is placed by the human referee on the <<ペナルティーマーク/Penalty Mark, penalty mark>>.
 . <<ペナルティーキック/Penalty Kick, ペナルティー>>コマンドが発行された時、 +
-When the <<Penalty Kick, penalty>> command is issued
+When the <<ペナルティーキック/Penalty Kick, penalty>> command is issued
 .. 守備側のキーパーはゴールラインまで移動し、それに触れ続けなければならない +
 The defending keeper has to move to the goal line and keep touching it
 .. 攻撃側のロボット1台はボールに近付くことが許されるが、このときボールに触れてはならない。 +
@@ -204,15 +204,15 @@ All other robots have to be 1m behind the ball such that they do not interfere t
 . <<ノーマルスタート/Normal Start, ノーマルスタート>>コマンドが発行された時、攻撃側ロボットは<<ボールの操作/Ball Manipulation, ボールを操作>>することが許可される。ボールは<<Vision, SSL-Vision>>の座標系におけるX座標で計測されるところの相手ゴール側にのみ動かすことができる。 +
 When the <<ノーマルスタート/Normal Start, normal start>> command is issued, the attacker is allowed to <<ボールの操作/Ball Manipulation, manipulate the ball>>. The ball has to only move towards the opponent goal, as measured by its x coordinate in the coordinate system of <<Vision, SSL-Vision>>.
 . <<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ>>になった時、守備側のキーパーは再び自由に移動できる。 +
-When the ball is <<Ball In And Out Of Play, in play>>, the defending keeper may move freely again
+When the ball is <<インプレイとアウトオブプレイ/Ball In And Out Of Play, in play>>, the defending keeper may move freely again
 . 10秒経過した後にボールが引き続き<<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ>>であった場合、試合は停止され<<ゴールキック/Goal Kick, ゴールキック>>で再開される。 +
-If the ball is still <<Ball In And Out Of Play, in play>> after 10 seconds, the game is stopped and then continued by a <<Goal Kick, goal kick>> for the defending team.
+If the ball is still <<インプレイとアウトオブプレイ/Ball In And Out Of Play, in play>> after 10 seconds, the game is stopped and then continued by a <<ゴールキック/Goal Kick, goal kick>> for the defending team.
 
 以下の場合は得点が認められる: +
 A goal is awarded if:
 
 * <<ノーマルスタート/Normal Start, ノーマルスタート>>コマンドが発行されてから、ボールがゴールの内側表面もしくはゴールの地面に接触する +
-the ball touches the inner surface of a goal wall or the ground of the goal of the defending team, starting from when the <<Normal Start, normal start>> command is issued
+the ball touches the inner surface of a goal wall or the ground of the goal of the defending team, starting from when the <<ノーマルスタート/Normal Start, normal start>> command is issued
 * 守備側チームがなんらかのルールに違反する +
 the defending team violates any rule
 
@@ -220,7 +220,7 @@ the defending team violates any rule
 A goal is not awarded if:
 
 * ボールがゴール外の<<フィールドライン/Field Lines, フィールドライン>>と交差する +
-the ball crosses any <<Field Lines, field lines>> outside the goal
+the ball crosses any <<フィールドライン/Field Lines, field lines>> outside the goal
 * 守備側キーパーがボールに触れ、ボールの速度ベクトルが二次元空間で少なくとも90度方向を変える +
 the defending keeper touches the ball such that the ball speed vector changes direction by at least 90 degrees in 2D space
 * 攻撃側チームが何らかのルールに違反する +
@@ -228,8 +228,8 @@ the attacking team violates any rule
 
 NOTE: 0.15mのボール高さ制限を含め、<<ゴールの得点方法/Scoring Goals, 得点方法>>に定められた制限はここでは適用されない。
 その他のルール、例えば<<ドリブルの超過/Excessive Dribbling, オーバードリブル>>の制限などどは適用される。 +
-The restrictions defined for <<Scoring Goals, scoring goals>>, including the ball height limit of 0.15 meters, do not apply here.
-Other rules like the <<Excessive Dribbling, excessive dribbling>> limitation for example do.
+The restrictions defined for <<ゴールの得点方法/Scoring Goals, scoring goals>>, including the ball height limit of 0.15 meters, do not apply here.
+Other rules like the <<ドリブルの超過/Excessive Dribbling, excessive dribbling>> limitation for example do.
 
 ペナルティーキックがハーフタイムや試合終了の時に実行される場合、アディショナルタイムが許可される。 +
 Additional time is allowed for a penalty kick to be taken at the end of each half or at the end of periods of overtime.
@@ -254,7 +254,7 @@ the ball moved at least 0.05 meters following a <<キックオフ/Kick-Off, kick
 * <<キックオフ/Kick-Off, キックオフ>>開始から10秒が経過した時 +
 10 seconds passed following a <<キックオフ/Kick-Off, kick-off>>.
 * <<フリーキック/Free Kick, フリーキック>>から、ディヴィジョンAでは5秒、ディヴィジョンBでは10秒が経過した時 +
-5 seconds (Division A) or 10 seconds (Division B) passed following a <<Free Kick, free kick>>.
+5 seconds (Division A) or 10 seconds (Division B) passed following a <<フリーキック/Free Kick, free kick>>.
 
 NOTE: 0.05メートルの距離の理論的根拠については「<<ダブルタッチ/Double Touch, ダブルタッチ>>」を参照すること +
 see <<ダブルタッチ/Double Touch, double touch>> for the rationale of the 0.05 meter distance
@@ -272,7 +272,7 @@ If the yellow card is shown as a result of <<非スポーツマン行為/Unsport
 Upon receipt of a yellow card, the number of robots allowed on the field for the penalized team decreases by one. If, after this decrease, the team has more robots than permitted on the field, a robot must be <<ロボットの交代/Robot Substitution, taken out>>.
 
 イエローカードは自動的には試合を停止させない。<<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ>>であれば、イエローカードを受けたチームは10秒間で、<<ロボットの交代/Robot Substitution, 自動的にロボットを退場>>させることができる。もしその時間でロボットが退場しなかった場合、ゲームは<<ロボットの交代/Robot Substitution, 手動でのロボット退場>>のため停止させられる。 +
-A yellow card does not lead to a stop automatically. If the the ball is <<インプレイとアウトオブプレイ/Ball In And Out Of Play, in play>>, the team will have 10 seconds to <<Robot Substitution, automatically remove the robot>>. If a robot is not taken out within time, the game is stopped for <<ロボットの交代/Robot Substitution, manual substitution>>.
+A yellow card does not lead to a stop automatically. If the the ball is <<インプレイとアウトオブプレイ/Ball In And Out Of Play, in play>>, the team will have 10 seconds to <<ロボットの交代/Robot Substitution, automatically remove the robot>>. If a robot is not taken out within time, the game is stopped for <<ロボットの交代/Robot Substitution, manual substitution>>.
 
 NOTE: このルールは、イエローカードを受け取った後、ゲームが自動的に停止しない可能性があることを意味する。しかしながら、例えば部品を落とすといった、イエローカードの対象となるファウルがあった場合はゲームは停止する。したがって、これらのファウルのいずれかが発生した場合、チームはロボットを手動で取り除くことができる。 +
 This rule implies that after receiving a yellow card, the game might not be automatically stopped. However, the game will be stopped if the foul that led to the yellow card causes a game stoppage, e.g. dropping parts. Therefore, if one of those fouls occurred, the team is allowed to manually remove the robot.

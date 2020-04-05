@@ -122,7 +122,7 @@ If the opposing team fails to place the ball or no team can place the ball, it i
 NOTE: (訳者注)一般的に「ボールプレースメント」と呼称されることが多い。
 
 === 試合の再開/Resuming The Game
-ボール配置完了後、試合は以下のコマンドのうちのどれかを使用して再開される。 +
+ボール配置完了後、試合は以下のコマンドのうちのいずれかを使用して再開される。 +
 After the ball has been placed, the game is resumed using one of the following commands.
 
 ==== ノーマルスタート/Normal Start

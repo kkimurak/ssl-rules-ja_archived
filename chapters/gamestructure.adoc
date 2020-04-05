@@ -1,4 +1,4 @@
-== 試合の方法/Game Structure
+== 試合の構成/Game Structure
 === 公正な役割/Impartial Roles
 小型機リーグの公式な試合を行うためには、4人の公平な役割を揃えなければいけない。 +
 To play an official match in the Small Size League, four impartial roles must be filled:

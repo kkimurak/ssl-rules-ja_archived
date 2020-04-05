@@ -25,7 +25,7 @@ The referee is assisted by the <<Automatic Referee, automatic referee>> software
 The decisions of the referee regarding facts connected with play are final. The referee may only change a decision on realizing that it is incorrect or, at his discretion, on the
 advice of an assistant referee, provided that he has not restarted play.
 
-主審は、次に示すことに法的な責任を負わない。役員または観客のあらゆる怪我、あらゆる種類の財産への損害、個人、クラブ、会社、協会、またはその他の団体に対するその他の損失 +
+主審は、役員または観客のあらゆる怪我、あらゆる種類の財産への損害、個人、クラブ、会社、協会、またはその他の団体に対するその他の損失に対し、法的な責任を負わない。 +
 The referee is not held liable for any kind of injury suffered by an official or spectator, any damage to property of any kind nor any other loss suffered by an individual, club, company, association, or other body.
 
 <<ハンドラ/Robot Handler, ハンドラ>>は主審と話すことができる唯一のチームメンバーである。 +
@@ -73,7 +73,7 @@ No team members are allowed to talk to the game controller operator, except the 
 The game controller operator configures the <<Game Controller, game controller>> before the game begins
 * game controller operatorは主審からの合図をgame controllerに入力する +
 The game controller operator enters the signals of the <<主審/Referee, referee>> into the <<Game Controller, game controller>>
-* game controller operatorは注意を必要とするあらゆるゲームイベントログ(automatic refereeや試合の経過時間など)を監視し、主審に通知する +
+* game controller operatorは注意を必要とするあらゆるゲームイベントログ(automatic refereeによる検出や試合の経過時間など)を監視し、主審に通知する +
 The game controller operator watches the game event log for any events that need attention, like detections of an <<Automatic Referee, automatic referee>> or elapsed timers and notifies the <<主審/Referee, referee>>
 
 NOTE: (訳者注)日本では一般的に「レフボ」と呼称されることが多い。これは、同様の機能を持った旧世代のソフトウェアである「ssl-refbox」、およびその操作担当である「refbox operator」(2018年の大会をもって廃止)に由来する。
@@ -130,7 +130,7 @@ While obtaining the game result sheet, the referee can also take an official <<�
 The <<主審/Referee, referee>> ensures that both teams receive vision data and referee commands.
 
 ==== チームカラーの選択/Choosing Team Colors
-<<主審/Referee, 主審>>は両チームの<<ハンドラ/Robot Handler, ハンドラ>>に希望するチームカラー(青か黄色のどちらか)を確認する。両チームが色の割り当てに同意するのであれば、競技全体でその色が使用される。 +
+<<主審/Referee, 主審>>は両チームの<<ハンドラ/Robot Handler, ハンドラ>>に希望するチームカラー(青か黄色のどちらか)を確認する。両チームが色の割り当てに同意するのであれば、その試合を通してその色が使用される。 +
 The <<主審/Referee, referee>> asks the <<ハンドラ/Robot Handler, robot handlers>> of the teams about their preferred team color (either blue or yellow). If the teams agree on a color assignment, the colors will be used for the entire match.
 
 しかし、両チームが同じ色を希望した場合は、主審は色を任意に割り当てる。この場合、両チームは前半戦と可能であればオーバータイムの前半戦の後に色を入れ替える。 +
@@ -166,31 +166,64 @@ An official match of the Small Size League consists of the following stages:
 |===
 | Game Stage | 期間/Duration
 
-| 前半戦(First Half) | 競技時間は300秒(300 seconds of playing time)
-| ハーフタイム(Half-Time Break) | 300秒の休憩(300 seconds pause)
-| 後半戦(Second Half) | 競技時間は300秒(300 seconds of playing time)
+| 前半戦 +
+First Half
+| 300秒の競技時間 +
+300 seconds of playing time
+| ハーフタイム +
+Half-Time Break
+| 300秒の休憩 +
+300 seconds pause
+| 後半戦 +
+Second Half
+| 300秒の競技時間 +
+300 seconds of playing time
 |===
 
-試合が勝ち抜き方式(同点が可能な結果ではない)かつ規定の試合時間経過後に同点の場合、競技は延長戦に進み次のゲームステージが追加される： +
+試合が勝ち抜き方式(引き分けが有効な結果とされない状態)かつ規定の試合時間経過後に同点の場合、競技は延長戦に進み次のゲームステージが追加される： +
 If the match is an elimination match (draw is not a possible outcome) and the score is even after the regular game time, the match goes into overtime and the following game stages are added:
 
 |===
-| Game Stage | 期間(Duration)
+| ゲームステージ / Game Stage | 期間 / Duration
 
-| 延長戦前の休憩(Pre-Overtime Break) | 300秒の休憩(300 seconds of pause)
-| 延長前半戦(Overtime First Half) | 競技時間は150秒(150 seconds of playing time)
-| 延長戦ハーフタイム(Overtime Half-Time Break) | 120秒の休憩(120 seconds of pause)
-| 延長後半戦(Overtime Second Half) | 競技時間は150秒(150 seconds of playing time)
+| 延長戦前の休憩 +
+Pre-Overtime Break
+| 300秒の休憩 +
+300 seconds of pause
+
+| 延長前半戦 +
+Overtime First Half
+| 150秒の競技時間 +
+150 seconds of playing time
+
+| 延長戦ハーフタイム +
+Overtime Half-Time Break
+| 120秒の休憩 +
+120 seconds of pause
+
+| 延長後半戦 +
+Overtime Second Half
+| 競技時間は150秒 +
+150 seconds of playing time
+
 |===
 
 延長戦終了時点で同点の場合、以下のステージを追加する: +
 If the score is even after overtime has been played, the following stages are added:
 
 |===
-| Game Stage | 期間(Duration)
+| ゲームステージ / Game Stage | 期間 / Duration
 
-| シュートアウトの準備(Pre-Shoot-Out Break) | 120秒の休憩(120 seconds of pause)
-| <<シュートアウト/Shoot-Out, シュートアウト(Shoot-Out)>> | 無制限(unlimited)
+| シュートアウトの準備 +
+Pre-Shoot-Out Break
+| 120秒の休憩 +
+120 seconds of pause
+
+| <<シュートアウト/Shoot-Out, シュートアウト>> +
+<<シュートアウト/Shoot-Out, Shoot-Out>>
+| 無制限 +
+unlimited
+
 |===
 
 競技のタイマーは両チームとも<<ボールの操作/Ball Manipulation,ボールを操作する>>ことが許されない場合に一時停止される。これには<<停止/Stop, ストップゲーム>>、<<ハルト/Halt, ハルト>>、<<キックオフ/Kick-Off, キックオフ>>と<<ペナルティーキック/Penalty Kick,ペナルティーキック>>の準備時間が含まれる。さらに<<ボール配置/Ball Placement, ボール配置中>>もタイマーは一時停止される。 +

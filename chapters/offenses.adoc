@@ -129,7 +129,7 @@ A robot must not kick the ball over the field boundary such that the ball leaves
 
 ===== キーパーによるボール保持/Keeper Held Ball
 ボールはディヴィジョンAであれば5秒、ディヴィジョンBであれば10秒を超えて
-<<ディフェンスエリア/Defense Area, デイフェンスエリア>>に留まってはならない。 +
+<<ディフェンスエリア/Defense Area, ディフェンスエリア>>に留まってはならない。 +
 The ball must not be kept in the <<ディフェンスエリア/Defense Area, defense area>> for more than
 5 seconds (Division A) or 10 seconds (Division B).
 

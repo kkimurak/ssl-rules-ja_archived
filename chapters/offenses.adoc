@@ -24,7 +24,7 @@ This is why a distance of 0.05 meters is used to decide whether a robot violates
 Remaining in contact with the ball for more than 0.05 meters also counts as double touch, even though technically the robot only touched the ball once.
 
 === 非スポーツマン行為/Unsporting Behavior
-非スポーツマン行為は<<イエローカード/Yellow Card, イエローカード>>、<<レッドカード/Red Card, レッドカード>>、<<ペナルティーキック/Penalty Kick, ペナルティーキック>>、<<強制的な試合放棄/Forced Forfeit, 強制的な試合放棄>>、<<失格/Disqualification, 失格>>につながる可能性がある。人間の<<主審/Referee, 主審>>は反則の重要性に応じて適切な処罰を選択する。 +
+非スポーツマン行為は<<イエローカード/Yellow Card, イエローカード>>、<<レッドカード/Red Card, レッドカード>>、<<ペナルティーキック/Penalty Kick, ペナルティーキック>>、<<強制的な試合放棄/Forced Forfeit, 強制的な試合放棄>>、<<失格/Disqualification, 失格>>につながる可能性がある。人間の<<主審/Referee, 主審>>は反則の重大さに応じて適切な処罰を選択する。 +
 Unsporting behavior can lead to <<イエローカード/Yellow Card, yellow cards>>, <<レッドカード/Red Card, red cards>>, <<ペナルティーキック/Penalty Kick, penalty kicks>>, a <<強制的な試合放棄/Forced Forfeit, forced forfeit>> or a <<失格/Disqualification, disqualification>>. The human <<主審/Referee, referee>> chooses an appropriate sanction, depending on the severity of the offense.
 
 NOTE: 審判は、どの処罰を選択すべきか判断できない場合は、<<技術委員会/Technical Committee, 技術委員会>>または<<組織委員会/Organizing Committee, 組織委員会>>のメンバーと協議することができる。 +

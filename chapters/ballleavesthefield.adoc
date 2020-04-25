@@ -11,7 +11,7 @@ Touch lines are the long <<フィールドライン/Field Lines, field lines>> a
 ボールはボールが横切った側のタッチラインから垂直に0.2mの位置に配置する必要がある。ゴールラインまでの距離は少なくとも0.2mは無くてはならない。 +
 The ball has to be placed 0.2 meters perpendicular to the touch line where the ball crossed the touch line. Its distance to the goal lines must be at least 0.2 meters.
 
-ボールが配置されたのち、フィールドを離れる前の最後にボールに触れたチームの相手チームに対して<<フリーキック/Free Kick, フリーキック>>が与えられる。 +
+ボールが配置されたのち、フィールドを離れる前のボールに最後に触れたチームの相手チームに対して<<フリーキック/Free Kick, フリーキック>>が与えられる。 +
 After the ball has been placed, a <<フリーキック/Free Kick, free kick>> is awarded to the opponent of the team that last touched the ball before it left the field.
 
 .用途/Usage
@@ -27,7 +27,7 @@ Goal lines are the short <<フィールドライン/Field Lines, field lines>> a
 ボールはボールが横切った位置から近いほうのタッチラインから0.2m、ゴールラインから1mの位置に配置する必要がある。 +
 The ball has to be placed 0.2 meters from the closest touch line and 1 meter from the goal line.
 
-ボールが配置されたのち、フィールドを離れる前の最後にボールに触れたチームの相手チームに対して<<フリーキック/Free Kick, フリーキック>>が与えられる。 +
+ボールが配置されたのち、フィールドを離れる前のボールに最後に触れたチームの相手チームに対して<<フリーキック/Free Kick, フリーキック>>が与えられる。 +
 After the ball has been placed, a <<フリーキック/Free Kick, free kick>> is awarded to the opponent of the team that last touched the ball before it left the field.
 
 .用途/Usag
@@ -42,7 +42,7 @@ In division B, the <<aimless-kick, aimless kick rule>> might apply instead.
 ボールはボールが横切った位置から近いほうのタッチラインから0.2m、ゴールラインから0.2mの位置に配置する必要がある。 +
 The ball has to be placed 0.2 meters from the closest touch line and 0.2 meters from the goal line.
 
-ボールが配置されたのち、フィールドを離れる前の最後にボールに触れたチームの相手チームに対して<<フリーキック/Free Kick, フリーキック>>が与えられる。 +
+ボールが配置されたのち、フィールドを離れる前のボールに最後に触れたチームの相手チームに対して<<フリーキック/Free Kick, フリーキック>>が与えられる。 +
 After the ball has been placed, a <<フリーキック/Free Kick, free kick>> is awarded to the opponent of the team that last touched the ball before it left the field.
 
 .用途/Usage

@@ -25,7 +25,7 @@ The <<ハンドラー/Robot Handler, robot handler>> takes robots out.
 The <<ハンドラー/Robot Handler, robot handler>> informs the <<主審/Referee, referee>> when done.
 . 両チームともロボットの交代が終わったら、<<主審/Referee, 主審>>は<<Game Controller Operator, game controller operator>>に連絡する。 +
 When both teams finished the robot substitution, the <<主審/Referee, referee>> informs the <<Game Controller Operator, game controller operator>>.
-. <<Game Controller Operator, game controller operator>>は試合を続行するために<<停止/Stop, stop>>コマンドを実行する。 +
+. <<Game Controller Operator, game controller operator>>は<<停止/Stop, 「ストップ」>>コマンドを実行し、その後試合を続行する。 +
 The <<Game Controller Operator, game controller operator>> performs a <<停止/Stop, stop>> followed by continuing the game.
 
 いかなる時点でも、フィールド上にある各チームのロボットの台数は指定された最大数を越えてはならない。 +

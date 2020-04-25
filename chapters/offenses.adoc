@@ -207,7 +207,7 @@ There is a grace period of 2 seconds for the robots to slow down.
 NOTE: このルールは<<ボール配置/Ball Placement, ボール配置>>には適用されない。 +
 This rule does not apply to <<ボール配置/Ball Placement, ball placement>>.
 
-NOTE: ロボットの速度制限の意図は、Stopコマンドが手動のボール配置と<<ロボットの交代/Robot Substitution, ロボットの交代>>に使用されるため、ロボットがフィールド内にいる人間の怪我を防ぐためである。 +
+NOTE: 「ストップ」コマンドは手動でのボール配置と<<ロボットの交代/Robot Substitution, ロボットの交代>>に使用されるため、ロボットの速度制限の意図は、ロボットがフィールド内にいる人間を傷つけないようにする事にある。 +
 Since the stop command is used for manual ball placement and
 <<ロボットの交代/Robot Substitution, robot substitution>>, the intention of the robot
 speed limit is to avoid robots harming the people on the field.

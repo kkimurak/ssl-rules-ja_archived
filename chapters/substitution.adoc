@@ -38,7 +38,7 @@ Robots can be substituted for any reason. There is no limit on the number of sub
 ロボットの交代の意思表示は次のようにして行う： +
 A robot substitution intent can be made by:
 
-. <<ハンドラー/Robot Handler, ハンドラー>>は<<Game Controller, game controller>>へ意図を入力する<<Game Controller Operator, game controller operator>>に通知する。 +
+. <<ハンドラー/Robot Handler, ハンドラー>>は<<Game Controller Operator, game controller operator>>に通知することで<<Game Controller, game controller>>に意図を入力する。 +
 A <<ハンドラー/Robot Handler, robot handler>> by informing the <<Game Controller Operator, game controller operator>> who in turn enters the intent into the <<Game Controller, game controller>>.
 . チームのソフトウェアは<<Game Controller, game controller>>へリクエストを送信する。 +
 A team software by sending a request to the <<Game Controller, game controller>>.

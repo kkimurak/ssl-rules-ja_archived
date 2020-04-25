@@ -53,7 +53,7 @@ continue
 <<ロボットの交代/Robot Substitution, Robot Substitution>> Intent
 | 常時 +
 always
-| 次のストップで<<ハルト/Halt, ハルト>>、次いで<<停止/Stop, 停止>> +
+| 次のストップで<<ハルト/Halt, ハルト>>、次いで<<停止/Stop, ストップ>> +
 <<ハルト/Halt, Halt>> (after next stoppage), then <<停止/Stop, Stop>>
 | game controller
 
@@ -61,7 +61,7 @@ always
 <<ロボットの台数/Number Of Robots, Number Of Robots>> exceeded
 | 常時 +
 always
-| <<停止/Stop, 停止>> +
+| <<停止/Stop, ストップ>> +
 <<停止/Stop, Stop>>
 | auto referee
 |===

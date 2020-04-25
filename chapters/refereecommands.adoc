@@ -226,9 +226,9 @@ the defending keeper touches the ball such that the ball speed vector changes di
 * 攻撃側チームが何らかのルールに違反する +
 the attacking team violates any rule
 
-NOTE: 0.15mのボール高さ制限を含め、<<ゴールの得点方法/Scoring Goals, 得点方法>>に定められた制限はここでは適用されない。
+NOTE: 0.15mのボール高さ制限を含め、<<得点/Scoring Goals, 得点方法>>に定められた制限はここでは適用されない。
 その他のルール、例えば<<ドリブルの超過/Excessive Dribbling, オーバードリブル>>の制限などどは適用される。 +
-The restrictions defined for <<ゴールの得点方法/Scoring Goals, scoring goals>>, including the ball height limit of 0.15 meters, do not apply here.
+The restrictions defined for <<得点/Scoring Goals, scoring goals>>, including the ball height limit of 0.15 meters, do not apply here.
 Other rules like the <<ドリブルの超過/Excessive Dribbling, excessive dribbling>> limitation for example do.
 
 ペナルティーキックがハーフタイムや試合終了の時に実行される場合、アディショナルタイムが許可される。 +

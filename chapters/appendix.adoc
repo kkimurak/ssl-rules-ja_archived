@@ -109,16 +109,16 @@ always
 |===
 | イベント /Event | 適用範囲 /Applicability | 実行されるコマンド /Command | 処理担当 /Handled by
 
-| <<ゴールの得点方法/Scoring Goals, ゴール>> +
-<<ゴールの得点方法/Scoring Goals, Goal>>
+| <<得点/Scoring Goals, ゴール>> +
+<<得点/Scoring Goals, Goal>>
 | <<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ>> +
 <<インプレイとアウトオブプレイ/Ball In And Out Of Play, ball in play>>
 | <<停止/Stop, ストップ>> -> <<キックオフ/Kick-Off, キックオフ>> +
 <<停止/Stop, Stop>> -> <<キックオフ/Kick-Off, Kick-Off>>
 | (auto referee) footnote:[game controller operatorが試合を続行させる必要がある / the game controller operator has to continue the game]
 
-| <<ゴールの得点方法/Scoring Goals, 無効なゴール>> +
-<<ゴールの得点方法/Scoring Goals, Invalid Goal>> 
+| <<得点/Scoring Goals, 無効なゴール>> +
+<<得点/Scoring Goals, Invalid Goal>> 
 | <<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ>> +
 <<インプレイとアウトオブプレイ/Ball In And Out Of Play, ball in play>>
 | <<停止/Stop, ストップ>> -> <<フリーキック/Free Kick, フリーキック>> +

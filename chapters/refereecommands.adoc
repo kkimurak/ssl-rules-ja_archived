@@ -87,7 +87,7 @@ The non-placing team must not <<ボール配置への干渉/Ball Placement Inter
 ボールが<<インプレイとアウトオブプレイ/Ball In And Out Of Play, アウトオブプレイ>>のとき、自動ボール配置が適用されるのであれば、次のルールが決定される; +
 When the ball goes <<インプレイとアウトオブプレイ/Ball In And Out Of Play, out of play>>, the following rules decide, if automatic ball placement is applied:
 
-. <<主審/Referee, 主審>>はすべてのキックオフとすべてのペナルティキックの時にボールを配置する +
+. <<主審/Referee, 主審>>はすべてのキックオフとすべてのペナルティーキックの時にボールを配置する +
 The <<主審/Referee, referee>> has to place the ball for all kickoffs and all penalty kicks
 . <<フリーキック/Free Kick, フリーキック>>の場合、ボールを<<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ>>にするチームがボールを配置しなければならない +
 For a <<フリーキック/Free Kick, free kick>>, the team that brings the ball <<インプレイとアウトオブプレイ/Ball In And Out Of Play, into play>> must place the ball
@@ -131,7 +131,7 @@ After the ball has been placed, the game is resumed using one of the following c
 For two-staged referee commands, when normal start is sent, an attacker may <<ボールの操作/Ball Manipulation, manipulate the ball>>. A match cannot be resumed directly via normal start.
 
 .用途/Usage
-ノーマルスタートは<<キックオフ/Kick-Off, キックオフ>>、<<ペナルティーキック/Penalty Kick, ペナルティキック>>の時に使用する。 +
+ノーマルスタートは<<キックオフ/Kick-Off, キックオフ>>、<<ペナルティーキック/Penalty Kick, ペナルティーキック>>の時に使用する。 +
 Normal start is used for <<キックオフ/Kick-Off, kick-offs>> and <<ペナルティーキック/Penalty Kick, penalty kicks>>.
 
 NOTE: (訳者注記)この小節で言いたいのは、試合が停止しているときにいきなりNormal Startコマンドが送信されることはなくて、キックオフやペナルティーキックのコマンドが送信されてからその次にNormal startのコマンドが送信されるという事。
@@ -235,7 +235,7 @@ Other rules like the <<ドリブルの超過/Excessive Dribbling, excessive drib
 Additional time is allowed for a penalty kick to be taken at the end of each half or at the end of periods of overtime.
 
 .用途/Usage
-ペナルティキックは<<非スポーツマン行為/Unsporting Behavior, 非スポーツマン行為>>や<<マルチプルディフェンス/Multiple Defenders, マルチプルディフェンス>>を罰するために使用される。 +
+ペナルティーキックは<<非スポーツマン行為/Unsporting Behavior, 非スポーツマン行為>>や<<マルチプルディフェンス/Multiple Defenders, マルチプルディフェンス>>を罰するために使用される。 +
 Penalty Kicks are used to punish <<非スポーツマン行為/Unsporting Behavior, unsporting behavior>> and <<マルチプルディフェンス/Multiple Defenders, multiple defenders>>.
 
 
@@ -268,7 +268,7 @@ see <<ダブルタッチ/Double Touch, double touch>> for the rationale of the 0
 イエローカードが非スポーツマン行為の結果として示された場合、主審は直ちに試合を<<ハルト/Halt, 中断>>することができる。この場合、もう片方のチームのフリーキックで試合が継続される。 +
 If the yellow card is shown as a result of <<非スポーツマン行為/Unsporting Behavior, unsporting behavior>>, the referee may decide to immediately <<ハルト/Halt, halt>> the match. In this case, the match continues with a free kick for the other team.
 
-イエローカードを受け取ると、ペナルティを受けたチームがフィールドに出場させて良いロボットの数が1台減少する。この減少のあと、チームがフィールドに出場させて良い台数よりも多くのロボットが出場している場合、<<ロボットの交代/Robot Substitution, ロボットを退場>>させなければならない。 +
+イエローカードを受け取ると、ペナルティーを受けたチームがフィールドに出場させて良いロボットの数が1台減少する。この減少のあと、チームがフィールドに出場させて良い台数よりも多くのロボットが出場している場合、<<ロボットの交代/Robot Substitution, ロボットを退場>>させなければならない。 +
 Upon receipt of a yellow card, the number of robots allowed on the field for the penalized team decreases by one. If, after this decrease, the team has more robots than permitted on the field, a robot must be <<ロボットの交代/Robot Substitution, taken out>>.
 
 イエローカードは自動的には試合を停止させない。<<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ>>であれば、イエローカードを受けたチームは10秒間で、<<ロボットの交代/Robot Substitution, 自動的にロボットを退場>>させることができる。もしその時間でロボットが退場しなかった場合、ゲームは<<ロボットの交代/Robot Substitution, 手動でのロボット退場>>のため停止させられる。 +

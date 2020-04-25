@@ -151,7 +151,7 @@ Fouls in this section do not cause a <<停止/Stop, stop>>.
 Instead, the game continues normally.
 
 同一の「試合の停止を伴わないファウル」は、その違反状態が解消されるか、最初に違反が認定されてから2秒が経過するまでは処理されない。
-これは、チームが追加のペナルティを受ける前に、違反の原因となっているロボットの位置やボールスピードなどの特性を調整できるようにするためのものである。 +
+これは、チームが追加のペナルティーを受ける前に、違反の原因となっているロボットの位置やボールスピードなどの特性を調整できるようにするためのものである。 +
 The same no stop foul cannot be triggered again until the foul
 condition has stopped being violated or there has been 2 seconds since
 the foul was first triggered. This is to allow teams to adjust their

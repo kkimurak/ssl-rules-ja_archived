@@ -186,7 +186,7 @@ NOTE: ロボットがファウルを続ける場合、猶予時間後に再び�
 If a robot keeps committing a foul, it will be punished again after the grace period.
 
 ===== ディフェンダーのボールへの極端な接近/Defender Too Close To Ball
-相手チームの<<キックオフ/Kick-Off,  キックオフ>>、<<フリーキック/Free Kick, フリーキック>>の間、ロボットはボールから少なくとも0.5m以上離れなければならない。
+相手チームの<<キックオフ/Kick-Off,  キックオフ>>もしくは<<フリーキック/Free Kick, フリーキック>>の間、ロボットはボールから少なくとも0.5m以上離れなければならない。
 ファウルの前に発行されたコマンドと同じコマンドで試合が再開される。 +
 A robot's distance to the ball must be at least 0.5 meters during an opponent <<キックオフ/Kick-Off, kick-off>> or <<フリーキック/Free Kick, free kick>>.
 While the foul is being committed, the timer of the opponent team for bringing the ball into play is reset.

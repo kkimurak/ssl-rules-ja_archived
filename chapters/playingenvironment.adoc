@@ -97,7 +97,7 @@ NOTE: (訳者注記)このルールの重さと直径は一般的なゴルフボ
 For official matches, the <<組織委員会/Organizing Committee, organizing committee>> provides the ball.
 
 === 共有ソフトウェア/Shared Software
-小型機リーグで使用される共有ソフトウェアは、<<技術委員会/Technical Committee, 技術委員会>>によって管理されているが、誰しもが貢献することを推奨する。<<技術委員会/Technical Committee, 技術委員会>>のメンバはしかしながら、次のロボカップの3か月前までに行われた、いかなる変更も互換性が損なわれていないことを保証する。 +
+小型機リーグで使用される共有ソフトウェアは、<<技術委員会/Technical Committee, 技術委員会>>によって管理されているが、誰しもが貢献することを推奨する。<<技術委員会/Technical Committee, 技術委員会>>のメンバーはしかしながら、次のロボカップの3か月前までに行われた、いかなる変更も互換性が損なわれていないことを保証する。 +
 The shared software used in the Small Size League is maintained by the <<技術委員会/Technical Committee, technical committee>>, though everyone is encouraged to contribute. The <<技術委員会/Technical Committee, technical committee>> members however guarantee that any changes made less than three months before the next RoboCup do not break compatibility.
 
 ==== Vision

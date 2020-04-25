@@ -82,7 +82,7 @@ NOTE: (訳者注)日本では一般的に「レフボ」と呼称されること
 競技中、Vision Expertはフィールドの共有Visionシステムを担当する。 +
 During a match, the vision expert is in charge of the <<Vision, shared vision system>> on the field.
 
-Visionに大きな問題が発生した場合を除いて、チームメンバは一般的にVision Expertに対して話しかけない事を推奨する。 +
+Visionに大きな問題が発生した場合を除いて、チームメンバーは一般的にVision Expertに対して話しかけない事を推奨する。 +
 Team members are generally advised not to talk to the vision expert, unless they experience major vision problems.
 
 .職務/Duties

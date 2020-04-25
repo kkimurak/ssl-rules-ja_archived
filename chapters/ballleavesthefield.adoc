@@ -46,7 +46,7 @@ The ball has to be placed 0.2 meters from the closest touch line and 0.2 meters 
 After the ball has been placed, a <<フリーキック/Free Kick, free kick>> is awarded to the opponent of the team that last touched the ball before it left the field.
 
 .用途/Usage
-コーナーキックはボールが最後に触れたチームのゴールラインを横切ってフィールドを離れた後にゲームを再開するために使用される。 +
+コーナーキックは、最後にボールに触れたチームのゴールラインを横切ってボールがフィールドを離れた後に、ゲームを再開するために使用される。 +
 A corner kick is used to restart the game after the ball left the field by crossing the goal line of the team that touched the ball last.
 
 [[aimless-kick, Aimless Kick]]

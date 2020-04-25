@@ -55,7 +55,7 @@ A corner kick is used to restart the game after the ball left the field by cross
 ボールは、ボールが蹴り出された位置に配置される (正確な位置に関するルールは<<フリーキック/Free Kick, 「フリーキック」>>を参照すること) +
 The ball has to be placed at the position from where the ball was kicked (see the <<フリーキック/Free Kick, free kick>> rules for the exact ball position rules).
 
-ボールが配置された後、ボールがフィールドから出る前に最後に触れたチームの相手チームに<<フリーキック/Free Kick, フリーキック>>が与えられる。 +
+ボールが配置された後、フィールドから出る前のボールに最後に触れたチームの相手チームに<<フリーキック/Free Kick, フリーキック>>が与えられる。 +
 After the ball has been placed, a <<フリーキック/Free Kick, free kick>> is awarded to the opponent of the team that last touched the ball before it left the field.
 
 .用途/Usage

@@ -101,7 +101,7 @@ The <<主審/Referee, referee>> can decide to place the ball manually at any tim
 The <<主審/Referee, referee>> can decide to disable automatic ball placement for the rest of the game. TC/OC must agree with this decision
 . 片方のチームが連続して5回ボールの配置に失敗した場合、そのハーフが終わるまでボールを配置することは許されない。ボールがフィールド外に出た事で発生したすべてのフリーキックは相手チームに与えられる。その他のルール違反があった場合や両チームともボールの配置に失敗した場合、ボールは<<主審/Referee, 主審>>によって配置される +
 When a teams placement failure counter reached 5, it is not allowed to place the ball for the rest of the game half. All free kicks that were a result of the ball leaving the field, are awarded to the opposing team. For all other rule violations or when both teams failed to place the ball, the ball is placed by the <<主審/Referee, referee>>
-. もしボール配置を行えるチームがいない場合、ボールは<<主審/Referee, 主審>>か<<副審/Assistant Referee, 副審>>によって配置される。主審または副審は、ボールを動かすために、いわゆるボールハンドラ(長い、できれば黒の棒状のデバイス)を使用することが推奨される。 +
+. もしボール配置を行えるチームがいない場合、ボールは<<主審/Referee, 主審>>か<<副審/Assistant Referee, 副審>>によって配置される。主審または副審は、ボールを動かすために、いわゆるボールハンドラー(長い、できれば黒の棒状のデバイス)を使用することが推奨される。 +
 If no team can place the ball, the ball is placed by the <<主審/Referee, referee>> or the <<副審/Assistant Referee, assistant referee>>. Both the referee as well as the assistant referee are advised to use a so-called ball handler (a long, preferably black stick-like device) to move the ball.
 
 NOTE: placementコマンドが発行された時点では、ボールはまだ動いている可能性がある。 +

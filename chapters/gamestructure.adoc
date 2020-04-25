@@ -28,8 +28,8 @@ advice of an assistant referee, provided that he has not restarted play.
 主審は、役員または観客のあらゆる怪我、あらゆる種類の財産への損害、個人、クラブ、会社、協会、またはその他の団体に対するその他の損失に対し、法的な責任を負わない。 +
 The referee is not held liable for any kind of injury suffered by an official or spectator, any damage to property of any kind nor any other loss suffered by an individual, club, company, association, or other body.
 
-<<ハンドラ/Robot Handler, ハンドラ>>は主審と話すことができる唯一のチームメンバーである。 +
-The <<ハンドラ/Robot Handler, robot handler>> is the only team member that may talk to the referee.
+<<ハンドラー/Robot Handler, ハンドラー>>は主審と話すことができる唯一のチームメンバーである。 +
+The <<ハンドラー/Robot Handler, robot handler>> is the only team member that may talk to the referee.
 
 .職務/Duties
 
@@ -65,8 +65,8 @@ The referee or assistant referee places the ball for <<キックオフ/Kick-Off,
 競技中、game controller operatorは<<主審/Referee, 主審>>、<<Automatic Referee, automatic referee>>と各チームのソフトウェアの間のインターフェースとなる<<Game Controller, game controller software>>を使用する。 +
 During a match, the game controller operator uses the <<Game Controller, game controller software>> as an interface between the <<主審/Referee, referee>>, the <<Automatic Referee, automatic referee>> and the team software.
 
-ハンドラがロボットの交代をする時を除いて、いかなるチームメンバーもgame controller operatorと会話することは許可されない。 +
-No team members are allowed to talk to the game controller operator, except the <<ハンドラ/Robot Handler, robot handler>> for <<ロボットの交代/Robot Substitution, robot substitution>> intents.
+ハンドラーがロボットの交代をする時を除いて、いかなるチームメンバーもgame controller operatorと会話することは許可されない。 +
+No team members are allowed to talk to the game controller operator, except the <<ハンドラー/Robot Handler, robot handler>> for <<ロボットの交代/Robot Substitution, robot substitution>> intents.
 
 .職務/Duties
 * game controller operatorはgame controllerを試合前に設定する +
@@ -98,20 +98,20 @@ NOTE: (訳者注)日本では一般的に「ビジョン」と呼称されるこ
 
 === チーム固有の役割/Team-Specific Roles
 
-==== ハンドラ/Robot Handler
-試合開始前に、すべてのチームは1人のハンドラを指定しなければならない。ハンドラは試合中にチームを代表する。 +
+==== ハンドラー/Robot Handler
+試合開始前に、すべてのチームは1人のハンドラーを指定しなければならない。ハンドラーは試合中にチームを代表する。 +
 Before the start of the match, every team has to designate one robot handler. The robot handler represents the team during the match.
 
 .職務/Duties
-* ハンドラは<<競技の準備/Match Preparation, 競技の準備>>の補助を行う。 +
+* ハンドラーは<<競技の準備/Match Preparation, 競技の準備>>の補助を行う。 +
 The robot handler helps <<競技の準備/Match Preparation, preparing the match>>.
-* 必要であれば、ハンドラは主審に<<タイムアウト/Timeouts, タイムアウト>>を要求する。 +
+* 必要であれば、ハンドラーは主審に<<タイムアウト/Timeouts, タイムアウト>>を要求する。 +
 The robot handler asks the referee for <<タイムアウト/Timeouts, timeouts>> if necessary.
-* ハンドラは<<ロボットの交代/Robot Substitution, 試合中にロボットを交代することができる>>。 +
+* ハンドラーは<<ロボットの交代/Robot Substitution, 試合中にロボットを交代することができる>>。 +
 The robot handler can <<ロボットの交代/Robot Substitution, substitute a robot during game play>>.
-* ハンドラは次のStop Game時にロボットを交代する許可を主審に要求し、主審が許可した場合は<<ロボットの交代/Robot Substitution,ロボットを交代する>>。 +
+* ハンドラーは次のStop Game時にロボットを交代する許可を主審に要求し、主審が許可した場合は<<ロボットの交代/Robot Substitution,ロボットを交代する>>。 +
 The robot handler asks the referee for the permission to substitute a robot in the next stoppage and, if the referee agrees, <<ロボットの交代/Robot Substitution, substitutes the robot>>.
-* ハンドラはチームの懸念事項を表明する(例えばネットワークやビジョンの問題)。 +
+* ハンドラーはチームの懸念事項を表明する(例えばネットワークやビジョンの問題)。 +
 The robot handler voices concerns of the team (for example network issues or vision problems).
 
 === 競技の準備/Match Preparation
@@ -130,19 +130,19 @@ While obtaining the game result sheet, the referee can also take an official <<�
 The <<主審/Referee, referee>> ensures that both teams receive vision data and referee commands.
 
 ==== チームカラーの選択/Choosing Team Colors
-<<主審/Referee, 主審>>は両チームの<<ハンドラ/Robot Handler, ハンドラ>>に希望するチームカラー(青か黄色のどちらか)を確認する。両チームが色の割り当てに同意するのであれば、その試合を通してその色が使用される。 +
-The <<主審/Referee, referee>> asks the <<ハンドラ/Robot Handler, robot handlers>> of the teams about their preferred team color (either blue or yellow). If the teams agree on a color assignment, the colors will be used for the entire match.
+<<主審/Referee, 主審>>は両チームの<<ハンドラー/Robot Handler, ハンドラー>>に希望するチームカラー(青か黄色のどちらか)を確認する。両チームが色の割り当てに同意するのであれば、その試合を通してその色が使用される。 +
+The <<主審/Referee, referee>> asks the <<ハンドラー/Robot Handler, robot handlers>> of the teams about their preferred team color (either blue or yellow). If the teams agree on a color assignment, the colors will be used for the entire match.
 
 しかし、両チームが同じ色を希望した場合は、主審は色を任意に割り当てる。この場合、両チームは前半戦と可能であればオーバータイムの前半戦の後に色を入れ替える。 +
 However, if both teams prefer the same color, the referee assigns the colors by chance. In this case, the teams switch the colors after the first half of the match as well as after the first half of the overtime if applicable.
 
 ==== 陣地とキックオフの選択/Choosing Side And Kick-Off
-<<主審/Referee, 主審>>は両チームの<<ハンドラ/Robot Handler, ハンドラ>>と一緒にコイントスを行う。コイントスの勝者が前半戦で攻めるゴールを選ぶ。もう一方のチームが前半戦開始時の<<キックオフ/Kick-Off, キックオフ>>を行う。 +
-The <<主審/Referee, referee>> tosses a coin with both <<ハンドラ/Robot Handler, robot handlers>>. The winning team chooses the goal it will attack in the first half of the match. The other team takes the <<キックオフ/Kick-Off, kick-off>> to start the match.
+<<主審/Referee, 主審>>は両チームの<<ハンドラー/Robot Handler, ハンドラー>>と一緒にコイントスを行う。コイントスの勝者が前半戦で攻めるゴールを選ぶ。もう一方のチームが前半戦開始時の<<キックオフ/Kick-Off, キックオフ>>を行う。 +
+The <<主審/Referee, referee>> tosses a coin with both <<ハンドラー/Robot Handler, robot handlers>>. The winning team chooses the goal it will attack in the first half of the match. The other team takes the <<キックオフ/Kick-Off, kick-off>> to start the match.
 
 ==== ゴールキーパーのIDの選択/Choosing Keeper Id
-<<主審/Referee, 主審>>は両チームの<<ハンドラ/Robot Handler, ハンドラ>>にどのロボットをキーパーとして使用するつもりなのか確認し、<<Game Controller Operator, game controller operator>>に情報を連絡する。 +
-The <<主審/Referee, referee>> asks both <<ハンドラ/Robot Handler, robot handlers>> which robot they will use as the keeper and forwards this information to the <<Game Controller Operator, game controller operator>>.
+<<主審/Referee, 主審>>は両チームの<<ハンドラー/Robot Handler, ハンドラー>>にどのロボットをキーパーとして使用するつもりなのか確認し、<<Game Controller Operator, game controller operator>>に情報を連絡する。 +
+The <<主審/Referee, referee>> asks both <<ハンドラー/Robot Handler, robot handlers>> which robot they will use as the keeper and forwards this information to the <<Game Controller Operator, game controller operator>>.
 
 キーパーのIDは、<<インプレイとアウトオブプレイ/Ball In And Out Of Play, アウトオブプレイ中>>もしくはボールがフィールドの相手側ハーフにあれば、以下の方法でいつでも変更できる: +
 The keeper id can be changed anytime during the game if the ball is either <<インプレイとアウトオブプレイ/Ball In And Out Of Play, out of play>> or in the opponent's field half by:
@@ -233,8 +233,8 @@ NOTE: この結果、試合に必要な時間は競技時間よりもはるか�
 As a result, the time needed for a match is much greater than the playing time.
 
 ==== タイムアウト/Timeouts
-タイムアウトを取りたい時、<<ハンドラ/Robot Handler, ハンドラ>>は主審に確認をとらなければならない。タイムアウトは<<概要/Overview, 休憩>>のように扱われ、両チームとも自らのソフトウェアとハードウェアの修正を行うことが許可されている(「<<自律性/Autonomy, 自律性>>」を参照)。 +
-The <<ハンドラ/Robot Handler, robot handler>> has to ask the referee for a timeout. Timeouts are handled like <<概要/Overview, breaks>>, meaning that both teams are allowed to make modifications to their software and hardware (see <<自律性/Autonomy,Autonomy>>).
+タイムアウトを取りたい時、<<ハンドラー/Robot Handler, ハンドラー>>は主審に確認をとらなければならない。タイムアウトは<<概要/Overview, 休憩>>のように扱われ、両チームとも自らのソフトウェアとハードウェアの修正を行うことが許可されている(「<<自律性/Autonomy, 自律性>>」を参照)。 +
+The <<ハンドラー/Robot Handler, robot handler>> has to ask the referee for a timeout. Timeouts are handled like <<概要/Overview, breaks>>, meaning that both teams are allowed to make modifications to their software and hardware (see <<自律性/Autonomy,Autonomy>>).
 
 どちらのチームも競技開始から4回までのタイムアウトが割り当てられている。すべてのタイムアウトの合計は300秒まで許されている。タイムアウトはstop game中のみ取得することができる。時間は<<Game Controller Operator, game controller operator>>によって監視と記録がされている。 +
 Each team is allocated 4 timeouts at the beginning of the match. A total of 300 seconds is allowed for all timeouts. Timeouts may only be taken during a game

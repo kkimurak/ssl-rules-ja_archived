@@ -137,7 +137,7 @@ The ball must not be kept in the <<ディフェンスエリア/Defense Area, def
 ロボットは<<ドリブルデバイス/Dribbling Device, ドリブル>>が開始されたボールの位置から直線距離で測定して1m以上ドリブルしてはならない。(ドリブルをした距離の測定方法としては)ロボットはボールと接触したときにドリブルを開始し、ボールとロボットの間に視認できるだけの間隔がある場合にドリブルを停止したものと見なす。 +
 A robot must not <<ドリブルデバイス/Dribbling Device, dribble>> the ball further than 1 meter, measured linearly from the ball location where the dribbling started. A robot begins dribbling when it makes contact with the ball and stops dribbling when there is an observable separation between the ball and the robot.
 
-NOTE: 人間のサッカー選手が頻繁に行うように、ロボットがボールを前に蹴るなどして定期的にボールの所有権を失う限り、ドリブラー使用して長い距離をドリブルし続けることができる。 +
+NOTE: 人間のサッカー選手が頻繁に行うように、ロボットがボールを前に蹴るなどして定期的にボールの所有権を失う限り、ドリブラーを使用して長い距離をドリブルし続けることができる。 +
 Dribblers can still be used to dribble large distances with the ball as long as the robot periodically loses possession, such as kicking the ball ahead of it as human soccer players often do.
 
 NOTE: (訳者注)一般的に「オーバードリブル」と呼称されることが多い。

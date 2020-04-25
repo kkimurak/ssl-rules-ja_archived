@@ -1,6 +1,6 @@
 == 非常停止/Emergency stop
 
-このルールはDivision Aにのみ適用される。 +
+このルールはディヴィジョンAにのみ適用される。 +
 This rule only applies to Division A.
 
 .定義/Definition

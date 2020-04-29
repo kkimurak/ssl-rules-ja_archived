@@ -95,7 +95,7 @@ If both robots are pushing each other with similar force, no team is at fault.
 ロボットは他のロボットがアクセスできないようにボールを囲んではならない。 +
 Robots must not surround the ball to prevent access by others.
 
-NOTE: (訳者注)一般的に「ホールディング」と呼称されることが多い。
+NOTE: (訳者注記)一般的に「ホールディング」と呼称されることが多い。
 
 ===== 転倒や部品の脱落/Tipping Over Or Dropping Parts
 ロボットは他のロボットに潜在的な脅威を与えるように、フィールドで転倒したり、部品を脱落させてはならない。 +
@@ -140,7 +140,7 @@ A robot must not <<ドリブルデバイス/Dribbling Device, dribble>> the ball
 NOTE: 人間のサッカー選手が頻繁に行うように、ロボットがボールを前に蹴るなどして定期的にボールの所有権を失う限り、ドリブラーを使用して長い距離をドリブルし続けることができる。 +
 Dribblers can still be used to dribble large distances with the ball as long as the robot periodically loses possession, such as kicking the ball ahead of it as human soccer players often do.
 
-NOTE: (訳者注)一般的に「オーバードリブル」と呼称されることが多い。
+NOTE: (訳者注記)一般的に「オーバードリブル」と呼称されることが多い。
 
 
 

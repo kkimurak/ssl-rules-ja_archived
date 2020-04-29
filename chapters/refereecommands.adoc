@@ -13,7 +13,7 @@ If the ball moves very quickly, it is hard to always keep the required distance 
 「ストップ」コマンドはボールが(ゴールを含む)<<フィールドライン/Field Lines, フィールドライン>>を超えた後や反則が発生した後に競技を一時停止するために使われ、ハルトやタイムアウト、自動的なボール配置の再開を準備するために使われる。ロボットの速度制限とボールとの最小距離によって、主審や副審がボールを安全に干渉なく配置することができる。 +
 The stop command is used to pause the game after the ball crossed the <<フィールドライン/Field Lines, field lines>> (including goals) or an offense occurred as well as to prepare the start or resumption of the game after halt, timeouts and automatic ball placement. The robot speed limit and the minimum distance to the ball allow the referee or assistant referee to place the ball safely and without interference.
 
-NOTE: (訳者注)一般的に「ストップゲーム」もしくは単に「ストップ」と呼称されることが多い。
+NOTE: (訳者注記)一般的に「ストップゲーム」もしくは単に「ストップ」と呼称されることが多い。
 
 ==== ハルト/Halt
 .定義/Definition
@@ -119,7 +119,7 @@ Teams in division B may decide, at any time before or during the game, not to pl
 In this case, the team is allowed to bring the ball into play, after the ball was placed by the opposing team.
 If the opposing team fails to place the ball or no team can place the ball, it is placed by the <<主審/Referee, referee>> or the <<副審/Assistant Referee, assistant referee>>.
 
-NOTE: (訳者注)一般的に「ボールプレースメント」と呼称されることが多い。
+NOTE: (訳者注記)一般的に「ボールプレースメント」と呼称されることが多い。
 
 === 試合の再開/Resuming The Game
 ボール配置完了後、試合は以下のコマンドのうちのいずれかを使用して再開される。 +

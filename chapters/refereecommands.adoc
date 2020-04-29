@@ -127,7 +127,7 @@ After the ball has been placed, the game is resumed using one of the following c
 
 ==== ノーマルスタート/Normal Start
 .定義/Definition
-2段階式コマンドの場合、Normal startが送信されると、アタッカーが<<ボールの操作/Ball Manipulation, ボールを操作する>>ことになる。Normal startから直接試合を再開することはできない。 +
+2段階式コマンドの場合、ノーマルスタートが送信されると、アタッカーが<<ボールの操作/Ball Manipulation, ボールを操作する>>ことになる。ノーマルスタートから直接試合を再開することはできない。 +
 For two-staged referee commands, when normal start is sent, an attacker may <<ボールの操作/Ball Manipulation, manipulate the ball>>. A match cannot be resumed directly via normal start.
 
 .用途/Usage

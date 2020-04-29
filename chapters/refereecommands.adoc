@@ -134,8 +134,6 @@ For two-staged referee commands, when normal start is sent, an attacker may <<�
 ノーマルスタートは<<キックオフ/Kick-Off, キックオフ>>、<<ペナルティーキック/Penalty Kick, ペナルティーキック>>の時に使用する。 +
 Normal start is used for <<キックオフ/Kick-Off, kick-offs>> and <<ペナルティーキック/Penalty Kick, penalty kicks>>.
 
-NOTE: (訳者注記)この小節で言いたいのは、試合が停止しているときにいきなりNormal Startコマンドが送信されることはなくて、キックオフやペナルティーキックのコマンドが送信されてからその次にNormal startのコマンドが送信されるという事。
-
 ==== キックオフ/Kick-Off
 .定義/Definition
 ボールは人間の主審によってフィールドの中心に配置されなければならない。 +

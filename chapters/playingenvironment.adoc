@@ -124,7 +124,7 @@ NOTE: (訳者注記)日本では一般的に「レフボ」と呼称されるこ
 One or more automatic referee applications can supervise a game and report <<反則/Offenses, offenses>> to the <<Game Controller, game controller>>.
 At least one automatic referee is required per game. If more than one automatic referee is connected to the game controller, a majority vote can be applied.
 
-ソースコードがオープンソースであることを前提として、新たなオートレフの実装を提供することができる。新しい実装は少なくとも競技会の3か月前までにアナウンスされなければならない。<<技術委員会/Technical Committee, 技術委員会>>はその実装を使用するかしないかを決定する。 +
+オープンソースであることを前提として、新たなオートレフの実装を提供することができる。新しい実装は少なくとも競技会の3か月前までにアナウンスされなければならない。<<技術委員会/Technical Committee, 技術委員会>>はその実装を使用するかしないかを決定する。 +
 New automatic referee implementations can be provided, given that the source code is open-sourced. New implementations must be announced at least three months before the competition. The <<技術委員会/Technical Committee, technical committee>> decides if an implementation will be used or not.
 
 <<ゲームイベント表/Game Event Table, ゲームイベント表>>はオートレフの実装がどのゲームイベントを検出できなけらばならないかを示す。

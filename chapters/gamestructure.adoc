@@ -18,8 +18,8 @@ Every participating team is required to be able to provide enough people who are
 各試合は主審によってコントロールされる。主審は任命された試合に関して競技規則を施行する一切の権限を持つ。主審はフィールド横にある歩行エリアを使うことが推奨される(「<<フィールドセットアップ/Field Setup,フィールドセットアップ>>」を参照)。 +
 Each match is controlled by the referee. He has full authority to enforce the rules of the Small Size League in connection with the match to which he has been appointed. The referee is encouraged to use the designated walking area next to the field (see <<フィールドセットアップ/Field Setup, Field Setup>>).
 
-主審は<<Automatic Referee, automatic referee>>ソフトウェアによって支援される。人間の主審はautomatic refereeによって生成されたいかなる決定も上書きすることが許可されている。 +
-The referee is assisted by the <<Automatic Referee, automatic referee>> software. The human referee is allowed to override any decision made by the automatic referee software.
+主審は<<オートレフ/Automatic Referee, オートレフ>>によって支援される。人間の主審はオートレフによって生成されたいかなる決定も上書きすることが許可されている。 +
+The referee is assisted by the <<オートレフ/Automatic Referee, automatic referee>> software. The human referee is allowed to override any decision made by the automatic referee software.
 
 プレーに関する事実についての主審の決定は、最終的なものである。プレーを再開する前、または試合を終結する前であれば、主審は、その直前の決定が正しくないことに気づいたとき、または主審の裁量によって副審の助言を採用したときのみ、決定を変えることができる。 +
 The decisions of the referee regarding facts connected with play are final. The referee may only change a decision on realizing that it is incorrect or, at his discretion, on the
@@ -62,8 +62,8 @@ The referee or assistant referee places the ball for <<キックオフ/Kick-Off,
 
 
 ==== Game Controller Operator
-競技中、game controller operatorは<<主審/Referee, 主審>>、<<Automatic Referee, automatic referee>>と各チームのソフトウェアの間のインターフェースとなる<<Game Controller, game controller software>>を使用する。 +
-During a match, the game controller operator uses the <<Game Controller, game controller software>> as an interface between the <<主審/Referee, referee>>, the <<Automatic Referee, automatic referee>> and the team software.
+競技中、game controller operatorは<<主審/Referee, 主審>>、<<オートレフ/Automatic Referee, オートレフ>>と各チームのソフトウェアの間のインターフェースとなる<<Game Controller, game controller software>>を使用する。 +
+During a match, the game controller operator uses the <<Game Controller, game controller software>> as an interface between the <<主審/Referee, referee>>, the <<オートレフ/Automatic Referee, automatic referee>> and the team software.
 
 ハンドラーがロボットの交代をする時を除いて、いかなるチームメンバーもgame controller operatorと会話することは許可されない。 +
 No team members are allowed to talk to the game controller operator, except the <<ハンドラー/Robot Handler, robot handler>> for <<ロボットの交代/Robot Substitution, robot substitution>> intents.
@@ -73,8 +73,8 @@ No team members are allowed to talk to the game controller operator, except the 
 The game controller operator configures the <<Game Controller, game controller>> before the game begins
 * game controller operatorは主審からの合図をgame controllerに入力する +
 The game controller operator enters the signals of the <<主審/Referee, referee>> into the <<Game Controller, game controller>>
-* game controller operatorは注意を必要とするあらゆるゲームイベントログ(automatic refereeによる検出や試合の経過時間など)を監視し、主審に通知する +
-The game controller operator watches the game event log for any events that need attention, like detections of an <<Automatic Referee, automatic referee>> or elapsed timers and notifies the <<主審/Referee, referee>>
+* game controller operatorは注意を必要とするあらゆるゲームイベントログ(オートレフによる検出や試合の経過時間など)を監視し、主審に通知する +
+The game controller operator watches the game event log for any events that need attention, like detections of an <<オートレフ/Automatic Referee, automatic referee>> or elapsed timers and notifies the <<主審/Referee, referee>>
 
 NOTE: (訳者注記)日本では一般的に「レフボ」と呼称されることが多い。これは、同様の機能を持った旧世代のソフトウェアである「ssl-refbox」、およびその操作担当である「refbox operator」(2018年の大会をもって廃止)に由来する。
 

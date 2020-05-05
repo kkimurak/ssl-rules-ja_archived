@@ -21,7 +21,7 @@ Each match is controlled by the referee. He has full authority to enforce the ru
 主審は<<オートレフ/Automatic Referee, オートレフ>>による補助を受ける。人間の主審は、オートレフによる決定がどのような物であってもこれを上書きすることが許可されている。 +
 The referee is assisted by the <<オートレフ/Automatic Referee, automatic referee>> software. The human referee is allowed to override any decision made by the automatic referee software.
 
-プレーに関する事実についての主審の決定は、最終的なものである。プレーを再開する前、または試合を終結する前であれば、主審は、その直前の決定が正しくないことに気づいたとき、または主審の裁量によって副審の助言を採用したときのみ、決定を変えることができる。 +
+プレイに関する事実についての主審の決定は、最終的なものである。プレイを再開する前、または試合を終結する前であれば、主審は、その直前の決定が正しくないことに気づいたとき、または主審の裁量によって副審の助言を採用したときのみ、決定を変えることができる。 +
 The decisions of the referee regarding facts connected with play are final. The referee may only change a decision on realizing that it is incorrect or, at his discretion, on the
 advice of an assistant referee, provided that he has not restarted play.
 

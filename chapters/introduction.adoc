@@ -13,9 +13,13 @@ Additionally, the members of the <<地域の組織委員会/Local Organizing Com
 実行委員会の委員は小型機リーグの長期的目標を担当しており、ロボカップ委員会だけでなく、他のリーグとの提携も行っている。実行委員会は小型機リーグとその成果を毎年ロボカップ委員会に報告し、リーグを組織するためのフィードバッグを得る。実行委員会の委員はロボカップ委員会の理事会によって選出される。委員は3年間の任期を務める。 +
 Executive committee members are responsible for the long term goals of the Small Size League and thus have also contact to other leagues as well as to the RoboCup federation. The executive committee presents the Small Size League and its achievements to the RoboCup federation every year and gets feedback to organize the league. Executive committee members are elected by the board of trustees of the RoboCup federation. They serve 3-year terms.
 
+NOTE: (訳者注記)「EC」と略される場合がある。
+
 ==== 技術委員会/Technical Committee
 小型機リーグの技術委員会はルールや共有ソフトウェアのような技術的な側面を担当している。すべての委員は前回大会に参加したチームのチームリーダー達によって選出される。 +
 The technical committee of the Small Size League is responsible for the technical aspects of the RoboCup, such as maintaining the rules and the shared software. All members are elected by the team leaders of the teams which have participated in the previous competition.
+
+NOTE: (訳者注記)「TC」と略される場合がある。また組織委員会と併せて「TC/OC」と表記される場合がある。
 
 ==== 組織委員会/Organizing Committee
 小型機リーグの組織委員会は競技会の準備と組織を担当している。これにはスケジュールの作成、出場資格審査、競技の進行が含まれている。組織委員会の委員は、ロボカップ評議員会とリーグの<<実行委員会/Executive Committee,実行委員会>>によって選出される。 +
@@ -23,9 +27,14 @@ The organizing committee of the Small Size League is responsible for preparing a
 
 NOTE: (訳者注記) "Qualification Process"(出場資格審査)は参加予定チームによるTeam Description Paper(TDP)ならびに評価用ビデオの提出、匿名での他チーム評価(要求された場合は加筆訂正のうえ再提出)からなる一連のプロセスを指し、世界大会出場のための前提条件となる。
 
+NOTE: (訳者注記)「OC」と略される場合がある。また技術委員会と併せて「TC/OC」と表記される場合がある。
+
 ==== 地域の組織委員会/Local Organizing Committee
 地域の組織委員会は異なるリーグのニーズに応じてイベントを計画して実行する事を担当している。これには、チームエリア(フィールド、ネットワーク、テーブル、ホワイトボード、スクリーンなど)の設営、イベントのスケジュールの作成、安全性とセキュリティのコンセプトの実装が含まれる。 +
 The local organizing committee is responsible for planning and executing the event itself in accordance with the needs of the different leagues. This includes setting up the team areas (fields, network, tables, whiteboard, screens, etc.), creating a schedule for the event and implementing a safety and security concept.
+
+NOTE: (訳者注記)「LOC」と略される場合がある。
+
 
 === ディヴィジョン/Divisions
 小型リーグはディヴィジョンAとディヴィジョンBと呼ばれる2つのトーナメントに分割される。ディヴィジョンAは先進的なチームを対象としており、それ以外の新しいチームや競争力が弱いチームなどはディヴィジョンBで試合をすることができる。各チームは2つのディヴィジョンのうち1つのみに参加することができる。 +

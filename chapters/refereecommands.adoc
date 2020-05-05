@@ -104,7 +104,7 @@ When a teams placement failure counter reached 5, it is not allowed to place the
 . もしボール配置を行えるチームがいない場合、ボールは<<主審/Referee, 主審>>か<<副審/Assistant Referee, 副審>>によって配置される。主審または副審は、ボールを動かすために、いわゆるボールハンドラー(長い、できれば黒の棒状のデバイス)を使用することが推奨される。 +
 If no team can place the ball, the ball is placed by the <<主審/Referee, referee>> or the <<副審/Assistant Referee, assistant referee>>. Both the referee as well as the assistant referee are advised to use a so-called ball handler (a long, preferably black stick-like device) to move the ball.
 
-NOTE: placementコマンドが発行された時点では、ボールはまだ動いている可能性がある。 +
+NOTE: 「プレースメント」コマンドが発行された時点では、ボールはまだ動いている可能性がある。 +
 The ball may still be moving when the placement command is issued.
 
 NOTE: ゲームはボール配置の直後に開始される。ボールを受け取ったチームは必要に応じて即座にボールを蹴り、相手チームが守備のためのアクションを取る時間をわずかなものに出来る。 +
@@ -142,7 +142,7 @@ The ball has to be placed in the center of the field by the human referee.
 kick-offコマンドが発行されたとき、すべてのロボットは<<センターサークル/Center Circle, センターサークル>>を除く自分たちの陣地側のフィールド半面に移動しなければならない。ただし、攻撃側チームのアタッカーロボット1台はセンターサークル内に侵入することが許可される。このロボットはキッカーと呼ばれる。すべてのロボットはボールに触れてはならない。 +
 When the kick-off command is issued, all robots have to move to their own half of the field excluding the <<センターサークル/Center Circle, center circle>>. However, one robot of the attacking team is also allowed to be inside the whole center circle. This robot will be referred to as the kicker. No robot is allowed to touch the ball.
 
-<<ノーマルスタート/Normal Start, normal start>>コマンドが送信されたとき、キッカーはボールをシュートすることが許可される。キックオフからゴールを直接獲得することができる。 +
+<<ノーマルスタート/Normal Start, 「ノーマルスタート」>>コマンドが送信されたとき、キッカーはボールをシュートすることが許可される。キックオフからゴールを直接獲得することができる。 +
 When the <<ノーマルスタート/Normal Start, normal start>> command is issued, the kicker is allowed to shoot the ball. A goal may be scored directly from the kick-off.
 
 ボールが<<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ>>になったら、キッカーは他のロボットがボールに触れるか、ゲームが停止するまでボールに触れてはならない(「<<ダブルタッチ/Double Touch, ダブルタッチ>>」を参照)。また、ロボットの位置に関する制限が解除される。 +

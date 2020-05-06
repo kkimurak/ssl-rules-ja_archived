@@ -7,10 +7,10 @@ and continued by a <<フォーススタート/Force Start, forced start>>.
 
 === ダブルタッチ/Double Touch
 
-<<キックオフ/Kick-Off, キックオフ>>、<<フリーキック/Free Kick, フリーキック>>、<<ペナルティーキック/Penalty Kick, ペナルティーキック>>によってボールがインプレイに持ち込まれたとき、キッカーは他のロボットが触れるか、試合が停止するまでボールに触れてはいけない。 +
+<<キックオフ/Kick-Off, キックオフ>>、<<フリーキック/Free Kick, フリーキック>>、<<ペナルティーキック/Penalty Kick, ペナルティーキック>>によってボールがインプレイに持ち込まれたとき、キッカーは他のロボットが触れるか、試合が停止するまでボールに触れてはならない。 +
 When the ball is brought <<インプレイとアウトオブプレイ/Ball In And Out Of Play, into play>> following a <<キックオフ/Kick-Off, kick-off>> or <<フリーキック/Free Kick, free kick>>, the kicker is not allowed to touch the ball until it has been touched by another robot or the game has been stopped.
 
-<<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ>>になったとみなされるには、少なくとも0.05m以上ボールが動いていなければいけない。 +
+<<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ>>になったとみなされるには、少なくとも0.05m以上ボールが動いていなければならない。 +
 The ball must have moved at least 0.05 meters to be considered as <<インプレイとアウトオブプレイ/Ball In And Out Of Play, in play>>.
 
 ダブルタッチによって試合は<<停止/Stop, 停止>>され、次いで同じボールの位置から<<フリーキック/Free Kick, フリーキック>>となる。 +
@@ -24,7 +24,7 @@ This is why a distance of 0.05 meters is used to decide whether a robot violates
 Remaining in contact with the ball for more than 0.05 meters also counts as double touch, even though technically the robot only touched the ball once.
 
 === 非スポーツマン行為/Unsporting Behavior
-非スポーツマン行為は<<イエローカード/Yellow Card, イエローカード>>、<<レッドカード/Red Card, レッドカード>>、<<ペナルティーキック/Penalty Kick, ペナルティーキック>>、<<強制的な試合放棄/Forced Forfeit, 強制的な試合放棄>>、<<失格/Disqualification, 失格>>につながる可能性がある。人間の<<主審/Referee, 主審>>は反則の重要性に応じて適切な処罰を選択する。 +
+非スポーツマン行為は<<イエローカード/Yellow Card, イエローカード>>、<<レッドカード/Red Card, レッドカード>>、<<ペナルティーキック/Penalty Kick, ペナルティーキック>>、<<強制的な試合放棄/Forced Forfeit, 強制的な試合放棄>>、<<失格/Disqualification, 失格>>につながる可能性がある。人間の<<主審/Referee, 主審>>は反則の重大さに応じて適切な処罰を選択する。 +
 Unsporting behavior can lead to <<イエローカード/Yellow Card, yellow cards>>, <<レッドカード/Red Card, red cards>>, <<ペナルティーキック/Penalty Kick, penalty kicks>>, a <<強制的な試合放棄/Forced Forfeit, forced forfeit>> or a <<失格/Disqualification, disqualification>>. The human <<主審/Referee, referee>> chooses an appropriate sanction, depending on the severity of the offense.
 
 NOTE: 審判は、どの処罰を選択すべきか判断できない場合は、<<技術委員会/Technical Committee, 技術委員会>>または<<組織委員会/Organizing Committee, 組織委員会>>のメンバーと協議することができる。 +
@@ -72,7 +72,7 @@ red card>>.
 
 
 ==== 試合の停止を伴うファウル/Stopping Fouls
-このセクションにあるファウルは試合を<<停止/Stop, 停止>>させ、反則が発生した時点でボールが置かれていた位置からの<<フリーキック/Free Kick, フリーキック>>で再開する。 +
+このセクションにあるファウルは試合を<<停止/Stop, 停止>>させ、反則が発生した時点でボールがあった位置からの<<フリーキック/Free Kick, フリーキック>>で再開する。 +
 Fouls in this section cause the game to <<停止/Stop, stop>> and then resume
 with a <<フリーキック/Free Kick, free kick>> from the position where the ball was
 located when the foul began happening.
@@ -95,7 +95,7 @@ If both robots are pushing each other with similar force, no team is at fault.
 ロボットは他のロボットがアクセスできないようにボールを囲んではならない。 +
 Robots must not surround the ball to prevent access by others.
 
-NOTE: (訳者注)一般的に「ホールディング」と呼称されることが多い。
+NOTE: (訳者注記)一般的に「ホールディング」と呼称されることが多い。
 
 ===== 転倒や部品の脱落/Tipping Over Or Dropping Parts
 ロボットは他のロボットに潜在的な脅威を与えるように、フィールドで転倒したり、部品を脱落させてはならない。 +
@@ -129,18 +129,18 @@ A robot must not kick the ball over the field boundary such that the ball leaves
 
 ===== キーパーによるボール保持/Keeper Held Ball
 ボールはディヴィジョンAであれば5秒、ディヴィジョンBであれば10秒を超えて
-<<ディフェンスエリア/Defense Area, デイフェンスエリア>>に留まってはならない。 +
+<<ディフェンスエリア/Defense Area, ディフェンスエリア>>に留まってはならない。 +
 The ball must not be kept in the <<ディフェンスエリア/Defense Area, defense area>> for more than
 5 seconds (Division A) or 10 seconds (Division B).
 
 ===== ドリブルの超過/Excessive Dribbling
-ロボットは<<ドリブルデバイス/Dribbling Device, ドリブル>>が開始されたボールの位置から直線距離で測定して1m以上ドリブルしてはいけない。(ドリブルをした距離の測定方法としては)ロボットはボールと接触したときにドリブルを開始し、ボールとロボットの間に視認できるだけの間隔がある場合にドリブルを停止したものと見なす。 +
+ロボットは<<ドリブルデバイス/Dribbling Device, ドリブル>>が開始されたボールの位置から直線距離で測定して1m以上ドリブルしてはならない。(ドリブルをした距離の測定方法としては)ロボットはボールと接触したときにドリブルを開始し、ボールとロボットの間に視認できるだけの間隔がある場合にドリブルを停止したものと見なす。 +
 A robot must not <<ドリブルデバイス/Dribbling Device, dribble>> the ball further than 1 meter, measured linearly from the ball location where the dribbling started. A robot begins dribbling when it makes contact with the ball and stops dribbling when there is an observable separation between the ball and the robot.
 
-NOTE: 人間のサッカー選手が頻繁に行うように、ロボットがボールを前に蹴るなどして定期的にボールの所有権を失う限り、ドリブラー使用して長い距離をドリブルし続けることができる。 +
+NOTE: 人間のサッカー選手が頻繁に行うように、ロボットがボールを前に蹴るなどして定期的にボールの所有権を失う限り、ドリブラーを使用して長い距離をドリブルし続けることができる。 +
 Dribblers can still be used to dribble large distances with the ball as long as the robot periodically loses possession, such as kicking the ball ahead of it as human soccer players often do.
 
-NOTE: (訳者注)一般的に「オーバードリブル」と呼称されることが多い。
+NOTE: (訳者注記)一般的に「オーバードリブル」と呼称されることが多い。
 
 
 
@@ -151,7 +151,7 @@ Fouls in this section do not cause a <<停止/Stop, stop>>.
 Instead, the game continues normally.
 
 同一の「試合の停止を伴わないファウル」は、その違反状態が解消されるか、最初に違反が認定されてから2秒が経過するまでは処理されない。
-これは、チームが追加のペナルティを受ける前に、違反の原因となっているロボットの位置やボールスピードなどの特性を調整できるようにするためのものである。 +
+これは、チームが追加のペナルティーを受ける前に、違反の原因となっているロボットの位置やボールスピードなどの特性を調整できるようにするためのものである。 +
 The same no stop foul cannot be triggered again until the foul
 condition has stopped being violated or there has been 2 seconds since
 the foul was first triggered. This is to allow teams to adjust their
@@ -163,11 +163,11 @@ the violation before being penalized additional times.
 The ball must not be touched while being partially or fully inside the opponent <<ディフェンスエリア/Defense Area, defense area>>.
 
 ===== ボール速度/Ball Speed
-ロボットは3D空間内で6.5m/s以上の速さでボールをシュートしてはいけない。 +
+ロボットは3D空間内で6.5m/s以上の速さでボールをシュートしてはならない。 +
 A robot must not accelerate the ball faster than 6.5 meters per second in 3D space.
 
 ===== 衝突/Crashing
-異なるチームの2つのロボットの衝突の瞬間に、両方のロボットの速度ベクトルの差が取られ、両方のロボットの位置によって定義される線上に投影される。この投影の長さが1.5m/sを超えると、より速いロボットにファウルを与える。ロボットの絶対速度の差が0.3m./s未満であれば、どちらもファウルを与える。 +
+異なるチームの2つのロボットの衝突の瞬間に、両方のロボットの速度ベクトルの差が取られ、両方のロボットの位置によって定義される線上に投影される。この投影の長さが1.5m/sを超えるた場合、より速いロボットにファウルを与える。ロボットの絶対速度の差が0.3m/s未満であれば、どちらにもファウルを与える。 +
 At the moment of collision of two robots of different teams, the difference of the speed vectors of both robots is taken and projected onto the line that is defined by the position of both robots. If the length of this projection is greater than 1.5 meters per second, the faster robot committed a foul. If the absolute robot speed difference is less than 0.3 meters per second, both conduct a foul.
 
 
@@ -186,7 +186,7 @@ NOTE: ロボットがファウルを続ける場合、猶予時間後に再び�
 If a robot keeps committing a foul, it will be punished again after the grace period.
 
 ===== ディフェンダーのボールへの極端な接近/Defender Too Close To Ball
-相手チームの<<キックオフ/Kick-Off,  キックオフ>>、<<フリーキック/Free Kick, フリーキック>>の間、ロボットはボールから少なくとも0.5m以上離れなければならない。
+相手チームの<<キックオフ/Kick-Off,  キックオフ>>もしくは<<フリーキック/Free Kick, フリーキック>>の間、ロボットはボールから少なくとも0.5m以上離れなければならない。
 ファウルの前に発行されたコマンドと同じコマンドで試合が再開される。 +
 A robot's distance to the ball must be at least 0.5 meters during an opponent <<キックオフ/Kick-Off, kick-off>> or <<フリーキック/Free Kick, free kick>>.
 While the foul is being committed, the timer of the opponent team for bringing the ball into play is reset.
@@ -194,11 +194,11 @@ While the foul is being committed, the timer of the opponent team for bringing t
 <<主審/Referee, 人間の主審>>は、著しい妨害を受けた<<キックオフ/Kick-Off, キックオフ>>もしくは<<フリーキック/Free Kick, フリーキック>>をやり直す事ができる。 +
 The <<主審/Referee, human referee>> may decide to repeat the <<キックオフ/Kick-Off, kick-off>> or <<フリーキック/Free Kick, free kick>> on significant disturbances.
 
-NOTE: <<停止/Stop, stop>>中は、ボールに近すぎる事に対する自動的な罰則はない。主審はチームが必要な距離を守っていない場合、<<イエローカード/Yellow Card, イエローカード>>を発行することで非スポーツマン行為を罰することができる。詳しい説明は「<<停止/Stop, 停止>>」を参照する事。 +
+NOTE: <<停止/Stop, ストップゲーム>>中は、ボールに近すぎる事に対する自動的な罰則はない。主審はチームが必要な距離を守っていない場合、<<イエローカード/Yellow Card, イエローカード>>を発行することで非スポーツマン行為を罰することができる。詳しい説明は「<<停止/Stop, 停止>>」を参照する事。 +
 During <<停止/Stop, stop>>, there is no automatic sanction for being too close to the ball. The referee may still punish a team for <<非スポーツマン行為/Unsporting Behavior,unsporting behavior>> by issuing a <<イエローカード/Yellow Card, yellow card>> if it does not respect the required distance. See <<停止/Stop, stop>> for further explanation.
 
 ===== ストップ中のロボットの速度/Robot Stop Speed
-ロボットはstop中は1.5m/s以上で動いてはいけない。このルールの反則は<<停止/Stop, ストップゲーム>>1回につき1台のロボットに対してカウントされる。 +
+ロボットはストップゲーム中は1.5m/s以上で動いてはならない。このルールの反則は<<停止/Stop, ストップゲーム>>1回につき1台のロボットに対してカウントされる。 +
 A robot must not move faster than 1.5 meters per second during <<停止/Stop, stop>>. A violation of this rule is only counted once per robot and stoppage.
 
 ロボットが減速する猶予時間は2秒である。 +
@@ -207,7 +207,7 @@ There is a grace period of 2 seconds for the robots to slow down.
 NOTE: このルールは<<ボール配置/Ball Placement, ボール配置>>には適用されない。 +
 This rule does not apply to <<ボール配置/Ball Placement, ball placement>>.
 
-NOTE: ロボットの速度制限の意図は、Stopコマンドが手動のボール配置と<<ロボットの交代/Robot Substitution, ロボットの交代>>に使用されるため、ロボットがフィールド内にいる人間の怪我を防ぐためである。 +
+NOTE: 「ストップ」コマンドは手動でのボール配置と<<ロボットの交代/Robot Substitution, ロボットの交代>>に使用されるため、ロボットの速度制限の意図は、ロボットがフィールド内にいる人間を傷つけないようにする事にある。 +
 Since the stop command is used for manual ball placement and
 <<ロボットの交代/Robot Substitution, robot substitution>>, the intention of the robot
 speed limit is to avoid robots harming the people on the field.

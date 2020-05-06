@@ -37,7 +37,7 @@ https://www.jfa.jp/documents/pdf/soccer/lawsofthegame_201819.pdf)
 競技フィールドの表面は緑色のフェルトマットかカーペットである。カーペット下の床は固く平坦で水平である。 +
 The playing surface is green felt mat or carpet. The floor under the carpet is level, flat, and hard.
 
-フィールドはすべての<<フィールドライン/Field Lines, フィールドライン>>から0.7mまで続いている。フィールドの外周には高さ0.1mのフェンスがあり、ロボットやボールがフィールド外に出ることを防ぐ。フィールドのさらに0.4m外側は<<主審/Referee, 主審>>と<<副審/Assistant Referee, 副審>>が通行するためのエリアである。 残りの0.3mはフィールドのマージンである。 +
+フィールドはすべての<<フィールドライン/Field Lines, フィールドライン>>から0.7mまで続いている。フィールドの外周0.4mは高さ0.1mのフェンスでロボットエリアと分離され、<<主審/Referee, 主審>>と<<副審/Assistant Referee, 副審>>が通行するエリアとして使用される。 残りの0.3mはフィールドのマージンである。 +
 The field surface will continue for 0.7 meters beyond the <<フィールドライン/Field Lines, field lines>> on all sides. The outer 0.4 meters of this runoff area, separated from the robot area by a 0.1 meters tall wall, is used as a designated walking area for the <<主審/Referee, referee>> and the <<副審/Assistant Referee, assistant referee>>. The remaining 0.3 meters are the field margins.
 
 
@@ -66,11 +66,11 @@ A defense area is defined as a rectangle touching the goal lines centrally in fr
 
 
 ===== ペナルティーマーク/Penalty Mark
-それぞれのディフェンスエリアのペナルティマークは(ハーフウェーラインではなく)<<追加のライン/Additional Lines, ミッドライン>>上の、相手チームのゴールのセンターから8m(Division A)もしくは6m(Division B)の地点にある。 +
+それぞれのディフェンスエリアのペナルティーマークは(ハーフウェーラインではなく)<<追加のライン/Additional Lines, ミッドライン>>上の、相手チームのゴールのセンターから8m(ディヴィジョンA)もしくは6m(ディヴィジョンB)の地点にある。 +
 For each field half the penalty mark is on the <<追加のライン/Additional Lines, mid-line>> (not halfway line), 8 meters (division A) or 6 meters (division B) away from the opponent goal center.
 
 ==== ゴール/Goals
-ゴールはそれぞれのゴールラインの中央に配置し、しっかりと固定されなければいけない。ゴールは高さ0.16mの2枚の垂直なサイドウォールと1枚の垂直なリヤウォールがつながって構成されている。ゴールの内側は、ボールの衝撃を吸収し偏向速度を減じるための材質 - 例えば発泡材など - で覆われる必要がある。ゴールの壁と角と上面は白色で塗装される。 +
+ゴールはそれぞれのゴールラインの中央に配置し、しっかりと固定されなければならない。ゴールは高さ0.16mの2枚の垂直なサイドウォールと1枚の垂直なリヤウォールがつながって構成されている。ゴールの内側は、ボールの衝撃を吸収し偏向速度を減じるための材質 - 例えば発泡材など - で覆われる必要がある。ゴールの壁と角と上面は白色で塗装される。 +
 Goals must be placed on the center of each goal line and anchored securely to the field surface. They consist of two 0.16 meters high vertical side walls joined at the back by a 0.16 meters high vertical rear wall. The inner face of the goal has to be covered with an energy absorbing material such as foam to help absorb ball impacts and lessen the speed of deflections. The goal walls, edges, and tops are white in color.
 
 サイドウォールの間の距離はディヴィジョンAであれば1.8mでディヴィジョンBであれば1mで、奥行は0.18mである。ゴールウォールの厚さは0.02mでゴールラインと接している。ただし、フィールドラインやフィールドに対して侵入したり重なったりしないようにしている。<<goal-detail-a, 図3>>と<<goal-detail-b, 図4>>にディヴィジョンAとディヴィジョンBの詳細をそれぞれ示す。 +
@@ -97,7 +97,7 @@ NOTE: (訳者注記)このルールの重さと直径は一般的なゴルフボ
 For official matches, the <<組織委員会/Organizing Committee, organizing committee>> provides the ball.
 
 === 共有ソフトウェア/Shared Software
-小型機リーグで使用される共有ソフトウェアは、<<技術委員会/Technical Committee, 技術委員会>>によって管理されているが、誰しもが貢献することを推奨する。<<技術委員会/Technical Committee, 技術委員会>>のメンバはしかしながら、次のロボカップの3か月前までに行われた、いかなる変更も互換性が損なわれていないことを保証する。 +
+小型機リーグで使用される共有ソフトウェアは、<<技術委員会/Technical Committee, 技術委員会>>によって管理されているが、誰しもが貢献することを推奨する。<<技術委員会/Technical Committee, 技術委員会>>のメンバーはしかしながら、次のロボカップの3か月前までに行われた、いかなる変更も互換性が損なわれていないことを保証する。 +
 The shared software used in the Small Size League is maintained by the <<技術委員会/Technical Committee, technical committee>>, though everyone is encouraged to contribute. The <<技術委員会/Technical Committee, technical committee>> members however guarantee that any changes made less than three months before the next RoboCup do not break compatibility.
 
 ==== Vision
@@ -107,35 +107,34 @@ Each field is provided with a shared central vision server and a set of shared c
 競技会の主催者からの発表があった場合や特別に許可されている場合を除いて、共有ビジョン機器のそばに、チーム独自のカメラや外部のセンサを取り付けることは許されない。 +
 Besides the shared vision equipment, teams are not allowed to mount their own cameras or other external sensors, unless specifically announced or permitted by the respective competition organizers.
 
-NOTE: (訳者注)一般的に「ビジョン」と呼称されることが多い。
+NOTE: (訳者注記)一般的に「ビジョン」と呼称されることが多い。
 
 ==== Game Controller
-試合はコミュニティにメンテナンスされているssl-game-controller (https://github.com/RoboCup-SSL/ssl-game-controller) によってコントロールされている。このソフトウェアは<<Game Controller Operator, game controller operator>>によって操作されている。ソフトウェアは<<主審/Referee, 主審>>と<<Automatic Referee, automatic referee>>の決定をネットワークにブロードキャストされるイーサーネット通信の信号に変換する。これは、試合の状態を維持し、すべてのイベントを追跡し、試合に参加するすべての関係者間の代理として振る舞う。 +
+試合はコミュニティにメンテナンスされているssl-game-controller (https://github.com/RoboCup-SSL/ssl-game-controller) によってコントロールされている。このソフトウェアは<<Game Controller Operator, game controller operator>>によって操作されている。ソフトウェアは<<主審/Referee, 主審>>と<<オートレフ/Automatic Referee, オートレフ>>の決定をネットワークにブロードキャストされるイーサーネット通信の信号に変換する。これは、試合の状態を維持し、すべてのイベントを追跡し、試合に参加するすべての関係者間の代理として振る舞う。 +
 A game is controlled by the community-maintained ssl-game-controller (https://github.com/RoboCup-SSL/ssl-game-controller).
-It is operated by the <<Game Controller Operator, game controller operator>>. The software translates decisions of the <<主審/Referee, referee>> and the <<Automatic Referee, automatic referee>> into Ethernet communication signals that are broadcast to the network. It maintains the state of the game, tracks all events and acts as a proxy between all participating parties in the game.
+It is operated by the <<Game Controller Operator, game controller operator>>. The software translates decisions of the <<主審/Referee, referee>> and the <<オートレフ/Automatic Referee, automatic referee>> into Ethernet communication signals that are broadcast to the network. It maintains the state of the game, tracks all events and acts as a proxy between all participating parties in the game.
 
 game-controllerは試合を行うチームのためにネットワークインターフェースを持っている。各チームは自動的に<<ゴールキーパーのIDの選択/Choosing Keeper Id, キーパーのIDを切り替える>>事ができるほか、次の機会に向けてロボット交代の意図を伝えることができる。 +
 The game-controller has a network interface for the playing teams. They can automatically <<ゴールキーパーのIDの選択/Choosing Keeper Id, change their keeper id>> and they can signal a robot substitution intent for the next opportunity.
 
-NOTE: (訳者注)日本では一般的に「レフボ」と呼称されることが多い。これは、同様の機能を持った旧世代のソフトウェアである「ssl-refbox」、およびその操作担当である「refbox operator」(2018年の大会をもって廃止)に由来する。
+NOTE: (訳者注記)日本では一般的に「レフボ」と呼称されることが多い。これは、同様の機能を持った旧世代のソフトウェアである「ssl-refbox」、およびその操作担当である「refbox operator」(2018年の大会をもって廃止)に由来する。 +
+また「GC」と略される場合がある(参考: https://ssl.robocup.org/league-software[標準ネットワーク構成 (小型リーグ公式HP)])。
 
-==== Automatic Referee
-ひとつないし複数のAutomatic Refereeアプリケーションは<<Game Controller, game controller>>に対して試合の取り締まりと<<反則/Offenses, 反則>>の報告をすることができる。少なくとも1つのAutomatic refereeが試合ごとに必要である。もし1つ以上のAutomatic refereeがgame controllerに接続される場合、多数決を適用することができる。 +
+==== オートレフ/Automatic Referee
+ひとつないし複数の自動審判アプリケーション(以下、単に「オートレフ」と称する)は<<Game Controller, game controller>>に対して試合の取り締まりと<<反則/Offenses, 反則>>の報告をすることができる。少なくとも1つのオートレフが試合ごとに必要である。もし1つ以上のオートレフがgame controllerに接続される場合、多数決を適用することができる。 +
 One or more automatic referee applications can supervise a game and report <<反則/Offenses, offenses>> to the <<Game Controller, game controller>>.
 At least one automatic referee is required per game. If more than one automatic referee is connected to the game controller, a majority vote can be applied.
 
-ソースコードがオープンソースであることを前提として、新たなautomatic refereeの実装を提供することができる。新しい実装は少なくとも競技会の3か月前までにアナウンスされなければならない。<<技術委員会/Technical Committee, 技術委員会>>はその実装を使用するかしないかを決定する。 +
+オープンソースであることを前提として、新たなオートレフの実装を提供することができる。新しい実装は少なくとも競技会の3か月前までにアナウンスされなければならない。<<技術委員会/Technical Committee, 技術委員会>>はその実装を使用するかしないかを決定する。 +
 New automatic referee implementations can be provided, given that the source code is open-sourced. New implementations must be announced at least three months before the competition. The <<技術委員会/Technical Committee, technical committee>> decides if an implementation will be used or not.
 
-<<ゲームイベント表/Game Event Table, ゲームイベント表>>はAutomatic Refereeの実装がどのゲームイベントを検出できなけらばならないかを示す。
-<<技術委員会/Technical Committee, 技術委員会>>および両チームが同意すれば、個別のゲームイベントをオートレフェリーでの処理上で、もしくは完全に無効化することができる。 +
+<<ゲームイベント表/Game Event Table, ゲームイベント表>>はオートレフの実装がどのゲームイベントを検出できなけらばならないかを示す。
+<<技術委員会/Technical Committee, 技術委員会>>および両チームが同意すれば、個別のゲームイベントをオートレフでの処理上で、もしくは完全に無効化することができる。 +
 The <<ゲームイベント表/Game Event Table, Game Event Table>> shows which game events an automatic referee implementation must be able to detect.
 Individual game events can be disabled completely or in some automatic referee implementations if both teams and the <<技術委員会/Technical Committee, technical committee>> agree.
 
 存在する実装はGithubで確認することができる。: https://github.com/RoboCup-SSL/ssl-autorefs +
 Existing implementations can be found on Github: https://github.com/RoboCup-SSL/ssl-autorefs.
-
-NOTE: (訳者注)日本では一般的に「オートレフ」と呼称されることが多い。
 
 === コミュニケーションフラッグ/Communication Flags
 
@@ -145,7 +144,7 @@ The communication flags are used to avoid gesturing and yelling with the <<主�
 These flags are responsible for communicating various intents, such as: <<タイムアウト/Timeouts, timeouts>>, <<非常停止/Emergency stop, emergency stops>>, <<ロボットの交代/Robot Substitution, manual robot substitution>> and <<チャレンジフラッグ/Challenge Flags, challenges>>.
 
 <<主審/Referee, 主審>>もしくは<<Game Controller Operator, game controller operator>>がコミュニケーションフラッグを確認する必要がある。
-ジェスチャーや野次は<<非スポーツマン行為/Unsporting Behavior, 非スポーツマン行為>>とみなされ、一度の警告ののちに<<レッドカード/Red Card, レッドカード>>となる。
+ジェスチャーや野次は<<非スポーツマン行為/Unsporting Behavior, 非スポーツマン行為>>とみなされ、一度の警告ののちに<<レッドカード/Red Card, レッドカード>>となる。 +
 The <<主審/Referee, referee>> or <<Game Controller Operator, game controller operator>> has to acknowledge the communication flag.
 Any gesturing and yelling will be considered <<非スポーツマン行為/Unsporting Behavior, unsporting behavior>>, punished by a <<レッドカード/Red Card, red card>> after the first warning.
 

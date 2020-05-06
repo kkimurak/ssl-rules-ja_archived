@@ -2,7 +2,7 @@
 
 === ロボットの台数/Number Of Robots
 試合は1台のキーパーを含んだディヴィジョンAなら11台以下、ディヴィジョンBなら6台以下のロボットを使用する2つのチームで行われる。試合中に審判がロボットを識別できるように、各ロボットにはVision pattarnに従って明確に番号が与えられていなければならない。ゴールキーパーのIDは試合が始まる前に指定されていなければならない(「<<ゴールキーパーのIDの選択/Choosing Keeper Id,ゴールキーパーのIDの選択>>」を参照)。 +
-A match is played by two teams, with each team consisting of not more than 11 robots in division A and not more than 6 robots in division B, one of which may be the keeper. Each robot must be clearly numbered according to its vision pattern so that the referee can identify it during the match. The id of the keeper must be chosen before the match starts (see [<<ゴールキーパーのIDの選択/Choosing Keeper Id, Choosing Keeper ID>>]).
+A match is played by two teams, with each team consisting of not more than 11 robots in division A and not more than 6 robots in division B, one of which may be the keeper. Each robot must be clearly numbered according to its vision pattern so that the referee can identify it during the match. The id of the keeper must be chosen before the match starts (see <<ゴールキーパーのIDの選択/Choosing Keeper Id, Choosing Keeper ID>>).
 
 === ハードウェアとソフトウェアの制約/Hardware And Software Constraints
 <<主審/Referee, 主審>>はチームが規則を満たさない場合には、フィールドからロボットを取り除くように強制することができる。<<技術委員会/Technical Committee, 技術委員会>>の委員もトーナメントのどの時点でもロボットに取り付けられるハードウェアとソフトウェアを確認することができる。 +
@@ -12,21 +12,21 @@ The <<主審/Referee, referee>> may force a team to remove a robot from the fiel
 If a team is not able to provide at least one robot that satisfies the rules, the team is <<強制的な試合放棄/Forced Forfeit, forced to forfeit>>.
 
 ==== 安全性/Safety
-ロボットは自分自身、人間、他のロボットに対して危険な装備をしていてはならない。<<ボールやフィールドの損傷/Damaging The Field Or The Ball, ボールやフィールドを損傷や変形>>させてはいけない。 +
+ロボットは自分自身、人間、他のロボットに対して危険な装備をしていてはならない。<<ボールやフィールドの損傷/Damaging The Field Or The Ball, ボールやフィールドを損傷や変形>>させてはならない。 +
 A robot must not pose danger to itself, another robot, or humans. It must not <<ボールやフィールドの損傷/Damaging The Field Or The Ball, damage or modify the ball or the field>>.
 
 <<主審/Referee, 主審>>は潜在的な安全上の脅威が存在すると考えるならば、ロボットをフィールドから退場させなければならない。 +
 The <<主審/Referee, referee>> has to force a team to remove a robot from the field if he considers it a potential safety threat.
 
 ==== 形状/Shape
-ロボットはいかなる時点においても、直径0.18m、高さ0.15m以下の大きさでなければならない。さらに、ロボットの上面はstandard patternのサイズおよび表面の制約を満たさなければいけない。 +
+ロボットはいかなる時点においても、直径0.18m、高さ0.15m以下の大きさでなければならない。さらに、ロボットの上面はstandard patternのサイズおよび表面の制約を満たさなければならない。 +
 A robot must fit inside a 0.18 meters wide and 0.15 meters high cylinder at any point in time. Additionally, the top of the robot must adhere to the standard pattern size and surface constraints.
 
 ==== ドリブルデバイス/Dribbling Device
 ボールを積極的にスピンさせてボールをロボットに接触し続けさせるためのドリブルデバイスは以下の条件を満たす場合のみ許可される。 +
 Dribbling devices that actively exert spin on the ball, which keep the ball in contact with the robot are permitted under certain conditions:
 
-* ドリブルデバイスは地面からボールを上昇させてはいけない +
+* ドリブルデバイスは地面からボールを上昇させてはならない +
 The dribbling device must not elevate the ball from the ground
 * ほかのロボットがボールを持ったロボットからボールを引き離せるようにしなければならない。 +
 Another robot must be able to remove the ball from a robot with the ball.
@@ -46,10 +46,10 @@ To ensure compatibility with the standardized patterns for the shared vision sys
 .スタンダードVisionパターンの寸法/Standard Vision Pattern Dimensions
 image::standard_pattern2010.png[]
 
-すべてのロボットは<<standard-vision-colors, 図6>>に示された16パターンのうちのひとつを持たなければならない。2台のロボットが同じ色のパターンを使用することは許可しない。 +
+すべてのロボットは<<standard-vision-colors, 図6>>に示された16パターンのうちのひとつを持たなければならない。2台のロボットが同じ色のパターンを使用することは許可されない。 +
 Every robot must have one of the 16 patterns shown in <<standard-vision-colors, figure 6>>. No two robots are allowed to use the same pattern.
 
-センターカラーは先に述べたとおり、青か黄色のいずれかである(「<<チームカラーの選択/Choosing Team Colors, チームカラーの選択>>」を参照)。残りの4点の色はロボットのIDが符号化されている。<<組織委員会/Organizing Committee, 組織委員会>>はすべてのチームにおいて同じ色が使用されていることを確かめるため、十分な量の色紙を協議会において提供する。 +
+センターカラーは先に述べたとおり、青か黄色のいずれかである(「<<チームカラーの選択/Choosing Team Colors, チームカラーの選択>>」を参照)。残りの4点の色はロボットのIDが符号化されている。<<組織委員会/Organizing Committee, 組織委員会>>はすべてのチームにおいて同じ色が使用されていることを保証するため、十分な量の色紙を競技会において提供する。 +
 The center dot color determines the team and is either blue or yellow (see <<チームカラーの選択/Choosing Team Colors, Choosing Team Colors>>). The other four dot colors encode the id of the robot. To ensure that every team uses the same colors, the <<組織委員会/Organizing Committee, organizing committee>> provides enough colored paper at the competition.
 
 NOTE: 2つのドットの間に“色にじみ”が起きる危険性があるが、 ID0から7のパターンは実験的に安定して動作することが確かめられたため、参加チームはこれらのパターンを選択することを推奨する。 +

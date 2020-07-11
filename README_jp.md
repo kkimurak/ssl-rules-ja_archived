@@ -8,7 +8,7 @@
 
 ## ビルド
 
-ルールはmaster-jpブランチの更新に応じて、自動的に[Github Page](https://kkimurak.github.io/ssl-rules-jp/sslrules.html)に公開されます。[PDF版](https://kkimurak.github.io/ssl-rules-jp/sslrules.pdf)もご利用いただけます。  
+ルールはmaster-jpブランチの更新に応じて、自動的に[Github Page](https://kkimurak.github.io/ssl-rules-ja/sslrules.html)に公開されます。[PDF版](https://kkimurak.github.io/ssl-rules-ja/sslrules.pdf)もご利用いただけます。  
 組み込み属性（「図」、「目次」など）に翻訳を適用するために、AsciiDocの機能である["Include Content from a URI"](https://asciidoctor.org/docs/user-manual/#include-uri)を使用しているため、`allow-uri-read`オプションを使用する必要があります。
 
 ### ネイティブ版AsciDoctorの使用

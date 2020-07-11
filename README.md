@@ -8,7 +8,7 @@ The legacy version of the rules can be found at [here](https://github.com/RoboCu
 
 ## Build
 
-The rules are automatically built on updates to the master-jp branch and published to [Github Pages](https://kkimurak.github.io/ssl-rules-jp/sslrules.html). There is also a [PDF-version](https://kkimurak.github.io/ssl-rules-jp/sslrules.pdf).  
+The rules are automatically built on updates to the master-jp branch and published to [Github Pages](https://kkimurak.github.io/ssl-rules-ja/sslrules.html). There is also a [PDF-version](https://kkimurak.github.io/ssl-rules-ja/sslrules.pdf).  
 You must use "allow-uri-read" option because we use the feature, of AsciiDoc, ["Include content from URI"](https://asciidoctor.org/docs/user-manual/#include-uri) to apply translations to built-in attributes (such as "Figure", "Table of Contents", etc.).
 
 ### Using AsciiDoctor natively

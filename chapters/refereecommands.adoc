@@ -192,37 +192,42 @@ The procedure of a penalty kick is as follows:
 . ボールが人間の主審により<<ペナルティーマーク/Penalty Mark, ペナルティーマーク>>上に配置される +
 The ball is placed by the human referee on the <<ペナルティーマーク/Penalty Mark, penalty mark>>.
 . <<ペナルティーキック/Penalty Kick, ペナルティー>>コマンドが発行された時、 +
-When the <<ペナルティーキック/Penalty Kick, penalty>> command is issued
+When the <<ペナルティーキック/Penalty Kick, penalty>> command is issued:
 .. 守備側のキーパーはゴールラインまで移動し、それに触れ続けなければならない +
-The defending keeper has to move to the goal line and keep touching it
+The defending keeper has to move to the goal line and keep touching it.
 .. 攻撃側のロボット1台はボールに近付くことが許されるが、このときボールに触れてはならない。 +
-One attacking robot is allowed to approach the ball but not allowed to touch the ball
+One attacking robot is allowed to approach the ball but not allowed to touch the ball.
 .. その他の全てのロボットはペナルティーキックの手順に干渉しないよう、ボールから1m以上後方にいなければならない。 +
-All other robots have to be 1m behind the ball such that they do not interfere the penalty kick procedure at any time.
+Throughout the penalty kick procedure, all other robots have to be 1m behind the ball such that they do not interfere the penalty kick procedure.
 . <<ノーマルスタート/Normal Start, ノーマルスタート>>コマンドが発行された時、攻撃側ロボットは<<ボールの操作/Ball Manipulation, ボールを操作>>することが許可される。ボールは<<Vision, SSL-Vision>>の座標系におけるX座標で計測されるところの相手ゴール側にのみ動かすことができる。 +
 When the <<ノーマルスタート/Normal Start, normal start>> command is issued, the attacker is allowed to <<ボールの操作/Ball Manipulation, manipulate the ball>>. The ball has to only move towards the opponent goal, as measured by its x coordinate in the coordinate system of <<Vision, SSL-Vision>>.
 . <<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ>>になった時、守備側のキーパーは再び自由に移動できる。 +
-When the ball is <<インプレイとアウトオブプレイ/Ball In And Out Of Play, in play>>, the defending keeper may move freely again
+When the ball is <<インプレイとアウトオブプレイ/Ball In And Out Of Play, in play>>, the defending keeper may move freely again.
 . 10秒経過した後にボールが引き続き<<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ>>であった場合、試合は停止され守備側チームの<<ゴールキック/Goal Kick, ゴールキック>>で再開される。 +
-If the ball is still <<インプレイとアウトオブプレイ/Ball In And Out Of Play, in play>> after 10 seconds, the game is stopped and then continued by a <<ゴールキック/Goal Kick, goal kick>> for the defending team.
+If the ball is still <<インプレイとアウトオブプレイ/Ball In And Out Of Play, in play>> after 10 seconds, the game is <<停止/Stop, stopped>>.
 
 以下の場合は得点が認められる: +
 A goal is awarded if:
 
 * <<ノーマルスタート/Normal Start, ノーマルスタート>>コマンドが発行されてから、ボールがゴールの内側表面もしくはゴールの地面に接触する +
-the ball touches the inner surface of a goal wall or the ground of the goal of the defending team, starting from when the <<ノーマルスタート/Normal Start, normal start>> command is issued
+the ball touches the inner surface of a goal wall or the ground of the goal of the defending team, starting from when the <<ノーマルスタート/Normal Start, normal start>> command is issued.
 * 守備側チームがなんらかのルールに違反する +
-the defending team violates any rule
+the defending team commits any <<ファウル/Fouls, foul>>.
+
+The game is continued with a <<Kick-Off, kick-off>> when a goal is awarded.
 
 以下の場合は得点が認められない: +
 A goal is not awarded if:
 
 * ボールがゴール外の<<フィールドライン/Field Lines, フィールドライン>>と交差する +
-the ball crosses any <<フィールドライン/Field Lines, field lines>> outside the goal
+the ball crosses any <<フィールドライン/Field Lines, field lines>> outside the goal.
 * 守備側キーパーがボールに触れ、ボールの速度ベクトルが二次元空間で少なくとも90度方向を変える +
-the defending keeper touches the ball such that the ball speed vector changes direction by at least 90 degrees in 2D space
-* 攻撃側チームが何らかのルールに違反する +
-the attacking team violates any rule
+the defending keeper touches the ball such that the ball speed vector changes direction by at least 90 degrees in 2D space.
+* 攻撃側チームが何らかのルールに違反する。 +
+the attacking team violates any rule.
+* the ball is still <<Ball In And Out Of Play, in play>> after 10 seconds.
+
+The game is continued by a <<Goal Kick, goal kick>> for the defending team when a goal is not awarded.
 
 NOTE: 0.15mのボール高さ制限を含め、<<得点/Scoring Goals, 得点方法>>に定められた制限はここでは適用されない。
 その他のルール、例えば<<ドリブルの超過/Excessive Dribbling, オーバードリブル>>の制限などどは適用される。 +

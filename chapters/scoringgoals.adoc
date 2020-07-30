@@ -1,13 +1,18 @@
 == 得点/Scoring Goals
-ボールがゴールポストの間に入ってゴールした場合には、得点したチームがその直前のプレイにおいていかなるルール違反も犯していないことを条件に得点が認められる。 +
+チームは、ボールが完全に相手チームのゴールポスト間を通ってゴールに入り、以下の条件を満たした時に得点する: +
 A team scores a goal when the ball fully enters the opponent goal between the goal posts,
 provided that:
 
-* The team did not exceed the allowed number of robots when the ball entered the goal.
-* The height of the ball did not exceed 0.15 meters after the last touch of the teams robots.
-* The team did not commit any <<Non Stopping Fouls, non stopping foul>> since the teams robots last touched the ball.
+* ボールがゴールに入った時点で、チームは許可された最大台数を超えていない。 +
+The team did not exceed the allowed number of robots when the ball entered the goal.
+* 最後にチームのロボットがボールに触れてから、ボールの高さが0.15mを超えていない。 +
+The height of the ball did not exceed 0.15 meters after the last touch of the teams robots.
+* 最後にチームのロボットがボールに触れてから、チームがいかなる<<試合の停止を伴わないファウル/Non Stopping Fouls, 試合の停止を伴わないファウル>>も犯していない。 +
+The team did not commit any <<Non Stopping Fouls, non stopping foul>> since the teams robots last touched the ball.
 
-NOTE: "The team" refers to the scoring team that is awarded a goal, not the team that kicked the ball.
+NOTE: ”チーム"はボールを蹴ったチームではなく、得点をしたチームを指す。
+例えば、相手チームのフィールド上のロボット台数が規定を超過している間はオウンゴールは認められない。 +
+"The team" refers to the scoring team that is awarded a goal, not the team that kicked the ball.
 For example, an own goal is not possible while the opponent team has too many robots on the field.
 
 NOTE: <<ペナルティーキック/Penalty Kick, ペナルティーキック>>の間は、より詳細なルールが適用される。 +

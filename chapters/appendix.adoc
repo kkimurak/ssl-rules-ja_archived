@@ -27,8 +27,8 @@ auto referee
 
 | <<ゴールラインとの交差/Goal Line Crossing, ゴールラインとの交差>> +
 <<ゴールラインとの交差/Goal Line Crossing, Goal Line Crossing>>
-| <<Ball In And Out Of Play, インプレイ中>> +
-<<Ball In And Out Of Play, ball in play>>
+| <<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ中>> +
+<<インプレイとアウトオブプレイ/Ball In And Out Of Play, ball in play>>
 | <<停止/Stop, ストップ>> -> <<フリーキック/Free Kick, フリーキック>> +
 <<停止/Stop, Stop>> -> <<フリーキック/Free Kick, Free Kick>>
 | オートレフ +
@@ -218,7 +218,8 @@ auto referee
 
 | <<得点/Scoring Goals, 審議を要するゴール>> 
 <<得点/Scoring Goals, Possible Goal>> 
-| <<Ball In And Out Of Play, ball in play>> 
+| <<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ中>> + 
+<<インプレイとアウトオブプレイ/Ball In And Out Of Play, ball in play>> 
 | <<ハルト/Halt, ハルト>> +
 <<ハルト/Halt, Halt>>
 | オートレフ +
@@ -341,7 +342,7 @@ always
 | リモートコントロール -> game controller +
 remote control -> game controller
 
-| <<非常停止/Emergency stopp, 非常停止>> +
+| <<非常停止/Emergency stop, 非常停止>> +
 Perform <<非常停止/Emergency stop, Emergency stop>>
 | 常時 +
 always

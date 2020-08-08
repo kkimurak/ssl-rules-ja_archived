@@ -271,7 +271,7 @@ auto referee
 <<ペナルティーキック/Penalty Kick, Penalty Kick>> failed 
 | during <<ペナルティーキック/Penalty Kick, ペナルティーキック>> +
 during <<ペナルティーキック/Penalty Kick, Penalty Kick>>
-| <<停止/Stop, ストップ>> -> <<フリーキック/Free Kick, フリーキック>> 
+| <<停止/Stop, ストップ>> -> <<フリーキック/Free Kick, フリーキック>> +
 <<停止/Stop, Stop>> -> <<フリーキック/Free Kick, Free Kick>> 
 | オートレフ、game controller +
 auto referee, game controller

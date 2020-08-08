@@ -70,11 +70,11 @@ the ball is at a position within 0.15 meters radius from the requested position
 
 ボールが正常に配置されるまで、<<Game Controller, game controller>>によってそれ以外のコマンドは発行されない。
 ボールが上手く配置された場合、試合は<<Game Controller, game controller>>によって可能な限り早く再開される(ただし、ボール配置コマンドが発行されてから2秒より早くはならない)。
-配置が失敗した場合、相手チームにフリーキックが与えられる。
+配置が失敗した場合、相手チームに<<フリーキック/Free Kick, フリーキック>>が与えられる。
 さらにこのチームがボールの配置に失敗した場合、ボールは<<主審/Referee, 主審>>により配置され、試合は元のコマンドによって続行される。 +
 No further commands will be issued by the <<Game Controller, game controller>> until the automatic placement is complete.
 The game will be continued by the <<Game Controller, game controller>> as soon as the ball is successfully placed, but not earlier than 2 seconds after the ball placement command has been issued.
-A failed placement will result in a free kick for the opposing team.
+A failed placement will result in a <<フリーキック/Free Kick, free kick>> for the opposing team.
 If this team failed to place the ball as well, the ball is placed by the <<主審/Referee, referee>> and game continues with the original command.
 
 チームごとに設けられたボール配置失敗カウンターは配置失敗ごとに増加し、配置成功ごとに減少する。カウンターは負値にはならない。 +
@@ -168,7 +168,7 @@ When the ball is <<インプレイとアウトオブプレイ/Ball In And Out Of
 
 .用途/Usage
 フリーキックは<<ファウル/Fouls, ファウル>>が発生した後に試合を再開するために使われる。さらに、<<ゴールキック/Goal Kick, ゴールキック>>と<<コーナーキック/Corner Kick, コーナーキック>>もフリーキックに割り当てられている。 +
-free kicks are used to restart the game after a <<ファウル/Fouls, foul>> has occurred. Additionally, <<ゴールキック/Goal Kick, goal kicks>> and <<コーナーキック/Corner Kick, corner kicks>> are mapped to free kicks.
+Free kicks are used to restart the game after a <<ファウル/Fouls, foul>> has occurred. Additionally, <<ゴールキック/Goal Kick, goal kicks>> and <<コーナーキック/Corner Kick, corner kicks>> are mapped to free kicks.
 
 ==== フォーススタート/Force Start
 .定義/Definition
@@ -230,7 +230,7 @@ the attacking team violates any rule.
 the ball is still <<インプレイとアウトオブプレイ/Ball In And Out Of Play, in play>> after 10 seconds.
 
 得点が認められなかった場合、試合は守備側チームの<<ゴールキック/Goal Kick, ゴールキック>>で続行される。 +
-The game is continued by a <<Goal Kick, goal kick>> for the defending team when a goal is not awarded.
+The game is continued by a <<ゴールキック/Goal Kick, goal kick>> for the defending team when a goal is not awarded.
 
 NOTE: 0.15mのボール高さ制限を含め、<<得点/Scoring Goals, 得点方法>>に定められた制限はここでは適用されない。
 その他のルール、例えば<<ドリブルの超過/Excessive Dribbling, オーバードリブル>>の制限などどは適用される。 +

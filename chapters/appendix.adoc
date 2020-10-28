@@ -400,8 +400,8 @@ Remove robot for <<イエローカード/Yellow Card, Yellow Card>>
 これは、<<ディヴィジョン/Divisions, ディヴィジョン>>Aと<<ディヴィジョン/Divisions, ディヴィジョン>>Bの違いの完全なリストである。 +
 This is a complete list of differences between <<ディヴィジョン/Divisions, division>> A and <<ディヴィジョン/Divisions, division>> B.
 
-* ディヴィジョンAはディヴィジョンBよりも<<フィールドの大きさ/Dimensions, 大きなフィールド>>と<<ゴール/Goals, 大きなゴール>>で試合を行う。その結果、<<シュートアウト/Shoot-Out, シュートアウト>>もより遠くから行われる。 +
-Division A plays on a <<フィールドの大きさ/Dimensions, larger field>> with <<ゴール/Goals, larger goals>> than division B. As a result, the <<Penalty Kick, penalty kick>> is taken from a greater distance as well.
+* ディヴィジョンAはディヴィジョンBよりも<<フィールドの大きさ/Dimensions, 大きなフィールド>>と<<ゴール/Goals, 大きなゴール>>で試合を行う。その結果、<<ペナルティーキック/Penalty Kick, ペナルティーキック>>もより遠くから行われる。 +
+Division A plays on a <<フィールドの大きさ/Dimensions, larger field>> with <<ゴール/Goals, larger goals>> than division B. As a result, the <<ペナルティーキック/Penalty Kick, penalty kick>> is taken from a greater distance as well.
 * ディヴィジョンAはディヴィジョンBよりも<<ロボットの台数/Number Of Robots, 多いロボット>>で試合を行う。 +
 Division A plays with <<ロボットの台数/Number Of Robots, more robots>> than division B.
 * <<ボール配置/Ball Placement, ボール配置>>の手順はディヴィジョンAでは必須であり、ディヴィジョンBでは任意である。 +

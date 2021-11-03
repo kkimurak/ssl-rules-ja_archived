@@ -13,6 +13,7 @@ Only up to one attacking robot and one keeper is allowed per team.
 During a shoot-out attempt, the attacking robot and the opponent keeper are the only ones allowed to move and <<ボールの操作/Ball Manipulation, manipulate the ball>>. 
 Other robots are not allowed to interfere.
 
+一方のチームが明らかに<<ペナルティーキック/Penalty Kick, ペナルティーキック>>の準備を整えられない場合、自動的に相手チームの得点となる。 +
 If a team is clearly not able to prepare for a <<ペナルティーキック/Penalty Kick, penalty kick>>, a goal is automatically awarded to the opposing team.
 
 ロボットはシュートアウトの間に<<ロボットの交代/Robot Substitution, 交代>>してもよい。
@@ -23,7 +24,8 @@ The new robot may be put in right away.
 NOTE: シュートアウト中は<<タイムアウト/Timeouts, タイムアウト>>は許可されていない事に注意する事。 +
 Note that <<タイムアウト/Timeouts, timeouts>> are not allowed during shoot-out.
 
-NOTE: The human referee can give both teams a certain amount of time (like 5min) to change their system at any time, if there is no clear progress in determining a winner (like after 10 shoot-outs, or if both teams time out doing shoot-outs). This can be applied multiple times, if needed, to eventually determine a winner.
+NOTE: (10回のシュートアウトを終える、両チームがシュートアウトの制限時間を使い切るなどして)勝者を決めるにあたっての明確な進展が見られない場合、人間の主審はいつでも各チームが彼らのシステムを変更するための時間を(たとえば5分、など)設けることができる。これは最終的に勝者を決めるために必要であれば複数回にわたって適用できる。 +
+The human referee can give both teams a certain amount of time (like 5min) to change their system at any time, if there is no clear progress in determining a winner (like after 10 shoot-outs, or if both teams time out doing shoot-outs). This can be applied multiple times, if needed, to eventually determine a winner.
 
 .用途/Usage
 シュートアウトは直前の<<ゲームステージ/Game Stages, ゲームステージ>>で両チームが同点であった場合に、勝ち抜き戦の勝者を決定するために使用される。 +

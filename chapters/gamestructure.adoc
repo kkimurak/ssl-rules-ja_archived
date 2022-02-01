@@ -250,5 +250,9 @@ During overtime, both teams can use 2 timeouts with a total time of 150 seconds.
 No timeouts are possible in the <<シュートアウト/Shoot-Out, shoot-out>> stage.
 
 ==== 10点先取による早期終了/Early Termination At A Score Of 10
-片方のチームが10回シュートを決めた場合、試合は自動的に終了し、現在のゲームステージに関係なく、より多くゴールをしたチームが勝者と宣言される。 +
-When a team manages to shoot 10 goals, the match is automatically terminated and the team with more goals is declared the winner, regardless of the current game stage.
+Before the <<シュートアウト/Shoot-Out, shoot-out>> stage, when a team manages to shoot 10 goals,
+the match is automatically terminated as soon as the goal difference is greater than one and
+the team with more goals is declared the winner.
+
+NOTE: During the group phase, the number of goals scored is used as tie-breaker, so the absolute number of goals matter for overall scoring.
+The rule applies to all game types for simplicity.

@@ -116,7 +116,7 @@ This rule does not use the standard sanctions defined for <<ファウル/Fouls, 
 Robots other than the keeper must maintain best-effort to fully stay outside the own defense area.
 Infraction of this rule can be rated as unsporting behavior.
 
-キーパー以外のロボットが自チームのディフェンスエリアに完全に入った状態でボールに触れた場合、試合は中断され、相手チームの<<ペナルティーキック/Penalty Kick, ペナルティーキック>>で試合を再開する。
+キーパー以外のロボットが自チームのディフェンスエリアに完全に入った状態でそのロボットがボールに触れた場合、試合は中断され、相手チームの<<ペナルティーキック/Penalty Kick, ペナルティーキック>>で試合を再開する。
 ファウルのカウンターは増加 *しない*。 +
 If a robot other than the keeper touches the ball while this robot is entirely
 inside its own defense area, the game is stopped and a <<ペナルティーキック/Penalty Kick, penalty kick>> is awarded to the other team. The foul counter is *not*

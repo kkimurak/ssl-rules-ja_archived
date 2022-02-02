@@ -114,7 +114,7 @@ NOTE: (訳者注記)一般的に「ビジョン」と呼称されることが多
 A game is controlled by the community-maintained ssl-game-controller (https://github.com/RoboCup-SSL/ssl-game-controller).
 It is operated by the <<Game Controller Operator, game controller operator>>. The software translates decisions of the <<主審/Referee, referee>> and the <<オートレフ/Automatic Referee, automatic referee>> into Ethernet communication signals that are broadcast to the network. It maintains the state of the game, tracks all events and acts as a proxy between all participating parties in the game.
 
-game controllerは試合を行うチームのためにネットワークインターフェースを持っている。各チームは自動的に<<ゴールキーパーのIDの選択/Choosing Keeper Id, キーパーのIDを切り替える>>事ができるほか、次の機会に向けてロボット交代の意図を伝えることができる。 +
+game controllerは試合を行うチームのためにネットワークインターフェースを持っている。各チームは自動的に<<ゴールキーパーのIDの選択/Choosing Keeper Id, キーパーのIDを切り替え>>たり、次の機会に向けてロボット交代の意図を伝えたり、イエローカードが宣告された後に試合を停止させるか否かのアドバンテージの選択を送ったりすることができる。 +
 The game controller has a network interface for the playing teams. They can automatically <<ゴールキーパーのIDの選択/Choosing Keeper Id, change their keeper id>>, they can signal a robot substitution intent for the next opportunity, and they can send an advantage choice for handling game stopping after yellow cards.
 
 NOTE: (訳者注記)日本では一般的に「レフボ」と呼称されることが多い。これは、同様の機能を持った旧世代のソフトウェアである「ssl-refbox」、およびその操作担当である「refbox operator」(2018年の大会をもって廃止)に由来する。 +

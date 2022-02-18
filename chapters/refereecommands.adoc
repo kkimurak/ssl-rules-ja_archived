@@ -278,7 +278,7 @@ If the yellow card is shown as a result of <<非スポーツマン行為/Unsport
 Upon receipt of a yellow card, the number of robots allowed on the field for the penalized team decreases by one. If, after this decrease, the team has more robots than permitted on the field, a robot must be <<ロボットの交代/Robot Substitution, taken out>>.
 
 イエローカードは自動的には試合を停止させない。<<インプレイとアウトオブプレイ/Ball In And Out Of Play, インプレイ>>であれば、イエローカードを受けたチームは10秒間で、<<ロボットの交代/Robot Substitution, 自動的にロボットを退場>>させることができる。もしその時間でロボットが退場しなかった場合、ゲームは<<ロボットの交代/Robot Substitution, 手動でのロボット退場>>のため停止させられる。 +
-もう一方のチームが<<Game controller, game controller>>に対して申告することでこの10秒の時間制限は無期限に延長され、ゲームは停止されずに続行される。 +
+もう一方のチームが<<Game Controller, game controller>>に対して申告することでこの10秒の時間制限は無期限に延長され、ゲームは停止されずに続行される。 +
 A yellow card does not lead to a stop automatically. If the ball is <<インプレイとアウトオブプレイ/Ball In And Out Of Play, in play>>, the team will have 10 seconds to <<ロボットの交代/Robot Substitution, automatically remove the robot>>. If a robot is not taken out within time, the game is stopped for <<ロボットの交代/Robot Substitution, manual substitution>>.
 The 10 seconds can be extended indefinitely by the other team by sending an advance choice to the <<Game Controller, game controller>>.
 
